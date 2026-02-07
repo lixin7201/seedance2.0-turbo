@@ -11,9 +11,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Create Cinematic AI Videos in Seconds",
-        "highlight_text": "in Seconds",
-        "description": "Seedance 2.0 is ByteDance's next-generation multimodal AI video generation model.<br/>Transform text and images into stunning cinematic-quality videos.",
+        "title": "Create Cinematic Videos with AI",
+        "highlight_text": "Cinematic Videos",
+        "description": "Seedance 2.0 - ByteDance's next-generation multimodal video generation model.<br/>Transform text or images into high-quality dynamic videos, supporting 30+ second complex narratives with 1080p/2K ultra-clear output.",
         "announcement": {
           "badge": "New",
           "title": "🎬 Seedance 2.0 Now Available",
@@ -22,7 +22,7 @@
         "tip": "🎁 Experience the future of AI video generation",
         "buttons": [
           {
-            "title": "Start Creating",
+            "title": "Try Now",
             "icon": "Zap",
             "url": "/#features",
             "target": "_self",
@@ -61,7 +61,7 @@
         "id": "introduce",
         "title": "What is Seedance 2.0",
         "label": "Introduce",
-        "description": "Seedance 2.0 is ByteDance's cutting-edge multimodal AI video generation model, supporting both text-to-video and image-to-video creation with stunning cinematic quality.",
+        "description": "Seedance 2.0 is ByteDance's cutting-edge multimodal AI video generation model, supporting both text-to-video and image-to-video creation with stunning cinematic quality and advanced physics simulation.",
         "image": {
           "src": "https://picsum.photos/seed/seedance-intro/800/600",
           "alt": "Seedance 2.0 Introduction"
@@ -69,7 +69,7 @@
         "items": [
           {
             "title": "Text-to-Video Generation",
-            "description": "Transform your creative prompts into stunning videos with natural motion and cinematic quality.",
+            "description": "Create dynamic videos from text descriptions with detailed scene, character, and action control.",
             "icon": "RiFileTextLine",
             "image": {
               "src": "https://picsum.photos/seed/seedance-t2v/600/400",
@@ -78,7 +78,7 @@
           },
           {
             "title": "Image-to-Video Animation",
-            "description": "Bring static images to life with smooth, realistic animations and camera movements.",
+            "description": "Upload static images and let AI breathe life into them with natural motion and effects.",
             "icon": "RiImage2Line",
             "image": {
               "src": "https://picsum.photos/seed/seedance-i2v/600/400",
@@ -86,21 +86,21 @@
             }
           },
           {
-            "title": "Cinematic Quality Output",
-            "description": "Generate professional-grade videos with film-like aesthetics and stunning visual effects.",
-            "icon": "RiFilmLine",
+            "title": "Physics Simulation",
+            "description": "Revolutionary 'acoustic physics field' technology for realistic object motion and lighting interactions.",
+            "icon": "RiSettings3Line",
             "image": {
-              "src": "https://picsum.photos/seed/seedance-cinema/600/400",
-              "alt": "Cinematic Quality"
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "Physics Simulation"
             }
           },
           {
-            "title": "Advanced Motion Control",
-            "description": "Precise control over camera movements, character actions, and scene dynamics.",
-            "icon": "RiVideoLine",
+            "title": "Ultra-HD Output",
+            "description": "Support for 1080p and 2K ultra-clear output, eliminating jitter and artifacts.",
+            "icon": "RiHdLine",
             "image": {
-              "src": "https://picsum.photos/seed/seedance-motion/600/400",
-              "alt": "Motion Control"
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "HD Output"
             }
           }
         ],
@@ -115,7 +115,7 @@
         "items": [
           {
             "title": "State-of-the-Art AI Technology",
-            "description": "Powered by ByteDance's latest multimodal AI research, delivering breakthrough video generation capabilities.",
+            "description": "Powered by ByteDance's latest multimodal AI research with acoustic physics field technology for breakthrough video generation.",
             "icon": "RiRobot2Line",
             "image": {
               "src": "https://picsum.photos/seed/seedance-ai/800/500",
@@ -124,7 +124,7 @@
           },
           {
             "title": "Cinematic Visual Quality",
-            "description": "Create videos with film-grade aesthetics, perfect lighting, and professional color grading.",
+            "description": "Create videos with film-grade aesthetics, 1080p/2K resolution, perfect lighting, and professional color grading.",
             "icon": "RiFilmLine",
             "image": {
               "src": "https://picsum.photos/seed/seedance-quality/800/500",
@@ -132,12 +132,12 @@
             }
           },
           {
-            "title": "Versatile Creation Modes",
-            "description": "Support for text-to-video, image-to-video, and various style transformations to match your creative vision.",
-            "icon": "RiMagicLine",
+            "title": "Complex Narrative Support",
+            "description": "Multi-shot, multi-character storytelling with scene transitions maintaining high consistency across 30+ second videos.",
+            "icon": "RiBookOpenLine",
             "image": {
-              "src": "https://picsum.photos/seed/seedance-modes/800/500",
-              "alt": "Creation Modes"
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "Complex Narratives"
             }
           }
         ]
@@ -148,34 +148,34 @@
         "description": "Everything you need to create stunning AI-generated videos.",
         "items": [
           {
-            "title": "Text-to-Video",
-            "description": "Generate videos directly from text prompts with natural motion and realistic scenes.",
+            "title": "🎬 Text-to-Video",
+            "description": "Create dynamic videos from text descriptions with detailed scene, character, and action control.",
             "icon": "RiFileTextLine"
           },
           {
-            "title": "Image-to-Video",
-            "description": "Transform static images into dynamic videos with smooth animations.",
+            "title": "🖼️ Image-to-Video",
+            "description": "Upload static images and let AI breathe life into them with natural motion and effects.",
             "icon": "RiImage2Line"
           },
           {
-            "title": "Cinematic Quality",
-            "description": "Professional-grade output with film-like aesthetics and visual effects.",
+            "title": "📐 Physics Simulation",
+            "description": "Revolutionary 'acoustic physics field' technology for realistic object motion and lighting.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Cinematic Quality",
+            "description": "Support for 1080p and 2K ultra-clear output, eliminating jitter and artifacts.",
             "icon": "RiFilmLine"
           },
           {
-            "title": "Motion Control",
-            "description": "Precise control over camera movements and character actions.",
-            "icon": "RiVideoLine"
+            "title": "📖 Complex Narratives",
+            "description": "Multi-shot, multi-character storytelling with consistent scene transitions.",
+            "icon": "RiBookOpenLine"
           },
           {
-            "title": "Multiple Styles",
-            "description": "Support for various visual styles from realistic to artistic.",
+            "title": "🎨 Multi-Style Support",
+            "description": "Realistic, anime, cyberpunk, watercolor and various other visual styles.",
             "icon": "RiPaletteLine"
-          },
-          {
-            "title": "Fast Generation",
-            "description": "Quick video generation with optimized AI processing.",
-            "icon": "RiFlashlightLine"
           }
         ]
       },
@@ -186,27 +186,27 @@
         "items": [
           {
             "question": "What is Seedance 2.0?",
-            "answer": "Seedance 2.0 is ByteDance's next-generation multimodal AI video generation model. It supports both text-to-video and image-to-video creation, producing cinematic-quality videos with natural motion and stunning visual effects."
+            "answer": "Seedance 2.0 is ByteDance's next-generation multimodal AI video generation model. It supports both text-to-video and image-to-video creation, producing cinematic-quality videos with natural motion, physics simulation, and stunning visual effects."
           },
           {
-            "question": "What types of videos can I create?",
-            "answer": "You can create a wide variety of videos including promotional content, social media clips, artistic animations, product demonstrations, and more. The model supports various styles from realistic to artistic."
+            "question": "What video resolutions are supported?",
+            "answer": "Seedance 2.0 supports 1080p full HD and 2K ultra-clear output resolution. The advanced AI technology eliminates common issues like jitter and artifacts for professional-quality results."
           },
           {
-            "question": "How does text-to-video work?",
-            "answer": "Simply describe your desired video scene in text, and Seedance 2.0 will generate a matching video with natural motion, appropriate lighting, and cinematic quality. The AI understands context, actions, and visual aesthetics."
+            "question": "How long can generated videos be?",
+            "answer": "Seedance 2.0 can generate videos over 30 seconds in length, supporting complex narratives with multiple shots and characters while maintaining high scene consistency."
+          },
+          {
+            "question": "What visual styles are available?",
+            "answer": "Multiple visual styles are supported including realistic, anime, cyberpunk, watercolor, and more. You can specify your preferred style in the text prompt."
+          },
+          {
+            "question": "What is 'acoustic physics field' technology?",
+            "answer": "This is Seedance 2.0's revolutionary physics simulation technology that realistically models object motion, lighting interactions, and physical behaviors to create more natural and believable video content."
           },
           {
             "question": "Can I animate existing images?",
             "answer": "Yes! With image-to-video functionality, you can upload static images and transform them into dynamic videos. The AI adds realistic motion, camera movements, and scene animations while preserving the original image style."
-          },
-          {
-            "question": "What video quality can I expect?",
-            "answer": "Seedance 2.0 produces cinematic-quality videos with professional-grade aesthetics. The output features film-like visual quality, smooth motion, and stunning effects suitable for professional use."
-          },
-          {
-            "question": "How long does video generation take?",
-            "answer": "Generation time varies based on video length and complexity. Typically, creating a short video clip takes just a few seconds to minutes, thanks to optimized AI processing."
           }
         ]
       },
@@ -216,7 +216,7 @@
         "description": "Experience the future of AI video generation with Seedance 2.0.",
         "buttons": [
           {
-            "title": "Get Started",
+            "title": "Try Now",
             "url": "/#features",
             "target": "_self",
             "icon": "Zap"

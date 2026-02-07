@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "图生视频 - AI 动画",
+    "description": "上传静态图片，AI 为其注入生命力。智能识别图片元素，自然流畅的运动效果，支持自定义动画描述。"
+  },
+  "page": {
+    "title": "图生视频",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "图生视频",
+        "highlight_text": "图生视频",
+        "description": "上传静态图片，AI 为其注入生命力。<br/>智能识别图片元素，自然流畅的运动效果，支持自定义动画描述。",
+        "tip": "🖼️ 让你的图片动起来",
+        "buttons": [
+          {
+            "title": "开始动画",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "查看案例",
+            "url": "/showcases",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "图生视频 AI 动画",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "背景"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "为什么选择图生视频",
+        "label": "优势",
+        "description": "用智能 AI 动画技术，将任何静态图片转化为动态视频。",
+        "items": [
+          {
+            "title": "上传任意图片",
+            "description": "支持所有常见图片格式，包括 JPG、PNG 和 WebP。上传照片、艺术作品、截图或任何静态图片。",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "上传图片"
+            }
+          },
+          {
+            "title": "智能元素识别",
+            "description": "AI 自动识别图片中的人物、动物、物体和背景等元素，应用适当的运动效果。",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "智能识别"
+            }
+          },
+          {
+            "title": "自然流畅运动",
+            "description": "创建平滑、逼真的动画，在添加自然运动和动态效果的同时保持原始图片风格。",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "流畅运动"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "核心功能",
+        "description": "用 AI 为你的图片制作动画所需的一切功能。",
+        "items": [
+          {
+            "title": "🖼️ 上传任意图片",
+            "description": "支持 JPG、PNG、WebP 等常见格式。适用于照片、艺术作品和图形。",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 智能识别",
+            "description": "AI 自动识别人物、动物、物体和场景元素，实现智能动画。",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 自然流畅运动",
+            "description": "平滑、逼真的动画效果，保留原始图片风格和美感。",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ 补充运动描述",
+            "description": "添加补充文本提示词，控制特定的运动效果和动画。",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 镜头运动",
+            "description": "为动画添加电影级镜头效果，如缩放、平移和视差效果。",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 高清输出",
+            "description": "导出 1080p 全高清或 2K 分辨率的动画视频，帧率流畅。",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "动画案例展示",
+        "label": "示例",
+        "description": "看看 AI 图生视频动画能做什么。",
+        "items": [
+          {
+            "title": "人像动画",
+            "description": "用自然的表情和微妙的动作让人像照片栩栩如生。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "人像动画"
+            }
+          },
+          {
+            "title": "风景动画",
+            "description": "为风景图片添加流动的水、移动的云和摇曳的树木。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "风景动画"
+            }
+          },
+          {
+            "title": "艺术作品动画",
+            "description": "在保持艺术风格的同时，为数字艺术、插画和绘画添加动画。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "艺术作品动画"
+            }
+          },
+          {
+            "title": "产品动画",
+            "description": "创建动态产品展示和 360 度旋转效果。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "产品动画"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "关于图生视频动画的常见问题解答。",
+        "items": [
+          {
+            "question": "什么是图生视频？",
+            "answer": "图生视频是一种将静态图片转换为动态视频动画的 AI 技术。上传任意图片，AI 会在保持原始视觉风格的同时添加逼真的运动、镜头移动和特效。"
+          },
+          {
+            "question": "支持哪些图片格式？",
+            "answer": "我们支持所有常见图片格式，包括 JPG、PNG、WebP 和 GIF。图片应至少为 512x512 像素以获得最佳效果，更高分辨率的图片会产生更好质量的动画。"
+          },
+          {
+            "question": "可以控制动画效果吗？",
+            "answer": "可以！你可以添加补充文本提示词来描述你想要的特定运动效果，例如'微风吹动树叶'或'水面轻轻荡漾'。AI 会将你的描述融入动画中。"
+          },
+          {
+            "question": "智能识别是如何工作的？",
+            "answer": "我们的 AI 会自动识别图片中的不同元素，包括人物、动物、物体、天空、水和植被。每个元素会根据其性质获得适当的运动效果。"
+          },
+          {
+            "question": "视频质量如何？",
+            "answer": "动画视频以 1080p 全高清或 2K 分辨率导出，帧率流畅。AI 在添加自然流畅运动效果的同时保持原始图片质量。"
+          },
+          {
+            "question": "可以为艺术作品和插画制作动画吗？",
+            "answer": "当然可以！AI 非常适合处理数字艺术、插画、绘画和图形。它在添加微妙、适当动画的同时保持艺术风格。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "让你的图片动起来",
+        "description": "用 AI 驱动的图生视频技术，将静态图片转化为精彩动画视频。",
+        "buttons": [
+          {
+            "title": "立即体验",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "查看定价",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

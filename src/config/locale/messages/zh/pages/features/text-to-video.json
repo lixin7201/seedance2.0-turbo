@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "文生视频 - AI 视频生成",
+    "description": "用文字描述创造动态视频，支持详细的场景、角色和动作描述，多种视觉风格和 1080p/2K 高清输出。"
+  },
+  "page": {
+    "title": "文生视频",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "文生视频",
+        "highlight_text": "文生视频",
+        "description": "用文字描述创造动态视频。<br/>支持详细的场景、角色和动作描述，多种视觉风格和 1080p/2K 高清输出。",
+        "tip": "🎬 将你的文字转化为精彩视频",
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "查看案例",
+            "url": "/showcases",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "文生视频 AI 生成",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "背景"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "为什么选择文生视频",
+        "label": "优势",
+        "description": "体验最先进的文生视频 AI 技术，享受无与伦比的创作控制。",
+        "items": [
+          {
+            "title": "详细提示词支持",
+            "description": "用全面的文本提示词构建复杂场景。用自然语言描述角色、场景、动作、光线和镜头运动。",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "详细提示词"
+            }
+          },
+          {
+            "title": "多种视觉风格",
+            "description": "从写实、动漫、水彩、赛博朋克、油画等多种艺术风格中选择，匹配你的创意愿景。",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "视觉风格"
+            }
+          },
+          {
+            "title": "物理模拟",
+            "description": "革命性的物理引擎确保逼真的物体运动、自然光线交互和可信的物理表现。",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "物理模拟"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "核心功能",
+        "description": "从文字创建专业 AI 视频所需的一切功能。",
+        "items": [
+          {
+            "title": "🎬 详细文本提示词",
+            "description": "撰写包含角色、动作、环境和镜头运动的全面场景描述。",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 多种视觉风格",
+            "description": "支持写实、动漫、水彩、赛博朋克、油画等多种艺术风格。",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 1080p/2K 高清输出",
+            "description": "生成 1080p 全高清或 2K 分辨率的清晰视频，无任何瑕疵。",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 物理规律模拟",
+            "description": "先进的物理引擎实现逼真的运动、自然光线和可信的交互效果。",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 镜头控制",
+            "description": "在文本提示词中指定镜头角度、运动、缩放和转场。",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ 长时长生成",
+            "description": "生成超过 30 秒的视频，保持一致的画质和场景连贯性。",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "应用场景",
+        "label": "应用",
+        "description": "探索 AI 文生视频的无限可能。",
+        "items": [
+          {
+            "title": "内容创作",
+            "description": "用简单的文字描述创建引人入胜的社交媒体视频、YouTube 内容和营销素材。",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "内容创作"
+            }
+          },
+          {
+            "title": "故事讲述",
+            "description": "用 AI 生成的场景、角色和叙事将你的故事变为现实。",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "故事讲述"
+            }
+          },
+          {
+            "title": "教育培训",
+            "description": "为复杂概念创建教育视频和可视化解释。",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "教育培训"
+            }
+          },
+          {
+            "title": "广告营销",
+            "description": "快速生成产品展示、宣传视频和广告内容。",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "广告营销"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "关于文生视频的常见问题解答。",
+        "items": [
+          {
+            "question": "什么是文生视频？",
+            "answer": "文生视频是一种将文字描述转换为动态视频内容的 AI 技术。只需描述你想要的场景、角色、动作和风格，AI 就会生成相应的视频。"
+          },
+          {
+            "question": "支持哪些视觉风格？",
+            "answer": "我们支持多种视觉风格，包括写实、动漫、水彩、赛博朋克、油画、3D 动画等。你可以在文本提示词中指定你喜欢的风格。"
+          },
+          {
+            "question": "支持什么视频分辨率？",
+            "answer": "我们支持 1080p 全高清和 2K 超清输出分辨率。先进的 AI 技术消除了抖动、模糊和瑕疵等常见问题。"
+          },
+          {
+            "question": "生成的视频可以有多长？",
+            "answer": "生成的视频可以超过 30 秒，同时保持一致的场景质量和角色连贯性。"
+          },
+          {
+            "question": "文本提示词应该写多详细？",
+            "answer": "提示词越详细，效果越好。包括角色、场景、动作、光线、镜头角度和艺术风格的描述。不过，即使是简单的提示词也能产生令人印象深刻的效果。"
+          },
+          {
+            "question": "可以控制镜头运动吗？",
+            "answer": "可以！你可以在文本提示词中指定镜头运动、角度、缩放、平移和转场。AI 会将这些指示融入生成的视频中。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "开始用文字创作视频",
+        "description": "用 AI 驱动的文生视频功能，将你的想法转化为精彩视频。",
+        "buttons": [
+          {
+            "title": "立即体验",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "查看定价",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

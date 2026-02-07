@@ -54,4 +54,6 @@ export const localeMessagesPaths = [
   'pages/showcases',
   'pages/blog',
   'pages/updates',
+  'pages/features/text-to-video',
+  'pages/features/image-to-video',
 ];

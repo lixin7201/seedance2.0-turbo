@@ -11,9 +11,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "秒级生成电影级AI视频",
-        "highlight_text": "秒级生成",
-        "description": "Seedance 2.0 是字节跳动新一代多模态AI视频生成模型。<br/>将文字和图片转化为震撼的电影级视频内容。",
+        "title": "用 AI 创造电影级视频",
+        "highlight_text": "电影级视频",
+        "description": "Seedance 2.0 - 字节跳动新一代多模态视频生成模型。<br/>将文字或图片转化为高质量动态视频，支持30秒以上复杂叙事，1080p/2K超清输出。",
         "announcement": {
           "badge": "全新",
           "title": "🎬 Seedance 2.0 现已发布",
@@ -61,7 +61,7 @@
         "id": "introduce",
         "title": "什么是 Seedance 2.0",
         "label": "产品介绍",
-        "description": "Seedance 2.0 是字节跳动最新的多模态AI视频生成模型，支持文生视频和图生视频，创造电影级画质的动态视频内容。",
+        "description": "Seedance 2.0 是字节跳动最新的多模态AI视频生成模型，支持文生视频和图生视频，具备先进的物理模拟技术，创造电影级画质的动态内容。",
         "image": {
           "src": "https://picsum.photos/seed/seedance-intro/800/600",
           "alt": "Seedance 2.0 产品介绍"
@@ -69,7 +69,7 @@
         "items": [
           {
             "title": "文生视频",
-            "description": "通过文字描述生成精彩视频，自然流畅的动态效果，电影级画质呈现。",
+            "description": "用文字描述创造动态视频，支持详细的场景、角色、动作描述。",
             "icon": "RiFileTextLine",
             "image": {
               "src": "https://picsum.photos/seed/seedance-t2v/600/400",
@@ -78,7 +78,7 @@
           },
           {
             "title": "图生视频",
-            "description": "让静态图片动起来，实现流畅自然的动画效果和镜头运动。",
+            "description": "上传静态图片，AI为其注入生命力和动态效果。",
             "icon": "RiImage2Line",
             "image": {
               "src": "https://picsum.photos/seed/seedance-i2v/600/400",
@@ -86,21 +86,21 @@
             }
           },
           {
-            "title": "电影级画质",
-            "description": "生成专业级视频内容，具备电影美学和惊艳视觉效果。",
-            "icon": "RiFilmLine",
+            "title": "物理模拟",
+            "description": "引入「声学物理场」技术，真实模拟物体运动和光影互动。",
+            "icon": "RiSettings3Line",
             "image": {
-              "src": "https://picsum.photos/seed/seedance-cinema/600/400",
-              "alt": "电影级画质"
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "物理模拟"
             }
           },
           {
-            "title": "精准动态控制",
-            "description": "精确控制镜头运动、角色动作和场景变化。",
-            "icon": "RiVideoLine",
+            "title": "超清输出",
+            "description": "支持1080p乃至2K超清输出，消除抖动和伪影。",
+            "icon": "RiHdLine",
             "image": {
-              "src": "https://picsum.photos/seed/seedance-motion/600/400",
-              "alt": "动态控制"
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "超清输出"
             }
           }
         ],
@@ -115,7 +115,7 @@
         "items": [
           {
             "title": "顶尖AI技术",
-            "description": "基于字节跳动最新多模态AI研究成果，提供突破性的视频生成能力。",
+            "description": "基于字节跳动最新多模态AI研究成果，搭载声学物理场技术，提供突破性的视频生成能力。",
             "icon": "RiRobot2Line",
             "image": {
               "src": "https://picsum.photos/seed/seedance-ai/800/500",
@@ -124,7 +124,7 @@
           },
           {
             "title": "电影级视觉品质",
-            "description": "创造具有电影美学的视频，完美光效和专业调色。",
+            "description": "创造具有电影美学的视频，支持1080p/2K分辨率，完美光效和专业调色。",
             "icon": "RiFilmLine",
             "image": {
               "src": "https://picsum.photos/seed/seedance-quality/800/500",
@@ -132,12 +132,12 @@
             }
           },
           {
-            "title": "多样化创作模式",
-            "description": "支持文生视频、图生视频及多种风格转换，满足你的创意需求。",
-            "icon": "RiMagicLine",
+            "title": "复杂叙事支持",
+            "description": "多镜头、多角色故事，场景转换保持高度一致性，支持30秒以上长视频。",
+            "icon": "RiBookOpenLine",
             "image": {
-              "src": "https://picsum.photos/seed/seedance-modes/800/500",
-              "alt": "创作模式"
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "复杂叙事"
             }
           }
         ]
@@ -148,34 +148,34 @@
         "description": "创作惊艳AI视频所需的一切功能。",
         "items": [
           {
-            "title": "文生视频",
-            "description": "从文字描述直接生成视频，自然动态与逼真场景。",
+            "title": "🎬 文生视频",
+            "description": "用文字描述创造动态视频，支持详细的场景、角色、动作描述。",
             "icon": "RiFileTextLine"
           },
           {
-            "title": "图生视频",
-            "description": "将静态图片转化为动态视频，流畅自然的动画效果。",
+            "title": "🖼️ 图生视频",
+            "description": "上传静态图片，AI为其注入生命力和动态效果。",
             "icon": "RiImage2Line"
           },
           {
-            "title": "电影级画质",
-            "description": "专业级输出，具备电影美学和视觉特效。",
+            "title": "📐 物理模拟",
+            "description": "引入「声学物理场」技术，真实模拟物体运动和光影互动。",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 电影画质",
+            "description": "支持1080p乃至2K超清输出，消除抖动和伪影。",
             "icon": "RiFilmLine"
           },
           {
-            "title": "动态控制",
-            "description": "精确控制镜头运动和角色动作。",
-            "icon": "RiVideoLine"
+            "title": "📖 复杂叙事",
+            "description": "多镜头、多角色故事，场景转换保持高度一致性。",
+            "icon": "RiBookOpenLine"
           },
           {
-            "title": "多样风格",
-            "description": "支持从写实到艺术的多种视觉风格。",
+            "title": "🎨 多风格支持",
+            "description": "写实、动漫、赛博朋克、水彩等多种视觉风格。",
             "icon": "RiPaletteLine"
-          },
-          {
-            "title": "快速生成",
-            "description": "优化的AI处理，快速生成视频内容。",
-            "icon": "RiFlashlightLine"
           }
         ]
       },
@@ -186,27 +186,27 @@
         "items": [
           {
             "question": "什么是 Seedance 2.0？",
-            "answer": "Seedance 2.0 是字节跳动新一代多模态AI视频生成模型。支持文生视频和图生视频，生成具有自然动态和惊艳视觉效果的电影级视频。"
+            "answer": "Seedance 2.0 是字节跳动新一代多模态AI视频生成模型。支持文生视频和图生视频，生成具有自然动态、物理模拟和惊艳视觉效果的电影级视频。"
           },
           {
-            "question": "可以创作哪些类型的视频？",
-            "answer": "你可以创作多种类型的视频，包括宣传内容、社交媒体短片、艺术动画、产品演示等。模型支持从写实到艺术的多种风格。"
+            "question": "支持什么视频分辨率？",
+            "answer": "Seedance 2.0 支持1080p全高清和2K超清分辨率输出。先进的AI技术消除了常见的抖动和伪影问题，呈现专业级画质。"
           },
           {
-            "question": "文生视频是如何工作的？",
-            "answer": "只需用文字描述你想要的视频场景，Seedance 2.0 就会生成匹配的视频，具有自然动态、合适光效和电影级画质。AI能理解上下文、动作和视觉美学。"
+            "question": "生成的视频可以多长？",
+            "answer": "Seedance 2.0 可以生成30秒以上的视频，支持具有多镜头、多角色的复杂叙事，同时保持高度的场景一致性。"
+          },
+          {
+            "question": "支持哪些视觉风格？",
+            "answer": "支持多种视觉风格，包括写实、动漫、赛博朋克、水彩等。你可以在文字提示中指定想要的风格。"
+          },
+          {
+            "question": "什么是「声学物理场」技术？",
+            "answer": "这是 Seedance 2.0 革命性的物理模拟技术，能够真实地模拟物体运动、光影互动和物理行为，创造更自然、更可信的视频内容。"
           },
           {
             "question": "可以让现有图片动起来吗？",
             "answer": "可以！通过图生视频功能，你可以上传静态图片并将其转化为动态视频。AI会添加逼真的动态效果、镜头运动和场景动画，同时保留原始图片风格。"
-          },
-          {
-            "question": "视频画质如何？",
-            "answer": "Seedance 2.0 生成电影级画质的视频，具有专业级美学效果。输出具备电影级视觉品质、流畅动态和惊艳效果，适合专业使用。"
-          },
-          {
-            "question": "视频生成需要多长时间？",
-            "answer": "生成时间取决于视频长度和复杂度。通常，创作一段短视频只需几秒到几分钟，得益于优化的AI处理技术。"
           }
         ]
       },
@@ -216,7 +216,7 @@
         "description": "体验 Seedance 2.0 AI视频生成的未来。",
         "buttons": [
           {
-            "title": "立即开始",
+            "title": "立即体验",
             "url": "/#features",
             "target": "_self",
             "icon": "Zap"
