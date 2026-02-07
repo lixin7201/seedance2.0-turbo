@@ -24,7 +24,7 @@
           {
             "title": "Try Now",
             "icon": "Zap",
-            "url": "/#features",
+            "url": "/ai-video-generator",
             "target": "_self",
             "variant": "default"
           },
@@ -217,7 +217,7 @@
         "buttons": [
           {
             "title": "Try Now",
-            "url": "/#features",
+            "url": "/ai-video-generator",
             "target": "_self",
             "icon": "Zap"
           },

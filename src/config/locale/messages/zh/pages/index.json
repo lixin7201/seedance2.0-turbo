@@ -24,7 +24,7 @@
           {
             "title": "立即体验",
             "icon": "Zap",
-            "url": "/#features",
+            "url": "/ai-video-generator",
             "target": "_self",
             "variant": "default"
           },
@@ -217,7 +217,7 @@
         "buttons": [
           {
             "title": "立即体验",
-            "url": "/#features",
+            "url": "/ai-video-generator",
             "target": "_self",
             "icon": "Zap"
           },
