@@ -56,4 +56,5 @@ export const localeMessagesPaths = [
   'pages/updates',
   'pages/features/text-to-video',
   'pages/features/image-to-video',
+  'pages/payment_success',
 ];
