@@ -181,7 +181,8 @@ export async function POST(
     } else if (eventType === PaymentEventType.SUBSCRIBE_UPDATED) {
       // only handle subscription update
       if (!session.subscriptionId || !session.subscriptionInfo) {
-        throw new Error('subscription id or subscription info not found');
+        console.log('SUBSCRIBE_UPDATED: subscription id or subscription info not found, skipping');
+        return Response.json({ message: 'success' });
       }
 
       const existingSubscription =
@@ -200,7 +201,8 @@ export async function POST(
     } else if (eventType === PaymentEventType.SUBSCRIBE_CANCELED) {
       // only handle subscription cancellation
       if (!session.subscriptionId || !session.subscriptionInfo) {
-        throw new Error('subscription id or subscription info not found');
+        console.log('SUBSCRIBE_CANCELED: subscription id or subscription info not found, skipping');
+        return Response.json({ message: 'success' });
       }
 
       const existingSubscription =
