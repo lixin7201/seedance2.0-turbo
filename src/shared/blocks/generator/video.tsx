@@ -1,7 +1,9 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  ChevronLeft,
+  ChevronRight,
   CreditCard,
   Download,
   Loader2,
@@ -201,6 +203,114 @@ function extractVideoUrls(result: any): string[] {
   }
 
   return [];
+}
+
+// Example videos for carousel preview
+const EXAMPLE_VIDEOS = [
+  { id: 'example-1', src: '/videos/example-1.mp4' },
+  { id: 'example-2', src: '/videos/example-2.mp4' },
+];
+
+// Carousel component for example videos
+function ExampleVideoCarousel({
+  isGenerating,
+  t,
+}: {
+  isGenerating: boolean;
+  t: ReturnType<typeof useTranslations>;
+}) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handlePrev = useCallback(() => {
+    setCurrentIndex((prev) => (prev === 0 ? EXAMPLE_VIDEOS.length - 1 : prev - 1));
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
+  }, []);
+
+  const handleNext = useCallback(() => {
+    setCurrentIndex((prev) => (prev === EXAMPLE_VIDEOS.length - 1 ? 0 : prev + 1));
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
+  }, []);
+
+  const currentVideo = EXAMPLE_VIDEOS[currentIndex];
+
+  return (
+    <div className="space-y-4">
+      {/* Video Player with Navigation */}
+      <div className="relative overflow-hidden rounded-lg bg-black">
+        {/* Preview Example Badge */}
+        <div className="absolute top-3 left-3 z-20">
+          <span className="flex items-center gap-1.5 rounded-full bg-purple-600/90 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
+            <Sparkles className="h-3 w-3" />
+            Preview Example
+          </span>
+        </div>
+
+        {/* Left Arrow */}
+        <button
+          onClick={handlePrev}
+          className="absolute left-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black/50 p-2 text-white transition-all hover:bg-black/70"
+          aria-label="Previous video"
+        >
+          <ChevronLeft className="h-6 w-6" />
+        </button>
+
+        {/* Video */}
+        <div className="relative aspect-video w-full">
+          <video
+            ref={videoRef}
+            key={currentVideo.id}
+            src={currentVideo.src}
+            controls
+            className="h-full w-full object-contain"
+            preload="metadata"
+          />
+        </div>
+
+        {/* Right Arrow */}
+        <button
+          onClick={handleNext}
+          className="absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black/50 p-2 text-white transition-all hover:bg-black/70"
+          aria-label="Next video"
+        >
+          <ChevronRight className="h-6 w-6" />
+        </button>
+      </div>
+
+      {/* Pagination Dots */}
+      <div className="flex justify-center gap-2">
+        {EXAMPLE_VIDEOS.map((video, index) => (
+          <button
+            key={video.id}
+            onClick={() => {
+              setCurrentIndex(index);
+              if (videoRef.current) {
+                videoRef.current.pause();
+                videoRef.current.currentTime = 0;
+              }
+            }}
+            className={`h-2 w-2 rounded-full transition-all ${
+              index === currentIndex
+                ? 'bg-primary w-4'
+                : 'bg-muted-foreground/30 hover:bg-muted-foreground/50'
+            }`}
+            aria-label={`Go to video ${index + 1}`}
+          />
+        ))}
+      </div>
+
+      {/* Hint Text */}
+      <p className="text-muted-foreground text-center text-sm">
+        {isGenerating ? t('ready_to_generate') : t('preview_examples_hint')}
+      </p>
+    </div>
+  );
 }
 
 export function VideoGenerator({
@@ -886,16 +996,7 @@ export function VideoGenerator({
                     ))}
                   </div>
                 ) : (
-                  <div className="flex flex-col items-center justify-center py-16 text-center">
-                    <div className="bg-muted mb-4 flex h-16 w-16 items-center justify-center rounded-full">
-                      <Video className="text-muted-foreground h-10 w-10" />
-                    </div>
-                    <p className="text-muted-foreground">
-                      {isGenerating
-                        ? t('ready_to_generate')
-                        : t('no_videos_generated')}
-                    </p>
-                  </div>
+                  <ExampleVideoCarousel isGenerating={isGenerating} t={t} />
                 )}
               </CardContent>
             </Card>

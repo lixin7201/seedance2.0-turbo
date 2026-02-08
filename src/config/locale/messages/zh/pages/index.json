@@ -2,6 +2,7 @@
   "page": {
     "show_sections": [
       "hero",
+      "video_showcase",
       "introduce",
       "benefits",
       "features",
@@ -54,6 +55,84 @@
         "background_image": {
           "src": "https://picsum.photos/seed/seedance-bg/1920/1080",
           "alt": "背景图片"
+        }
+      },
+      "video_showcase": {
+        "id": "video_showcase",
+        "block": "video-showcase",
+        "title": "看看 Seedance 2.0 能创造什么",
+        "description": "AI 视频引擎生成的真实案例。点击播放，见证 AI 视频的魔力。",
+        "items": [
+          {
+            "id": "demo-corgi",
+            "title": "动漫风格 - 奔跑的柴犬",
+            "description": "一只可爱的柴犬在美丽的草地上奔跑，吉卜力工作室动画风格",
+            "video_url": "https://videos.pexels.com/video-files/855282/855282-hd_1920_1080_24fps.mp4",
+            "thumbnail": "https://images.pexels.com/videos/855282/free-video-855282.jpg?auto=compress&cs=tinysrgb&w=800",
+            "duration": "8秒",
+            "style": "动漫",
+            "tags": ["动物", "动漫", "自然"],
+            "prompt": "柴犬在阳光普照的草地上奔跑，吉卜力风格，柔和光线，鲜艳色彩"
+          },
+          {
+            "id": "demo-ocean",
+            "title": "电影级海浪",
+            "description": "日落时分海浪拍打岩石的壮观场景，电影级光影效果",
+            "video_url": "https://videos.pexels.com/video-files/1918465/1918465-uhd_2560_1440_24fps.mp4",
+            "thumbnail": "https://images.pexels.com/videos/1918465/free-video-1918465.jpg?auto=compress&cs=tinysrgb&w=800",
+            "duration": "10秒",
+            "style": "写实",
+            "tags": ["自然", "海洋", "电影"],
+            "prompt": "黄金时刻海浪拍打岩石，2K电影画质"
+          },
+          {
+            "id": "demo-city",
+            "title": "赛博朋克城市夜景",
+            "description": "未来感赛博朋克城市，霓虹灯和飞行载具",
+            "video_url": "https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4",
+            "thumbnail": "https://images.pexels.com/videos/3129671/free-video-3129671.jpg?auto=compress&cs=tinysrgb&w=800",
+            "duration": "6秒",
+            "style": "赛博朋克",
+            "tags": ["城市", "赛博朋克", "夜景"],
+            "prompt": "赛博朋克城市夜景，霓虹灯招牌，雨后街道，电影航拍"
+          },
+          {
+            "id": "demo-portrait",
+            "title": "人像动画",
+            "description": "静态人像照片被赋予生命，展现自然的表情和微妙动作",
+            "video_url": "https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4",
+            "thumbnail": "https://images.pexels.com/videos/3195394/free-video-3195394.jpg?auto=compress&cs=tinysrgb&w=800",
+            "duration": "5秒",
+            "style": "写实",
+            "tags": ["人像", "人物", "写实"],
+            "prompt": "人像照片转视频，自然微笑和眼神变化，柔和光线"
+          },
+          {
+            "id": "demo-nature",
+            "title": "森林日出",
+            "description": "神奇的森林场景，晨雾缭绕，金色阳光穿透树林",
+            "video_url": "https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4",
+            "thumbnail": "https://images.pexels.com/videos/3571264/free-video-3571264.jpg?auto=compress&cs=tinysrgb&w=800",
+            "duration": "7秒",
+            "style": "写实",
+            "tags": ["自然", "森林", "日出"],
+            "prompt": "森林中的晨雾与金色阳光，镜头缓慢穿过树林"
+          },
+          {
+            "id": "demo-product",
+            "title": "产品展示",
+            "description": "高端产品展示动画，专业的光影和动态呈现",
+            "video_url": "https://videos.pexels.com/video-files/7565438/7565438-uhd_2560_1440_25fps.mp4",
+            "thumbnail": "https://images.pexels.com/videos/7565438/pexels-photo-7565438.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "duration": "4秒",
+            "style": "商业",
+            "tags": ["产品", "商业", "专业"],
+            "prompt": "产品展示镜头，缓慢旋转，工作室灯光，黑色背景"
+          }
+        ],
+        "view_all_button": {
+          "title": "查看更多案例",
+          "url": "/showcases"
         }
       },
       "introduce": {
