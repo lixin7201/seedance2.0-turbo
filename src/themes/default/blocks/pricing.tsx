@@ -362,10 +362,7 @@ export function Pricing({
         )}
 
         <div
-          className={`mx-auto mt-0 grid w-full gap-6 md:grid-cols-${
-            section.items?.filter((item) => !item.group || item.group === group)
-              ?.length
-          }`}
+          className="mx-auto mt-0 grid w-full max-w-lg gap-6 grid-cols-1"
         >
           {section.items?.map((item: PricingItem, idx) => {
             if (item.group && item.group !== group) {
