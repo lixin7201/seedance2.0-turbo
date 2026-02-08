@@ -338,11 +338,26 @@ export class CreemProvider implements PaymentProvider {
     let subscription: any | undefined = undefined;
     let billingUrl = '';
 
+    // Try multiple locations for subscription data
+    // Creem may put subscription data in different fields depending on the event
     if (session.subscription) {
       subscription = session.subscription;
+    } else if (session.order?.subscription) {
+      subscription = session.order.subscription;
+    } else if (session.subscription_id) {
+      // If only subscription_id exists, try to build minimal subscription info
+      subscription = {
+        id: session.subscription_id,
+        status: 'active',
+        current_period_start_date: new Date().toISOString(),
+        current_period_end_date: new Date(
+          Date.now() + 30 * 24 * 60 * 60 * 1000
+        ).toISOString(), // 30 days from now
+      };
     }
 
     const order = session.order;
+    const product = session.product;
 
     const result: PaymentSession = {
       provider: this.name,
@@ -367,16 +382,78 @@ export class CreemProvider implements PaymentProvider {
       metadata: session.metadata,
     };
 
+    // If we have subscription data, build subscription info
     if (subscription) {
       result.subscriptionId = subscription.id;
-      result.subscriptionInfo = await this.buildSubscriptionInfo(
-        subscription,
-        session.product
+      try {
+        result.subscriptionInfo = await this.buildSubscriptionInfo(
+          subscription,
+          product
+        );
+        result.subscriptionResult = subscription;
+      } catch (e: any) {
+        // If building subscription info fails (e.g., missing product), log and continue
+        console.log(
+          `Warning: Failed to build subscription info: ${e.message}. ` +
+            'Subscription will not be created but payment will still be processed.'
+        );
+      }
+    } else if (product?.billing_period) {
+      // If no subscription object but product has billing_period, this is a subscription product
+      // Try to create subscription info from available data
+      console.log(
+        'No subscription object found in checkout.completed, ' +
+          'but product has billing_period. Creating subscription from available data.'
       );
-      result.subscriptionResult = subscription;
+      try {
+        const subscriptionId =
+          order?.subscription_id ||
+          session.subscription_id ||
+          `sub_${order?.id || session.id}`;
+        const subscriptionData = {
+          id: subscriptionId,
+          status: 'active',
+          current_period_start_date: new Date().toISOString(),
+          current_period_end_date: this.calculatePeriodEnd(
+            product.billing_period
+          ),
+        };
+        result.subscriptionId = subscriptionId;
+        result.subscriptionInfo = await this.buildSubscriptionInfo(
+          subscriptionData,
+          product
+        );
+        result.subscriptionResult = subscriptionData;
+      } catch (e: any) {
+        console.log(
+          `Warning: Failed to create subscription from product: ${e.message}`
+        );
+      }
     }
 
     return result;
+  }
+
+  // Calculate period end date based on billing period
+  private calculatePeriodEnd(billingPeriod: string): string {
+    const now = new Date();
+    switch (billingPeriod) {
+      case 'every-month':
+        now.setMonth(now.getMonth() + 1);
+        break;
+      case 'every-three-months':
+        now.setMonth(now.getMonth() + 3);
+        break;
+      case 'every-six-months':
+        now.setMonth(now.getMonth() + 6);
+        break;
+      case 'every-year':
+        now.setFullYear(now.getFullYear() + 1);
+        break;
+      default:
+        now.setMonth(now.getMonth() + 1); // Default to 1 month
+    }
+    return now.toISOString();
   }
 
   // build payment session from subscription session
