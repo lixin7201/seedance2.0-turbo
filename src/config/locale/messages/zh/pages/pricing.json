@@ -1,365 +1,450 @@
 {
   "metadata": {
-    "title": "价格",
-    "description": "选择方案，立即开始"
+    "title": "定价方案 - Seedance 2.0",
+    "description": "选择适合您的 Seedance 2.0 套餐方案，立即开始创作精彩的 AI 视频。",
+    "keywords": "定价, 套餐, 免费试用, 视频生成, AI视频, 积分"
   },
   "page": {
-    "title": "ShipAny 价格表",
+    "title": "Seedance 2.0 定价方案",
+    "show_sections": [
+      "hero",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta"
+    ],
     "sections": {
-      "pricing": {
-        "id": "pricing",
-        "title": "价格",
-        "description": "获取 ShipAny 的全部功能，极速交付你的 AI SaaS 创业项目。",
-        "groups": [
+      "hero": {
+        "id": "hero",
+        "block": "hero-simple",
+        "title": "简单透明的定价",
+        "highlight_text": "透明的定价",
+        "description": "选择最适合您的视频创作方案，免费起步，随时升级。",
+        "tip": "🎁 免费体验 10 秒视频积分",
+        "buttons": [
           {
-            "name": "one-time",
-            "title": "按次付费"
+            "title": "免费试用",
+            "icon": "Zap",
+            "url": "#pricing",
+            "target": "_self",
+            "variant": "default"
           },
           {
+            "title": "对比方案",
+            "icon": "ArrowDown",
+            "url": "#comparison",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "background_image": {
+          "src": "https://picsum.photos/seed/seedance-pricing-bg/1920/600",
+          "alt": "pricing background"
+        }
+      },
+      "pricing": {
+        "id": "pricing",
+        "title": "选择您的方案",
+        "description": "获取 Seedance 2.0 的全部功能，以灵活的定价方案创作精彩的 AI 视频。",
+        "groups": [
+          {
             "name": "monthly",
-            "title": "包月",
-            "is_featured": true,
-            "label": "立省15%"
+            "title": "月付",
+            "is_featured": true
           },
           {
             "name": "yearly",
-            "title": "包年"
+            "title": "年付",
+            "label": "节省 20%"
           }
         ],
         "items": [
           {
-            "title": "入门版",
-            "description": "开启你的第一个 SaaS 创业项目。",
+            "title": "免费版",
+            "description": "免费体验 Seedance 2.0 的强大功能。",
             "features_title": "包含",
             "features": [
-              "100 积分，有效期 1 个月",
-              "NextJS 项目模板",
-              "SEO 友好结构",
-              "支持 Stripe 支付",
-              "Supabase 数据存储",
-              "Google Oauth & 一键登录",
-              "多语言（i18n）支持"
+              "10 积分（10秒视频）",
+              "720p 分辨率输出",
+              "基础视频生成",
+              "社区支持",
+              "视频带水印"
             ],
             "interval": "one-time",
-            "amount": 9900,
+            "amount": 0,
             "currency": "USD",
-            "price": "$99",
-            "original_price": "$199",
-            "currencies": [
-              {
-                "currency": "CNY",
-                "amount": 69900,
-                "price": "¥699",
-                "original_price": "¥1399",
-                "payment_providers": ["stripe"]
-              }
-            ],
+            "price": "¥0",
+            "original_price": "",
             "unit": "",
             "is_featured": false,
-            "tip": "一次付费，畅享无限项目部署！",
+            "tip": "一次性体验积分",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "免费试用",
+              "url": "/sign-up",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "starter",
-            "product_name": "ShipAny 模板入门版",
-            "credits": 100,
+            "product_id": "free",
+            "product_name": "Seedance 免费体验版",
+            "credits": 10,
             "valid_days": 30,
-            "group": "one-time"
-          },
-          {
-            "title": "标准版",
-            "description": "快速交付你的 SaaS 创业项目。",
-            "label": "热门",
-            "features_title": "包含入门版功能，此外",
-            "features": [
-              "200 积分，有效期 3 个月",
-              "支持 Vercel 或 Cloudflare 部署",
-              "自动生成隐私政策&服务条款",
-              "集成 Google Analytics",
-              "集成 Google Search Console",
-              "Discord 技术社区",
-              "首个上线项目技术支持",
-              "终身免费更新"
-            ],
-            "interval": "one-time",
-            "amount": 19900,
-            "currency": "USD",
-            "price": "$199",
-            "original_price": "$299",
-            "currencies": [
-              {
-                "currency": "CNY",
-                "amount": 139900,
-                "price": "¥1399",
-                "original_price": "¥1999",
-                "payment_providers": ["stripe"]
-              }
-            ],
-            "unit": "",
-            "is_featured": true,
-            "tip": "一次付费，畅享无限项目部署！",
-            "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "standard",
-            "product_name": "ShipAny 模板标准版",
-            "credits": 200,
-            "valid_days": 90,
-            "group": "one-time"
-          },
-          {
-            "title": "高级版",
-            "description": "交付任意 AI SaaS 创业项目。",
-            "features_title": "包含标准版功能，此外",
-            "features": [
-              "300 积分，有效期 1 年",
-              "内置 AI 业务功能",
-              "用户中心",
-              "积分系统",
-              "为你的 SaaS 售卖 API",
-              "后台管理系统",
-              "优先技术支持"
-            ],
-            "interval": "one-time",
-            "amount": 29900,
-            "currency": "USD",
-            "price": "$299",
-            "original_price": "$399",
-            "currencies": [
-              {
-                "currency": "CNY",
-                "amount": 199900,
-                "price": "¥1999",
-                "original_price": "¥2799",
-                "payment_providers": ["stripe", "creem"]
-              }
-            ],
-            "unit": "",
-            "is_featured": false,
-            "tip": "一次付费，畅享无限项目部署！",
-            "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium",
-            "product_name": "ShipAny 模板高级版",
-            "credits": 300,
-            "valid_days": 365,
-            "group": "one-time"
+            "group": "monthly"
           },
           {
             "title": "入门版",
-            "description": "开启你的第一个 SaaS 创业项目。",
+            "description": "适合个人爱好者和轻度创作者。",
             "features_title": "包含",
             "features": [
-              "100 积分，有效期 1 个月",
-              "NextJS 项目模板",
-              "SEO 友好结构",
-              "支持 Stripe 支付",
-              "Supabase 数据存储",
-              "Google Oauth & 一键登录",
-              "多语言（i18n）支持"
+              "150 积分/月（约15个视频）",
+              "1080p 全高清分辨率",
+              "无水印",
+              "中等排队优先级",
+              "邮件支持"
             ],
             "interval": "month",
-            "amount": 8900,
+            "amount": 2900,
             "currency": "USD",
-            "price": "$89",
-            "original_price": "$99",
+            "price": "$29",
+            "original_price": "",
             "unit": "/ 月",
             "is_featured": false,
-            "tip": "按月付费，畅享无限项目部署！",
+            "tip": "约每天5积分",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "开始创作",
+              "url": "/sign-up?plan=starter",
               "icon": "RiFlashlightFill"
             },
             "product_id": "starter-monthly",
-            "product_name": "ShipAny 模板入门版包月",
-            "credits": 100,
+            "product_name": "Seedance 入门版包月",
+            "credits": 150,
             "valid_days": 30,
             "group": "monthly",
             "plan_name": "入门版"
           },
           {
-            "title": "标准版",
-            "description": "快速交付你的 SaaS 创业项目。",
-            "label": "热门",
-            "features_title": "包含入门版功能，此外",
+            "title": "专业版",
+            "label": "最受欢迎",
+            "description": "适合专业创作者和企业用户。",
+            "features_title": "包含入门版全部功能，此外",
             "features": [
-              "200 积分，有效期 1 个月",
-              "支持 Vercel 或 Cloudflare 部署",
-              "自动生成隐私政策&服务条款",
-              "集成 Google Analytics",
-              "集成 Google Search Console",
-              "Discord 技术社区",
-              "首个上线项目技术支持",
-              "终身免费更新"
+              "450 积分/月（约45个视频）",
+              "2K 超清分辨率",
+              "高排队优先级",
+              "商用授权",
+              "积分可翻月",
+              "优先邮件支持"
             ],
             "interval": "month",
-            "amount": 16900,
+            "amount": 7900,
             "currency": "USD",
-            "price": "$169",
-            "original_price": "$199",
+            "price": "$79",
+            "original_price": "",
             "unit": "/ 月",
             "is_featured": true,
-            "tip": "按月付费，极速上线你的 SaaS 项目。",
+            "tip": "约每天15积分",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "升级专业版",
+              "url": "/sign-up?plan=pro",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "standard-monthly",
-            "product_name": "ShipAny 模板标准版包月",
-            "credits": 200,
+            "product_id": "pro-monthly",
+            "product_name": "Seedance 专业版包月",
+            "credits": 450,
             "valid_days": 30,
             "group": "monthly",
-            "plan_name": "标准版"
+            "plan_name": "专业版"
           },
           {
-            "title": "高级版",
-            "description": "交付任意 AI SaaS 创业项目。",
-            "features_title": "包含标准版功能，此外",
+            "title": "企业版",
+            "description": "适合团队和企业级需求。",
+            "features_title": "包含专业版全部功能，此外",
             "features": [
-              "300 积分，有效期 1 个月",
-              "内置 AI 业务功能",
-              "用户中心",
-              "积分系统",
-              "为你的 SaaS 售卖 API",
-              "后台管理系统",
-              "优先技术支持"
+              "1200 积分/月（约120个视频）",
+              "4K 超高清分辨率",
+              "最高排队优先级",
+              "API 访问",
+              "积分可翻月",
+              "专属客服支持"
             ],
             "interval": "month",
-            "amount": 24900,
+            "amount": 19900,
             "currency": "USD",
-            "price": "$249",
-            "original_price": "$299",
+            "price": "$199",
+            "original_price": "",
             "unit": "/ 月",
             "is_featured": false,
-            "tip": "按月付费，助你交付任何 AI SaaS 项目。",
+            "tip": "约每天40积分",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "联系销售",
+              "url": "/contact",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "premium-monthly",
-            "product_name": "ShipAny 模板高级版包月",
-            "credits": 300,
+            "product_id": "business-monthly",
+            "product_name": "Seedance 企业版包月",
+            "credits": 1200,
             "valid_days": 30,
             "group": "monthly",
-            "plan_name": "高级版"
+            "plan_name": "企业版"
+          },
+          {
+            "title": "免费版",
+            "description": "免费体验 Seedance 2.0 的强大功能。",
+            "features_title": "包含",
+            "features": [
+              "10 积分（10秒视频）",
+              "720p 分辨率输出",
+              "基础视频生成",
+              "社区支持",
+              "视频带水印"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "¥0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "一次性体验积分",
+            "button": {
+              "title": "免费试用",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Seedance 免费体验版",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "yearly"
           },
           {
             "title": "入门版",
-            "description": "开启你的第一个 SaaS 创业项目。",
+            "description": "适合个人爱好者和轻度创作者。",
             "features_title": "包含",
             "features": [
-              "100 积分，有效期 1 年",
-              "NextJS 项目模板",
-              "SEO 友好结构",
-              "支持 Stripe 支付",
-              "Supabase 数据存储",
-              "Google Oauth & 一键登录",
-              "多语言（i18n）支持"
+              "150 积分/月（约15个视频）",
+              "1080p 全高清分辨率",
+              "无水印",
+              "中等排队优先级",
+              "邮件支持"
             ],
             "interval": "year",
-            "amount": 82800,
+            "amount": 27600,
             "currency": "USD",
-            "price": "$69",
-            "original_price": "$89",
+            "price": "$23",
+            "original_price": "$29",
             "unit": "/ 月",
             "is_featured": false,
-            "tip": "按年付费，畅享无限项目部署！",
+            "tip": "年付总价 $276",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "开始创作",
+              "url": "/sign-up?plan=starter-yearly",
               "icon": "RiFlashlightFill"
             },
             "product_id": "starter-yearly",
-            "product_name": "ShipAny 模板入门版包年",
-            "credits": 1200,
+            "product_name": "Seedance 入门版包年",
+            "credits": 1800,
             "valid_days": 365,
             "group": "yearly",
             "plan_name": "入门版"
           },
           {
-            "title": "标准版",
-            "description": "快速交付你的 SaaS 创业项目。",
-            "label": "热门",
-            "features_title": "包含入门版功能，此外",
+            "title": "专业版",
+            "label": "最受欢迎",
+            "description": "适合专业创作者和企业用户。",
+            "features_title": "包含入门版全部功能，此外",
             "features": [
-              "200 积分，有效期 1 年",
-              "支持 Vercel 或 Cloudflare 部署",
-              "自动生成隐私政策&服务条款",
-              "集成 Google Analytics",
-              "集成 Google Search Console",
-              "Discord 技术社区",
-              "首个上线项目技术支持",
-              "终身免费更新"
+              "450 积分/月（约45个视频）",
+              "2K 超清分辨率",
+              "高排队优先级",
+              "商用授权",
+              "积分可翻月",
+              "优先邮件支持"
             ],
             "interval": "year",
-            "amount": 154800,
+            "amount": 75600,
             "currency": "USD",
-            "price": "$129",
-            "original_price": "$169",
+            "price": "$63",
+            "original_price": "$79",
             "unit": "/ 月",
             "is_featured": true,
-            "tip": "按年付费，极速上线你的 SaaS 项目。",
+            "tip": "年付总价 $756",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "升级专业版",
+              "url": "/sign-up?plan=pro-yearly",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "standard-yearly",
-            "product_name": "ShipAny 模板标准版包年",
-            "credits": 2400,
+            "product_id": "pro-yearly",
+            "product_name": "Seedance 专业版包年",
+            "credits": 5400,
             "valid_days": 365,
             "group": "yearly",
-            "plan_name": "标准版"
+            "plan_name": "专业版"
           },
           {
-            "title": "高级版",
-            "description": "交付任意 AI SaaS 创业项目。",
-            "features_title": "包含标准版功能，此外",
+            "title": "企业版",
+            "description": "适合团队和企业级需求。",
+            "features_title": "包含专业版全部功能，此外",
             "features": [
-              "300 积分，有效期 1 年",
-              "内置 AI 业务功能",
-              "用户中心",
-              "积分系统",
-              "为你的 SaaS 售卖 API",
-              "后台管理系统",
-              "优先技术支持"
+              "1200 积分/月（约120个视频）",
+              "4K 超高清分辨率",
+              "最高排队优先级",
+              "API 访问",
+              "积分可翻月",
+              "专属客服支持"
             ],
             "interval": "year",
-            "amount": 226800,
+            "amount": 190800,
             "currency": "USD",
-            "price": "$189",
-            "original_price": "$249",
+            "price": "$159",
+            "original_price": "$199",
             "unit": "/ 月",
             "is_featured": false,
-            "tip": "按年付费，助你交付任何 AI SaaS 项目。",
+            "tip": "年付总价 $1,908",
             "button": {
-              "title": "获取 ShipAny",
-              "url": "/#pricing",
+              "title": "联系销售",
+              "url": "/contact",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "premium-yearly",
-            "product_name": "ShipAny 模板高级版包年",
-            "credits": 3600,
+            "product_id": "business-yearly",
+            "product_name": "Seedance 企业版包年",
+            "credits": 14400,
             "valid_days": 365,
             "group": "yearly",
-            "plan_name": "高级版"
+            "plan_name": "企业版"
           }
         ]
+      },
+      "comparison": {
+        "id": "comparison",
+        "block": "comparison-table",
+        "title": "功能对比",
+        "description": "查看各方案包含的全部功能",
+        "plans": ["免费版", "入门版", "专业版", "企业版"],
+        "categories": [
+          {
+            "name": "视频生成",
+            "features": [
+              {
+                "name": "月积分",
+                "values": ["10（一次性）", "150", "450", "1200"]
+              },
+              {
+                "name": "最高分辨率",
+                "values": ["720p", "1080p", "2K", "4K"]
+              },
+              {
+                "name": "文字转视频",
+                "values": [true, true, true, true]
+              },
+              {
+                "name": "图片转视频",
+                "values": [true, true, true, true]
+              }
+            ]
+          },
+          {
+            "name": "输出与品质",
+            "features": [
+              {
+                "name": "水印",
+                "values": ["有", "无", "无", "无"]
+              },
+              {
+                "name": "排队优先级",
+                "values": ["低", "中", "高", "最高"]
+              },
+              {
+                "name": "商用授权",
+                "values": [false, false, true, true]
+              }
+            ]
+          },
+          {
+            "name": "额外功能",
+            "features": [
+              {
+                "name": "积分翻月",
+                "values": [false, false, true, true]
+              },
+              {
+                "name": "API 访问",
+                "values": [false, false, false, true]
+              },
+              {
+                "name": "客服支持",
+                "values": ["论坛", "邮件", "优先邮件", "专属支持"]
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "还有其他问题？请联系我们的客服团队。",
+        "items": [
+          {
+            "question": "什么是积分？积分如何使用？",
+            "answer": "积分是 Seedance 2.0 生成视频的货币单位。1 积分 = 1 秒视频。例如，生成一个 10 秒的视频消耗 10 积分。订阅用户的积分每月刷新。"
+          },
+          {
+            "question": "我可以升级或降级我的方案吗？",
+            "answer": "可以，您可以随时更改方案。升级时，将按比例收取差价；降级时，新费率将在下个计费周期生效。"
+          },
+          {
+            "question": "未使用的积分可以翻月吗？",
+            "answer": "专业版和企业版支持积分翻月。入门版的积分将在每个计费周期结束时过期。"
+          },
+          {
+            "question": "支持哪些支付方式？",
+            "answer": "我们通过 Stripe 接受所有主流信用卡（Visa、MasterCard、American Express）付款。企业客户也可以选择发票付款。"
+          },
+          {
+            "question": "有退款政策吗？",
+            "answer": "有的，我们提供 14 天无理由退款保证。如果您对订阅不满意，请在 14 天内联系我们申请全额退款。"
+          },
+          {
+            "question": "商用授权包含什么？",
+            "answer": "专业版和企业版包含完整的商业使用权，您可以将生成的视频用于商业用途，包括广告、营销和客户项目。"
+          },
+          {
+            "question": "API 访问如何使用？",
+            "answer": "企业版订阅用户可获得 API 访问权限，将 Seedance 2.0 集成到自己的应用和工作流程中。我们提供完整的 API 文档。"
+          },
+          {
+            "question": "我可以先试用再订阅吗？",
+            "answer": "当然可以！免费注册即可获得 10 积分，体验 Seedance 2.0 AI 视频生成的强大功能。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "准备好创作精彩视频了吗？",
+        "description": "免费开始体验 AI 视频生成的强大功能。",
+        "buttons": [
+          {
+            "title": "免费开始",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "联系销售",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
       }
     }
   },
   "messages": {
     "current_plan": "当前方案",
-    "processing": "处理中"
+    "processing": "处理中",
+    "save_percent": "节省 20%",
+    "per_month": "/ 月",
+    "billed_annually": "按年计费",
+    "money_back": "14天无理由退款保证"
   }
 }

@@ -17,6 +17,11 @@
           "title": "功能特性",
           "url": "/#features",
           "icon": "Sparkles"
+        },
+        {
+          "title": "定价",
+          "url": "/pricing",
+          "icon": "CreditCard"
         }
       ]
     },

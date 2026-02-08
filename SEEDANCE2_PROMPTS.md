@@ -206,6 +206,52 @@ pnpm dev
 
 ---
 
+## 📋 第七步：网站地图 (Sitemap) 配置
+
+网站地图对 SEO 非常重要，它帮助搜索引擎了解你网站的所有页面结构。
+
+### 7.1 更新 sitemap.xml
+
+```text
+🤖 告诉 AI：
+请更新 public/sitemap.xml：
+1. 将所有 example.com 替换为我的真实域名: seedance2.com（请替换为你的实际域名）
+2. 确保所有新页面都在列表中，包括：
+   - /pricing（定价页）
+   - /features/text-to-video（文生视频功能页）
+   - /features/image-to-video（图生视频功能页）
+   - /use-cases（使用案例页）
+3. 更新 lastmod 日期为今天的日期
+```
+
+### 7.2 提交到 Google Search Console
+
+完成网站部署后，按以下步骤提交网站地图：
+
+1. 访问 [Google Search Console](https://search.google.com/search-console)
+2. 添加你的域名（URL 前缀或域属性）
+3. 验证域名所有权（通常通过 DNS TXT 记录或 HTML 文件）
+4. 在左侧菜单找到 **Sitemaps**
+5. 提交 `https://你的域名/sitemap.xml`
+6. 等待谷歌爬虫抓取（通常需要几天）
+
+### 7.3 验证 Sitemap 生效
+
+```bash
+# 本地验证 sitemap 文件格式
+curl http://localhost:3000/sitemap.xml
+
+# 线上验证（部署后）
+curl https://你的域名/sitemap.xml
+```
+
+**💡 小贴士**：
+- 每次添加新页面后，记得更新 sitemap.xml
+- 可以使用 [XML Sitemap Validator](https://www.xml-sitemaps.com/validate-xml-sitemap.html) 验证格式是否正确
+- Google Search Console 中可以查看索引状态和错误报告
+
+---
+
 ## 🔗 相关资源
 
 - [ShipAny 官方文档](https://shipany.ai/docs)

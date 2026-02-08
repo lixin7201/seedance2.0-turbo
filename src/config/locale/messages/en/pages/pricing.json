@@ -1,338 +1,450 @@
 {
   "metadata": {
-    "title": "Pricing",
-    "description": "Start with a plan"
+    "title": "Pricing - Seedance 2.0",
+    "description": "Choose the Seedance 2.0 plan that fits your needs. Start creating cinematic AI videos today.",
+    "keywords": "pricing, plans, free trial, video generation, AI video, credits"
   },
   "page": {
-    "title": "ShipAny Pricing",
+    "title": "Seedance 2.0 Pricing",
+    "show_sections": [
+      "hero",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta"
+    ],
     "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-simple",
+        "title": "Simple, Transparent Pricing",
+        "highlight_text": "Transparent Pricing",
+        "description": "Choose the perfect plan for your video creation needs. Start free, upgrade anytime.",
+        "tip": "🎁 Try free with 10 seconds of video credits",
+        "buttons": [
+          {
+            "title": "Try Free",
+            "icon": "Zap",
+            "url": "#pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Compare Plans",
+            "icon": "ArrowDown",
+            "url": "#comparison",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "background_image": {
+          "src": "https://picsum.photos/seed/seedance-pricing-bg/1920/600",
+          "alt": "pricing background"
+        }
+      },
       "pricing": {
         "id": "pricing",
-        "title": "Pricing",
-        "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
+        "title": "Choose Your Plan",
+        "description": "Get all features of Seedance 2.0. Create stunning AI videos with our flexible pricing plans.",
         "groups": [
-          {
-            "name": "one-time",
-            "title": "Pay as you go"
-          },
           {
             "name": "monthly",
             "title": "Monthly",
-            "is_featured": true,
-            "label": "save 15%"
+            "is_featured": true
           },
           {
             "name": "yearly",
-            "title": "Annually"
+            "title": "Annually",
+            "label": "Save 20%"
           }
         ],
         "items": [
           {
-            "title": "Starter",
-            "description": "Get started with your first SaaS startup.",
+            "title": "Free",
+            "description": "Experience Seedance 2.0 with free credits.",
             "features_title": "Includes",
             "features": [
-              "100 credits, valid for 1 month",
-              "NextJS boilerplate",
-              "SEO-friendly structure",
-              "Payment with Stripe",
-              "Data storage with Supabase",
-              "Google Oauth & One-Tap Login",
-              "i18n support"
+              "10 credits (10 seconds of video)",
+              "720p resolution output",
+              "Basic video generation",
+              "Community support",
+              "Watermark on videos"
             ],
             "interval": "one-time",
-            "amount": 9900,
+            "amount": 0,
             "currency": "USD",
-            "price": "$99",
-            "original_price": "$199",
+            "price": "$0",
+            "original_price": "",
             "unit": "",
             "is_featured": false,
-            "tip": "Pay once. Build unlimited projects!",
+            "tip": "One-time trial credits",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Try Free",
+              "url": "/sign-up",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "starter",
-            "product_name": "ShipAny Boilerplate Starter",
-            "credits": 100,
+            "product_id": "free",
+            "product_name": "Seedance Free Trial",
+            "credits": 10,
             "valid_days": 30,
-            "group": "one-time"
-          },
-          {
-            "title": "Standard",
-            "description": "Ship Fast with your SaaS Startups.",
-            "label": "Popular",
-            "features_title": "Everything in Starter, plus",
-            "features": [
-              "200 credits, valid for 3 month",
-              "Deploy with Vercel or Cloudflare",
-              "Generation of Privacy & Terms",
-              "Google Analytics Integration",
-              "Google Search Console Integration",
-              "Discord community",
-              "Technical support for your first ship",
-              "Lifetime updates"
-            ],
-            "interval": "one-time",
-            "amount": 19900,
-            "currency": "USD",
-            "price": "$199",
-            "original_price": "$299",
-            "unit": "",
-            "is_featured": true,
-            "tip": "Pay once. Build unlimited projects!",
-            "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "standard",
-            "product_name": "ShipAny Boilerplate Standard",
-            "credits": 200,
-            "valid_days": 90,
-            "group": "one-time"
-          },
-          {
-            "title": "Premium",
-            "description": "Ship Any AI SaaS Startups.",
-            "features_title": "Everything in Standard, plus",
-            "features": [
-              "300 credits, valid for 1 year",
-              "Business Functions with AI",
-              "User Center",
-              "Credits System",
-              "API Sales for your SaaS",
-              "Admin System",
-              "Priority Technical Support"
-            ],
-            "interval": "one-time",
-            "amount": 29900,
-            "currency": "USD",
-            "price": "$299",
-            "original_price": "$399",
-            "unit": "",
-            "is_featured": false,
-            "tip": "Pay once. Build unlimited projects!",
-            "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium",
-            "product_name": "ShipAny Boilerplate Premium",
-            "credits": 300,
-            "valid_days": 365,
-            "group": "one-time"
+            "group": "monthly"
           },
           {
             "title": "Starter",
-            "description": "Get started with your first SaaS startup.",
+            "description": "Perfect for hobbyists and casual creators.",
             "features_title": "Includes",
             "features": [
-              "100 credits, valid for 1 month",
-              "NextJS boilerplate",
-              "SEO-friendly structure",
-              "Payment with Stripe",
-              "Data storage with Supabase",
-              "Google Oauth & One-Tap Login",
-              "i18n support"
+              "150 credits/month (about 15 videos)",
+              "1080p Full HD resolution",
+              "No watermark",
+              "Medium priority queue",
+              "Email support"
             ],
             "interval": "month",
-            "amount": 8900,
+            "amount": 2900,
             "currency": "USD",
-            "price": "$89",
-            "original_price": "$99",
+            "price": "$29",
+            "original_price": "",
             "unit": "/ month",
             "is_featured": false,
-            "tip": "Pay monthly. Build unlimited projects!",
+            "tip": "~5 credits/day",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Start Creating",
+              "url": "/sign-up?plan=starter",
               "icon": "RiFlashlightFill"
             },
             "product_id": "starter-monthly",
-            "product_name": "ShipAny Boilerplate Starter Monthly",
-            "credits": 100,
+            "product_name": "Seedance Starter Monthly",
+            "credits": 150,
             "valid_days": 30,
             "group": "monthly",
             "plan_name": "Starter"
           },
           {
-            "title": "Standard",
-            "description": "Ship Fast with your SaaS Startups.",
-            "label": "Popular",
+            "title": "Pro",
+            "label": "Most Popular",
+            "description": "For professional creators and businesses.",
             "features_title": "Everything in Starter, plus",
             "features": [
-              "200 credits, valid for 1 month",
-              "Deploy with Vercel or Cloudflare",
-              "Generation of Privacy & Terms",
-              "Google Analytics Integration",
-              "Google Search Console Integration",
-              "Discord community",
-              "Technical support for your first ship",
-              "Lifetime updates"
+              "450 credits/month (about 45 videos)",
+              "2K Ultra HD resolution",
+              "High priority queue",
+              "Commercial license",
+              "Credits rollover",
+              "Priority email support"
             ],
             "interval": "month",
-            "amount": 16900,
+            "amount": 7900,
             "currency": "USD",
-            "price": "$169",
-            "original_price": "$199",
+            "price": "$79",
+            "original_price": "",
             "unit": "/ month",
             "is_featured": true,
-            "tip": "Pay monthly. Ship Fast with your SaaS Startups.",
+            "tip": "~15 credits/day",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Go Pro",
+              "url": "/sign-up?plan=pro",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "standard-monthly",
-            "product_name": "ShipAny Boilerplate Standard Monthly",
-            "credits": 200,
+            "product_id": "pro-monthly",
+            "product_name": "Seedance Pro Monthly",
+            "credits": 450,
             "valid_days": 30,
             "group": "monthly",
-            "plan_name": "Standard"
+            "plan_name": "Pro"
           },
           {
-            "title": "Premium",
-            "description": "Ship Any AI SaaS Startups.",
-            "features_title": "Everything in Standard, plus",
+            "title": "Business",
+            "description": "For teams and enterprise needs.",
+            "features_title": "Everything in Pro, plus",
             "features": [
-              "300 credits, valid for 1 month",
-              "Business Functions with AI",
-              "User Center",
-              "Credits System",
-              "API Sales for your SaaS",
-              "Admin System",
-              "Priority Technical Support"
+              "1200 credits/month (about 120 videos)",
+              "4K Ultra HD resolution",
+              "Highest priority queue",
+              "API access",
+              "Credits rollover",
+              "Dedicated support"
             ],
             "interval": "month",
-            "amount": 24900,
+            "amount": 19900,
             "currency": "USD",
-            "price": "$249",
-            "original_price": "$299",
+            "price": "$199",
+            "original_price": "",
             "unit": "/ month",
             "is_featured": false,
-            "tip": "Pay monthly. Ship Any AI SaaS Startups.",
+            "tip": "~40 credits/day",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Contact Sales",
+              "url": "/contact",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "premium-monthly",
-            "product_name": "ShipAny Boilerplate Premium Monthly",
-            "credits": 300,
+            "product_id": "business-monthly",
+            "product_name": "Seedance Business Monthly",
+            "credits": 1200,
             "valid_days": 30,
             "group": "monthly",
-            "plan_name": "Premium"
+            "plan_name": "Business"
+          },
+          {
+            "title": "Free",
+            "description": "Experience Seedance 2.0 with free credits.",
+            "features_title": "Includes",
+            "features": [
+              "10 credits (10 seconds of video)",
+              "720p resolution output",
+              "Basic video generation",
+              "Community support",
+              "Watermark on videos"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "One-time trial credits",
+            "button": {
+              "title": "Try Free",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Seedance Free Trial",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "yearly"
           },
           {
             "title": "Starter",
-            "description": "Get started with your first SaaS startup.",
+            "description": "Perfect for hobbyists and casual creators.",
             "features_title": "Includes",
             "features": [
-              "100 credits, valid for 1 year",
-              "NextJS boilerplate",
-              "SEO-friendly structure",
-              "Payment with Stripe",
-              "Data storage with Supabase",
-              "Google Oauth & One-Tap Login",
-              "i18n support"
+              "150 credits/month (about 15 videos)",
+              "1080p Full HD resolution",
+              "No watermark",
+              "Medium priority queue",
+              "Email support"
             ],
             "interval": "year",
-            "amount": 82800,
+            "amount": 27600,
             "currency": "USD",
-            "price": "$69",
-            "original_price": "$89",
+            "price": "$23",
+            "original_price": "$29",
             "unit": "/ month",
             "is_featured": false,
-            "tip": "Pay annually. Build unlimited projects!",
+            "tip": "Billed annually at $276",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Start Creating",
+              "url": "/sign-up?plan=starter-yearly",
               "icon": "RiFlashlightFill"
             },
             "product_id": "starter-yearly",
-            "product_name": "ShipAny Boilerplate Starter Annually",
-            "credits": 1200,
+            "product_name": "Seedance Starter Annually",
+            "credits": 1800,
             "valid_days": 365,
             "group": "yearly",
             "plan_name": "Starter"
           },
           {
-            "title": "Standard",
-            "description": "Ship Fast with your SaaS Startups.",
-            "label": "Popular",
+            "title": "Pro",
+            "label": "Most Popular",
+            "description": "For professional creators and businesses.",
             "features_title": "Everything in Starter, plus",
             "features": [
-              "200 credits, valid for 1 year",
-              "Deploy with Vercel or Cloudflare",
-              "Generation of Privacy & Terms",
-              "Google Analytics Integration",
-              "Google Search Console Integration",
-              "Discord community",
-              "Technical support for your first ship",
-              "Lifetime updates"
+              "450 credits/month (about 45 videos)",
+              "2K Ultra HD resolution",
+              "High priority queue",
+              "Commercial license",
+              "Credits rollover",
+              "Priority email support"
             ],
             "interval": "year",
-            "amount": 154800,
+            "amount": 75600,
             "currency": "USD",
-            "price": "$129",
-            "original_price": "$169",
+            "price": "$63",
+            "original_price": "$79",
             "unit": "/ month",
             "is_featured": true,
-            "tip": "Pay annually. Ship Fast with your SaaS Startups.",
+            "tip": "Billed annually at $756",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Go Pro",
+              "url": "/sign-up?plan=pro-yearly",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "standard-yearly",
-            "product_name": "ShipAny Boilerplate Standard Annually",
-            "credits": 2400,
+            "product_id": "pro-yearly",
+            "product_name": "Seedance Pro Annually",
+            "credits": 5400,
             "valid_days": 365,
             "group": "yearly",
-            "plan_name": "Standard"
+            "plan_name": "Pro"
           },
           {
-            "title": "Premium",
-            "description": "Ship Any AI SaaS Startups.",
-            "features_title": "Everything in Standard, plus",
+            "title": "Business",
+            "description": "For teams and enterprise needs.",
+            "features_title": "Everything in Pro, plus",
             "features": [
-              "300 credits, valid for 1 year",
-              "Business Functions with AI",
-              "User Center",
-              "Credits System",
-              "API Sales for your SaaS",
-              "Admin System",
-              "Priority Technical Support"
+              "1200 credits/month (about 120 videos)",
+              "4K Ultra HD resolution",
+              "Highest priority queue",
+              "API access",
+              "Credits rollover",
+              "Dedicated support"
             ],
             "interval": "year",
-            "amount": 226800,
+            "amount": 190800,
             "currency": "USD",
-            "price": "$189",
-            "original_price": "$249",
+            "price": "$159",
+            "original_price": "$199",
             "unit": "/ month",
             "is_featured": false,
-            "tip": "Pay annually. Ship Any AI SaaS Startups.",
+            "tip": "Billed annually at $1,908",
             "button": {
-              "title": "Get ShipAny",
-              "url": "/#pricing",
+              "title": "Contact Sales",
+              "url": "/contact",
               "icon": "RiFlashlightFill"
             },
-            "product_id": "premium-yearly",
-            "product_name": "ShipAny Boilerplate Premium Annually",
-            "credits": 3600,
+            "product_id": "business-yearly",
+            "product_name": "Seedance Business Annually",
+            "credits": 14400,
             "valid_days": 365,
             "group": "yearly",
-            "plan_name": "Premium"
+            "plan_name": "Business"
           }
         ]
+      },
+      "comparison": {
+        "id": "comparison",
+        "block": "comparison-table",
+        "title": "Compare All Features",
+        "description": "See what's included in each plan",
+        "plans": ["Free", "Starter", "Pro", "Business"],
+        "categories": [
+          {
+            "name": "Video Generation",
+            "features": [
+              {
+                "name": "Monthly Credits",
+                "values": ["10 (one-time)", "150", "450", "1200"]
+              },
+              {
+                "name": "Max Resolution",
+                "values": ["720p", "1080p", "2K", "4K"]
+              },
+              {
+                "name": "Text-to-Video",
+                "values": [true, true, true, true]
+              },
+              {
+                "name": "Image-to-Video",
+                "values": [true, true, true, true]
+              }
+            ]
+          },
+          {
+            "name": "Output & Quality",
+            "features": [
+              {
+                "name": "Watermark",
+                "values": ["Yes", "No", "No", "No"]
+              },
+              {
+                "name": "Queue Priority",
+                "values": ["Low", "Medium", "High", "Highest"]
+              },
+              {
+                "name": "Commercial License",
+                "values": [false, false, true, true]
+              }
+            ]
+          },
+          {
+            "name": "Extras",
+            "features": [
+              {
+                "name": "Credits Rollover",
+                "values": [false, false, true, true]
+              },
+              {
+                "name": "API Access",
+                "values": [false, false, false, true]
+              },
+              {
+                "name": "Support",
+                "values": ["Forum", "Email", "Priority Email", "Dedicated"]
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently Asked Questions",
+        "description": "Have more questions? Contact our support team.",
+        "items": [
+          {
+            "question": "What are credits and how do they work?",
+            "answer": "Credits are the currency for generating videos on Seedance 2.0. 1 credit = 1 second of video. For example, generating a 10-second video uses 10 credits. Credits refresh monthly for subscribers."
+          },
+          {
+            "question": "Can I upgrade or downgrade my plan?",
+            "answer": "Yes, you can change your plan at any time. When upgrading, you'll be charged the prorated difference. When downgrading, the new rate applies at your next billing cycle."
+          },
+          {
+            "question": "Do unused credits roll over to the next month?",
+            "answer": "Credits rollover is available for Pro and Business plans. Starter plan credits expire at the end of each billing period."
+          },
+          {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept all major credit cards (Visa, MasterCard, American Express) via Stripe. Enterprise customers can also pay by invoice."
+          },
+          {
+            "question": "Is there a refund policy?",
+            "answer": "Yes, we offer a 14-day money-back guarantee. If you're not satisfied with your subscription, contact us within 14 days for a full refund."
+          },
+          {
+            "question": "What does commercial license include?",
+            "answer": "With Pro and Business plans, you get full commercial rights to use generated videos for business purposes, including advertising, marketing, and client work."
+          },
+          {
+            "question": "How does API access work?",
+            "answer": "Business plan subscribers get API access to integrate Seedance 2.0 into their own applications and workflows. Full API documentation is provided."
+          },
+          {
+            "question": "Can I try before subscribing?",
+            "answer": "Absolutely! Sign up for free and get 10 credits to experience the power of Seedance 2.0 AI video generation."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Ready to Create Amazing Videos?",
+        "description": "Start with free credits and experience the power of AI video generation.",
+        "buttons": [
+          {
+            "title": "Start Free Trial",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Contact Sales",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
       }
     }
   },
   "messages": {
     "current_plan": "Current Plan",
-    "processing": "Processing"
+    "processing": "Processing",
+    "save_percent": "Save 20%",
+    "per_month": "/ month",
+    "billed_annually": "billed annually",
+    "money_back": "14-day money-back guarantee"
   }
 }
