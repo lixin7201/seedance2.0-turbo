@@ -148,7 +148,12 @@ export async function handleCheckoutSuccess({
 
   if (order.paymentType === PaymentType.SUBSCRIPTION) {
     if (!session.subscriptionId || !session.subscriptionInfo) {
-      throw new Error('subscription id or subscription info not found');
+      // Log warning but don't throw error - allow credits to be granted
+      // Creem may not include subscription info in checkout.completed event
+      console.log(
+        `Order ${orderNo}: subscription info not found in payment session, ` +
+        'proceeding without subscription creation'
+      );
     }
   }
 
@@ -288,7 +293,11 @@ export async function handlePaymentSuccess({
 
   if (order.paymentType === PaymentType.SUBSCRIPTION) {
     if (!session.subscriptionId || !session.subscriptionInfo) {
-      throw new Error('subscription id or subscription info not found');
+      // Log warning but don't throw error
+      console.log(
+        `Order ${orderNo}: subscription info not found in payment session, ` +
+        'proceeding without subscription creation'
+      );
     }
   }
 
