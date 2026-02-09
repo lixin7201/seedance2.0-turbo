@@ -29,7 +29,7 @@
           },
           {
             "title": "查看案例",
-            "url": "/showcases",
+            "url": "/ai-video-generator",
             "icon": "Play",
             "variant": "outline"
           }
