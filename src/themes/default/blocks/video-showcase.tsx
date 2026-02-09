@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useRef, useState } from 'react';
+import { useCallback, useRef, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X, Clock, Sparkles } from 'lucide-react';
@@ -34,22 +34,43 @@ function VideoCard({
   onPlay: (item: VideoItem) => void;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
+
+  // Auto-play video when card is visible in viewport
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.3 }
+    );
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  // Play/pause video based on visibility
+  useEffect(() => {
+    if (videoRef.current) {
+      if (isVisible) {
+        videoRef.current.play().catch(() => {});
+      } else {
+        videoRef.current.pause();
+      }
+    }
+  }, [isVisible]);
 
   const handleMouseEnter = useCallback(() => {
     setIsHovering(true);
-    if (videoRef.current) {
-      videoRef.current.currentTime = 0;
-      videoRef.current.play().catch(() => {});
-    }
   }, []);
 
   const handleMouseLeave = useCallback(() => {
     setIsHovering(false);
-    if (videoRef.current) {
-      videoRef.current.pause();
-      videoRef.current.currentTime = 0;
-    }
   }, []);
 
   return (
@@ -64,6 +85,7 @@ function VideoCard({
       }}
     >
       <Card
+        ref={cardRef}
         className="group relative cursor-pointer overflow-hidden p-0 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-primary/20"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -80,21 +102,21 @@ function VideoCard({
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className={cn(
                 'object-cover transition-all duration-500',
-                isHovering ? 'scale-110 opacity-0' : 'scale-100 opacity-100'
+                isVisible ? 'scale-110 opacity-0' : 'scale-100 opacity-100'
               )}
             />
 
-            {/* Preview Video (shown on hover) */}
+            {/* Preview Video (auto-plays when visible) */}
             <video
               ref={videoRef}
               src={item.video_url}
               muted
               loop
               playsInline
-              preload="none"
+              preload="metadata"
               className={cn(
                 'absolute inset-0 h-full w-full object-cover transition-opacity duration-500',
-                isHovering ? 'opacity-100' : 'opacity-0'
+                isVisible ? 'opacity-100' : 'opacity-0'
               )}
             />
 
