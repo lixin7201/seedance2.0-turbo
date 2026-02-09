@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "关于我们 - Seedance 2.0",
+    "description": "了解 Seedance 2.0 背后的故事，以及将 AI 视频生成带给每个人的初心。"
+  },
+  "page": {
+    "title": "关于 Seedance 2.0",
+    "show_sections": ["hero", "team", "values", "cta"],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Seedance 2.0 背后的故事",
+        "highlight_text": "故事",
+        "description": "一个简单的想法，逐渐成长为今天这个让我骄傲的产品。<br/>Seedance 2.0 是我将 AI 视频生成能力带给每一位创作者的方式。",
+        "buttons": [
+          {
+            "title": "免费体验",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "联系我",
+            "icon": "Mail",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "image": null,
+        "background_image": null
+      },
+      "team": {
+        "block": "features-list",
+        "id": "team",
+        "title": "为什么我要做这个",
+        "label": "我的初心",
+        "description": "作为一名独立创作者，我相信每个人都应该能够使用专业级的 AI 工具，而不必面对复杂的操作或高昂的成本。",
+        "image": {
+          "src": "https://picsum.photos/seed/about-team/800/600",
+          "alt": "关于创作者"
+        },
+        "items": [
+          {
+            "title": "对创作的热爱",
+            "description": "我一直对技术与创意的交汇点充满好奇。Seedance 2.0 是这份热情的结晶。",
+            "icon": "Heart",
+            "image": {
+              "src": "https://picsum.photos/seed/about-passion/600/400",
+              "alt": "对创作的热爱"
+            }
+          },
+          {
+            "title": "简单至上",
+            "description": "好的工具不应该需要说明书。我努力让视频生成变得直观易用。",
+            "icon": "Sparkles",
+            "image": {
+              "src": "https://picsum.photos/seed/about-simple/600/400",
+              "alt": "简单至上"
+            }
+          },
+          {
+            "title": "持续进步",
+            "description": "这只是开始。我一直在根据用户反馈改进 Seedance，让它每天都变得更好。",
+            "icon": "TrendingUp",
+            "image": {
+              "src": "https://picsum.photos/seed/about-improve/600/400",
+              "alt": "持续进步"
+            }
+          },
+          {
+            "title": "倾听社区",
+            "description": "你的建议决定着产品的方向。我会认真阅读每一封邮件，真心重视你的想法。",
+            "icon": "Users",
+            "image": {
+              "src": "https://picsum.photos/seed/about-community/600/400",
+              "alt": "倾听社区"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "values": {
+        "block": "features",
+        "id": "values",
+        "title": "我坚守的信念",
+        "description": "这些原则指引着我为 Seedance 2.0 做出的每一个决定。",
+        "items": [
+          {
+            "title": "🎯 质量优先",
+            "description": "我宁愿把几件事做到极致，也不愿什么都做却都做不好。",
+            "icon": "Target"
+          },
+          {
+            "title": "🤝 坦诚相待",
+            "description": "没有隐藏费用，没有意外惊喜。你看到的就是你得到的。",
+            "icon": "Shield"
+          },
+          {
+            "title": "🚀 不断创新",
+            "description": "AI 发展很快，我也一样。期待定期更新和新功能。",
+            "icon": "Rocket"
+          },
+          {
+            "title": "💬 用心倾听",
+            "description": "每一条反馈都是礼物。我认真对待你的每一个建议。",
+            "icon": "MessageCircle"
+          },
+          {
+            "title": "🌍 人人可用",
+            "description": "好工具应该让每个人都能用上，而不只是大型工作室。",
+            "icon": "Globe"
+          },
+          {
+            "title": "❤️ 用心打造",
+            "description": "这不只是一个产品——这是我真心相信的东西。",
+            "icon": "Heart"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "一起创作吧",
+        "description": "有问题、想法，或者只是想打个招呼？我很期待收到你的消息。",
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "联系我",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "Mail"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}
