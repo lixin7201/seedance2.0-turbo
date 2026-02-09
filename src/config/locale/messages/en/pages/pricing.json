@@ -127,10 +127,8 @@
             "features_title": "Everything in Starter, plus",
             "features": [
               "450 credits/month (about 45 videos)",
-              "2K Ultra HD resolution",
-              "High priority queue",
-              "Commercial license",
-              "Credits rollover",
+              "1080p Full HD resolution",
+              "More credits per month",
               "Priority email support"
             ],
             "interval": "month",
@@ -159,11 +157,9 @@
             "features_title": "Everything in Pro, plus",
             "features": [
               "1200 credits/month (about 120 videos)",
-              "4K Ultra HD resolution",
-              "Highest priority queue",
-              "API access",
-              "Credits rollover",
-              "Dedicated support"
+              "1080p Full HD resolution",
+              "Maximum monthly credits",
+              "Dedicated email support"
             ],
             "interval": "month",
             "amount": 19900,
@@ -253,10 +249,8 @@
             "features_title": "Everything in Starter, plus",
             "features": [
               "450 credits/month (about 45 videos)",
-              "2K Ultra HD resolution",
-              "High priority queue",
-              "Commercial license",
-              "Credits rollover",
+              "1080p Full HD resolution",
+              "More credits per month",
               "Priority email support"
             ],
             "interval": "year",
@@ -285,11 +279,9 @@
             "features_title": "Everything in Pro, plus",
             "features": [
               "1200 credits/month (about 120 videos)",
-              "4K Ultra HD resolution",
-              "Highest priority queue",
-              "API access",
-              "Credits rollover",
-              "Dedicated support"
+              "1080p Full HD resolution",
+              "Maximum monthly credits",
+              "Dedicated email support"
             ],
             "interval": "year",
             "amount": 190800,
@@ -318,26 +310,51 @@
         "block": "comparison-table",
         "title": "Compare All Features",
         "description": "See what's included in each plan",
-        "plans": ["Free", "Starter", "Pro", "Business"],
+        "plans": [
+          "Free",
+          "Starter",
+          "Pro",
+          "Business"
+        ],
         "categories": [
           {
             "name": "Video Generation",
             "features": [
               {
                 "name": "Monthly Credits",
-                "values": ["10 (one-time)", "150", "450", "1200"]
+                "values": [
+                  "10 (one-time)",
+                  "150",
+                  "450",
+                  "1200"
+                ]
               },
               {
                 "name": "Max Resolution",
-                "values": ["720p", "1080p", "2K", "4K"]
+                "values": [
+                  "720p",
+                  "1080p",
+                  "1080p",
+                  "1080p"
+                ]
               },
               {
                 "name": "Text-to-Video",
-                "values": [true, true, true, true]
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
               },
               {
                 "name": "Image-to-Video",
-                "values": [true, true, true, true]
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
               }
             ]
           },
@@ -346,15 +363,21 @@
             "features": [
               {
                 "name": "Watermark",
-                "values": ["Yes", "No", "No", "No"]
+                "values": [
+                  "Yes",
+                  "No",
+                  "No",
+                  "No"
+                ]
               },
               {
-                "name": "Queue Priority",
-                "values": ["Low", "Medium", "High", "Highest"]
-              },
-              {
-                "name": "Commercial License",
-                "values": [false, false, true, true]
+                "name": "HD Resolution",
+                "values": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
               }
             ]
           },
@@ -362,16 +385,13 @@
             "name": "Extras",
             "features": [
               {
-                "name": "Credits Rollover",
-                "values": [false, false, true, true]
-              },
-              {
-                "name": "API Access",
-                "values": [false, false, false, true]
-              },
-              {
                 "name": "Support",
-                "values": ["Forum", "Email", "Priority Email", "Dedicated"]
+                "values": [
+                  "Community",
+                  "Email",
+                  "Priority Email",
+                  "Dedicated Email"
+                ]
               }
             ]
           }
@@ -384,7 +404,7 @@
         "items": [
           {
             "question": "What are credits and how do they work?",
-            "answer": "Credits are the currency for generating videos on Seedance 2.0. 1 credit = 1 second of video. For example, generating a 10-second video uses 10 credits. Credits refresh monthly for subscribers."
+            "answer": "Credits are the currency for generating videos on our platform. Credits are consumed per video generation, and the exact cost is shown before you generate. Credits refresh monthly for subscribers."
           },
           {
             "question": "Can I upgrade or downgrade my plan?",
@@ -392,23 +412,23 @@
           },
           {
             "question": "Do unused credits roll over to the next month?",
-            "answer": "Credits rollover is available for Pro and Business plans. Starter plan credits expire at the end of each billing period."
+            "answer": "Credits expire at the end of each billing period. Please use your credits before the billing cycle ends."
           },
           {
             "question": "What payment methods do you accept?",
-            "answer": "We accept all major credit cards (Visa, MasterCard, American Express) via Stripe. Enterprise customers can also pay by invoice."
+            "answer": "We accept all major credit cards (Visa, MasterCard, American Express). Payments are processed securely through our payment partner."
           },
           {
             "question": "Is there a refund policy?",
             "answer": "Yes, we offer a 14-day money-back guarantee. If you're not satisfied with your subscription, contact us within 14 days for a full refund."
           },
           {
-            "question": "What does commercial license include?",
-            "answer": "With Pro and Business plans, you get full commercial rights to use generated videos for business purposes, including advertising, marketing, and client work."
+            "question": "Can I use generated videos for my projects?",
+            "answer": "Yes, you can use the videos you generate for personal and non-commercial projects. For commercial usage rights, please refer to the terms of service of the underlying AI models."
           },
           {
-            "question": "How does API access work?",
-            "answer": "Business plan subscribers get API access to integrate Seedance 2.0 into their own applications and workflows. Full API documentation is provided."
+            "question": "What video resolutions are supported?",
+            "answer": "Free users can generate videos at 720p resolution. Paid subscribers have access to 1080p Full HD resolution for higher quality output."
           },
           {
             "question": "Can I try before subscribing?",

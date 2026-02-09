@@ -17,7 +17,7 @@
         "description": "Seedance 2.0 - 体验新一代 AI 视频生成。<br/>通过我们简单易用的平台，将文字或图片转化为高质量动态视频。输出质量可能因模型版本而异。",
         "announcement": {
           "badge": "全新",
-          "title": "🎬 Seedance 2.0 即将推出",
+          "title": "🎬 seedance2.0 即将推出",
           "url": "/#features"
         },
         "tip": "🎁 体验AI视频生成的全新时代",
@@ -58,7 +58,10 @@
             "thumbnail": "/videos/example-1.mp4",
             "duration": "5秒",
             "style": "写实",
-            "tags": ["AI生成", "seedance"],
+            "tags": [
+              "AI生成",
+              "seedance"
+            ],
             "prompt": "由 Seedance 2.0 生成"
           },
           {
@@ -69,7 +72,10 @@
             "thumbnail": "/videos/example-2.mp4",
             "duration": "5秒",
             "style": "写实",
-            "tags": ["AI生成", "seedance"],
+            "tags": [
+              "AI生成",
+              "seedance"
+            ],
             "prompt": "由 Seedance 2.0 生成"
           }
         ]
@@ -204,15 +210,15 @@
         "items": [
           {
             "question": "什么是 Seedance 2.0？",
-            "answer": "Seedance 2.0 是字节跳动新一代多模态AI视频生成模型。支持文生视频和图生视频，生成具有自然动态、物理模拟和惊艳视觉效果的电影级视频。"
+            "answer": "我们的平台通过用户友好的界面提供高级 AI 视频生成模型的访问。我们是一个独立服务，与任何 AI 模型提供商无关。本平台是一个封装服务，在底层 AI 技术之上提供增强的易用性和额外功能。"
           },
           {
             "question": "支持什么视频分辨率？",
-            "answer": "Seedance 2.0 支持1080p全高清和2K超清分辨率输出。先进的AI技术消除了常见的抖动和伪影问题，呈现专业级画质。"
+            "answer": "我们的平台目前支持最高1080p全高清分辨率输出。输出质量可能因使用的 AI 模型而异。"
           },
           {
             "question": "生成的视频可以多长？",
-            "answer": "Seedance 2.0 可以生成30秒以上的视频，支持具有多镜头、多角色的复杂叙事，同时保持高度的场景一致性。"
+            "answer": "生成的视频通常为5-10秒。更长时长可能取决于模型和您的订阅计划。"
           },
           {
             "question": "支持哪些视觉风格？",
