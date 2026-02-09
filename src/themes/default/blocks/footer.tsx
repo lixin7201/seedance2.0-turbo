@@ -112,6 +112,14 @@ export function Footer({ footer }: { footer: FooterType }) {
             </div>
           ) : null}
         </div>
+
+        {footer.disclaimer ? (
+          <div className="mt-4 pt-4 border-t border-muted">
+            <p className="text-muted-foreground text-xs text-center break-words">
+              {footer.disclaimer}
+            </p>
+          </div>
+        ) : null}
       </div>
     </footer>
   );

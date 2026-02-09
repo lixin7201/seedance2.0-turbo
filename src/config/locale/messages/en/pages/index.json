@@ -225,6 +225,10 @@
           {
             "question": "Can I animate existing images?",
             "answer": "Yes! With image-to-video functionality, you can upload static images and transform them into dynamic videos. The AI adds realistic motion, camera movements, and scene animations while preserving the original image style."
+          },
+          {
+            "question": "What is the relationship between this platform and ByteDance?",
+            "answer": "This platform is an independent service that provides a user-friendly interface for AI video generation. We are not affiliated with, endorsed by, or sponsored by ByteDance. We leverage AI models through API integrations to provide our video generation services."
           }
         ]
       },

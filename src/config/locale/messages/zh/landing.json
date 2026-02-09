@@ -136,6 +136,7 @@
       ]
     },
     "show_theme": true,
-    "show_locale": true
+    "show_locale": true,
+    "disclaimer": "本平台是一个独立产品，与字节跳动无任何关联、背书或赞助关系。我们通过自定义界面提供 AI 视频生成服务。"
   }
 }
