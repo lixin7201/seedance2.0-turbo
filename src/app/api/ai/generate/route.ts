@@ -3,17 +3,19 @@ import { AIMediaType } from '@/extensions/ai';
 import { getUuid } from '@/shared/lib/hash';
 import { respData, respErr } from '@/shared/lib/resp';
 import { createAITask, NewAITask } from '@/shared/models/ai_task';
+import { getModelConfigById, getModelCreditsCost } from '@/shared/models/ai_model_config';
 import { getRemainingCredits } from '@/shared/models/credit';
 import { getUserInfo } from '@/shared/models/user';
 import { getAIService } from '@/shared/services/ai';
 
 export async function POST(request: Request) {
   try {
-    let { provider, mediaType, model, prompt, options, scene } =
+    // Support both old format (with provider) and new format (without provider)
+    let { provider, mediaType, model, prompt, options, scene, resolution, duration } =
       await request.json();
 
-    if (!provider || !mediaType || !model) {
-      throw new Error('invalid params');
+    if (!mediaType || !model) {
+      throw new Error('invalid params: mediaType and model are required');
     }
 
     if (!prompt && !options) {
@@ -25,6 +27,24 @@ export async function POST(request: Request) {
     // check generate type
     if (!aiService.getMediaTypes().includes(mediaType)) {
       throw new Error('invalid mediaType');
+    }
+
+    // If provider not specified, resolve from model config (new flow)
+    let providerModelId = model;
+    if (!provider) {
+      const modelConfig = await getModelConfigById(model);
+      if (!modelConfig) {
+        throw new Error(`model not found: ${model}`);
+      }
+      if (!modelConfig.enabled) {
+        throw new Error(`model is disabled: ${model}`);
+      }
+      // Check if the model supports the requested scene
+      if (!modelConfig.supportedModes.includes(scene)) {
+        throw new Error(`model ${model} does not support ${scene}`);
+      }
+      provider = modelConfig.currentProvider;
+      providerModelId = modelConfig.providerModelId;
     }
 
     // check ai provider
@@ -39,7 +59,7 @@ export async function POST(request: Request) {
       throw new Error('no auth, please sign in');
     }
 
-    // todo: get cost credits from settings
+    // Get cost credits from model config or use defaults
     let costCredits = 2;
 
     if (mediaType === AIMediaType.IMAGE) {
@@ -52,16 +72,8 @@ export async function POST(request: Request) {
         throw new Error('invalid scene');
       }
     } else if (mediaType === AIMediaType.VIDEO) {
-      // generate video
-      if (scene === 'text-to-video') {
-        costCredits = 6;
-      } else if (scene === 'image-to-video') {
-        costCredits = 8;
-      } else if (scene === 'video-to-video') {
-        costCredits = 10;
-      } else {
-        throw new Error('invalid scene');
-      }
+      // Get credits cost from model config
+      costCredits = await getModelCreditsCost(model, scene);
     } else if (mediaType === AIMediaType.MUSIC) {
       // generate music
       costCredits = 10;
@@ -78,12 +90,19 @@ export async function POST(request: Request) {
 
     const callbackUrl = `${envConfigs.app_url}/api/ai/notify/${provider}`;
 
+    // Build options with resolution and duration if provided
+    const finalOptions = {
+      ...options,
+      ...(resolution && { resolution }),
+      ...(duration && { duration }),
+    };
+
     const params: any = {
       mediaType,
-      model,
+      model: providerModelId, // Use the provider-specific model ID
       prompt,
       callbackUrl,
-      options,
+      options: finalOptions,
     };
 
     // generate content
@@ -103,7 +122,7 @@ export async function POST(request: Request) {
       model,
       prompt,
       scene,
-      options: options ? JSON.stringify(options) : null,
+      options: finalOptions ? JSON.stringify(finalOptions) : null,
       status: result.taskStatus,
       costCredits,
       taskId: result.taskId,

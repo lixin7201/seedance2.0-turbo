@@ -18,6 +18,8 @@
     "form": {
       "provider": "Provider",
       "model": "Model",
+      "resolution": "Resolution",
+      "duration": "Duration",
       "select_provider": "Select Provider",
       "select_model": "Select Model",
       "prompt": "Prompt",

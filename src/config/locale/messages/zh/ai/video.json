@@ -18,6 +18,8 @@
     "form": {
       "provider": "服务商",
       "model": "模型",
+      "resolution": "分辨率",
+      "duration": "时长",
       "select_provider": "选择服务商",
       "select_model": "选择模型",
       "prompt": "提示词",

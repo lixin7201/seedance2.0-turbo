@@ -87,6 +87,11 @@
           "title": "AI 对话",
           "url": "/admin/chats",
           "icon": "MessageCircle"
+        },
+        {
+          "title": "模型配置",
+          "url": "/admin/model-config",
+          "icon": "Settings2"
         }
       ]
     }

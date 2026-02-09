@@ -555,3 +555,29 @@ export const chatMessage = table(
     index('idx_chat_message_user_id').on(table.userId, table.status),
   ]
 );
+
+// AI Model Configuration - Maps models to API providers for admin control
+export const aiModelConfig = table(
+  'ai_model_config',
+  {
+    id: text('id').primaryKey(), // Model identifier, e.g. 'seedance-2.0'
+    displayName: text('display_name').notNull(), // User-friendly name
+    description: text('description'),
+    currentProvider: text('current_provider').notNull(), // e.g. 'evolink', 'fal'
+    providerModelId: text('provider_model_id').notNull(), // Model ID on the provider
+    enabled: boolean('enabled').default(true).notNull(),
+    supportedModes: text('supported_modes').notNull(), // JSON: ['text-to-video', 'image-to-video']
+    parameters: text('parameters'), // JSON: {resolutions: ['480p', '720p'], durations: [5, 10]}
+    creditsCost: text('credits_cost'), // JSON: {'text-to-video': 6, 'image-to-video': 8}
+    tags: text('tags'), // JSON: ['With Audio', 'Fast']
+    priority: integer('priority').default(0).notNull(),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at')
+      .$onUpdate(() => /* @__PURE__ */ new Date())
+      .notNull(),
+  },
+  (table) => [
+    // Query enabled models ordered by priority
+    index('idx_ai_model_config_enabled_priority').on(table.enabled, table.priority),
+  ]
+);
