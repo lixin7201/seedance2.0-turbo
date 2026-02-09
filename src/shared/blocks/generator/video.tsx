@@ -116,6 +116,13 @@ const MODEL_OPTIONS = [
     provider: 'kie',
     scenes: ['text-to-video'],
   },
+  // EvoLink models
+  {
+    value: 'seedance-1.5-pro',
+    label: 'Seedance 1.5 Pro',
+    provider: 'evolink',
+    scenes: ['text-to-video', 'image-to-video'],
+  },
 ];
 
 const PROVIDER_OPTIONS = [
@@ -130,6 +137,10 @@ const PROVIDER_OPTIONS = [
   {
     value: 'kie',
     label: 'Kie',
+  },
+  {
+    value: 'evolink',
+    label: 'EvoLink',
   },
 ];
 
