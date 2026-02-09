@@ -2,10 +2,10 @@
   "sidebar": {
     "header": {
       "brand": {
-        "title": "ShipAny Chat",
+        "title": "Seedance 2.0",
         "logo": {
           "src": "/logo.png",
-          "alt": "ShipAny Chat"
+          "alt": "Seedance 2.0"
         },
         "url": "/chat"
       },
@@ -59,26 +59,14 @@
             "target": "_blank"
           },
           {
-            "title": "GitHub",
-            "url": "https://github.com/your-app-name",
-            "icon": "Github",
-            "target": "_blank"
-          },
-          {
-            "title": "Twitter",
-            "url": "https://twitter.com/your-app-name",
+            "title": "X",
+            "url": "https://x.com/seedance",
             "icon": "RiTwitterXFill",
             "target": "_blank"
           },
           {
-            "title": "Discord",
-            "url": "https://discord.gg/your-app-name",
-            "icon": "RiDiscordFill",
-            "target": "_blank"
-          },
-          {
             "title": "Email",
-            "url": "mailto:support@your-domain.com",
+            "url": "mailto:support@seedance2.shop",
             "icon": "Mail",
             "target": "_blank"
           }

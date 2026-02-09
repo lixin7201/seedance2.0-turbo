@@ -14,7 +14,7 @@
         "id": "hero",
         "title": "Create Cinematic Videos with AI",
         "highlight_text": "Cinematic Videos",
-        "description": "Seedance 2.0 - ByteDance's next-generation multimodal video generation model.<br/>Transform text or images into high-quality dynamic videos, supporting 30+ second complex narratives with 1080p/2K ultra-clear output.",
+        "description": "Seedance 2.0 - Experience next-generation AI video generation.<br/>Transform text or images into high-quality dynamic videos with our easy-to-use platform. Output quality may vary based on model version.",
         "announcement": {
           "badge": "New",
           "title": "🎬 Seedance 2.0 Now Available",
@@ -79,7 +79,7 @@
         "id": "introduce",
         "title": "What is Seedance 2.0",
         "label": "Introduce",
-        "description": "Seedance 2.0 is ByteDance's cutting-edge multimodal AI video generation model, supporting both text-to-video and image-to-video creation with stunning cinematic quality and advanced physics simulation.",
+        "description": "Our platform provides a user-friendly interface for Seedance AI video generation. We offer access to advanced text-to-video and image-to-video capabilities through third-party AI models. This is an independent service, not affiliated with model providers.",
         "image": {
           "src": "https://picsum.photos/seed/seedance-intro/800/600",
           "alt": "Seedance 2.0 Introduction"
@@ -133,7 +133,7 @@
         "items": [
           {
             "title": "State-of-the-Art AI Technology",
-            "description": "Powered by ByteDance's latest multimodal AI research with acoustic physics field technology for breakthrough video generation.",
+            "description": "Our platform leverages cutting-edge multimodal AI technology to deliver breakthrough video generation capabilities.",
             "icon": "RiRobot2Line",
             "image": {
               "src": "https://picsum.photos/seed/seedance-ai/800/500",

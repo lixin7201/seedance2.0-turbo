@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 is ByteDance's next-generation multimodal AI video generation model, supporting text-to-video and image-to-video with cinematic quality.",
+      "description": "Seedance 2.0 provides an easy-to-use interface for AI video generation, supporting text-to-video and image-to-video with high quality output.",
       "logo": {
         "src": "/logo.png",
         "alt": "Seedance 2.0",
