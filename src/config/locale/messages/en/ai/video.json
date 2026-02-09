@@ -44,7 +44,7 @@
     "ready_to_generate": "Ready to Generate",
     "ready_for_generating": "Ready for Generating",
     "no_videos_generated": "No Videos Generated",
-    "preview_examples_hint": "These are sample videos created by Seedance 2.0. Fill in the form on the left and click \"Generate Video\" to create your own video."
+    "preview_examples_hint": "These are sample videos created by Seedance 2.0. Fill in the form on the left and click \"Generate Video\" to create your own video.",
+    "seedance2_coming_soon": "Seedance 2.0 Coming Soon"
   }
 }
-

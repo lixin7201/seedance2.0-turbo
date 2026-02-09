@@ -137,6 +137,7 @@
     },
     "show_theme": true,
     "show_locale": true,
+    "show_built_with": false,
     "disclaimer": "This platform is an independent product and is not affiliated with, endorsed by, or sponsored by ByteDance. We provide access to AI video generation through our custom interface."
   }
 }

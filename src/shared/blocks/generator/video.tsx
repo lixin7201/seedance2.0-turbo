@@ -383,6 +383,7 @@ export function VideoGenerator({
   const isTextToVideoMode = activeTab === 'text-to-video';
   const isImageToVideoMode = activeTab === 'image-to-video';
   const isVideoToVideoMode = activeTab === 'video-to-video';
+  const isSeedance2ComingSoon = model === 'seedance-2.0';
 
   const handleTabChange = (value: string) => {
     const tab = value as VideoGeneratorTab;
@@ -809,7 +810,11 @@ export function VideoGenerator({
 
                   <div className="space-y-2">
                     <Label>{t('form.resolution') || 'Resolution'}</Label>
-                    <Select value={resolution} onValueChange={setResolution}>
+                    <Select
+                      value={resolution}
+                      onValueChange={setResolution}
+                      disabled={isSeedance2ComingSoon}
+                    >
                       <SelectTrigger className="w-full">
                         <SelectValue />
                       </SelectTrigger>
@@ -824,126 +829,150 @@ export function VideoGenerator({
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label>{t('form.duration') || 'Duration'}</Label>
-                    <Select value={String(duration)} onValueChange={(v) => setDuration(Number(v))}>
-                      <SelectTrigger className="w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent>
-                        {DURATION_OPTIONS.map((opt) => (
-                          <SelectItem key={opt.value} value={String(opt.value)}>
-                            {opt.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-                </div>
-
-                {isImageToVideoMode && (
-                  <div className="space-y-4">
-                    <ImageUploader
-                      title={t('form.reference_image')}
-                      allowMultiple={true}
-                      maxImages={3}
-                      maxSizeMB={maxSizeMB}
-                      onChange={handleReferenceImagesChange}
-                      emptyHint={t('form.reference_image_placeholder')}
-                    />
-
-                    {hasReferenceUploadError && (
-                      <p className="text-destructive text-xs">
-                        {t('form.some_images_failed_to_upload')}
-                      </p>
-                    )}
+                {isSeedance2ComingSoon && (
+                  <div className="rounded-lg border border-dashed bg-muted/40 p-4 text-center text-sm text-muted-foreground">
+                    {t('seedance2_coming_soon')}
                   </div>
                 )}
 
-                {isVideoToVideoMode && (
+                <div
+                  className={isSeedance2ComingSoon ? 'opacity-50' : ''}
+                >
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <Label>{t('form.duration') || 'Duration'}</Label>
+                      <Select
+                        value={String(duration)}
+                        onValueChange={(v) => setDuration(Number(v))}
+                        disabled={isSeedance2ComingSoon}
+                      >
+                        <SelectTrigger className="w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {DURATION_OPTIONS.map((opt) => (
+                            <SelectItem key={opt.value} value={String(opt.value)}>
+                              {opt.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+
+                  {isImageToVideoMode && (
+                    <div
+                      className={
+                        isSeedance2ComingSoon
+                          ? 'pointer-events-none space-y-4'
+                          : 'space-y-4'
+                      }
+                    >
+                      <ImageUploader
+                        title={t('form.reference_image')}
+                        allowMultiple={true}
+                        maxImages={3}
+                        maxSizeMB={maxSizeMB}
+                        onChange={handleReferenceImagesChange}
+                        emptyHint={t('form.reference_image_placeholder')}
+                      />
+
+                      {hasReferenceUploadError && (
+                        <p className="text-destructive text-xs">
+                          {t('form.some_images_failed_to_upload')}
+                        </p>
+                      )}
+                    </div>
+                  )}
+
+                  {isVideoToVideoMode && (
+                    <div className="space-y-2">
+                      <Label htmlFor="video-url">
+                        {t('form.reference_video')}
+                      </Label>
+                      <Textarea
+                        id="video-url"
+                        value={referenceVideoUrl}
+                        onChange={(e) => setReferenceVideoUrl(e.target.value)}
+                        placeholder={t('form.reference_video_placeholder')}
+                        className="min-h-20"
+                        disabled={isSeedance2ComingSoon}
+                      />
+                    </div>
+                  )}
+
                   <div className="space-y-2">
-                    <Label htmlFor="video-url">
-                      {t('form.reference_video')}
-                    </Label>
+                    <Label htmlFor="video-prompt">{t('form.prompt')}</Label>
                     <Textarea
-                      id="video-url"
-                      value={referenceVideoUrl}
-                      onChange={(e) => setReferenceVideoUrl(e.target.value)}
-                      placeholder={t('form.reference_video_placeholder')}
-                      className="min-h-20"
+                      id="video-prompt"
+                      value={prompt}
+                      onChange={(e) => setPrompt(e.target.value)}
+                      placeholder={t('form.prompt_placeholder')}
+                      className="min-h-32"
+                      disabled={isSeedance2ComingSoon}
                     />
-                  </div>
-                )}
-
-                <div className="space-y-2">
-                  <Label htmlFor="video-prompt">{t('form.prompt')}</Label>
-                  <Textarea
-                    id="video-prompt"
-                    value={prompt}
-                    onChange={(e) => setPrompt(e.target.value)}
-                    placeholder={t('form.prompt_placeholder')}
-                    className="min-h-32"
-                  />
-                  <div className="text-muted-foreground flex items-center justify-between text-xs">
-                    <span>
-                      {promptLength} / {MAX_PROMPT_LENGTH}
-                    </span>
-                    {isPromptTooLong && (
-                      <span className="text-destructive">
-                        {t('form.prompt_too_long')}
+                    <div className="text-muted-foreground flex items-center justify-between text-xs">
+                      <span>
+                        {promptLength} / {MAX_PROMPT_LENGTH}
                       </span>
-                    )}
+                      {isPromptTooLong && (
+                        <span className="text-destructive">
+                          {t('form.prompt_too_long')}
+                        </span>
+                      )}
+                    </div>
                   </div>
-                </div>
 
-                {!isMounted ? (
-                  <Button className="w-full" disabled size="lg">
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {t('loading')}
-                  </Button>
-                ) : isCheckSign ? (
-                  <Button className="w-full" disabled size="lg">
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {t('checking_account')}
-                  </Button>
-                ) : user ? (
-                  <Button
-                    size="lg"
-                    className="w-full"
-                    onClick={handleGenerate}
-                    disabled={
-                      isGenerating ||
-                      (isTextToVideoMode && !prompt.trim()) ||
-                      isPromptTooLong ||
-                      isReferenceUploading ||
-                      hasReferenceUploadError ||
-                      (isImageToVideoMode && referenceImageUrls.length === 0) ||
-                      (isVideoToVideoMode && !referenceVideoUrl)
-                    }
-                  >
-                    {isGenerating ? (
-                      <>
-                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        {t('generating')}
-                      </>
-                    ) : (
-                      <>
-                        <Sparkles className="mr-2 h-4 w-4" />
-                        {t('generate')}
-                      </>
-                    )}
-                  </Button>
+                  {!isMounted ? (
+                    <Button className="w-full" disabled size="lg">
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                      {t('loading')}
+                    </Button>
+                  ) : isCheckSign ? (
+                    <Button className="w-full" disabled size="lg">
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                      {t('checking_account')}
+                    </Button>
+                  ) : user ? (
+                    <Button
+                      size="lg"
+                      className="w-full"
+                      onClick={handleGenerate}
+                      disabled={
+                        isSeedance2ComingSoon ||
+                        isGenerating ||
+                        (isTextToVideoMode && !prompt.trim()) ||
+                        isPromptTooLong ||
+                        isReferenceUploading ||
+                        hasReferenceUploadError ||
+                        (isImageToVideoMode && referenceImageUrls.length === 0) ||
+                        (isVideoToVideoMode && !referenceVideoUrl)
+                      }
+                    >
+                      {isGenerating ? (
+                        <>
+                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                          {t('generating')}
+                        </>
+                      ) : (
+                        <>
+                          <Sparkles className="mr-2 h-4 w-4" />
+                          {t('generate')}
+                        </>
+                      )}
+                    </Button>
                 ) : (
                   <Button
                     size="lg"
                     className="w-full"
                     onClick={() => setIsShowSignModal(true)}
+                    disabled={isSeedance2ComingSoon}
                   >
                     <User className="mr-2 h-4 w-4" />
                     {t('sign_in_to_generate')}
-                  </Button>
-                )}
+                    </Button>
+                  )}
+                </div>
 
                 {!isMounted ? (
                   <div className="flex items-center justify-between text-sm">
