@@ -109,7 +109,7 @@
             "is_featured": false,
             "tip": "~5 credits/day",
             "button": {
-              "title": "Start Creating",
+              "title": "Subscribe",
               "url": "/sign-up?plan=starter",
               "icon": "RiFlashlightFill"
             },
@@ -142,7 +142,7 @@
             "is_featured": true,
             "tip": "~15 credits/day",
             "button": {
-              "title": "Go Pro",
+              "title": "Subscribe",
               "url": "/sign-up?plan=pro",
               "icon": "RiFlashlightFill"
             },
@@ -235,7 +235,7 @@
             "is_featured": false,
             "tip": "Billed annually at $276",
             "button": {
-              "title": "Start Creating",
+              "title": "Subscribe",
               "url": "/sign-up?plan=starter-yearly",
               "icon": "RiFlashlightFill"
             },
@@ -268,7 +268,7 @@
             "is_featured": true,
             "tip": "Billed annually at $756",
             "button": {
-              "title": "Go Pro",
+              "title": "Subscribe",
               "url": "/sign-up?plan=pro-yearly",
               "icon": "RiFlashlightFill"
             },

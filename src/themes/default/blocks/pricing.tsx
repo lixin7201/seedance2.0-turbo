@@ -208,6 +208,12 @@ export function Pricing({
       return;
     }
 
+    // For free plan, redirect directly to generator page
+    if (item.product_id === 'free') {
+      window.location.href = '/video';
+      return;
+    }
+
     // Use displayed item with selected currency
     const displayedItem =
       itemCurrencies[item.product_id]?.displayedItem || item;

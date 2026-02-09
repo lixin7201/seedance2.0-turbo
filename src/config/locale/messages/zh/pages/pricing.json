@@ -109,7 +109,7 @@
             "is_featured": false,
             "tip": "约每天5积分",
             "button": {
-              "title": "开始创作",
+              "title": "订阅",
               "url": "/sign-up?plan=starter",
               "icon": "RiFlashlightFill"
             },
@@ -142,7 +142,7 @@
             "is_featured": true,
             "tip": "约每天15积分",
             "button": {
-              "title": "升级专业版",
+              "title": "订阅",
               "url": "/sign-up?plan=pro",
               "icon": "RiFlashlightFill"
             },
@@ -235,7 +235,7 @@
             "is_featured": false,
             "tip": "年付总价 $276",
             "button": {
-              "title": "开始创作",
+              "title": "订阅",
               "url": "/sign-up?plan=starter-yearly",
               "icon": "RiFlashlightFill"
             },
@@ -268,7 +268,7 @@
             "is_featured": true,
             "tip": "年付总价 $756",
             "button": {
-              "title": "升级专业版",
+              "title": "订阅",
               "url": "/sign-up?plan=pro-yearly",
               "icon": "RiFlashlightFill"
             },
