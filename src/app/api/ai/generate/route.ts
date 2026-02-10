@@ -3,7 +3,7 @@ import { AIMediaType } from '@/extensions/ai';
 import { getUuid } from '@/shared/lib/hash';
 import { respData, respErr } from '@/shared/lib/resp';
 import { createAITask, NewAITask } from '@/shared/models/ai_task';
-import { getModelConfigById, getModelCreditsCost } from '@/shared/models/ai_model_config';
+import { getModelConfigById, getModelCreditsCost, getModelProviderId } from '@/shared/models/ai_model_config';
 import { getRemainingCredits } from '@/shared/models/credit';
 import { getUserInfo } from '@/shared/models/user';
 import { getAIService } from '@/shared/services/ai';
@@ -44,7 +44,7 @@ export async function POST(request: Request) {
         throw new Error(`model ${model} does not support ${scene}`);
       }
       provider = modelConfig.currentProvider;
-      providerModelId = modelConfig.providerModelId;
+      providerModelId = getModelProviderId(modelConfig, provider);
     }
 
     // check ai provider
@@ -128,6 +128,7 @@ export async function POST(request: Request) {
       taskId: result.taskId,
       taskInfo: result.taskInfo ? JSON.stringify(result.taskInfo) : null,
       taskResult: result.taskResult ? JSON.stringify(result.taskResult) : null,
+      providerModelIdSnapshot: providerModelId, // Save the actual provider model ID used
     };
     await createAITask(newAITask);
 

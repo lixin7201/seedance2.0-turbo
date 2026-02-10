@@ -20,6 +20,18 @@ import {
 } from '@/shared/components/ui/table';
 import { Badge } from '@/shared/components/ui/badge';
 import { toast } from 'sonner';
+import { Button } from '@/shared/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/shared/components/ui/dialog';
+import { Label } from '@/shared/components/ui/label';
+import { Textarea } from '@/shared/components/ui/textarea';
+import { Pencil } from 'lucide-react';
 
 interface ModelConfig {
   id: string;
@@ -28,11 +40,13 @@ interface ModelConfig {
   currentProvider: string;
   providerModelId: string;
   enabled: boolean;
+  verified: boolean;
   supportedModes: string[];
   parameters: any;
   creditsCost: Record<string, number> | null;
   tags: string[] | null;
   priority: number;
+  providerModelMap: Record<string, string> | null;
 }
 
 const PROVIDER_OPTIONS = [
@@ -40,20 +54,32 @@ const PROVIDER_OPTIONS = [
   { value: 'fal', label: 'Fal.ai' },
   { value: 'replicate', label: 'Replicate' },
   { value: 'kie', label: 'Kie.ai' },
+  { value: 'gemini', label: 'Gemini' },
 ];
 
 export default function ModelConfigPage() {
   const t = useTranslations('admin.settings');
   const [models, setModels] = useState<ModelConfig[]>([]);
   const [loading, setLoading] = useState(true);
+  const [showAll, setShowAll] = useState(false);
+  
+  // Edit Dialog State
+  const [editingModel, setEditingModel] = useState<ModelConfig | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [jsonError, setJsonError] = useState<string | null>(null);
+  const [editForm, setEditForm] = useState<{
+    providerModelMap: string;
+    parameters: string;
+  }>({ providerModelMap: '{}', parameters: '{}' });
 
   useEffect(() => {
     fetchModels();
-  }, []);
+  }, [showAll]);
 
   const fetchModels = async () => {
     try {
-      const res = await fetch('/api/admin/model-config');
+      const url = showAll ? '/api/admin/model-config?showAll=true' : '/api/admin/model-config';
+      const res = await fetch(url);
       const data = await res.json();
       if (data.code === 0) {
         setModels(data.data || []);
@@ -76,11 +102,14 @@ export default function ModelConfigPage() {
       if (data.code === 0) {
         toast.success('Model updated');
         fetchModels();
+        return true;
       } else {
         toast.error(data.message || 'Update failed');
+        return false;
       }
     } catch (e: any) {
       toast.error('Update failed');
+      return false;
     }
   };
 
@@ -90,6 +119,54 @@ export default function ModelConfigPage() {
 
   const handleEnabledChange = (modelId: string, enabled: boolean) => {
     updateModel(modelId, { enabled });
+  };
+
+  const handleVerifiedChange = (modelId: string, verified: boolean) => {
+    updateModel(modelId, { verified });
+  };
+
+  const openEditDialog = (model: ModelConfig) => {
+    setEditingModel(model);
+    setEditForm({
+      providerModelMap: JSON.stringify(model.providerModelMap || {}, null, 2),
+      parameters: JSON.stringify(model.parameters || {}, null, 2),
+    });
+    setJsonError(null);
+    setDialogOpen(true);
+  };
+
+  const validateAndSave = async () => {
+    if (!editingModel) return;
+
+    try {
+      let parsedMap = null;
+      let parsedParams = null;
+
+      try {
+        parsedMap = JSON.parse(editForm.providerModelMap);
+      } catch (e) {
+        setJsonError('Invalid JSON in Provider Model Map');
+        return;
+      }
+
+      try {
+        parsedParams = JSON.parse(editForm.parameters);
+      } catch (e) {
+        setJsonError('Invalid JSON in Parameters');
+        return;
+      }
+
+      const success = await updateModel(editingModel.id, {
+        providerModelMap: parsedMap,
+        parameters: parsedParams,
+      });
+
+      if (success) {
+        setDialogOpen(false);
+      }
+    } catch (e) {
+      setJsonError('Validation failed');
+    }
   };
 
   if (loading) {
@@ -102,11 +179,21 @@ export default function ModelConfigPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-2xl font-bold tracking-tight">Model Configuration</h2>
-        <p className="text-muted-foreground">
-          Manage AI models and their API provider mappings
-        </p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-2xl font-bold tracking-tight">Model Configuration</h2>
+          <p className="text-muted-foreground">
+            Manage AI models and their API provider mappings
+          </p>
+        </div>
+        <div className="flex items-center gap-2">
+          <Label htmlFor="show-all" className="text-sm text-muted-foreground">Show All</Label>
+          <Switch
+            id="show-all"
+            checked={showAll}
+            onCheckedChange={setShowAll}
+          />
+        </div>
       </div>
 
       <div className="rounded-md border">
@@ -117,13 +204,15 @@ export default function ModelConfigPage() {
               <TableHead className="w-[150px]">Provider</TableHead>
               <TableHead>Supported Modes</TableHead>
               <TableHead>Credits Cost</TableHead>
+              <TableHead className="w-[100px]">Verified</TableHead>
               <TableHead className="w-[100px]">Enabled</TableHead>
+              <TableHead className="w-[80px]">Action</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
             {models.length === 0 ? (
               <TableRow>
-                <TableCell colSpan={5} className="text-center text-muted-foreground py-8">
+                <TableCell colSpan={7} className="text-center text-muted-foreground py-8">
                   No models configured. Run the seed script to add initial models.
                 </TableCell>
               </TableRow>
@@ -173,9 +262,20 @@ export default function ModelConfigPage() {
                   </TableCell>
                   <TableCell>
                     <Switch
+                      checked={model.verified}
+                      onCheckedChange={(checked) => handleVerifiedChange(model.id, checked)}
+                    />
+                  </TableCell>
+                  <TableCell>
+                    <Switch
                       checked={model.enabled}
                       onCheckedChange={(checked) => handleEnabledChange(model.id, checked)}
                     />
+                  </TableCell>
+                  <TableCell>
+                    <Button variant="ghost" size="icon" onClick={() => openEditDialog(model)}>
+                      <Pencil className="h-4 w-4" />
+                    </Button>
                   </TableCell>
                 </TableRow>
               ))
@@ -183,6 +283,54 @@ export default function ModelConfigPage() {
           </TableBody>
         </Table>
       </div>
+
+      <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader>
+            <DialogTitle>Edit Model Configuration</DialogTitle>
+            <DialogDescription>
+              Modify advanced settings for {editingModel?.displayName} ({editingModel?.id})
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="grid gap-4 py-4">
+            <div className="grid gap-2">
+              <Label htmlFor="provider-map">Provider Model Mapping (JSON)</Label>
+              <Textarea
+                id="provider-map"
+                className="font-mono text-sm min-h-[150px]"
+                value={editForm.providerModelMap}
+                onChange={(e) => setEditForm(prev => ({ ...prev, providerModelMap: e.target.value }))}
+                placeholder='{ "fal": "fal-ai/fast-svd", "evolink": "flux-pro" }'
+              />
+              <p className="text-xs text-muted-foreground">
+                Map provider names (e.g., 'fal', 'evolink') to their specific model IDs.
+              </p>
+            </div>
+
+            <div className="grid gap-2">
+              <Label htmlFor="parameters">Parameters (JSON)</Label>
+              <Textarea
+                id="parameters"
+                className="font-mono text-sm min-h-[100px]"
+                value={editForm.parameters}
+                onChange={(e) => setEditForm(prev => ({ ...prev, parameters: e.target.value }))}
+              />
+            </div>
+
+            {jsonError && (
+              <div className="text-sm text-destructive font-medium">
+                Error: {jsonError}
+              </div>
+            )}
+          </div>
+
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setDialogOpen(false)}>Cancel</Button>
+            <Button onClick={validateAndSave}>Save Changes</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

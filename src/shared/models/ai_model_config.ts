@@ -1,4 +1,4 @@
-import { desc, eq } from 'drizzle-orm';
+import { and, desc, eq } from 'drizzle-orm';
 
 import { db } from '@/core/db';
 import { aiModelConfig } from '@/config/db/schema';
@@ -8,7 +8,7 @@ export type NewAIModelConfig = typeof aiModelConfig.$inferInsert;
 export type UpdateAIModelConfig = Partial<Omit<NewAIModelConfig, 'id' | 'createdAt'>>;
 
 // Parsed model config with JSON fields deserialized
-export interface ParsedAIModelConfig extends Omit<AIModelConfig, 'supportedModes' | 'parameters' | 'creditsCost' | 'tags'> {
+export interface ParsedAIModelConfig extends Omit<AIModelConfig, 'supportedModes' | 'parameters' | 'creditsCost' | 'tags' | 'providerModelMap'> {
   supportedModes: string[];
   parameters: {
     resolutions?: string[];
@@ -17,6 +17,7 @@ export interface ParsedAIModelConfig extends Omit<AIModelConfig, 'supportedModes
   } | null;
   creditsCost: Record<string, number> | null;
   tags: string[] | null;
+  providerModelMap: Record<string, string> | null;
 }
 
 /**
@@ -29,6 +30,7 @@ function parseModelConfig(config: AIModelConfig): ParsedAIModelConfig {
     parameters: config.parameters ? JSON.parse(config.parameters) : null,
     creditsCost: config.creditsCost ? JSON.parse(config.creditsCost) : null,
     tags: config.tags ? JSON.parse(config.tags) : null,
+    providerModelMap: config.providerModelMap ? JSON.parse(config.providerModelMap) : null,
   };
 }
 
@@ -39,7 +41,7 @@ export async function getAllEnabledModelConfigs(): Promise<ParsedAIModelConfig[]
   const results = await db()
     .select()
     .from(aiModelConfig)
-    .where(eq(aiModelConfig.enabled, true))
+    .where(and(eq(aiModelConfig.enabled, true), eq(aiModelConfig.verified, true)))
     .orderBy(desc(aiModelConfig.priority));
 
   return results.map(parseModelConfig);
@@ -47,12 +49,16 @@ export async function getAllEnabledModelConfigs(): Promise<ParsedAIModelConfig[]
 
 /**
  * Get all model configs (for admin panel)
+ * @param showAll - if true, return ALL models including unverified; defaults to false (verified only)
  */
-export async function getAllModelConfigs(): Promise<ParsedAIModelConfig[]> {
-  const results = await db()
+export async function getAllModelConfigs(showAll = false): Promise<ParsedAIModelConfig[]> {
+  const query = db()
     .select()
-    .from(aiModelConfig)
-    .orderBy(desc(aiModelConfig.priority));
+    .from(aiModelConfig);
+
+  const results = showAll
+    ? await query.orderBy(desc(aiModelConfig.priority))
+    : await query.where(eq(aiModelConfig.verified, true)).orderBy(desc(aiModelConfig.priority));
 
   return results.map(parseModelConfig);
 }
@@ -134,4 +140,28 @@ export async function getModelCreditsCost(
   }
 
   return config.creditsCost[scene] || 6;
+}
+
+/**
+ * Get provider model ID based on provider preference
+ */
+export function getModelProviderId(
+  config: ParsedAIModelConfig,
+  provider: string
+): string {
+  // 1. Try to find in mapping
+  if (config.providerModelMap && config.providerModelMap[provider]) {
+    return config.providerModelMap[provider];
+  }
+
+  // 2. Fallback to legacy field if provider matches
+  if (config.currentProvider === provider) {
+    return config.providerModelId;
+  }
+
+  // 3. Fallback to legacy field (careful with this, but maybe safer than crashing?)
+  // For now, let's return providerModelId as last resort or empty string?
+  // Requirements say: "Unmapped model... keep old logic". 
+  // Old logic is just using providerModelId.
+  return config.providerModelId;
 }

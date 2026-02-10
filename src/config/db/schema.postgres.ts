@@ -495,6 +495,7 @@ export const aiTask = table(
     taskResult: text('task_result'), // provider task result
     costCredits: integer('cost_credits').notNull().default(0),
     scene: text('scene').notNull().default(''),
+    providerModelIdSnapshot: text('provider_model_id_snapshot'), // Snapshot of provider model id used
     creditId: text('credit_id'), // credit consumption record id
   },
   (table) => [
@@ -565,7 +566,9 @@ export const aiModelConfig = table(
     description: text('description'),
     currentProvider: text('current_provider').notNull(), // e.g. 'evolink', 'fal'
     providerModelId: text('provider_model_id').notNull(), // Model ID on the provider
+    providerModelMap: text('provider_model_map'), // JSON: { 'fal': 'fal-ai/fast-svd', 'evolink': '...' }
     enabled: boolean('enabled').default(true).notNull(),
+    verified: boolean('verified').default(false).notNull(),
     supportedModes: text('supported_modes').notNull(), // JSON: ['text-to-video', 'image-to-video']
     parameters: text('parameters'), // JSON: {resolutions: ['480p', '720p'], durations: [5, 10]}
     creditsCost: text('credits_cost'), // JSON: {'text-to-video': 6, 'image-to-video': 8}

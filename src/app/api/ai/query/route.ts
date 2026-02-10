@@ -35,12 +35,19 @@ export async function POST(req: Request) {
     }
 
     // Resolve provider specific model ID
+    // Resolve provider specific model ID
     let providerModelId = task.model;
-    if (task.model) {
-      const { getModelConfigById } = await import('@/shared/models/ai_model_config');
+    
+    // 1. Try to use snapshot if available
+    if (task.providerModelIdSnapshot) {
+      providerModelId = task.providerModelIdSnapshot;
+    } else if (task.model) {
+      // 2. Fallback to current config (legacy behavior)
+      const { getModelConfigById, getModelProviderId } = await import('@/shared/models/ai_model_config');
       const modelConfig = await getModelConfigById(task.model);
-      if (modelConfig && modelConfig.providerModelId) {
-        providerModelId = modelConfig.providerModelId;
+      if (modelConfig) {
+        // Resolve using the provider record in the task
+        providerModelId = getModelProviderId(modelConfig, task.provider);
       }
     }
 

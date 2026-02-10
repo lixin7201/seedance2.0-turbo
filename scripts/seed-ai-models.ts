@@ -28,6 +28,8 @@ const seedData = [
     }),
     tags: JSON.stringify(['Multi-Modal', 'With Audio']),
     priority: 100,
+    verified: true,
+    providerModelMap: JSON.stringify({ evolink: 'seedance-2.0' }),
     updatedAt: new Date(),
   },
   {
@@ -37,6 +39,8 @@ const seedData = [
     currentProvider: 'fal',
     providerModelId: 'fal-ai/bytedance/seedance/v1.5/pro',
     enabled: true,
+    verified: true,
+    providerModelMap: JSON.stringify({ fal: 'fal-ai/bytedance/seedance/v1.5/pro' }),
     supportedModes: JSON.stringify(['text-to-video', 'image-to-video']),
     parameters: JSON.stringify({
       resolutions: ['480p', '720p'],
@@ -57,6 +61,8 @@ const seedData = [
     currentProvider: 'fal',
     providerModelId: 'fal-ai/veo3',
     enabled: true,
+    verified: false,
+    providerModelMap: JSON.stringify({ fal: 'fal-ai/veo3' }),
     supportedModes: JSON.stringify(['text-to-video']),
     parameters: JSON.stringify({
       resolutions: ['720p', '1080p'],
@@ -76,6 +82,8 @@ const seedData = [
     currentProvider: 'kie',
     providerModelId: 'sora-2-pro-text-to-video',
     enabled: true,
+    verified: false,
+    providerModelMap: JSON.stringify({ kie: 'sora-2-pro-text-to-video' }),
     supportedModes: JSON.stringify(['text-to-video', 'image-to-video']),
     parameters: JSON.stringify({
       resolutions: ['480p', '720p', '1080p'],
@@ -117,6 +125,8 @@ async function seedAIModels() {
             creditsCost: model.creditsCost,
             tags: model.tags,
             priority: model.priority,
+            verified: model.verified,
+            providerModelMap: model.providerModelMap,
             updatedAt: new Date(),
           })
           .where(eq(aiModelConfig.id, model.id));
