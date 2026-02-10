@@ -34,8 +34,8 @@ const seedData = [
     id: 'seedance-1.5-pro',
     displayName: 'Seedance 1.5 Pro',
     description: 'Professional AI video model with audio support',
-    currentProvider: 'evolink',
-    providerModelId: 'seedance-1.5-pro',
+    currentProvider: 'fal',
+    providerModelId: 'fal-ai/bytedance/seedance/v1.5/pro',
     enabled: true,
     supportedModes: JSON.stringify(['text-to-video', 'image-to-video']),
     parameters: JSON.stringify({

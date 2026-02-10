@@ -124,5 +124,6 @@ export interface AIProvider {
     taskId: string;
     mediaType?: string;
     model?: string;
+    scene?: string;
   }): Promise<AITaskResult>;
 }

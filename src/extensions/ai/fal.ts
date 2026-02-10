@@ -34,6 +34,9 @@ export class FalProvider implements AIProvider {
 
   // api base url
   private baseUrl = 'https://queue.fal.run';
+  private fetchTimeoutMs = 15000;
+  private fetchMaxRetries = 2;
+  private fetchRetryBaseMs = 500;
 
   // init provider
   constructor(configs: FalConfigs) {
@@ -69,6 +72,16 @@ export class FalProvider implements AIProvider {
     });
 
     let apiUrl = `${this.baseUrl}/${model}`;
+
+    // Special handling for Seedance 1.5 Pro which has separate endpoints for T2V and I2V
+    if (model === 'fal-ai/bytedance/seedance/v1.5/pro') {
+      if (input.image_url || input.input_images) {
+        apiUrl += '/image-to-video';
+      } else {
+        apiUrl += '/text-to-video';
+      }
+    }
+
     const headers: Record<string, string> = {
       'Content-Type': 'application/json',
       Authorization: `Key ${this.configs.apiKey}`,
@@ -115,14 +128,16 @@ export class FalProvider implements AIProvider {
     taskId,
     model,
     mediaType,
+    scene,
   }: {
     taskId: string;
     model?: string;
     mediaType?: AIMediaType;
+    scene?: string;
   }): Promise<AITaskResult> {
     // extract first two parts of model name for query url
     // e.g. fal-ai/bytedance/seedream/v4/edit -> fal-ai/bytedance
-    const queryModel = this.getQueryModel(model);
+    let queryModel = this.getQueryModel(model);
 
     // first check task status
     const statusUrl = `${this.baseUrl}/${queryModel}/requests/${taskId}/status`;
@@ -131,10 +146,29 @@ export class FalProvider implements AIProvider {
       Authorization: `Key ${this.configs.apiKey}`,
     };
 
-    const statusResp = await fetch(statusUrl, {
-      method: 'GET',
-      headers,
-    });
+    let statusResp: Response;
+    try {
+      statusResp = await this.fetchWithRetry(
+        statusUrl,
+        {
+          method: 'GET',
+          headers,
+        },
+        'status'
+      );
+    } catch (err: any) {
+      console.warn('fal query network error (status)', err);
+      return {
+        taskId,
+        taskStatus: AITaskStatus.PENDING,
+        taskInfo: {
+          status: 'NETWORK_ERROR',
+          errorCode: err?.cause?.code || '',
+          errorMessage: err?.message || 'network error',
+        },
+        taskResult: null,
+      };
+    }
 
     if (!statusResp.ok) {
       throw new Error(`request failed with status: ${statusResp.status}`);
@@ -159,10 +193,29 @@ export class FalProvider implements AIProvider {
 
     // get result if task is completed
     const resultUrl = `${this.baseUrl}/${queryModel}/requests/${taskId}`;
-    const resultResp = await fetch(resultUrl, {
-      method: 'GET',
-      headers,
-    });
+    let resultResp: Response;
+    try {
+      resultResp = await this.fetchWithRetry(
+        resultUrl,
+        {
+          method: 'GET',
+          headers,
+        },
+        'result'
+      );
+    } catch (err: any) {
+      console.warn('fal query network error (result)', err);
+      return {
+        taskId,
+        taskStatus: AITaskStatus.PROCESSING,
+        taskInfo: {
+          status: statusData.status,
+          errorCode: err?.cause?.code || '',
+          errorMessage: err?.message || 'network error',
+        },
+        taskResult: null,
+      };
+    }
 
     if (!resultResp.ok) {
       throw new Error(`request failed with status: ${resultResp.status}`);
@@ -351,5 +404,44 @@ export class FalProvider implements AIProvider {
     }
 
     return input;
+  }
+
+  private async fetchWithRetry(
+    url: string,
+    options: RequestInit,
+    label: string
+  ): Promise<Response> {
+    let lastError: any;
+    for (let attempt = 0; attempt <= this.fetchMaxRetries; attempt += 1) {
+      const controller =
+        options.signal instanceof AbortSignal ? null : new AbortController();
+      const signal = options.signal ?? controller?.signal;
+      const timeoutId =
+        controller && this.fetchTimeoutMs > 0
+          ? setTimeout(() => controller.abort(), this.fetchTimeoutMs)
+          : null;
+
+      try {
+        const resp = await fetch(url, {
+          ...options,
+          signal,
+        });
+        if (timeoutId) clearTimeout(timeoutId);
+        return resp;
+      } catch (err: any) {
+        if (timeoutId) clearTimeout(timeoutId);
+        lastError = err;
+        if (attempt >= this.fetchMaxRetries) {
+          throw err;
+        }
+        const delayMs = this.fetchRetryBaseMs * Math.pow(2, attempt);
+        console.warn(
+          `fal fetch retry ${attempt + 1}/${this.fetchMaxRetries} (${label})`,
+          err?.cause?.code || err?.message || err
+        );
+        await new Promise((resolve) => setTimeout(resolve, delayMs));
+      }
+    }
+    throw lastError;
   }
 }

@@ -34,10 +34,21 @@ export async function POST(req: Request) {
       return respErr('invalid ai provider');
     }
 
+    // Resolve provider specific model ID
+    let providerModelId = task.model;
+    if (task.model) {
+      const { getModelConfigById } = await import('@/shared/models/ai_model_config');
+      const modelConfig = await getModelConfigById(task.model);
+      if (modelConfig && modelConfig.providerModelId) {
+        providerModelId = modelConfig.providerModelId;
+      }
+    }
+
     const result = await aiProvider?.query?.({
       taskId: task.taskId,
       mediaType: task.mediaType,
-      model: task.model,
+      model: providerModelId, // Use provider model ID
+      scene: task.scene,
     });
 
     if (!result?.taskStatus) {
