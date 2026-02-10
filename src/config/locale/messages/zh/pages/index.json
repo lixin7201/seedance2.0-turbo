@@ -3,9 +3,6 @@
     "show_sections": [
       "hero",
       "showcase_grid",
-      "introduce",
-      "benefits",
-      "features",
       "faq",
       "cta"
     ],
