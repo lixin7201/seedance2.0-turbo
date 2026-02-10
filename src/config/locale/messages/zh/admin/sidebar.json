@@ -3,7 +3,7 @@
     "brand": {
       "title": "Seedance 2.0 管理",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logo-v2.png",
         "alt": "Seedance 2.0"
       },
       "url": "/admin"

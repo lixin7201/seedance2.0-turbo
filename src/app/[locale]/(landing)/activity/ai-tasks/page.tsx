@@ -63,7 +63,17 @@ export default async function AiTasksPage({
   const table: Table = {
     title: t('list.title'),
     columns: [
-      { name: 'prompt', title: t('fields.prompt'), type: 'copy' },
+      {
+        name: 'prompt',
+        title: t('fields.prompt'),
+        type: 'copy',
+        className: 'min-w-[300px] max-w-[500px]',
+        callback: (item: AITask) => (
+          <div className="resize-x overflow-x-auto whitespace-normal break-words py-2 pr-4 leading-relaxed hover:bg-muted/50 rounded-md transition-colors">
+            {item.prompt}
+          </div>
+        ),
+      },
       { name: 'mediaType', title: t('fields.media_type'), type: 'label' },
       { name: 'model', title: t('fields.model'), type: 'label' },
       {
@@ -130,21 +140,27 @@ export default async function AiTasksPage({
               const signed = signedUrlMap.get(item.id);
               if (signed?.videoUrl) {
                 return (
-                  <div className="flex flex-col gap-2">
+                  <div className="relative w-64 overflow-hidden rounded-lg shadow-sm transition-all hover:shadow-md">
                     <video
                       src={signed.videoUrl}
                       controls
-                      className="h-32 w-auto rounded"
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="h-auto w-full object-cover"
                       poster={signed.posterUrl}
                     />
-                    <a
-                      href={signed.videoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-blue-500 hover:underline"
-                    >
-                      {t('list.buttons.download')}
-                    </a>
+                    <div className="mt-2 flex justify-between px-1">
+                      <a
+                        href={signed.videoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-medium text-primary hover:underline"
+                      >
+                        {t('list.buttons.download')}
+                      </a>
+                    </div>
                   </div>
                 );
               }
@@ -195,21 +211,27 @@ export default async function AiTasksPage({
               const video = taskInfo.videos[0];
               if (video.videoUrl) {
                 return (
-                  <div className="flex flex-col gap-2">
+                  <div className="relative w-64 overflow-hidden rounded-lg shadow-sm transition-all hover:shadow-md">
                     <video
                       src={video.videoUrl}
                       controls
-                      className="h-32 w-auto rounded"
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="h-auto w-full object-cover"
                       poster={video.thumbnailUrl}
                     />
-                    <a
-                      href={video.videoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-blue-500 hover:underline"
-                    >
-                      {t('list.buttons.download')}
-                    </a>
+                    <div className="mt-2 flex justify-between px-1">
+                      <a
+                        href={video.videoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-medium text-primary hover:underline"
+                      >
+                        {t('list.buttons.download')}
+                      </a>
+                    </div>
                   </div>
                 );
               }
