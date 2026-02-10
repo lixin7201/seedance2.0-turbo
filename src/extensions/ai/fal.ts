@@ -391,6 +391,14 @@ export class FalProvider implements AIProvider {
     if (options.image_input && Array.isArray(options.image_input)) {
       if (['fal-ai/kling-video/o1/video-to-video/edit'].includes(model)) {
         input.input_images = options.image_input;
+      } else if (
+        ['fal-ai/kling-video/o3/standard/image-to-video'].includes(model)
+      ) {
+        // Kling 3.0 supports start and end images
+        input.image_url = options.image_input[0];
+        if (options.image_input.length > 1) {
+          input.end_image_url = options.image_input[1];
+        }
       } else {
         input.image_url = options.image_input[0];
       }
