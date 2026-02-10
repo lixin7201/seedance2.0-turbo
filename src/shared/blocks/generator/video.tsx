@@ -763,7 +763,7 @@ export function VideoGenerator({
   };
 
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-8 md:py-24">
       <div className="container">
         <div className="mx-auto max-w-6xl">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
@@ -776,20 +776,20 @@ export function VideoGenerator({
               </CardHeader>
               <CardContent className="space-y-6 pb-8">
                 <Tabs value={activeTab} onValueChange={handleTabChange}>
-                  <TabsList className="bg-primary/10 grid w-full grid-cols-3">
-                    <TabsTrigger value="text-to-video">
+                  <TabsList className="bg-primary/10 grid w-full grid-cols-1 sm:grid-cols-3">
+                    <TabsTrigger value="text-to-video" className="text-xs sm:text-sm">
                       {t('tabs.text-to-video')}
                     </TabsTrigger>
-                    <TabsTrigger value="image-to-video">
+                    <TabsTrigger value="image-to-video" className="text-xs sm:text-sm">
                       {t('tabs.image-to-video')}
                     </TabsTrigger>
-                    <TabsTrigger value="video-to-video">
+                    <TabsTrigger value="video-to-video" className="text-xs sm:text-sm">
                       {t('tabs.video-to-video')}
                     </TabsTrigger>
                   </TabsList>
                 </Tabs>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label>{t('form.model')}</Label>
                     <Select value={model} onValueChange={handleModelChange}>
@@ -838,7 +838,7 @@ export function VideoGenerator({
                 <div
                   className={isSeedance2ComingSoon ? 'opacity-50' : ''}
                 >
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label>{t('form.duration') || 'Duration'}</Label>
                       <Select
