@@ -23,6 +23,8 @@ export * from './subscribe';
 export * from './pricing';
 
 export * from './video-showcase';
+export * from './hero-video';
+export * from './showcase-grid';
 
 export * from './blog';
 export * from './blog-detail';
