@@ -67,6 +67,7 @@
               "10 credits (10 seconds of video)",
               "720p resolution output",
               "Basic video generation",
+              "1 concurrent generation task",
               "Community support",
               "Watermark on videos"
             ],
@@ -97,6 +98,7 @@
               "150 credits/month (about 15 videos)",
               "1080p Full HD resolution",
               "No watermark",
+              "Up to 3 concurrent generation tasks",
               "Medium priority queue",
               "Email support"
             ],
@@ -129,6 +131,7 @@
               "450 credits/month (about 45 videos)",
               "1080p Full HD resolution",
               "More credits per month",
+              "Up to 3 concurrent generation tasks",
               "Priority email support"
             ],
             "interval": "month",
@@ -159,6 +162,7 @@
               "1200 credits/month (about 120 videos)",
               "1080p Full HD resolution",
               "Maximum monthly credits",
+              "Up to 3 concurrent generation tasks",
               "Dedicated email support"
             ],
             "interval": "month",
@@ -189,6 +193,7 @@
               "10 credits (10 seconds of video)",
               "720p resolution output",
               "Basic video generation",
+              "1 concurrent generation task",
               "Community support",
               "Watermark on videos"
             ],
@@ -219,6 +224,7 @@
               "150 credits/month (about 15 videos)",
               "1080p Full HD resolution",
               "No watermark",
+              "Up to 3 concurrent generation tasks",
               "Medium priority queue",
               "Email support"
             ],
@@ -251,6 +257,7 @@
               "450 credits/month (about 45 videos)",
               "1080p Full HD resolution",
               "More credits per month",
+              "Up to 3 concurrent generation tasks",
               "Priority email support"
             ],
             "interval": "year",
@@ -281,6 +288,7 @@
               "1200 credits/month (about 120 videos)",
               "1080p Full HD resolution",
               "Maximum monthly credits",
+              "Up to 3 concurrent generation tasks",
               "Dedicated email support"
             ],
             "interval": "year",

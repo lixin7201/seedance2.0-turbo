@@ -536,6 +536,9 @@ export const aiTask = table(
     scene: text('scene').notNull().default(''),
     providerModelIdSnapshot: text('provider_model_id_snapshot'), // Snapshot of provider model id used
     creditId: text('credit_id'), // credit consumption record id
+    progress: integer('progress').default(0), // generation progress 0-100
+    expiresAt: integer('expires_at', { mode: 'timestamp_ms' }), // result expiration time (30 days after success)
+    resultAssets: text('result_assets'), // JSON: {videoKey, posterKey, videoUrl, posterUrl}
   },
   (table) => [
     // Composite: Query user's AI tasks by status
@@ -544,6 +547,27 @@ export const aiTask = table(
     // Composite: Query user's AI tasks by media type and provider
     // Can also be used for: WHERE mediaType = ? AND provider = ? (left-prefix)
     index('idx_ai_task_media_type_status').on(table.mediaType, table.status),
+  ]
+);
+
+export const notification = table(
+  'notification',
+  {
+    id: text('id').primaryKey(),
+    userId: text('user_id')
+      .notNull()
+      .references(() => user.id, { onDelete: 'cascade' }),
+    type: text('type').notNull(), // 'task_success' | 'task_failed'
+    title: text('title').notNull(),
+    content: text('content'),
+    taskId: text('task_id'),
+    createdAt: integer('created_at', { mode: 'timestamp_ms' })
+      .default(sqliteNowMs)
+      .notNull(),
+    readAt: integer('read_at', { mode: 'timestamp_ms' }),
+  },
+  (table) => [
+    index('idx_notification_user_id').on(table.userId),
   ]
 );
 

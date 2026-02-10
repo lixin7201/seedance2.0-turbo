@@ -53,6 +53,7 @@ export function getAIManagerWithConfigs(configs: Configs) {
     aiManager.addProvider(
       new EvolinkProvider({
         apiKey: configs.evolink_api_key,
+        customStorage: configs.evolink_custom_storage === 'true',
       })
     );
   }

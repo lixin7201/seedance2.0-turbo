@@ -1,0 +1,10 @@
+{
+  "title": "Notifications",
+  "empty": "No notifications yet",
+  "mark_all_read": "Mark all as read",
+  "unread": "Unread",
+  "read": "Read",
+  "task_success": "Generation completed",
+  "task_failed": "Generation failed",
+  "view_task": "View Task"
+}

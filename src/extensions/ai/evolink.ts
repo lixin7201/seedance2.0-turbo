@@ -97,11 +97,11 @@ export class EvolinkProvider implements AIProvider {
         if (params.options.duration) {
             payload.duration = params.options.duration;
         }
-        
-        // Map callback URL
-        if (params.callbackUrl) {
-            payload.callback_url = params.callbackUrl;
-        }
+    }
+
+    // Map callback URL (always apply, not dependent on options)
+    if (params.callbackUrl) {
+        payload.callback_url = params.callbackUrl;
     }
 
     console.log('evolink generate request:', apiUrl, payload);

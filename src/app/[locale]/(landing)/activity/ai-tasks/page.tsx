@@ -5,6 +5,7 @@ import { AudioPlayer, Empty, LazyImage } from '@/shared/blocks/common';
 import { TableCard } from '@/shared/blocks/table';
 import { AITask, getAITasks, getAITasksCount } from '@/shared/models/ai_task';
 import { getUserInfo } from '@/shared/models/user';
+import { getStorageService } from '@/shared/services/storage';
 import { Button, Tab } from '@/shared/types/blocks/common';
 import { type Table } from '@/shared/types/blocks/table';
 
@@ -36,26 +37,127 @@ export default async function AiTasksPage({
     mediaType: type,
   });
 
+  // Pre-generate signed URLs for tasks with R2 result assets
+  const signedUrlMap = new Map<string, { videoUrl: string; posterUrl?: string }>();
+  try {
+    const storage = await getStorageService();
+    for (const task of aiTasks) {
+      if (task.resultAssets && task.status === AITaskStatus.SUCCESS) {
+        try {
+          const assets = JSON.parse(task.resultAssets);
+          const assetList = Array.isArray(assets) ? assets : [assets];
+          const firstVideo = assetList.find((a: any) => a.type === 'video' && a.key);
+          if (firstVideo) {
+            const videoUrl = await storage.getSignedUrl({ key: firstVideo.key, expiresIn: 3600 });
+            let posterUrl: string | undefined;
+            if (firstVideo.posterKey) {
+              posterUrl = await storage.getSignedUrl({ key: firstVideo.posterKey, expiresIn: 3600 });
+            }
+            signedUrlMap.set(task.id, { videoUrl, posterUrl });
+          }
+        } catch {}
+      }
+    }
+  } catch {}
+
   const table: Table = {
     title: t('list.title'),
     columns: [
       { name: 'prompt', title: t('fields.prompt'), type: 'copy' },
       { name: 'mediaType', title: t('fields.media_type'), type: 'label' },
-      { name: 'provider', title: t('fields.provider'), type: 'label' },
       { name: 'model', title: t('fields.model'), type: 'label' },
-      // { name: 'options', title: t('fields.options'), type: 'copy' },
-      { name: 'status', title: t('fields.status'), type: 'label' },
+      {
+        name: 'status',
+        title: t('fields.status'),
+        callback: (item: AITask) => {
+          const statusKey = item.status as string;
+          const statusLabel = t.has(`status.${statusKey}`)
+            ? t(`status.${statusKey}` as any)
+            : statusKey;
+          const statusColors: Record<string, string> = {
+            pending: 'text-yellow-500',
+            processing: 'text-blue-500',
+            success: 'text-green-500',
+            failed: 'text-red-500',
+            expired: 'text-gray-400',
+          };
+          return (
+            <span className={statusColors[statusKey] || ''}>
+              {statusLabel}
+            </span>
+          );
+        },
+      },
+      {
+        name: 'progress',
+        title: t('fields.progress'),
+        callback: (item: AITask) => {
+          if (
+            item.status === AITaskStatus.PENDING ||
+            item.status === AITaskStatus.PROCESSING
+          ) {
+            const progress = item.progress || 0;
+            return (
+              <div className="flex items-center gap-2">
+                <div className="h-2 w-20 rounded-full bg-gray-200 dark:bg-gray-700">
+                  <div
+                    className="h-2 rounded-full bg-blue-500 transition-all"
+                    style={{ width: `${progress}%` }}
+                  />
+                </div>
+                <span className="text-xs text-gray-500">{progress}%</span>
+              </div>
+            );
+          }
+          if (item.status === AITaskStatus.SUCCESS) {
+            return <span className="text-green-500">100%</span>;
+          }
+          return '-';
+        },
+      },
       { name: 'costCredits', title: t('fields.cost_credits'), type: 'label' },
       {
         name: 'result',
         title: t('fields.result'),
         callback: (item: AITask) => {
+          if (item.status === AITaskStatus.EXPIRED) {
+            return <span className="text-gray-400">{t('status.expired')}</span>;
+          }
+
+          // Priority 1: R2 signed URLs (most reliable, won't expire for 1 hour)
+          if (item.resultAssets) {
+            try {
+              const signed = signedUrlMap.get(item.id);
+              if (signed?.videoUrl) {
+                return (
+                  <div className="flex flex-col gap-2">
+                    <video
+                      src={signed.videoUrl}
+                      controls
+                      className="h-32 w-auto rounded"
+                      poster={signed.posterUrl}
+                    />
+                    <a
+                      href={signed.videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-500 hover:underline"
+                    >
+                      {t('list.buttons.download')}
+                    </a>
+                  </div>
+                );
+              }
+            } catch {}
+          }
+
+          // Priority 2: taskInfo (songs/images/videos from provider or custom storage)
           if (item.taskInfo) {
             const taskInfo = JSON.parse(item.taskInfo);
             if (taskInfo.errorMessage) {
               return (
                 <div className="text-red-500">
-                  Failed: {taskInfo.errorMessage}
+                  {taskInfo.errorMessage}
                 </div>
               );
             } else if (taskInfo.songs && taskInfo.songs.length > 0) {
@@ -89,8 +191,28 @@ export default async function AiTasksPage({
                   ))}
                 </div>
               );
-            } else {
-              return '-';
+            } else if (taskInfo.videos && taskInfo.videos.length > 0) {
+              const video = taskInfo.videos[0];
+              if (video.videoUrl) {
+                return (
+                  <div className="flex flex-col gap-2">
+                    <video
+                      src={video.videoUrl}
+                      controls
+                      className="h-32 w-auto rounded"
+                      poster={video.thumbnailUrl}
+                    />
+                    <a
+                      href={video.videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-500 hover:underline"
+                    >
+                      {t('list.buttons.download')}
+                    </a>
+                  </div>
+                );
+              }
             }
           }
 
@@ -115,6 +237,23 @@ export default async function AiTasksPage({
               icon: 'RiRefreshLine',
             });
           }
+
+          if (item.status === AITaskStatus.FAILED) {
+            items.push({
+              title: t('list.buttons.retry'),
+              url: `/api/ai/task/${item.id}/retry`,
+              icon: 'RiRestartLine',
+              method: 'POST',
+            } as any);
+          }
+
+          items.push({
+            title: t('list.buttons.delete'),
+            url: `/api/ai/task/${item.id}`,
+            icon: 'RiDeleteBinLine',
+            confirm: t('list.confirm_delete'),
+            method: 'DELETE',
+          } as any);
 
           return items;
         },

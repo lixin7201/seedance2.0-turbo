@@ -461,6 +461,9 @@ export const aiTask = table(
     scene: varchar('scene', { length: 100 }).notNull().default(''),
     providerModelIdSnapshot: varchar191('provider_model_id_snapshot'), // Snapshot of provider model id used
     creditId: varchar191('credit_id'), // credit consumption record id
+    progress: int('progress').default(0), // generation progress 0-100
+    expiresAt: timestamp('expires_at'), // result expiration time (30 days after success)
+    resultAssets: longtext('result_assets'), // JSON: {videoKey, posterKey, videoUrl, posterUrl}
   },
   (table) => [
     // Composite: Query user's AI tasks by status
@@ -469,6 +472,25 @@ export const aiTask = table(
     // Composite: Query user's AI tasks by media type and provider
     // Can also be used for: WHERE mediaType = ? AND provider = ? (left-prefix)
     index('idx_ai_task_media_type_status').on(table.mediaType, table.status),
+  ]
+);
+
+export const notification = table(
+  'notification',
+  {
+    id: varchar191('id').primaryKey(),
+    userId: varchar191('user_id')
+      .notNull()
+      .references(() => user.id, { onDelete: 'cascade' }),
+    type: varchar('type', { length: 50 }).notNull(), // 'task_success' | 'task_failed'
+    title: varchar('title', { length: 255 }).notNull(),
+    content: text('content'),
+    taskId: varchar191('task_id'),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    readAt: timestamp('read_at'),
+  },
+  (table) => [
+    index('idx_notification_user_id').on(table.userId),
   ]
 );
 

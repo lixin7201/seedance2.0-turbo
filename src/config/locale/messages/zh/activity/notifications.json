@@ -1,0 +1,10 @@
+{
+  "title": "通知",
+  "empty": "暂无通知",
+  "mark_all_read": "全部已读",
+  "unread": "未读",
+  "read": "已读",
+  "task_success": "生成完成",
+  "task_failed": "生成失败",
+  "view_task": "查看任务"
+}

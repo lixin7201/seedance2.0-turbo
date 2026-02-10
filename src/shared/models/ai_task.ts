@@ -1,4 +1,4 @@
-import { and, count, desc, eq, sql } from 'drizzle-orm';
+import { and, count, desc, eq, inArray, isNull, sql } from 'drizzle-orm';
 
 import { db } from '@/core/db';
 import { aiTask, credit } from '@/config/db/schema';
@@ -51,6 +51,15 @@ export async function createAITask(newAITask: NewAITask) {
 
 export async function findAITaskById(id: string) {
   const [result] = await db().select().from(aiTask).where(eq(aiTask.id, id));
+  return result;
+}
+
+// Find task by provider task id
+export async function findAITaskByProviderTaskId(taskId: string) {
+  const [result] = await db()
+    .select()
+    .from(aiTask)
+    .where(eq(aiTask.taskId, taskId));
   return result;
 }
 
@@ -124,7 +133,8 @@ export async function getAITasksCount({
         userId ? eq(aiTask.userId, userId) : undefined,
         mediaType ? eq(aiTask.mediaType, mediaType) : undefined,
         provider ? eq(aiTask.provider, provider) : undefined,
-        status ? eq(aiTask.status, status) : undefined
+        status ? eq(aiTask.status, status) : undefined,
+        isNull(aiTask.deletedAt)
       )
     );
 
@@ -156,7 +166,8 @@ export async function getAITasks({
         userId ? eq(aiTask.userId, userId) : undefined,
         mediaType ? eq(aiTask.mediaType, mediaType) : undefined,
         provider ? eq(aiTask.provider, provider) : undefined,
-        status ? eq(aiTask.status, status) : undefined
+        status ? eq(aiTask.status, status) : undefined,
+        isNull(aiTask.deletedAt)
       )
     )
     .orderBy(desc(aiTask.createdAt))
@@ -166,6 +177,36 @@ export async function getAITasks({
   if (getUser) {
     return appendUserToResult(result);
   }
+
+  return result;
+}
+
+// Get count of active (queued/processing) tasks for concurrency limiting
+export async function getActiveAITasksCount(userId: string): Promise<number> {
+  const [result] = await db()
+    .select({ count: count() })
+    .from(aiTask)
+    .where(
+      and(
+        eq(aiTask.userId, userId),
+        inArray(aiTask.status, [
+          AITaskStatus.PENDING,
+          AITaskStatus.PROCESSING,
+        ]),
+        isNull(aiTask.deletedAt)
+      )
+    );
+
+  return result?.count || 0;
+}
+
+// Soft delete a task (set deletedAt)
+export async function softDeleteAITask(id: string, userId: string) {
+  const [result] = await db()
+    .update(aiTask)
+    .set({ deletedAt: new Date() })
+    .where(and(eq(aiTask.id, id), eq(aiTask.userId, userId)))
+    .returning();
 
   return result;
 }

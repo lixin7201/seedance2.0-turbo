@@ -2,9 +2,10 @@ import { envConfigs } from '@/config';
 import { AIMediaType } from '@/extensions/ai';
 import { getUuid } from '@/shared/lib/hash';
 import { respData, respErr } from '@/shared/lib/resp';
-import { createAITask, NewAITask } from '@/shared/models/ai_task';
+import { createAITask, getActiveAITasksCount, NewAITask } from '@/shared/models/ai_task';
 import { getModelConfigById, getModelCreditsCost, getModelProviderId } from '@/shared/models/ai_model_config';
 import { getRemainingCredits } from '@/shared/models/credit';
+import { getCurrentSubscription, SubscriptionStatus } from '@/shared/models/subscription';
 import { getUserInfo } from '@/shared/models/user';
 import { getAIService } from '@/shared/services/ai';
 
@@ -88,6 +89,17 @@ export async function POST(request: Request) {
       throw new Error('insufficient credits');
     }
 
+    // check concurrency limits
+    const activeTasksCount = await getActiveAITasksCount(user.id);
+    const subscription = await getCurrentSubscription(user.id);
+    const isPaid = subscription && subscription.status === SubscriptionStatus.ACTIVE;
+    const maxConcurrent = isPaid ? 3 : 1;
+    if (activeTasksCount >= maxConcurrent) {
+      throw new Error(
+        `concurrent task limit reached (${maxConcurrent}). Please wait for current tasks to complete.`
+      );
+    }
+
     const callbackUrl = `${envConfigs.app_url}/api/ai/notify/${provider}`;
 
     // Build options with resolution and duration if provided
@@ -114,6 +126,9 @@ export async function POST(request: Request) {
     }
 
     // create ai task
+    const expiresAt = new Date();
+    expiresAt.setDate(expiresAt.getDate() + 30);
+
     const newAITask: NewAITask = {
       id: getUuid(),
       userId: user.id,
@@ -129,6 +144,7 @@ export async function POST(request: Request) {
       taskInfo: result.taskInfo ? JSON.stringify(result.taskInfo) : null,
       taskResult: result.taskResult ? JSON.stringify(result.taskResult) : null,
       providerModelIdSnapshot: providerModelId, // Save the actual provider model ID used
+      expiresAt,
     };
     await createAITask(newAITask);
 

@@ -44,6 +44,8 @@ export interface AIVideo {
   videoUrl?: string;
   thumbnailUrl?: string;
   duration?: number;
+  storageKey?: string; // R2 storage key for video
+  posterKey?: string; // R2 storage key for poster/cover
 }
 
 /**
@@ -69,6 +71,7 @@ export enum AITaskStatus {
   SUCCESS = 'success',
   FAILED = 'failed',
   CANCELED = 'canceled',
+  EXPIRED = 'expired',
 }
 
 /**
@@ -82,6 +85,7 @@ export interface AITaskInfo {
   errorCode?: string;
   errorMessage?: string;
   createTime?: Date;
+  progress?: number; // 0-100 generation progress
 }
 
 /**
@@ -92,6 +96,7 @@ export interface AITaskResult {
   taskId: string; // provider task id
   taskInfo?: AITaskInfo;
   taskResult?: any; // raw result from provider
+  progress?: number; // 0-100 generation progress
 }
 
 export interface AIFile {

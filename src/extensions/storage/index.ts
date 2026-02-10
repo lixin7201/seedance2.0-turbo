@@ -66,6 +66,16 @@ export interface StorageProvider {
   downloadAndUpload(
     options: StorageDownloadUploadOptions
   ): Promise<StorageUploadResult>;
+
+  // delete file (optional)
+  deleteFile?(options: { key: string; bucket?: string }): Promise<boolean>;
+
+  // get signed url for private files (optional)
+  getSignedUrl?(options: {
+    key: string;
+    expiresIn: number;
+    bucket?: string;
+  }): Promise<string>;
 }
 
 /**
@@ -157,6 +167,29 @@ export class StorageManager {
   // get all provider names
   getProviderNames(): string[] {
     return this.providers.map((p) => p.name);
+  }
+
+  // delete file using default provider (if supported)
+  async deleteFile(options: {
+    key: string;
+    bucket?: string;
+  }): Promise<boolean> {
+    const provider = this.ensureDefaultProvider();
+    if (!provider.deleteFile) return false;
+    return provider.deleteFile(options);
+  }
+
+  // get signed url using default provider (if supported)
+  async getSignedUrl(options: {
+    key: string;
+    expiresIn: number;
+    bucket?: string;
+  }): Promise<string> {
+    const provider = this.ensureDefaultProvider();
+    if (!provider.getSignedUrl) {
+      throw new Error('getSignedUrl not supported by storage provider');
+    }
+    return provider.getSignedUrl(options);
   }
 }
 

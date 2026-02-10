@@ -202,6 +202,67 @@ export class R2Provider implements StorageProvider {
       };
     }
   }
+
+  async deleteFile(options: {
+    key: string;
+    bucket?: string;
+  }): Promise<boolean> {
+    try {
+      const uploadBucket = options.bucket || this.configs.bucket;
+      if (!uploadBucket) return false;
+      const uploadPath = this.getUploadPath();
+      const url = `${this.getEndpoint()}/${uploadBucket}/${uploadPath}/${options.key}`;
+
+      const { AwsClient } = await import('aws4fetch');
+      const client = new AwsClient({
+        accessKeyId: this.configs.accessKeyId,
+        secretAccessKey: this.configs.secretAccessKey,
+        region: this.configs.region || 'auto',
+      });
+
+      const response = await client.fetch(
+        new Request(url, { method: 'DELETE' })
+      );
+      return response.ok;
+    } catch (error) {
+      console.error('R2 deleteFile error:', error);
+      return false;
+    }
+  }
+
+  async getSignedUrl(options: {
+    key: string;
+    expiresIn: number;
+    bucket?: string;
+  }): Promise<string> {
+    const uploadBucket = options.bucket || this.configs.bucket;
+    if (!uploadBucket) throw new Error('Bucket is required');
+    const uploadPath = this.getUploadPath();
+    const expiresIn = options.expiresIn || 3600; // default 1 hour
+    const baseUrl = `${this.getEndpoint()}/${uploadBucket}/${uploadPath}/${options.key}`;
+    // Add X-Amz-Expires as query parameter before signing (aws4fetch reads it from URL)
+    const urlWithExpires = `${baseUrl}?X-Amz-Expires=${expiresIn}`;
+
+    const { AwsClient } = await import('aws4fetch');
+    const client = new AwsClient({
+      accessKeyId: this.configs.accessKeyId,
+      secretAccessKey: this.configs.secretAccessKey,
+      region: this.configs.region || 'auto',
+      service: 's3',
+    });
+
+    // Create a signed URL using AWS Signature V4 with expiration
+    const signedRequest = await client.sign(urlWithExpires, {
+      method: 'GET',
+      aws: {
+        signQuery: true,
+        datetime: new Date().toISOString().replace(/[:-]|\.\d{3}/g, ''),
+        allHeaders: true,
+      },
+    });
+
+    return signedRequest.url;
+  }
 }
 
 /**

@@ -10,7 +10,9 @@
     "result": "结果",
     "cost_credits": "消耗积分",
     "created_at": "创建时间",
-    "action": "操作"
+    "action": "操作",
+    "progress": "进度",
+    "expires_at": "过期时间"
   },
   "list": {
     "title": "AI 任务",
@@ -24,8 +26,23 @@
     },
     "buttons": {
       "view": "查看任务",
-      "refresh": "刷新任务"
+      "refresh": "刷新任务",
+      "delete": "删除",
+      "download": "下载",
+      "play": "播放",
+      "retry": "重试"
     },
-    "empty_message": "无任务"
+    "empty_message": "无任务",
+    "confirm_delete": "确定要删除这个任务吗？",
+    "delete_success": "删除成功",
+    "hint_async": "您可以关闭此页面，任务完成后会通知您。",
+    "view_history": "查看历史"
+  },
+  "status": {
+    "pending": "排队中",
+    "processing": "生成中",
+    "success": "已完成",
+    "failed": "失败",
+    "expired": "已过期"
   }
 }

@@ -8,6 +8,11 @@
         "icon": "RiTaskLine"
       },
       {
+        "title": "通知",
+        "url": "/activity/notifications",
+        "icon": "RiNotification3Line"
+      },
+      {
         "title": "AI 对话",
         "url": "/activity/chats",
         "icon": "RiChat2Line"

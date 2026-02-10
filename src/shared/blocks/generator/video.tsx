@@ -6,6 +6,7 @@ import {
   ChevronRight,
   CreditCard,
   Download,
+  History,
   Loader2,
   Sparkles,
   User,
@@ -58,6 +59,7 @@ interface BackendTask {
   prompt: string | null;
   taskInfo: string | null;
   taskResult: string | null;
+  progress: number | null;
 }
 
 type VideoGeneratorTab = 'text-to-video' | 'image-to-video' | 'video-to-video';
@@ -513,11 +515,21 @@ export function VideoGenerator({
         const videoUrls = extractVideoUrls(parsedResult);
 
         if (currentStatus === AITaskStatus.PENDING) {
-          setProgress((prev) => Math.max(prev, 20));
+          // Use backend progress if available, otherwise default
+          const backendProgress = task.progress ?? 0;
+          setProgress((prev) => Math.max(prev, backendProgress, 10));
           return false;
         }
 
         if (currentStatus === AITaskStatus.PROCESSING) {
+          // Prefer backend progress, fall back to local increment
+          const backendProgress = task.progress ?? 0;
+          if (backendProgress > 0) {
+            setProgress((prev) => Math.max(prev, backendProgress));
+          } else {
+            setProgress((prev) => Math.min(prev + 3, 90));
+          }
+
           if (videoUrls.length > 0) {
             setGeneratedVideos(
               videoUrls.map((url, index) => ({
@@ -528,9 +540,6 @@ export function VideoGenerator({
                 prompt: task.prompt ?? undefined,
               }))
             );
-            setProgress((prev) => Math.max(prev, 85));
-          } else {
-            setProgress((prev) => Math.min(prev + 5, 80));
           }
           return false;
         }
@@ -768,11 +777,19 @@ export function VideoGenerator({
         <div className="mx-auto max-w-6xl">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
             <Card>
-              <CardHeader>
-                {srOnlyTitle && <h2 className="sr-only">{srOnlyTitle}</h2>}
-                <CardTitle className="flex items-center gap-2 text-xl font-semibold">
-                  {t('title')}
-                </CardTitle>
+              <CardHeader className="flex flex-row items-center justify-between gap-2">
+                <div>
+                  {srOnlyTitle && <h2 className="sr-only">{srOnlyTitle}</h2>}
+                  <CardTitle className="flex items-center gap-2 text-xl font-semibold">
+                    {t('title')}
+                  </CardTitle>
+                </div>
+                <Link href="/activity/ai-tasks">
+                  <Button variant="secondary" size="sm">
+                    <History className="mr-2 h-4 w-4" />
+                    {t('view_history')}
+                  </Button>
+                </Link>
               </CardHeader>
               <CardContent className="space-y-6 pb-8">
                 <Tabs value={activeTab} onValueChange={handleTabChange}>
@@ -1021,6 +1038,17 @@ export function VideoGenerator({
                         {taskStatusLabel}
                       </p>
                     )}
+                    <div className="mt-2 flex flex-col items-center gap-1">
+                      <p className="text-muted-foreground text-center text-xs">
+                        💡 {t('hint_async')}
+                      </p>
+                      <Link
+                        href="/activity/ai-tasks"
+                        className="text-xs text-blue-500 hover:underline"
+                      >
+                        {t('view_history')} →
+                      </Link>
+                    </div>
                   </div>
                 )}
               </CardContent>
