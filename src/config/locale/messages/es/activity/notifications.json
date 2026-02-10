@@ -1,0 +1,10 @@
+{
+  "title": "Notificaciones",
+  "empty": "No hay notificaciones todavía",
+  "mark_all_read": "Marcar todo como leído",
+  "unread": "No leído",
+  "read": "Leído",
+  "task_success": "Generación completada",
+  "task_failed": "Generación fallida",
+  "view_task": "Ver Tarea"
+}

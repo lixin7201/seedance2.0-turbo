@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "slug": "الاسم اللطيف (Slug)",
+    "title": "العنوان",
+    "description": "الوصف",
+    "status": "الحالة",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث"
+  },
+  "list": {
+    "title": "التصنيفات",
+    "crumbs": {
+      "admin": "المدير",
+      "categories": "التصنيفات"
+    },
+    "buttons": {
+      "add": "إضافة تصنيف",
+      "edit": "تعديل تصنيف",
+      "view": "عرض تصنيف",
+      "delete": "حذف تصنيف"
+    },
+    "tabs": {
+      "all": "الكل",
+      "published": "منشور",
+      "pending": "قيد الانتظار",
+      "draft": "مسودة",
+      "archived": "مؤرشف"
+    }
+  },
+  "add": {
+    "title": "إضافة تصنيف",
+    "crumbs": {
+      "admin": "المدير",
+      "categories": "التصنيفات",
+      "add": "إضافة تصنيف"
+    },
+    "buttons": {
+      "submit": "إضافة تصنيف"
+    }
+  },
+  "edit": {
+    "title": "تعديل تصنيف",
+    "crumbs": {
+      "admin": "المدير",
+      "categories": "التصنيفات",
+      "edit": "تعديل تصنيف"
+    },
+    "buttons": {
+      "submit": "تعديل تصنيف"
+    }
+  }
+}

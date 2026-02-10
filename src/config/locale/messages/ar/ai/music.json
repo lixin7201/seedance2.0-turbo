@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "مولد موسيقى بالذكاء الاصطناعي",
+    "description": "أنشئ موسيقى مذهلة باستخدام الذكاء الاصطناعي"
+  },
+  "page": {
+    "title": "مولد موسيقى بالذكاء الاصطناعي",
+    "description": "أنشئ موسيقى مذهلة باستخدام الذكاء الاصطناعي"
+  },
+  "generator": {
+    "title": "مولد الموسيقى",
+    "prompt": "الموجه (Prompt)",
+    "prompt_placeholder": "قصة حب روميو وجولييت",
+    "generate": "توليد موسيقى",
+    "loading": "جاري التحميل...",
+    "generating": "جاري التوليد...",
+    "sign_in_to_generate": "سجل الدخول لتوليد موسيقى",
+    "credits_cost": "{credits} رصيد ستكلف",
+    "credits_remaining": "{credits} رصيد متبقي",
+    "buy_credits": "شراء رصيد",
+    "generation_progress": "تقدم التوليد",
+    "time_cost": "قد يستغرق هذا ما يصل إلى 2-3 دقائق...",
+    "generated_song": "الأغنية المولدة",
+    "ready_to_play": "جاهز للتشغيل",
+    "audio_generating": "جاري توليد الصوت...",
+    "generating_song": "جاري توليد الأغنية...",
+    "waiting_generation": "يرجى الانتظار بينما ننشئ تحفتك الفنية",
+    "no_song_generated": "لم يتم توليد أغنية",
+    "downloading": "جاري التنزيل...",
+    "download_success": "تم التنزيل بنجاح",
+    "download_failed": "فشل تنزيل الصوت",
+    "form": {
+      "custom_mode": "وضع مخصص",
+      "title": "العنوان",
+      "title_placeholder": "صوت الصمت",
+      "style": "نمط الموسيقى",
+      "style_placeholder": "indie, electronic, synths, 120bpm, distorted",
+      "instrumental": "موسيقي (بدون غناء)",
+      "prompt": "الموجه (Prompt)",
+      "prompt_placeholder": "أغنية فولك ريفي عن الحب",
+      "model": "النموذج",
+      "lyrics": "كلمات الأغنية",
+      "lyrics_placeholder": "اكتب كلماتك الخاصة، مقطعين (8 أسطر) للحصول على أفضل نتيجة"
+    }
+  }
+}

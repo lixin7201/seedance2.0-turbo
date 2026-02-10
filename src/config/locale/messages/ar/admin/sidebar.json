@@ -1,0 +1,155 @@
+{
+  "header": {
+    "brand": {
+      "title": "Seedance 2.0 الأدمن",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "النظام",
+      "items": [
+        {
+          "title": "المستخدمون والأذونات",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "المستخدمون",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "الأدوار",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "الأذونات",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "الصفحات والمحتوى",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "التصنيفات",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "المشاركات",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "المدفوعات والأرصدة",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "المدفوعات",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "الاشتراكات",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "الأرصدة",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الأعمال",
+      "items": [
+        {
+          "title": "مهام الذكاء الاصطناعي",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        },
+        {
+          "title": "دردشات الذكاء الاصطناعي",
+          "url": "/admin/chats",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "تكوين النماذج",
+          "url": "/admin/model-config",
+          "icon": "Settings2"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "الإعدادات",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      },
+      {
+        "title": "مفاتيح API",
+        "url": "/admin/apikeys",
+        "icon": "Key"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "الملف الشخصي",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "الرئيسية",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "X",
+          "url": "https://x.com/seedance",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "البريد الإلكتروني",
+          "url": "mailto:support@seedance2.shop",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

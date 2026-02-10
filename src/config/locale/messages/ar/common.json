@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 مولد فيديو بالذكاء الاصطناعي - أنشئ فيديوهات سينمائية بالذكاء الاصطناعي",
+    "description": "أنشئ فيديوهات سينمائية مذهلة باستخدام مولد الفيديو بالذكاء الاصطناعي Seedance 2.0. تحويل النص إلى فيديو، والصورة إلى فيديو بحركة سلسة وجودة احترافية. جربه مجانًا الآن.",
+    "keywords": "Seedance 2.0، مولد فيديو بالذكاء الاصطناعي، نص إلى فيديو، صورة إلى فيديو، فيديو سينمائي بالذكاء الاصطناعي، Seedance AI، توليد الفيديو، صانع فيديو بالذكاء الاصطناعي"
+  },
+  "sign": {
+    "sign_in_title": "تسجيل الدخول",
+    "sign_in_description": "سجل الدخول إلى حسابك",
+    "sign_up_title": "اشتراك",
+    "sign_up_description": "أنشئ حساباً",
+    "email_title": "البريد الإلكتروني",
+    "email_placeholder": "أدخل بريدك الإلكتروني هنا",
+    "password_title": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور هنا",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "or": "أو",
+    "continue": "استمرار",
+    "no_account": "ليس لديك حساب؟",
+    "already_have_account": "لديك حساب بالفعل؟",
+    "email_sign_in": "تسجيل الدخول بالبريد الإلكتروني",
+    "google_sign_in_title": "تسجيل الدخول باستخدام Google",
+    "github_sign_in_title": "تسجيل الدخول باستخدام GitHub",
+    "close_title": "إغلاق",
+    "cancel_title": "إلغاء",
+    "sign_out_title": "تسجيل الخروج",
+    "billing_title": "الفوترة",
+    "name_title": "الاسم",
+    "name_placeholder": "أدخل اسمك هنا",
+    "email_verification_hint": "استخدم عنوان بريد إلكتروني يمكنك الوصول إليه. يجب عليك تأكيد بريدك الإلكتروني بعد الاشتراك.",
+    "admin_title": "نظام الإدارة",
+    "credits_title": "الرصيد: {credits}",
+    "verify_email_sent": "تم إرسال بريد التحقق. يرجى التحقق من صندوق الوارد الخاص بك.",
+    "verify_email_required": "يرجى التحقق من عنوان بريدك الإلكتروني قبل تسجيل الدخول.",
+    "resend_verification": "إعادة إرسال بريد التحقق",
+    "resend_verification_sent": "تم إعادة إرسال بريد التحقق. يرجى التحقق من صندوق الوارد الخاص بك.",
+    "verify_email_page_title": "تحقق من بريدك الإلكتروني",
+    "verify_email_page_description": "للمتابعة، انقر على الرابط المرسل إلى",
+    "verify_email_continue": "استمرار",
+    "verify_email_tip": "بعد التحقق، انقر على \"استمرار\".",
+    "verify_email_not_verified_yet": "لم يتم التحقق بعد. يرجى النقر على الرابط في بريدك الإلكتروني أولاً.",
+    "verify_email_account_mismatch": "تم تسجيل الدخول باسم {current}. هذه الصفحة تنتظر {expected}.",
+    "resend_verification_countdown": "إعادة إرسال بريد التحقق ({seconds} ثانية)",
+    "resend_verification_wait": "يرجى الانتظار {seconds} ثانية قبل إعادة الإرسال.",
+    "back_to_sign_in": "العودة إلى تسجيل الدخول"
+  },
+  "payment": {
+    "choose_payment_method": "اختر طريقة الدفع",
+    "choose_payment_method_description": "",
+    "cancel_title": "إلغاء"
+  },
+  "locale_detector": {
+    "title": "اكتشفنا أن لغة المتصفح هي {locale}. هل تريد التبديل إليها؟",
+    "switch_to": "التبديل إلى {locale}"
+  }
+}

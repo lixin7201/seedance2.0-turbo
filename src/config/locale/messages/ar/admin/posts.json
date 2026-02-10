@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "الاسم اللطيف (Slug)",
+    "title": "العنوان",
+    "description": "الوصف",
+    "image": "صورة",
+    "content": "المحتوى",
+    "categories": "التصنيفات",
+    "tags": "الوسوم",
+    "author_name": "اسم المؤلف",
+    "author_role": "دور المؤلف",
+    "author_image": "صورة المؤلف",
+    "status": "الحالة",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث",
+    "deleted_at": "تاريخ الحذف"
+  },
+  "list": {
+    "title": "المشاركات",
+    "crumbs": {
+      "admin": "المدير",
+      "posts": "المشاركات"
+    },
+    "buttons": {
+      "add": "إضافة مشاركة",
+      "edit": "تعديل مشاركة",
+      "view": "عرض مشاركة",
+      "delete": "حذف مشاركة"
+    },
+    "tabs": {
+      "all": "الكل",
+      "published": "منشور",
+      "pending": "قيد الانتظار",
+      "draft": "مسودة",
+      "archived": "مؤرشف"
+    }
+  },
+  "add": {
+    "title": "إضافة مشاركة",
+    "crumbs": {
+      "admin": "المدير",
+      "posts": "المشاركات",
+      "add": "إضافة مشاركة"
+    },
+    "buttons": {
+      "submit": "إضافة مشاركة"
+    }
+  },
+  "edit": {
+    "title": "تعديل مشاركة",
+    "crumbs": {
+      "admin": "المدير",
+      "posts": "المشاركات",
+      "edit": "تعديل مشاركة"
+    },
+    "buttons": {
+      "submit": "تعديل مشاركة"
+    }
+  }
+}

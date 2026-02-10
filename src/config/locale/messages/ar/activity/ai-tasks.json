@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "العنوان",
+    "media_type": "نوع الوسائط",
+    "provider": "المزود",
+    "model": "النموذج",
+    "prompt": "الموجه (Prompt)",
+    "options": "الخيارات",
+    "status": "الحالة",
+    "result": "النتيجة",
+    "cost_credits": "تكلفة الرصيد",
+    "created_at": "تاريخ الإنشاء",
+    "action": "الإجراء",
+    "progress": "التقدم",
+    "expires_at": "تاريخ الانتهاء"
+  },
+  "list": {
+    "title": "مهام الذكاء الاصطناعي",
+    "tabs": {
+      "all": "الكل",
+      "music": "موسيقى",
+      "image": "صورة",
+      "video": "فيديو",
+      "audio": "صوت",
+      "text": "نص"
+    },
+    "buttons": {
+      "view": "عرض المهمة",
+      "refresh": "تحديث المهمة",
+      "delete": "حذف",
+      "download": "تنزيل",
+      "play": "تشغيل",
+      "retry": "إعادة المحاولة"
+    },
+    "empty_message": "لم يتم العثور على أي مهام",
+    "confirm_delete": "هل أنت متأكد من أنك تريد حذف هذه المهمة؟",
+    "delete_success": "تم حذف المهمة بنجاح",
+    "hint_async": "يمكنك إغلاق هذه الصفحة. سنقوم بإعلامك عند الانتهاء.",
+    "view_history": "عرض السجل"
+  },
+  "status": {
+    "pending": "في الانتظار",
+    "processing": "جاري المعالجة",
+    "success": "مكتمل",
+    "failed": "فشل",
+    "expired": "منتهي الصلاحية"
+  }
+}

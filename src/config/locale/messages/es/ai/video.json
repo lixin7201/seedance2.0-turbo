@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Generador de Video IA",
+    "description": "Genera videos con modelos de IA, soporta texto a video, imagen a video y video a video."
+  },
+  "page": {
+    "title": "Generador de Video IA",
+    "description": "Genera videos con modelos de IA, soporta texto a video, imagen a video y video a video."
+  },
+  "generator": {
+    "title": "Generador de Video",
+    "description": "Genera videos con modelos de IA, soporta texto a video, imagen a video y video a video.",
+    "tabs": {
+      "text-to-video": "Texto a Video",
+      "image-to-video": "Imagen a Video",
+      "video-to-video": "Video a Video"
+    },
+    "form": {
+      "provider": "Proveedor",
+      "model": "Modelo",
+      "resolution": "Resolución",
+      "duration": "Duración",
+      "select_provider": "Seleccionar Proveedor",
+      "select_model": "Seleccionar Modelo",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Describe el contenido del video, como escena, acción, estilo, etc.",
+      "reference_image": "Imagen de Referencia",
+      "reference_image_placeholder": "Sube una imagen de referencia para la generación de video",
+      "reference_video": "URL de Video de Referencia",
+      "reference_video_placeholder": "Ingresa la URL del video de referencia",
+      "some_images_failed_to_upload": "La imagen falló al subir, por favor elimina y vuelve a subir",
+      "prompt_too_long": "El prompt es demasiado largo, por favor elimina algo de contenido"
+    },
+    "generate": "Generar Video",
+    "checking_account": "Comprobando Cuenta...",
+    "loading": "Cargando...",
+    "generating": "Generando...",
+    "sign_in_to_generate": "Inicia Sesión para Generar Video",
+    "credits_cost": "Costo {credits} créditos",
+    "credits_remaining": "Quedan {credits} créditos",
+    "buy_credits": "Comprar Créditos",
+    "progress": "Progreso",
+    "generated_videos": "Vista Previa de Video",
+    "ready_to_generate": "Listo para Generar",
+    "ready_for_generating": "Listo para Generar",
+    "no_videos_generated": "No se generaron videos",
+    "preview_examples_hint": "Estos son videos de muestra creados por Seedance 2.0. Rellena el formulario a la izquierda y haz clic en \"Generar Video\" para crear tu propio video.",
+    "seedance2_coming_soon": "Seedance 2.0 Próximamente",
+    "hint_async": "Puedes cerrar esta página. Te notificaremos cuando termine.",
+    "view_history": "Ver Historial"
+  },
+  "preview_examples_hint": "Estos son videos de muestra creados usando nuestra plataforma. Rellena el formulario a la izquierda y haz clic en \"Generar Video\" para crear tu propio video."
+}

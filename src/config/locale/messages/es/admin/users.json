@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nombre",
+    "avatar": "Avatar",
+    "email": "Correo",
+    "email_verified": "Correo Verificado",
+    "remaining_credits": "Créditos Restantes",
+    "created_at": "Creado el",
+    "actions": "Acciones",
+    "roles": "Roles",
+    "ip": "IP",
+    "locale": "Idioma",
+    "utm_source": "Fuente UTM"
+  },
+  "list": {
+    "title": "Usuarios",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuarios"
+    },
+    "buttons": {
+      "add": "Añadir Usuario",
+      "edit": "Editar Usuario",
+      "view": "Ver Usuario",
+      "delete": "Eliminar Usuario",
+      "edit_roles": "Editar Roles",
+      "grant_credits": "Otorgar Créditos"
+    },
+    "search": {
+      "email": {
+        "title": "Correo",
+        "placeholder": "Correo"
+      }
+    }
+  },
+  "edit": {
+    "title": "Editar Usuario",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuarios",
+      "edit": "Editar"
+    },
+    "buttons": {
+      "submit": "Actualizar"
+    }
+  },
+  "edit_roles": {
+    "title": "Editar Roles",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuarios",
+      "edit_roles": "Editar Roles"
+    },
+    "buttons": {
+      "submit": "Actualizar"
+    }
+  },
+  "grant_credits": {
+    "title": "Otorgar Créditos",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Usuarios",
+      "grant_credits": "Otorgar Créditos"
+    },
+    "buttons": {
+      "submit": "Otorgar"
+    },
+    "fields": {
+      "credits": "Cantidad Créditos",
+      "valid_days": "Días Validez",
+      "valid_days_tip": "0 significa sin expiración",
+      "description": "Descripción",
+      "description_placeholder": "Admin otorga créditos"
+    }
+  }
+}

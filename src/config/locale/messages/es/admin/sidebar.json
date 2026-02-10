@@ -1,0 +1,155 @@
+{
+  "header": {
+    "brand": {
+      "title": "Seedance 2.0 Admin",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "Sistema",
+      "items": [
+        {
+          "title": "Usuarios y Permisos",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Usuarios",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Roles",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "Permisos",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Páginas y Contenido",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Categorías",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "Publicaciones",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "Pagos y Créditos",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Pagos",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Suscripciones",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Créditos",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Negocio",
+      "items": [
+        {
+          "title": "Tareas de IA",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        },
+        {
+          "title": "Chats de IA",
+          "url": "/admin/chats",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Config Modelos",
+          "url": "/admin/model-config",
+          "icon": "Settings2"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Ajustes",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      },
+      {
+        "title": "Claves API",
+        "url": "/admin/apikeys",
+        "icon": "Key"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Perfil",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Inicio",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "X",
+          "url": "https://x.com/seedance",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "Correo",
+          "url": "mailto:support@seedance2.shop",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

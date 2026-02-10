@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "title": "Texto a Video - Generación de Video IA",
+    "description": "Crea videos dinámicos a partir de descripciones de texto. Soporta prompts detallados de escenas, personajes y acciones con múltiples estilos visuales y salida HD 1080p/2K."
+  },
+  "page": {
+    "title": "Texto a Video",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Texto a Video",
+        "highlight_text": "Texto a Video",
+        "description": "Crea videos dinámicos a partir de tus descripciones de texto.<br/>Prompts detallados de escenas, personajes y acciones con múltiples estilos visuales y salida HD 1080p/2K.",
+        "tip": "🎬 Transforma tus palabras en videos impresionantes",
+        "buttons": [
+          {
+            "title": "Empezar a Crear",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Ver Ejemplos",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "Generación IA Texto a Video",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "fondo"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Por Qué Elegir Texto a Video",
+        "label": "Beneficios",
+        "description": "Experimenta la tecnología de IA de texto a video más avanzada con un control creativo inigualable.",
+        "items": [
+          {
+            "title": "Soporte de Prompt Detallado",
+            "description": "Crea escenas intrincadas con prompts de texto completos. Describe personajes, escenarios, acciones, iluminación y movimientos de cámara en lenguaje natural.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "Prompts Detallados"
+            }
+          },
+          {
+            "title": "Múltiples Estilos Visuales",
+            "description": "Elige entre realista, anime, acuarela, cyberpunk, pintura al óleo y muchos más estilos artísticos para coincidir con tu visión creativa.",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "Estilos Visuales"
+            }
+          },
+          {
+            "title": "Simulación de Física",
+            "description": "El motor de física revolucionario asegura movimiento de objetos realista, interacciones de iluminación naturales y comportamientos físicos creíbles.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "Simulación de Física"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Características Principales",
+        "description": "Todo lo que necesitas para crear videos generados por IA profesionales a partir de texto.",
+        "items": [
+          {
+            "title": "🎬 Prompts de Texto Detallados",
+            "description": "Escribe descripciones de escenas completas incluyendo personajes, acciones, entornos y movimientos de cámara.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 Múltiples Estilos Visuales",
+            "description": "Realista, anime, acuarela, cyberpunk, pintura al óleo y más estilos artísticos disponibles.",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 Salida HD 1080p/2K",
+            "description": "Genera videos nítidos en resolución full HD 1080p o 2K con cero artefactos.",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 Simulación de Física",
+            "description": "Motor de física avanzado para movimiento realista, iluminación natural e interacciones creíbles.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Control de Cámara",
+            "description": "Especifica ángulos de cámara, movimientos, zooms y transiciones en tus prompts de texto.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ Duración Extendida",
+            "description": "Genera videos de más de 30 segundos con calidad consistente y coherencia de escena.",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "Casos de Uso",
+        "label": "Aplicaciones",
+        "description": "Descubre las posibilidades infinitas de la generación de IA de texto a video.",
+        "items": [
+          {
+            "title": "Creación de Contenido",
+            "description": "Crea videos atractivos para redes sociales, contenido de YouTube y materiales de marketing a partir de descripciones de texto simples.",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "Creación de Contenido"
+            }
+          },
+          {
+            "title": "Narración",
+            "description": "Da vida a tus historias con escenas, personajes y narrativas generadas por IA.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "Narración"
+            }
+          },
+          {
+            "title": "Educación",
+            "description": "Crea videos educativos y explicaciones visuales para conceptos complejos.",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "Educación"
+            }
+          },
+          {
+            "title": "Publicidad",
+            "description": "Genera muestras de productos, videos promocionales y contenido publicitario rápidamente.",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "Publicidad"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Preguntas Frecuentes",
+        "description": "Preguntas comunes sobre la generación de texto a video.",
+        "items": [
+          {
+            "question": "¿Qué es Texto a Video?",
+            "answer": "Texto a Video es una tecnología de IA que convierte descripciones de texto escritas en contenido de video dinámico. Simplemente describe la escena, personajes, acciones y estilo que deseas, y la IA generará un video correspondiente."
+          },
+          {
+            "question": "¿Qué estilos visuales son compatibles?",
+            "answer": "Soportamos múltiples estilos visuales incluyendo realista, anime, acuarela, cyberpunk, pintura al óleo, animación 3D y más. Puedes especificar tu estilo preferido en el prompt de texto."
+          },
+          {
+            "question": "¿Qué resoluciones de video están disponibles?",
+            "answer": "Soportamos resoluciones de salida 1080p Full HD y 2K ultra-claras. La tecnología de IA avanzada elimina problemas comunes como inestabilidad, desenfoque y artefactos."
+          },
+          {
+            "question": "¿Qué tan largos pueden ser los videos generados?",
+            "answer": "Los videos generados pueden ser de más de 30 segundos de duración manteniendo una calidad de escena consistente y coherencia de personajes."
+          },
+          {
+            "question": "¿Qué tan detallados deben ser mis prompts de texto?",
+            "answer": "Cuanto más detallados sean tus prompts, mejores serán los resultados. Incluye descripciones de personajes, escenarios, acciones, iluminación, ángulos de cámara y estilo artístico. Sin embargo, incluso prompts simples pueden producir resultados impresionantes."
+          },
+          {
+            "question": "¿Puedo controlar los movimientos de la cámara?",
+            "answer": "¡Sí! Puedes especificar movimientos de cámara, ángulos, zooms, panorámicas y transiciones en tus prompts de texto. La IA incorporará estas direcciones en el video generado."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Empieza a Crear Videos desde Texto",
+        "description": "Transforma tus ideas en videos impresionantes con generación de texto a video impulsada por IA.",
+        "buttons": [
+          {
+            "title": "Probar Ahora",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Ver Precios",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

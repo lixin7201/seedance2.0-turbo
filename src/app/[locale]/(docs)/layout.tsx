@@ -12,6 +12,12 @@ import '@/config/style/docs.css';
 const zh: Partial<Translations> = {
   search: '搜索内容',
 };
+const es: Partial<Translations> = {
+  search: 'Buscar contenido',
+};
+const ar: Partial<Translations> = {
+  search: 'البحث عن محتوى',
+};
 // available languages that will be displayed on UI
 // make sure `locale` is consistent with your i18n config
 const locales = [
@@ -22,6 +28,14 @@ const locales = [
   {
     name: '简体中文',
     locale: 'zh',
+  },
+  {
+    name: 'Español',
+    locale: 'es',
+  },
+  {
+    name: 'العربية',
+    locale: 'ar',
   },
 ];
 
@@ -40,7 +54,7 @@ export default async function DocsRootLayout({
       i18n={{
         locale: lang,
         locales,
-        translations: { zh }[lang],
+        translations: { zh, es, ar }[lang],
       }}
       search={{
         options: {

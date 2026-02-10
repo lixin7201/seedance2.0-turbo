@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "مولد صور بالذكاء الاصطناعي",
+    "description": "أنشئ صورًا باستخدام نماذج الذكاء الاصطناعي، يدعم تحويل النص إلى صورة والصورة إلى صورة."
+  },
+  "page": {
+    "title": "مولد صور بالذكاء الاصطناعي",
+    "description": "أنشئ صورًا باستخدام نماذج الذكاء الاصطناعي، يدعم تحويل النص إلى صورة والصورة إلى صورة."
+  },
+  "generator": {
+    "title": "مولد الصور",
+    "description": "أنشئ صورًا باستخدام نماذج الذكاء الاصطناعي، يدعم تحويل النص إلى صورة والصورة إلى صورة.",
+    "tabs": {
+      "text-to-image": "نص إلى صورة",
+      "image-to-image": "صورة إلى صورة"
+    },
+    "form": {
+      "provider": "المزود",
+      "model": "النموذج",
+      "select_provider": "اختر المزود",
+      "select_model": "اختر النموذج",
+      "prompt": "الموجه (Prompt)",
+      "prompt_placeholder": "صف تفاصيل الصورة، مثل اللون، الشكل، الملمس، إلخ.",
+      "reference_image": "صورة مرجعية",
+      "reference_image_placeholder": "ارفع صور مرجعية، يدعم صور متعددة",
+      "some_images_failed_to_upload": "فشل رفع بعض الصور، يرجى حذفها وإعادة رفعها",
+      "prompt_too_long": "الموجه طويل جدًا، يرجى حذف بعض المحتوى"
+    },
+    "generate": "توليد صور",
+    "checking_account": "جاري التحقق من الحساب...",
+    "loading": "جاري التحميل...",
+    "generating": "جاري التوليد...",
+    "sign_in_to_generate": "سجل الدخول لتوليد صورة",
+    "credits_cost": "التكلفة {credits} رصيد",
+    "credits_remaining": "المتبقي {credits} رصيد",
+    "buy_credits": "شراء رصيد",
+    "progress": "التقدم",
+    "generated_images": "معاينة الصورة",
+    "ready_to_generate": "جاهز للتوليد",
+    "ready_for_generating": "جاهز للتوليد",
+    "no_images_generated": "لم يتم توليد صور"
+  }
+}

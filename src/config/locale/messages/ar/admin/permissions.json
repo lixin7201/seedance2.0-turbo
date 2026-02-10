@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "المعرف",
+    "code": "الرمز",
+    "title": "العنوان",
+    "resource": "المورد",
+    "action": "الإجراء",
+    "description": "الوصف",
+    "created_at": "تاريخ الإنشاء",
+    "updated_at": "تاريخ التحديث"
+  },
+  "list": {
+    "title": "الأذونات",
+    "crumbs": {
+      "admin": "المدير",
+      "permissions": "الأذونات"
+    }
+  }
+}

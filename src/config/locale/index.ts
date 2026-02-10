@@ -3,9 +3,11 @@ import { envConfigs } from '..';
 export const localeNames: any = {
   en: 'English',
   zh: '中文',
+  es: 'Español',
+  ar: 'العربية',
 };
 
-export const locales = ['en', 'zh'];
+export const locales = ['en', 'zh', 'es', 'ar'];
 
 export const defaultLocale = envConfigs.locale;
 
