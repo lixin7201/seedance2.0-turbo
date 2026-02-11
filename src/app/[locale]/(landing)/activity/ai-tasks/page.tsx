@@ -1,13 +1,13 @@
 import { getTranslations } from 'next-intl/server';
 
 import { AITaskStatus } from '@/extensions/ai';
-import { AudioPlayer, Empty, LazyImage } from '@/shared/blocks/common';
-import { TableCard } from '@/shared/blocks/table';
+import { Empty } from '@/shared/blocks/common';
 import { AITask, getAITasks, getAITasksCount } from '@/shared/models/ai_task';
 import { getUserInfo } from '@/shared/models/user';
 import { getStorageService } from '@/shared/services/storage';
-import { Button, Tab } from '@/shared/types/blocks/common';
-import { type Table } from '@/shared/types/blocks/table';
+import { Tab } from '@/shared/types/blocks/common';
+
+import { AITaskList } from './components/ai-task-list';
 
 export default async function AiTasksPage({
   searchParams,
@@ -15,8 +15,8 @@ export default async function AiTasksPage({
   searchParams: Promise<{ page?: number; pageSize?: number; type?: string }>;
 }) {
   const { page: pageNum, pageSize, type } = await searchParams;
-  const page = pageNum || 1;
-  const limit = pageSize || 20;
+  const page = pageNum ? Number(pageNum) : 1;
+  const limit = pageSize ? Number(pageSize) : 20;
 
   const user = await getUserInfo();
   if (!user) {
@@ -59,236 +59,11 @@ export default async function AiTasksPage({
       }
     }
   } catch {}
-
-  const table: Table = {
-    title: t('list.title'),
-    columns: [
-      {
-        name: 'prompt',
-        title: t('fields.prompt'),
-        type: 'copy',
-        className: 'min-w-[300px] max-w-[500px]',
-        callback: (item: AITask) => (
-          <div className="resize-x overflow-x-auto whitespace-normal break-words py-2 pr-4 leading-relaxed hover:bg-muted/50 rounded-md transition-colors">
-            {item.prompt}
-          </div>
-        ),
-      },
-      { name: 'mediaType', title: t('fields.media_type'), type: 'label' },
-      { name: 'model', title: t('fields.model'), type: 'label' },
-      {
-        name: 'status',
-        title: t('fields.status'),
-        callback: (item: AITask) => {
-          const statusKey = item.status as string;
-          const statusLabel = t.has(`status.${statusKey}`)
-            ? t(`status.${statusKey}` as any)
-            : statusKey;
-          const statusColors: Record<string, string> = {
-            pending: 'text-yellow-500',
-            processing: 'text-blue-500',
-            success: 'text-green-500',
-            failed: 'text-red-500',
-            expired: 'text-gray-400',
-          };
-          return (
-            <span className={statusColors[statusKey] || ''}>
-              {statusLabel}
-            </span>
-          );
-        },
-      },
-      {
-        name: 'progress',
-        title: t('fields.progress'),
-        callback: (item: AITask) => {
-          if (
-            item.status === AITaskStatus.PENDING ||
-            item.status === AITaskStatus.PROCESSING
-          ) {
-            const progress = item.progress || 0;
-            return (
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-20 rounded-full bg-gray-200 dark:bg-gray-700">
-                  <div
-                    className="h-2 rounded-full bg-blue-500 transition-all"
-                    style={{ width: `${progress}%` }}
-                  />
-                </div>
-                <span className="text-xs text-gray-500">{progress}%</span>
-              </div>
-            );
-          }
-          if (item.status === AITaskStatus.SUCCESS) {
-            return <span className="text-green-500">100%</span>;
-          }
-          return '-';
-        },
-      },
-      { name: 'costCredits', title: t('fields.cost_credits'), type: 'label' },
-      {
-        name: 'result',
-        title: t('fields.result'),
-        callback: (item: AITask) => {
-          if (item.status === AITaskStatus.EXPIRED) {
-            return <span className="text-gray-400">{t('status.expired')}</span>;
-          }
-
-          // Priority 1: R2 signed URLs (most reliable, won't expire for 1 hour)
-          if (item.resultAssets) {
-            try {
-              const signed = signedUrlMap.get(item.id);
-              if (signed?.videoUrl) {
-                return (
-                  <div className="relative w-64 overflow-hidden rounded-lg shadow-sm transition-all hover:shadow-md">
-                    <video
-                      src={signed.videoUrl}
-                      controls
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      className="h-auto w-full object-cover"
-                      poster={signed.posterUrl}
-                    />
-                    <div className="mt-2 flex justify-between px-1">
-                      <a
-                        href={signed.videoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs font-medium text-primary hover:underline"
-                      >
-                        {t('list.buttons.download')}
-                      </a>
-                    </div>
-                  </div>
-                );
-              }
-            } catch {}
-          }
-
-          // Priority 2: taskInfo (songs/images/videos from provider or custom storage)
-          if (item.taskInfo) {
-            const taskInfo = JSON.parse(item.taskInfo);
-            if (taskInfo.errorMessage) {
-              return (
-                <div className="text-red-500">
-                  {taskInfo.errorMessage}
-                </div>
-              );
-            } else if (taskInfo.songs && taskInfo.songs.length > 0) {
-              const songs: any[] = taskInfo.songs.filter(
-                (song: any) => song.audioUrl
-              );
-              if (songs.length > 0) {
-                return (
-                  <div className="flex flex-col gap-2">
-                    {songs.map((song: any) => (
-                      <AudioPlayer
-                        key={song.id}
-                        src={song.audioUrl}
-                        title={song.title}
-                        className="w-80"
-                      />
-                    ))}
-                  </div>
-                );
-              }
-            } else if (taskInfo.images && taskInfo.images.length > 0) {
-              return (
-                <div className="flex flex-col gap-2">
-                  {taskInfo.images.map((image: any, index: number) => (
-                    <LazyImage
-                      key={index}
-                      src={image.imageUrl}
-                      alt="Generated image"
-                      className="h-32 w-auto"
-                    />
-                  ))}
-                </div>
-              );
-            } else if (taskInfo.videos && taskInfo.videos.length > 0) {
-              const video = taskInfo.videos[0];
-              if (video.videoUrl) {
-                return (
-                  <div className="relative w-64 overflow-hidden rounded-lg shadow-sm transition-all hover:shadow-md">
-                    <video
-                      src={video.videoUrl}
-                      controls
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      className="h-auto w-full object-cover"
-                      poster={video.thumbnailUrl}
-                    />
-                    <div className="mt-2 flex justify-between px-1">
-                      <a
-                        href={video.videoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs font-medium text-primary hover:underline"
-                      >
-                        {t('list.buttons.download')}
-                      </a>
-                    </div>
-                  </div>
-                );
-              }
-            }
-          }
-
-          return '-';
-        },
-      },
-      { name: 'createdAt', title: t('fields.created_at'), type: 'time' },
-      {
-        name: 'action',
-        title: t('fields.action'),
-        type: 'dropdown',
-        callback: (item: AITask) => {
-          const items: Button[] = [];
-
-          if (
-            item.status === AITaskStatus.PENDING ||
-            item.status === AITaskStatus.PROCESSING
-          ) {
-            items.push({
-              title: t('list.buttons.refresh'),
-              url: `/activity/ai-tasks/${item.id}/refresh`,
-              icon: 'RiRefreshLine',
-            });
-          }
-
-          if (item.status === AITaskStatus.FAILED) {
-            items.push({
-              title: t('list.buttons.retry'),
-              url: `/api/ai/task/${item.id}/retry`,
-              icon: 'RiRestartLine',
-              method: 'POST',
-            } as any);
-          }
-
-          items.push({
-            title: t('list.buttons.delete'),
-            url: `/api/ai/task/${item.id}`,
-            icon: 'RiDeleteBinLine',
-            confirm: t('list.confirm_delete'),
-            method: 'DELETE',
-          } as any);
-
-          return items;
-        },
-      },
-    ],
-    data: aiTasks,
-    emptyMessage: t('list.empty_message'),
-    pagination: {
-      total,
-      page,
-      limit,
-    },
-  };
+  
+  const signedUrlObject: Record<string, { videoUrl: string; posterUrl?: string }> = {};
+  signedUrlMap.forEach((value, key) => {
+    signedUrlObject[key] = value;
+  });
 
   const tabs: Tab[] = [
     {
@@ -331,7 +106,16 @@ export default async function AiTasksPage({
 
   return (
     <div className="space-y-8">
-      <TableCard title={t('list.title')} tabs={tabs} table={table} />
+      <AITaskList 
+        tasks={aiTasks} 
+        signedUrls={signedUrlObject}
+        tabs={tabs}
+        pagination={{
+            total,
+            page,
+            limit,
+        }}
+      />
     </div>
   );
 }
