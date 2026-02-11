@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "title": "Über Uns - Seedance 2.0",
-    "description": "Erfahren Sie mehr über Seedance 2.0 und die Leidenschaft, KI-Videogenerierung für alle zugänglich zu machen."
+    "title": "Über Seedance 2.0 | KI-Videogenerierungsplattform",
+    "description": "Lernen Sie Seedance 2.0 kennen — die Plattform, die kinoreife Inhaltserstellung für jeden zugänglich macht."
   },
   "page": {
     "title": "Über Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "show_sections": [
+      "hero",
+      "team",
+      "values",
+      "cta"
+    ],
     "sections": {
       "hero": {
         "id": "hero",

@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 提供简单易用的 AI 视频生成界面，支持文生视频和图生视频，输出高质量动态视频内容。",
+      "description": "Seedance 2.0 是新一代 AI 视频生成器，基于双分支扩散变换器技术。创作具有原生音画同步、多镜头叙事和多模态输入的电影级视频 — 支持文字、图片、视频片段和音频参考。",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

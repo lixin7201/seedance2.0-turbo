@@ -16,9 +16,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Texto a Video",
+        "title": "Seedance 2.0 Texto a Video IA",
         "highlight_text": "Texto a Video",
-        "description": "Crea videos dinámicos a partir de tus descripciones de texto.<br/>Prompts detallados de escenas, personajes y acciones con múltiples estilos visuales y salida HD 1080p/2K.",
+        "description": "Convierte tus textos en videos cinemáticos con Seedance 2.0. Describe escenas, personajes y movimientos de cámara.",
         "tip": "🎬 Transforma tus palabras en videos impresionantes",
         "buttons": [
           {

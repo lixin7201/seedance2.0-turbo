@@ -10,9 +10,9 @@
       "hero": {
         "id": "hero",
         "block": "hero-video",
-        "title": "Zamień Pomysły w Kinowe Wideo z Seedance 2.0",
+        "title": "Twórz Filmowe Wideo AI z Natywnym Audio — Seedance 2.0",
         "highlight_text": "Kinowe Wideo",
-        "description": "Seedance 2.0 to potężny generator wideo AI, który ożywia Twoją wizję twórczą. Od tekstu do wideo po animację obrazu — twórz wideo profesjonalnej jakości z płynnym ruchem, realistyczną fizyką i oszałamiającymi efektami wizualnymi. Nie jest wymagane doświadczenie w montażu.",
+        "description": "Pierwszy generator wideo AI z natywną synchronizacją audio. Seedance 2.0 generuje filmowe sekwencje wieloujęciowe z tekstu, obrazu i wideo.",
         "video_url": "/videos/hero-bg.mp4",
         "announcement": {
           "badge": "Nowość",
@@ -55,35 +55,55 @@
             "title": "Płynny, Realistyczny Ruch",
             "description": "Seedance 2.0 wytwarza ultra-płynną syntezę ruchu, która utrzymuje każdą klatkę stabilną i wolną od artefaktów. Obejrzyj tę szybką sekwencję wyścigową — od rozprysku opon po śledzenie kamerą, każdy szczegół płynie z kinową precyzją i realizmem opartym na fizyce.",
             "video_url": "/videos/showcase-racing.mp4",
-            "tags": ["Płynny Ruch", "Symulacja Fizyki", "Wysoka Prędkość"]
+            "tags": [
+              "Płynny Ruch",
+              "Symulacja Fizyki",
+              "Wysoka Prędkość"
+            ]
           },
           {
             "id": "showcase-character",
             "title": "Ekspresyjna Animacja Postaci",
             "description": "Ożyw postacie dzięki zaawansowanemu silnikowi ruchu Seedance 2.0. Od subtelnych wyrazów twarzy po gesty całego ciała, postacie generowane przez AI poruszają się naturalnie i ekspresyjnie — idealne do opowiadania historii, filmów marek i projektów kreatywnych.",
             "video_url": "/videos/showcase-character.mp4",
-            "tags": ["Animacja Postaci", "Naturalny Ruch", "Opowiadanie Historii"]
+            "tags": [
+              "Animacja Postaci",
+              "Naturalny Ruch",
+              "Opowiadanie Historii"
+            ]
           },
           {
             "id": "showcase-motion",
             "title": "Spójność Wielu Postaci",
             "description": "Seedance 2.0 blokuje cechy twarzy, ubrania i proporcje ciała pod każdym kątem i w każdej scenie. W tej pełnej akcji sekwencji pościgu każda postać pozostaje wizualnie spójna — idealna do reklam, treści narracyjnych i markowych serii wideo.",
             "video_url": "/videos/showcase-motion.mp4",
-            "tags": ["Spójność Postaci", "Wiele Scen", "Akcja"]
+            "tags": [
+              "Spójność Postaci",
+              "Wiele Scen",
+              "Akcja"
+            ]
           },
           {
             "id": "showcase-cinematic",
             "title": "Obraz na Kinowe Wideo",
             "description": "Prześlij pojedyncze zdjęcie i zobacz, jak Seedance 2.0 przekształca je we wciągający klip kinowy. Dynamiczny ruch kamery, profesjonalne tempo i nastrojowe efekty zmieniają statyczne obrazy w oszałamiające treści ruchome — edycja nie jest wymagana.",
             "video_url": "/videos/showcase-cinematic.mp4",
-            "tags": ["Obraz na Wideo", "Kinowe", "Jedno Kliknięcie"]
+            "tags": [
+              "Obraz na Wideo",
+              "Kinowe",
+              "Jedno Kliknięcie"
+            ]
           },
           {
             "id": "showcase-3d",
             "title": "Akcja 3D i Efekty Wizualne",
             "description": "Seedance 2.0 doskonale radzi sobie z generowaniem złożonych sekwencji akcji 3D z kinową pracą kamery i płynną choreografią. Ta animacja CG klasy filmowej prezentuje fizycznie dokładny ruch, dramatyczne oświetlenie i efekty wizualne o jakości kinowej.",
             "video_url": "/videos/showcase-3d.mp4",
-            "tags": ["Animacja 3D", "VFX", "Sekwencja Akcji"]
+            "tags": [
+              "Animacja 3D",
+              "VFX",
+              "Sekwencja Akcji"
+            ]
           }
         ]
       },

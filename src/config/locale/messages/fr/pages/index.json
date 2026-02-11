@@ -10,9 +10,9 @@
       "hero": {
         "id": "hero",
         "block": "hero-video",
-        "title": "Transformez vos Idées en Vidéos Cinématographiques avec Seedance 2.0",
+        "title": "Créez des Vidéos Cinématiques IA avec Audio Natif — Seedance 2.0",
         "highlight_text": "Vidéos Cinématographiques",
-        "description": "Seedance 2.0 est un puissant générateur de vidéos par IA qui donne vie à votre vision créative. Des invites textuelles à l'animation d'images — créez des vidéos de qualité professionnelle avec un mouvement fluide, une physique réaliste et des effets visuels époustouflants. Aucune expérience de montage nécessaire.",
+        "description": "Le premier générateur vidéo IA avec synchro audio native. Seedance 2.0 génère des séquences cinématiques multi-plans à partir de texte, image et vidéo.",
         "video_url": "/videos/hero-bg.mp4",
         "announcement": {
           "badge": "Nouveau",
@@ -55,35 +55,55 @@
             "title": "Mouvement Fluide et Réaliste",
             "description": "Seedance 2.0 produit une synthèse de mouvement ultra-fluide qui maintient chaque image stable et sans artefacts. Regardez cette séquence de course à grande vitesse — des éclaboussures de pneus au suivi de la caméra, chaque détail coule avec une précision cinématographique et un réalisme basé sur la physique.",
             "video_url": "/videos/showcase-racing.mp4",
-            "tags": ["Mouvement Fluide", "Simulation Physique", "Haute Vitesse"]
+            "tags": [
+              "Mouvement Fluide",
+              "Simulation Physique",
+              "Haute Vitesse"
+            ]
           },
           {
             "id": "showcase-character",
             "title": "Animation de Personnage Expressive",
             "description": "Donnez vie aux personnages avec le moteur de mouvement avancé de Seedance 2.0. Des expressions faciales subtiles aux gestes corporels complets, les personnages générés par l'IA bougent naturellement et de manière expressive — parfait pour la narration, les vidéos de marque et les projets créatifs.",
             "video_url": "/videos/showcase-character.mp4",
-            "tags": ["Animation de Personnage", "Mouvement Naturel", "Narration"]
+            "tags": [
+              "Animation de Personnage",
+              "Mouvement Naturel",
+              "Narration"
+            ]
           },
           {
             "id": "showcase-motion",
             "title": "Cohérence Multi-Personnages",
             "description": "Seedance 2.0 verrouille les traits du visage, les vêtements et les proportions corporelles sous tous les angles et dans toutes les scènes. Dans cette séquence de poursuite pleine d'action, chaque personnage reste visuellement cohérent — idéal pour les publicités, le contenu narratif et les séries vidéo de marque.",
             "video_url": "/videos/showcase-motion.mp4",
-            "tags": ["Cohérence des Personnages", "Multi-Scènes", "Action"]
+            "tags": [
+              "Cohérence des Personnages",
+              "Multi-Scènes",
+              "Action"
+            ]
           },
           {
             "id": "showcase-cinematic",
             "title": "Image vers Vidéo Cinématographique",
             "description": "Téléchargez une seule photo et regardez Seedance 2.0 la transformer en un clip cinématographique immersif. Mouvement de caméra dynamique, rythme professionnel et effets atmosphériques transforment les images statiques en contenu de mouvement époustouflant — aucun montage requis.",
             "video_url": "/videos/showcase-cinematic.mp4",
-            "tags": ["Image vers Vidéo", "Cinématographique", "Un Clic"]
+            "tags": [
+              "Image vers Vidéo",
+              "Cinématographique",
+              "Un Clic"
+            ]
           },
           {
             "id": "showcase-3d",
             "title": "Action 3D et Effets Visuels",
             "description": "Seedance 2.0 excelle dans la génération de séquences d'action 3D complexes avec un travail de caméra cinématographique et une chorégraphie fluide. Cette animation CG de qualité film présente un mouvement physiquement précis, un éclairage dramatique et des effets visuels de qualité blockbuster.",
             "video_url": "/videos/showcase-3d.mp4",
-            "tags": ["Animation 3D", "VFX", "Séquence d'Action"]
+            "tags": [
+              "Animation 3D",
+              "VFX",
+              "Séquence d'Action"
+            ]
           }
         ]
       },

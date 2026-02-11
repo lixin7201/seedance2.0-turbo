@@ -10,9 +10,9 @@
       "hero": {
         "id": "hero",
         "block": "hero-video",
-        "title": "Zet ideeën om in filmische video's met Seedance 2.0",
+        "title": "Maak Filmische AI-video's met Native Audio — Seedance 2.0",
         "highlight_text": "filmische video's",
-        "description": "Seedance 2.0 is een krachtige AI-videogenerator die jouw creatieve visie tot leven brengt. Van tekst-naar-video tot beeldanimatie — creëer video's van professionele kwaliteit met vloeiende beweging, realistische fysica en verbluffende visuele effecten. Geen montage-ervaring nodig.",
+        "description": "De eerste AI-videogenerator met native audiosynchronisatie. Seedance 2.0 genereert filmische multi-shot sequenties van tekst, beeld en video.",
         "video_url": "/videos/hero-bg.mp4",
         "announcement": {
           "badge": "Nieuw",
@@ -55,35 +55,55 @@
             "title": "Vloeiende, Realistische Beweging",
             "description": "Seedance 2.0 produceert ultravloeiende bewegingssynthese die elk frame stabiel en artefactvrij houdt. Bekijk deze snelle racesequentie — van bandenspray tot cameratracking, elk detail vloeit met filmische precisie en fysica-gebaseerd realisme.",
             "video_url": "/videos/showcase-racing.mp4",
-            "tags": ["Vloeiende Beweging", "Fysica Simulatie", "Hoge Snelheid"]
+            "tags": [
+              "Vloeiende Beweging",
+              "Fysica Simulatie",
+              "Hoge Snelheid"
+            ]
           },
           {
             "id": "showcase-character",
             "title": "Expressieve Karakteranimatie",
             "description": "Breng personages tot leven met de geavanceerde bewegingsengine van Seedance 2.0. Van subtiele gezichtsuitdrukkingen tot volledige lichaamsgebaren, AI-gegenereerde personages bewegen natuurlijk en expressief — perfect voor verhalen vertellen, merkvideo's en creatieve projecten.",
             "video_url": "/videos/showcase-character.mp4",
-            "tags": ["Karakteranimatie", "Natuurlijke Beweging", "Verhalen Vertellen"]
+            "tags": [
+              "Karakteranimatie",
+              "Natuurlijke Beweging",
+              "Verhalen Vertellen"
+            ]
           },
           {
             "id": "showcase-motion",
             "title": "Consistentie met Meerdere Personages",
             "description": "Seedance 2.0 vergrendelt gezichtskenmerken, kleding en lichaamsproporties over elke hoek en scène. In deze actievolle achtervolgingssequentie blijft elk personage visueel consistent — ideaal voor advertenties, verhalende inhoud en merkgebonden videoseries.",
             "video_url": "/videos/showcase-motion.mp4",
-            "tags": ["Karakter Consistentie", "Meerdere Scènes", "Actie"]
+            "tags": [
+              "Karakter Consistentie",
+              "Meerdere Scènes",
+              "Actie"
+            ]
           },
           {
             "id": "showcase-cinematic",
             "title": "Afbeelding-naar-Filmische Video",
             "description": "Upload een enkele foto en zie hoe Seedance 2.0 deze transformeert in een meeslepende filmische clip. Dynamische camerabeweging, professionele pacing en sfeervolle effecten veranderen statische beelden in verbluffende bewegingsinhoud — geen montage vereist.",
             "video_url": "/videos/showcase-cinematic.mp4",
-            "tags": ["Afbeelding naar Video", "Filmisch", "Eén Klik"]
+            "tags": [
+              "Afbeelding naar Video",
+              "Filmisch",
+              "Eén Klik"
+            ]
           },
           {
             "id": "showcase-3d",
             "title": "3D Actie & Visuele Effecten",
             "description": "Seedance 2.0 blinkt uit in het genereren van complexe 3D-actiesequenties met filmisch camerawerk en vloeiende choreografie. Deze filmwaardige CG-animatie toont natuurkundig nauwkeurige beweging, dramatische verlichting en visuele effecten van blockbusterkwaliteit.",
             "video_url": "/videos/showcase-3d.mp4",
-            "tags": ["3D Animatie", "VFX", "Actiesequentie"]
+            "tags": [
+              "3D Animatie",
+              "VFX",
+              "Actiesequentie"
+            ]
           }
         ]
       },

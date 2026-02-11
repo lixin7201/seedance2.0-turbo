@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 proporciona una interfaz fácil de usar para la generación de videos con IA, soportando texto a video e imagen a video con salida de alta calidad.",
+      "description": "Seedance 2.0 es un generador de video AI de próxima generación impulsado por tecnología de transformador de difusión de doble rama.",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

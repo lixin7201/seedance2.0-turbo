@@ -16,9 +16,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Text zu Video",
+        "title": "Seedance 2.0 Text-zu-Video KI",
         "highlight_text": "Text zu Video",
-        "description": "Erstellen Sie dynamische Videos aus Ihren Textbeschreibungen.<br/>Detaillierte Szenen-, Charakter- und Handlungsaufforderungen mit mehreren visuellen Stilen und 1080p/2K HD-Ausgabe.",
+        "description": "Verwandeln Sie Text in kinoreife Videos mit Seedance 2.0. Beschreiben Sie Szenen, Charaktere und Kamerabewegungen.",
         "tip": "🎬 Verwandeln Sie Ihre Worte in atemberaubende Videos",
         "buttons": [
           {

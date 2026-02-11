@@ -16,9 +16,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Tekst naar Video",
+        "title": "Seedance 2.0 Tekst naar Video AI",
         "highlight_text": "Tekst naar Video",
-        "description": "Creëer dynamische video's van je tekstbeschrijvingen.<br/>Gedetailleerde scène-, karakter- en actieprompts met meerdere visuele stijlen en 1080p/2K HD-uitvoer.",
+        "description": "Zet je tekst om in filmische video's met Seedance 2.0. Beschrijf scènes, personages en camerabewegingen.",
         "tip": "🎬 Transformeer je woorden in prachtige video's",
         "buttons": [
           {

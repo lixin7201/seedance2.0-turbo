@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 biedt een gebruiksvriendelijke interface voor AI-videogeneratie, met ondersteuning voor tekst-naar-video en beeld-naar-video met uitvoer van hoge kwaliteit.",
+      "description": "Seedance 2.0 is een volgende generatie AI-videogenerator aangedreven door dual-branch diffusion transformer technologie.",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

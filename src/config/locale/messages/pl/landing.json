@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 zapewnia łatwy w użyciu interfejs do generowania wideo AI, wspierając zamianę tekstu na wideo i obrazu na wideo z wysoką jakością wyjściową.",
+      "description": "Seedance 2.0 to generator wideo AI nowej generacji oparty na technologii transformatora dyfuzyjnego.",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "title": "Over Seedance 2.0",
-    "description": "Leer meer over Seedance 2.0 en onze passie om AI-video generatie voor iedereen toegankelijk te maken."
+    "title": "Over Seedance 2.0 | AI Video Platform",
+    "description": "Leer meer over Seedance 2.0 — het platform dat filmische content creatie toegankelijk maakt."
   },
   "page": {
     "title": "Over Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "show_sections": [
+      "hero",
+      "team",
+      "values",
+      "cta"
+    ],
     "sections": {
       "hero": {
         "id": "hero",

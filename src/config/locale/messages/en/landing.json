@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 provides an easy-to-use interface for AI video generation, supporting text-to-video and image-to-video with high quality output.",
+      "description": "Seedance 2.0 is a next-generation AI video generator powered by dual-branch diffusion transformer technology. Create cinematic videos with native audio sync, multi-shot narratives, and multimodal input — from text, images, video clips, and audio references.",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

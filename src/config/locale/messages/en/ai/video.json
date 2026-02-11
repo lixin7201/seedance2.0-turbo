@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "AI Video Generator",
-    "description": "Generate videos with AI models, support text-to-video, image-to-video and video-to-video."
+    "title": "Seedance 2.0 AI Video Generator Online | Text & Image to Video Free",
+    "description": "Create AI videos with Seedance 2.0 — the next-gen video generator with native audio, physics simulation, and multi-shot narrative. Text-to-video, image-to-video supported. Start free."
   },
   "page": {
-    "title": "AI Video Generator",
-    "description": "Generate videos with AI models, support text-to-video, image-to-video and video-to-video."
+    "title": "Seedance 2.0 AI Video Generator",
+    "description": "Create stunning cinematic videos with Seedance 2.0. Native audio sync, physics-based motion, multi-shot storytelling. Text-to-video, image-to-video & video-to-video supported."
   },
   "generator": {
-    "title": "Video Generator",
-    "description": "Generate videos with AI models, support text-to-video, image-to-video and video-to-video.",
+    "title": "Seedance 2.0 Video Generator",
+    "description": "Generate cinematic AI videos with Seedance 2.0. Native audio sync, multimodal input, and physics-aware generation. Text-to-video, image-to-video & video-to-video.",
     "tabs": {
       "text-to-video": "Text to Video",
       "image-to-video": "Image to Video",

@@ -16,9 +16,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Image en Vidéo",
+        "title": "Seedance 2.0 Image en Vidéo IA",
         "highlight_text": "Image en Vidéo",
-        "description": "Téléchargez des images statiques et laissez l'IA leur donner vie.<br/>Reconnaissance d'image intelligente avec des effets de mouvement fluides, naturels et des animations personnalisées.",
+        "description": "Transformez n'importe quelle photo en vidéo cinématique avec Seedance 2.0 AI. Importez des images et ajoutez du mouvement.",
         "tip": "🖼️ Transformez vos images en vidéos dynamiques",
         "buttons": [
           {

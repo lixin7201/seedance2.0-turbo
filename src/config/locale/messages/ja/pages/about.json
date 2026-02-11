@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "title": "Seedance 2.0について",
-    "description": "Seedance 2.0と、AI動画生成をすべての人に届けるという情熱についてもっと知りましょう。"
+    "title": "Seedance 2.0について | AI動画生成プラットフォーム",
+    "description": "Seedance 2.0について知る — シネマティックなコンテンツ制作を身近にするプラットフォーム。"
   },
   "page": {
     "title": "Seedance 2.0について",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "show_sections": [
+      "hero",
+      "team",
+      "values",
+      "cta"
+    ],
     "sections": {
       "hero": {
         "id": "hero",

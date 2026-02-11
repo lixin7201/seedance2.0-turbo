@@ -16,9 +16,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Obraz na Wideo",
+        "title": "Seedance 2.0 Obraz na Wideo AI",
         "highlight_text": "Obraz na Wideo",
-        "description": "Prześlij statyczne obrazy i pozwól AI tchnąć w nie życie.<br/>Inteligentne rozpoznawanie obrazu z naturalnymi, płynnymi efektami ruchu i niestandardowymi animacjami.",
+        "description": "Przekształć dowolne zdjęcie w filmowe wideo z Seedance 2.0 AI. Prześlij obrazy i dodaj ruch automatycznie.",
         "tip": "🖼️ Przekształć swoje obrazy w dynamiczne wideo",
         "buttons": [
           {

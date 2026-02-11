@@ -3,6 +3,7 @@
     "show_sections": [
       "hero",
       "showcase_grid",
+      "features",
       "faq",
       "cta"
     ],
@@ -10,19 +11,19 @@
       "hero": {
         "id": "hero",
         "block": "hero-video",
-        "title": "用 Seedance 2.0 将创意变为电影级视频",
-        "highlight_text": "电影级视频",
-        "description": "Seedance 2.0 是一款强大的 AI 视频生成器，将你的创意愿景变为现实。从文字提示到图片动画 — 轻松创作具有流畅运动、逼真物理效果和震撼视觉特效的专业视频，无需任何剪辑经验。",
+        "title": "用 Seedance 2.0 创作原生音画同步的电影级 AI 视频",
+        "highlight_text": "电影级 AI 视频",
+        "description": "首个原生音画同步的 AI 视频生成器。Seedance 2.0 可从文字、图片、视频片段和音频生成多镜头电影级序列 — 一个提示词搞定。2K 高清输出、物理运动和导演级镜头控制，无需任何剪辑技能。",
         "video_url": "/videos/hero-bg.mp4",
         "announcement": {
-          "badge": "全新",
-          "title": "🎬 Seedance 2.0 — 新一代 AI 视频生成",
+          "badge": "热门",
+          "title": "🎬 Seedance 2.0 — 原生音频的新一代 AI 视频",
           "url": "/#showcase_grid"
         },
-        "tip": "✨ 加入数千名创作者，用 AI 制作电影级内容",
+        "tip": "✨ 全球影视创作者、内容创作者和营销团队共同信赖",
         "buttons": [
           {
-            "title": "开始创作",
+            "title": "免费开始创作",
             "icon": "Zap",
             "url": "/ai-video-generator",
             "target": "_self",
@@ -47,43 +48,43 @@
         "id": "showcase_grid",
         "block": "showcase-grid",
         "label": "Seedance 2.0 驱动",
-        "title": "Seedance 2.0 能创造什么？",
-        "description": "从高速动作到细腻的人物故事 — 看看 Seedance 2.0 AI 视频生成能做到什么。以下每一帧都由 AI 生成。",
+        "title": "看看 Seedance 2.0 AI 视频生成器能创造什么",
+        "description": "从高速动作到细腻的人物故事 — 以下每一帧都由 Seedance 2.0 的双分支扩散变换器 (Dual-Branch Diffusion Transformer) 配合原生音画同步生成。",
         "items": [
           {
             "id": "showcase-racing",
-            "title": "流畅逼真的运动效果",
-            "description": "Seedance 2.0 生成超流畅的运动合成，每一帧都稳定无伪影。观看这段高速赛车画面 — 从轮胎飞溅到镜头追踪，每个细节都带有电影级的精准度和基于物理的真实感。",
+            "title": "物理精确的运动效果",
+            "description": "Seedance 2.0 的时空因果建模 (STCM) 生成符合真实物理规律的运动 — 重力、惯性和物体交互。轮胎飞溅、镜头追踪和碎片飞散，达到其他 AI 视频生成器无法比拟的电影级精准度。",
             "video_url": "/videos/showcase-racing.mp4",
-            "tags": ["流畅运动", "物理模拟", "高速场景"]
+            "tags": ["物理模拟", "STCM", "高速场景", "Seedance 2.0"]
           },
           {
             "id": "showcase-character",
-            "title": "富有表现力的人物动画",
-            "description": "通过 Seedance 2.0 的高级运动引擎赋予角色生命力。从细微的面部表情到全身姿态，AI 生成的角色动作自然流畅、表现力丰富 — 非常适合叙事、品牌视频和创意项目。",
+            "title": "栩栩如生的人物动画",
+            "description": "从细微的微表情到全身编舞，Seedance 2.0 以前所未有的自然度赋予 AI 角色生命。基于双分支扩散变换器，每个手势都与生成的对话和音频完美同步。",
             "video_url": "/videos/showcase-character.mp4",
-            "tags": ["角色动画", "自然运动", "叙事"]
+            "tags": ["角色动画", "面部表情", "音画同步"]
           },
           {
             "id": "showcase-motion",
-            "title": "多角色一致性",
-            "description": "Seedance 2.0 在每个角度和场景中锁定面部特征、服装和身体比例。在这段紧张刺激的追逐场景中，每个角色始终保持视觉一致 — 非常适合广告、叙事内容和品牌视频系列。",
+            "title": "多镜头角色一致性",
+            "description": "Seedance 2.0 在每个角度和场景中锁定面部特征、服装纹理和身体比例。这段动作追逐序列在远景、特写和快速切换中保持像素级角色一致性 — 非常适合广告、短剧和品牌视频系列。",
             "video_url": "/videos/showcase-motion.mp4",
-            "tags": ["角色一致性", "多场景", "动作"]
+            "tags": ["角色一致性", "多镜头", "叙事", "身份锁定"]
           },
           {
             "id": "showcase-cinematic",
-            "title": "图片转电影级视频",
-            "description": "上传一张照片，Seedance 2.0 即可将其转化为沉浸式电影短片。动态镜头运动、专业节奏把控和氛围特效，将静态图片变为震撼的动态内容 — 无需任何剪辑。",
+            "title": "图片转带音频的电影级视频",
+            "description": "上传一张照片，Seedance 2.0 将其转化为沉浸式电影短片 — 包含原生音频、动态镜头运动和氛围特效。双分支架构同时生成声音和画面，消除其他 AI 工具的“配音”感。",
             "video_url": "/videos/showcase-cinematic.mp4",
-            "tags": ["图生视频", "电影级", "一键生成"]
+            "tags": ["图生视频", "原生音频", "电影级", "双分支架构"]
           },
           {
             "id": "showcase-3d",
-            "title": "3D 动作与视觉特效",
-            "description": "Seedance 2.0 擅长生成复杂的 3D 动作场景，配合电影级镜头运动和流畅的动作编排。这段电影级 CG 动画展示了物理精确的运动、戏剧性光影和大片级别的视觉特效。",
+            "title": "电影级 VFX 和动作序列",
+            "description": "Seedance 2.0 生成复杂的 3D 动作序列，具有物理精确的运动、戏剧性光影和大片级视觉特效。布料动态、液体飞溅和碰撞物理可媲美专业 CG 工作室 — 仅需一条文字提示。",
             "video_url": "/videos/showcase-3d.mp4",
-            "tags": ["3D 动画", "视觉特效", "动作场景"]
+            "tags": ["3D 动画", "VFX", "动作", "物理引擎"]
           }
         ]
       },
@@ -127,7 +128,7 @@
           },
           {
             "title": "超清输出",
-            "description": "以 1080p 全高清导出作品，细节清晰锐利。无抖动、无伪影 — 只有干净、专业的视频输出。",
+            "description": "以 2K 高清导出作品，细节清晰锐利。无抖动、无伪影 — 只有干净、专业的视频输出。",
             "icon": "RiHdLine",
             "image": {
               "src": "https://picsum.photos/seed/seedance-hd/600/400",
@@ -155,7 +156,7 @@
           },
           {
             "title": "电影级视觉品质",
-            "description": "每个视频都像出自专业工作室 — 具有电影级调色、稳定运动和精细纹理，分辨率最高可达 1080p。",
+            "description": "每个视频都像出自专业工作室 — 具有电影级调色、稳定运动和精细纹理，分辨率最高可达 2K。",
             "icon": "RiFilmLine",
             "image": {
               "src": "https://picsum.photos/seed/seedance-quality/800/500",
@@ -175,79 +176,87 @@
       },
       "features": {
         "id": "features",
-        "title": "Seedance 2.0 核心功能",
-        "description": "创作专业 AI 视频所需的一切功能。",
+        "title": "Seedance 2.0 为何是最佳 AI 视频生成器",
+        "description": "六大突破性能力，让 Seedance 2.0 领先于所有其他 AI 视频工具。",
         "items": [
           {
-            "title": "🎬 文生视频",
-            "description": "输入提示词即可获得视频。完整的场景控制，包含角色、环境和动作。",
+            "title": "🎙️ 多模态输入（12 个参考素材）",
+            "description": "上传最多 9 张图片、3 个视频片段和 3 个音频文件作为参考。使用 @提及语法来指定每个素材的角色 — 角色、风格、镜头或音轨。",
             "icon": "RiFileTextLine"
           },
           {
-            "title": "🖼️ 图生视频",
-            "description": "用智能运动、电影级镜头运动和氛围特效让任何照片动起来。",
-            "icon": "RiImage2Line"
+            "title": "🔊 原生音画同步",
+            "description": "双分支扩散变换器并行生成视频和音频。口型同步精确到 1 帧以内 — 告别 AI 视频的“配音”感。",
+            "icon": "RiMusic2Line"
           },
           {
-            "title": "📐 物理引擎",
-            "description": "逼真模拟物体动力学、光照和材质交互。",
+            "title": "📐 物理感知生成",
+            "description": "时空因果建模 (STCM) 理解重力、惯性和物体交互。布料飘动、液体飞溅、光线表现真实自然。",
             "icon": "RiSettings3Line"
           },
           {
-            "title": "🎥 电影级输出",
-            "description": "1080p 全高清输出，专业调色，零伪影。",
+            "title": "🎥 自动运镜与分镜",
+            "description": "Seedance 2.0 担任你的 AI 导演 — 根据场景描述自动规划分镜序列、镜头角度和转场效果。",
             "icon": "RiFilmLine"
           },
           {
-            "title": "📖 叙事连续性",
-            "description": "多镜头、多角色场景，全程保持一致的视觉特征。",
+            "title": "📖 多镜头叙事",
+            "description": "生成多场景连续叙事，角色、光影和氛围在远景、中景和特写之间保持一致。",
             "icon": "RiBookOpenLine"
           },
           {
-            "title": "🎨 多风格支持",
-            "description": "写实、动漫、赛博朋克、水彩等多种创意视觉风格。",
-            "icon": "RiPaletteLine"
+            "title": "🖼️ 首尾帧控制",
+            "description": "上传起始帧和结束帧图片，精确控制转场。AI 智能推演两帧之间的运动过程。",
+            "icon": "RiImageEditLine"
           }
         ]
       },
       "faq": {
         "id": "faq",
-        "title": "常见问题",
-        "description": "还有其他问题？欢迎联系我们获取支持。",
+        "title": "Seedance 2.0 — 常见问题",
+        "description": "关于 Seedance 2.0 AI 视频生成，你需要知道的一切。",
         "items": [
           {
             "question": "什么是 Seedance 2.0？",
-            "answer": "我们的平台通过用户友好的界面提供高级 AI 视频生成模型的访问。我们是一个独立服务，与任何 AI 模型提供商无关。本平台是一个封装服务，在底层 AI 技术之上提供增强的易用性和额外功能。"
+            "answer": "Seedance 2.0 是新一代 AI 视频生成模型，使用双分支扩散变换器架构生成具有原生音频、多镜头叙事和物理运动的电影级视频，支持文字、图片、视频片段和音频参考。我们的平台通过用户友好的界面独立提供这项技术的访问。"
+          },
+          {
+            "question": "Seedance 2.0 与 Sora 和 Kling 有什么不同？",
+            "answer": "Seedance 2.0 是首批使用双分支架构同时生成音频和视频的 AI 视频模型之一，实现帧级口型同步精度。支持多达 12 个多模态参考输入、原生多镜头叙事和自动运镜规划。Sora 侧重物理模拟，Kling 专注运动控制 — Seedance 2.0 在一个统一模型中融合了叙事、音频和视觉生成。"
+          },
+          {
+            "question": "Seedance 2.0 能生成带声音的视频吗？",
+            "answer": "可以。Seedance 2.0 是首批原生同步生成音频和视频的 AI 视频生成器之一。双分支扩散变换器与视觉帧并行生成对话、音效和音乐 — 音频与画面天然同步，而非后期添加。口型同步精度在 1 帧以内。"
+          },
+          {
+            "question": "Seedance 2.0 支持多少个参考输入？",
+            "answer": "Seedance 2.0 支持同时使用多达 12 个参考输入：最多 9 张图片（用于角色、场景和风格参考）、最多 3 个视频片段共 15 秒（用于镜头和运动参考）和最多 3 个音频文件共 15 秒（用于节奏和音轨参考），加上文字提示。"
           },
           {
             "question": "Seedance 2.0 支持什么视频分辨率？",
-            "answer": "我们的平台目前支持最高1080p全高清分辨率输出。输出质量可能因使用的 AI 模型而异。"
+            "answer": "Seedance 2.0 支持最高 2K 高清输出。提供多种画面比例，包括 16:9、9:16、1:1、4:3 和 3:4，适配各种平台 — 从 YouTube、TikTok 到 Instagram 和电影宽银幕。"
           },
           {
-            "question": "Seedance 2.0 生成的视频可以多长？",
-            "answer": "生成的视频通常为5-10秒。更长时长可能取决于模型和您的订阅计划。"
+            "question": "Seedance 2.0 生成的视频有多长？",
+            "answer": "生成的视频时长从 4 到 15 秒，精确到 1 秒。15 秒视频通常大约需要 60 秒生成 — 比上一版本快 30%。"
           },
           {
             "question": "Seedance 2.0 能生成哪些视觉风格？",
-            "answer": "支持多种视觉风格，包括写实、动漫、赛博朋克、水彩等。你可以在文字提示中指定想要的风格。"
-          },
-          {
-            "question": "可以用 Seedance 2.0 让现有图片动起来吗？",
-            "answer": "可以！通过图生视频功能，你可以上传静态图片并将其转化为动态视频。AI会添加逼真的动态效果、镜头运动和场景动画，同时保留原始图片风格。"
+            "answer": "Seedance 2.0 支持多种视觉风格，包括照片写实、动漫、赛博朋克、水彩、油画、3D CG 动画等。你可以在文字提示中指定偏好风格，或使用图片参考来引导视觉效果。"
           },
           {
             "question": "本平台与字节跳动是什么关系？",
-            "answer": "本平台是一个独立的服务，为用户提供便捷的 AI 视频生成界面。我们与字节跳动没有任何关联、背书或赞助关系。我们通过 API 集成使用 AI 模型来提供视频生成服务。"
+            "answer": "本平台是一个独立的服务，为用户提供便捷的 AI 视频生成界面，使用 Seedance 2.0 技术。我们与字节跳动没有任何关联、背书或赞助关系。我们通过 API 集成使用 AI 模型来提供视频生成服务。"
           }
         ]
       },
       "cta": {
         "id": "cta",
-        "title": "准备好用 Seedance 2.0 创作了吗？",
-        "description": "加入全球创作者行列，用 Seedance 2.0 将想象力转化为电影级视频内容。立即免费开始。",
+        "title": "免费开始创作电影级 AI 视频",
+        "description": "加入数千名创作者，使用 Seedance 2.0 生成具有原生音频、多镜头叙事和物理运动的专业视频。无需信用卡。",
         "buttons": [
           {
-            "title": "开始创作",
+            "title": "免费开始创作",
             "url": "/ai-video-generator",
             "target": "_self",
             "icon": "Zap"

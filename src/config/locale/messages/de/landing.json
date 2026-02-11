@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0 bietet eine benutzerfreundliche Oberfläche für die KI-Videogenerierung und unterstützt Text-zu-Video und Bild-zu-Video mit hochwertiger Ausgabe.",
+      "description": "Seedance 2.0 ist ein KI-Videogenerator der nächsten Generation, angetrieben von Dual-Branch-Diffusion-Transformer-Technologie.",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

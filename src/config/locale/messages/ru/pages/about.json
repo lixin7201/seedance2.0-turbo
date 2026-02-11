@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "title": "О Seedance 2.0",
-    "description": "Узнайте о Seedance 2.0 и нашей страсти делать создание AI-видео доступным для всех."
+    "title": "О Seedance 2.0 | Платформа Генерации ИИ-видео",
+    "description": "Узнайте о Seedance 2.0 — платформе, делающей создание кинематографичного контента доступным."
   },
   "page": {
     "title": "О Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "show_sections": [
+      "hero",
+      "team",
+      "values",
+      "cta"
+    ],
     "sections": {
       "hero": {
         "id": "hero",

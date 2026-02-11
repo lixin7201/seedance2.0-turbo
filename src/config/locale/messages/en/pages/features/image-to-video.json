@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Image to Video - AI Animation",
-    "description": "Upload static images and let AI breathe life into them. Intelligent image recognition with natural, fluid motion effects and custom animations."
+    "title": "Seedance 2.0 Image to Video | Animate Photos with AI Video Generator",
+    "description": "Transform any photo into cinematic video with Seedance 2.0 AI. Upload images, add motion & camera effects automatically. 2K output with native audio sync. Free to try."
   },
   "page": {
     "title": "Image to Video",
@@ -16,10 +16,10 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Image to Video",
+        "title": "Seedance 2.0 Image to Video AI Generator",
         "highlight_text": "Image to Video",
-        "description": "Upload static images and let AI breathe life into them.<br/>Intelligent image recognition with natural, fluid motion effects and custom animations.",
-        "tip": "🖼️ Transform your images into dynamic videos",
+        "description": "Transform any photo into cinematic video with Seedance 2.0 AI.<br/>Upload images, add motion & camera effects automatically. 2K output with native audio sync.",
+        "tip": "🖼️ Animate your photos into cinematic videos with Seedance 2.0",
         "buttons": [
           {
             "title": "Start Animating",
@@ -48,9 +48,9 @@
       "benefits": {
         "block": "features-accordion",
         "id": "benefits",
-        "title": "Why Choose Image-to-Video",
+        "title": "Why Choose Seedance 2.0 Image-to-Video",
         "label": "Benefits",
-        "description": "Transform any static image into a dynamic video with intelligent AI animation.",
+        "description": "Transform any static image into a dynamic cinematic video with Seedance 2.0's intelligent AI animation and native audio generation.",
         "items": [
           {
             "title": "Upload Any Image",
@@ -83,8 +83,8 @@
       },
       "features": {
         "id": "features",
-        "title": "Core Features",
-        "description": "Everything you need to animate your images with AI.",
+        "title": "Seedance 2.0 Image-to-Video Core Features",
+        "description": "Everything you need to animate your images with Seedance 2.0 AI.",
         "items": [
           {
             "title": "🖼️ Upload Any Image",
@@ -121,9 +121,9 @@
       "showcases": {
         "block": "showcases",
         "id": "showcases",
-        "title": "Animation Showcases",
+        "title": "Seedance 2.0 Image-to-Video Showcases",
         "label": "Examples",
-        "description": "See what's possible with AI image-to-video animation.",
+        "description": "See what's possible with Seedance 2.0 AI image-to-video animation.",
         "items": [
           {
             "title": "Portrait Animation",
@@ -162,8 +162,8 @@
       },
       "faq": {
         "id": "faq",
-        "title": "Frequently Asked Questions",
-        "description": "Common questions about image-to-video animation.",
+        "title": "Seedance 2.0 Image-to-Video — FAQ",
+        "description": "Common questions about Seedance 2.0 image-to-video animation.",
         "items": [
           {
             "question": "What is Image-to-Video?",
@@ -193,8 +193,8 @@
       },
       "cta": {
         "id": "cta",
-        "title": "Bring Your Images to Life",
-        "description": "Transform static images into stunning animated videos with AI-powered image-to-video technology.",
+        "title": "Bring Your Images to Life with Seedance 2.0",
+        "description": "Transform static images into stunning animated videos with Seedance 2.0's AI-powered image-to-video technology. Try free today.",
         "buttons": [
           {
             "title": "Try Now",

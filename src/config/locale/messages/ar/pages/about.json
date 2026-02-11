@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "title": "من نحن - Seedance 2.0",
-    "description": "تعرف على المزيد حول Seedance 2.0 والشغف وراء تقديم توليد الفيديو بالذكاء الاصطناعي للجميع."
+    "title": "عن Seedance 2.0 | منصة توليد الفيديو بالذكاء الاصطناعي",
+    "description": "تعرف على Seedance 2.0 — المنصة التي تجعل إنشاء المحتوى السينمائي متاحًا للجميع."
   },
   "page": {
     "title": "عن Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "show_sections": [
+      "hero",
+      "team",
+      "values",
+      "cta"
+    ],
     "sections": {
       "hero": {
         "id": "hero",

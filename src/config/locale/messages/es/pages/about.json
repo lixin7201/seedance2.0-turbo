@@ -1,11 +1,16 @@
 {
   "metadata": {
-    "title": "Sobre Nosotros - Seedance 2.0",
-    "description": "Aprende más sobre Seedance 2.0 y la pasión detrás de llevar la generación de video con IA a todos."
+    "title": "Acerca de Seedance 2.0 | Plataforma de Generación de Video AI",
+    "description": "Conoce Seedance 2.0 — la plataforma que hace accesible la creación de contenido cinemático."
   },
   "page": {
     "title": "Sobre Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "show_sections": [
+      "hero",
+      "team",
+      "values",
+      "cta"
+    ],
     "sections": {
       "hero": {
         "id": "hero",

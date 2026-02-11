@@ -10,9 +10,9 @@
       "hero": {
         "id": "hero",
         "block": "hero-video",
-        "title": "Transforme Ideias em Vídeos Cinematográficos com Seedance 2.0",
+        "title": "Crie Vídeos Cinemáticos com IA e Áudio Nativo — Seedance 2.0",
         "highlight_text": "Vídeos Cinematográficos",
-        "description": "Seedance 2.0 é um poderoso gerador de vídeos com IA que dá vida à sua visão criativa. De prompts de texto à animação de imagens — crie vídeos de nível profissional com movimento fluido, física realista e efeitos visuais impressionantes. Nenhuma experiência de edição necessária.",
+        "description": "O primeiro gerador de vídeo IA com sincronização de áudio nativa. Seedance 2.0 gera sequências cinemáticas multishot a partir de texto, imagem e vídeo.",
         "video_url": "/videos/hero-bg.mp4",
         "announcement": {
           "badge": "Novo",
@@ -55,35 +55,55 @@
             "title": "Movimento Fluido e Realista",
             "description": "Seedance 2.0 produz síntese de movimento ultra-suave que mantém cada quadro estável e livre de artefatos. Assista a esta sequência de corrida em alta velocidade — do spray dos pneus ao rastreamento da câmera, cada detalhe flui com precisão cinematográfica e realismo baseado em física.",
             "video_url": "/videos/showcase-racing.mp4",
-            "tags": ["Movimento Suave", "Simulação de Física", "Alta Velocidade"]
+            "tags": [
+              "Movimento Suave",
+              "Simulação de Física",
+              "Alta Velocidade"
+            ]
           },
           {
             "id": "showcase-character",
             "title": "Animação de Personagem Expressiva",
             "description": "Dê vida aos personagens com o motor de movimento avançado do Seedance 2.0. De expressões faciais sutis a gestos de corpo inteiro, personagens gerados por IA movem-se naturalmente e expressivamente — perfeito para narrativas, vídeos de marca e projetos criativos.",
             "video_url": "/videos/showcase-character.mp4",
-            "tags": ["Animação de Personagem", "Movimento Natural", "Narrativa"]
+            "tags": [
+              "Animação de Personagem",
+              "Movimento Natural",
+              "Narrativa"
+            ]
           },
           {
             "id": "showcase-motion",
             "title": "Consistência Multi-Personagem",
             "description": "Seedance 2.0 bloqueia características faciais, roupas e proporções corporais em todos os ângulos e cenas. Nesta sequência de perseguição cheia de ação, cada personagem permanece visualmente consistente — ideal para anúncios, conteúdo narrativo e séries de vídeo de marca.",
             "video_url": "/videos/showcase-motion.mp4",
-            "tags": ["Consistência de Personagem", "Multi-Cena", "Ação"]
+            "tags": [
+              "Consistência de Personagem",
+              "Multi-Cena",
+              "Ação"
+            ]
           },
           {
             "id": "showcase-cinematic",
             "title": "Imagem para Vídeo Cinematográfico",
             "description": "Faça upload de uma única foto e veja o Seedance 2.0 transformá-la em um clipe cinematográfico imersivo. Movimento de câmera dinâmico, ritmo profissional e efeitos atmosféricos transformam imagens estáticas em conteúdo de movimento impressionante — sem necessidade de edição.",
             "video_url": "/videos/showcase-cinematic.mp4",
-            "tags": ["Imagem para Vídeo", "Cinematográfico", "Um Clique"]
+            "tags": [
+              "Imagem para Vídeo",
+              "Cinematográfico",
+              "Um Clique"
+            ]
           },
           {
             "id": "showcase-3d",
             "title": "Ação 3D e Efeitos Visuais",
             "description": "Seedance 2.0 excela na geração de sequências de ação 3D complexas com trabalho de câmera cinematográfico e coreografia fluida. Esta animação CG de qualidade de filme mostra movimento fisicamente preciso, iluminação dramática e efeitos visuais de qualidade blockbuster.",
             "video_url": "/videos/showcase-3d.mp4",
-            "tags": ["Animação 3D", "VFX", "Sequência de Ação"]
+            "tags": [
+              "Animação 3D",
+              "VFX",
+              "Sequência de Ação"
+            ]
           }
         ]
       },

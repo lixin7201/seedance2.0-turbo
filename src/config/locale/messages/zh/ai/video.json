@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "AI 视频生成器",
-    "description": "使用 AI 模型生成视频，支持文本到视频、图片到视频和视频到视频。"
+    "title": "Seedance 2.0 AI 视频生成器在线 | 文生视频和图生视频免费体验",
+    "description": "使用 Seedance 2.0 创作 AI 视频 — 新一代视频生成器，原生音频、物理模拟和多镜头叙事。支持文生视频、图生视频。免费开始。"
   },
   "page": {
-    "title": "AI 视频生成器",
-    "description": "使用 AI 模型生成视频，支持文本到视频、图片到视频和视频到视频。"
+    "title": "Seedance 2.0 AI 视频生成器",
+    "description": "使用 Seedance 2.0 创作震撼的电影级视频。原生音画同步、物理运动、多镜头叙事。支持文生视频、图生视频和视频转视频。"
   },
   "generator": {
-    "title": "视频生成器",
-    "description": "使用 AI 模型生成视频，支持文本到视频、图片到视频和视频到视频。",
+    "title": "Seedance 2.0 视频生成器",
+    "description": "使用 Seedance 2.0 生成电影级 AI 视频。原生音画同步、多模态输入和物理感知生成。支持文生视频、图生视频和视频转视频。",
     "tabs": {
       "text-to-video": "文生视频",
       "image-to-video": "图生视频",

@@ -54,7 +54,7 @@
     "id": "footer",
     "brand": {
       "title": "Seedance 2.0",
-      "description": "Seedance 2.0は、テキストから動画、画像から動画への高品質な出力をサポートする、使いやすいAI動画生成インターフェースを提供します。",
+      "description": "Seedance 2.0は、デュアルブランチ拡散トランスフォーマー技術を搭載した次世代AIビデオジェネレーターです。",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0",

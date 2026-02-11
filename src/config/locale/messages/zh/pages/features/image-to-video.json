@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "图生视频 - AI 动画",
-    "description": "上传静态图片，AI 为其注入生命力。智能识别图片元素，自然流畅的运动效果，支持自定义动画描述。"
+    "title": "Seedance 2.0 图生视频 | 让照片动起来的 AI 视频生成器",
+    "description": "用 Seedance 2.0 将照片转化为电影级视频。上传图片，自动添加运动和镜头效果。支持原生音画同步的 2K 输出。免费试用。"
   },
   "page": {
     "title": "图生视频",
@@ -16,9 +16,9 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "图生视频",
+        "title": "Seedance 2.0 图生视频 AI 生成器",
         "highlight_text": "图生视频",
-        "description": "上传静态图片，AI 为其注入生命力。<br/>智能识别图片元素，自然流畅的运动效果，支持自定义动画描述。",
+        "description": "用 Seedance 2.0 AI 将任何照片转化为电影级视频。<br/>上传图片，自动添加运动和镜头效果。支持原生音画同步的 2K 输出。",
         "tip": "🖼️ 让你的图片动起来",
         "buttons": [
           {

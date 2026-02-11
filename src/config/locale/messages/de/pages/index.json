@@ -10,9 +10,9 @@
       "hero": {
         "id": "hero",
         "block": "hero-video",
-        "title": "Verwandeln Sie Ideen in filmische Videos mit Seedance 2.0",
+        "title": "Erstellen Sie kinoreife KI-Videos mit nativem Audio — Seedance 2.0",
         "highlight_text": "Filmische Videos",
-        "description": "Seedance 2.0 ist ein leistungsstarker KI-Videogenerator, der Ihre kreative Vision zum Leben erweckt. Von Textaufforderungen bis zur Bildanimation — erstellen Sie professionelle Videos mit flüssiger Bewegung, realistischer Physik und atemberaubenden visuellen Effekten. Keine Bearbeitungserfahrung erforderlich.",
+        "description": "Der erste KI-Videogenerator mit nativer Audio-Synchronisation. Seedance 2.0 generiert kinoreife Multi-Shot-Sequenzen aus Text, Bild und Video.",
         "video_url": "/videos/hero-bg.mp4",
         "announcement": {
           "badge": "Neu",
@@ -55,35 +55,55 @@
             "title": "Flüssige, realistische Bewegung",
             "description": "Seedance 2.0 produziert ultra-sanfte Bewegungssynthese, die jeden Frame stabil und artefaktfrei hält. Sehen Sie sich diese High-Speed-Rennsequenz an — vom Reifenspray bis zur Kameraverfolgung fließt jedes Detail mit filmischer Präzision und physikbasiertem Realismus.",
             "video_url": "/videos/showcase-racing.mp4",
-            "tags": ["Sanfte Bewegung", "Physiksimulation", "High-Speed"]
+            "tags": [
+              "Sanfte Bewegung",
+              "Physiksimulation",
+              "High-Speed"
+            ]
           },
           {
             "id": "showcase-character",
             "title": "Ausdrucksstarke Charakteranimation",
             "description": "Erwecken Sie Charaktere mit der fortschrittlichen Bewegungs-Engine von Seedance 2.0 zum Leben. Von subtilen Gesichtsausdrücken bis zu Ganzkörpergesten bewegen sich KI-generierte Charaktere natürlich und ausdrucksstark — perfekt für Storytelling, Markenvideos und kreative Projekte.",
             "video_url": "/videos/showcase-character.mp4",
-            "tags": ["Charakteranimation", "Natürliche Bewegung", "Storytelling"]
+            "tags": [
+              "Charakteranimation",
+              "Natürliche Bewegung",
+              "Storytelling"
+            ]
           },
           {
             "id": "showcase-motion",
             "title": "Multi-Charakter-Konsistenz",
             "description": "Seedance 2.0 sperrt Gesichtsmerkmale, Kleidung und Körperproportionen über jeden Winkel und jede Szene hinweg. In dieser actiongeladenen Verfolgungsjagd bleibt jeder Charakter visuell konsistent — ideal für Werbung, narrativen Inhalt und Marken-Videoserien.",
             "video_url": "/videos/showcase-motion.mp4",
-            "tags": ["Charakterkonsistenz", "Multi-Szene", "Action"]
+            "tags": [
+              "Charakterkonsistenz",
+              "Multi-Szene",
+              "Action"
+            ]
           },
           {
             "id": "showcase-cinematic",
             "title": "Bild-zu-filmischem Video",
             "description": "Laden Sie ein einzelnes Foto hoch und sehen Sie zu, wie Seedance 2.0 es in einen immersiven filmischen Clip verwandelt. Dynamische Kamerabewegung, professionelles Pacing und atmosphärische Effekte verwandeln statische Bilder in atemberaubende Bewegungsinhalte — keine Bearbeitung erforderlich.",
             "video_url": "/videos/showcase-cinematic.mp4",
-            "tags": ["Bild zu Video", "Filmisch", "Ein Klick"]
+            "tags": [
+              "Bild zu Video",
+              "Filmisch",
+              "Ein Klick"
+            ]
           },
           {
             "id": "showcase-3d",
             "title": "3D-Action & Visuelle Effekte",
             "description": "Seedance 2.0 zeichnet sich bei der Generierung komplexer 3D-Actionsequenzen mit filmischer Kameraarbeit und flüssiger Choreographie aus. Diese CG-Animation in Filmqualität zeigt physikalisch genaue Bewegung, dramatische Beleuchtung und visuelle Effekte in Blockbuster-Qualität.",
             "video_url": "/videos/showcase-3d.mp4",
-            "tags": ["3D-Animation", "VFX", "Actionsequenz"]
+            "tags": [
+              "3D-Animation",
+              "VFX",
+              "Actionsequenz"
+            ]
           }
         ]
       },
