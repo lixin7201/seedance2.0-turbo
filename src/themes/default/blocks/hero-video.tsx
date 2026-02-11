@@ -1,7 +1,6 @@
 'use client';
 
 import { useRef, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
 import { Link } from '@/core/i18n/navigation';
@@ -10,6 +9,14 @@ import { Button } from '@/shared/components/ui/button';
 import { Highlighter } from '@/shared/components/ui/highlighter';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
+
+/**
+ * Derive a poster URL from a video URL by replacing the extension with -poster.webp
+ * e.g. /videos/hero-bg.mp4 -> /videos/hero-bg-poster.webp
+ */
+function getPosterUrl(videoUrl: string): string {
+  return videoUrl.replace(/\.[^.]+$/, '-poster.webp');
+}
 
 export function HeroVideo({
   section,
@@ -48,6 +55,7 @@ export function HeroVideo({
             ref={videoRef}
             className="h-full w-full object-cover"
             src={section.video_url as string}
+            poster={getPosterUrl(section.video_url as string)}
             autoPlay
             muted
             loop
@@ -67,10 +75,8 @@ export function HeroVideo({
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center">
         {section.announcement && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+          <div
+            className="animate-[fadeSlideDown_0.6s_ease-out_both]"
           >
             <Link
               href={section.announcement.url || ''}
@@ -83,13 +89,11 @@ export function HeroVideo({
                 <ArrowRight className="size-3" />
               </div>
             </Link>
-          </motion.div>
+          </div>
         )}
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+        <div
+          className="animate-[fadeSlideUp_0.8s_ease-out_0.2s_both]"
         >
           {texts && texts.length > 0 ? (
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
@@ -104,22 +108,16 @@ export function HeroVideo({
               {section.title}
             </h1>
           )}
-        </motion.div>
+        </div>
 
-        <motion.p
-          className="mx-auto mt-6 max-w-2xl text-base text-white/70 sm:text-lg md:mt-8 md:text-xl"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+        <p
+          className="mx-auto mt-6 max-w-2xl text-base text-white/70 sm:text-lg md:mt-8 md:text-xl animate-[fadeSlideUp_0.8s_ease-out_0.4s_both]"
           dangerouslySetInnerHTML={{ __html: section.description ?? '' }}
         />
 
         {section.buttons && (
-          <motion.div
-            className="mt-8 flex flex-wrap items-center justify-center gap-4 md:mt-10"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+          <div
+            className="mt-8 flex flex-wrap items-center justify-center gap-4 md:mt-10 animate-[fadeSlideUp_0.8s_ease-out_0.6s_both]"
           >
             {section.buttons.map((button, idx) => (
               <Button
@@ -140,15 +138,12 @@ export function HeroVideo({
                 </Link>
               </Button>
             ))}
-          </motion.div>
+          </div>
         )}
 
         {section.tip && (
-          <motion.p
-            className="mt-6 text-sm text-white/50"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+          <p
+            className="mt-6 text-sm text-white/50 animate-[fadeIn_0.8s_ease-out_0.8s_both]"
             dangerouslySetInnerHTML={{ __html: section.tip ?? '' }}
           />
         )}
