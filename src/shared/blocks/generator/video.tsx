@@ -93,19 +93,6 @@ interface ModelConfig {
 // Default models when database is empty or API fails
 const DEFAULT_MODELS: ModelConfig[] = [
   {
-    id: 'seedance-2.0',
-    displayName: 'Seedance 2.0',
-    description: 'Latest multi-modal AI video model',
-    currentProvider: 'evolink',
-    providerModelId: 'seedance-2.0',
-    enabled: true,
-    supportedModes: ['text-to-video', 'image-to-video', 'video-to-video'],
-    parameters: { resolutions: ['480p', '720p'], durations: [5, 10] },
-    creditsCost: { 'text-to-video': 6, 'image-to-video': 8, 'video-to-video': 10 },
-    tags: ['Multi-Modal', 'With Audio'],
-    priority: 100,
-  },
-  {
     id: 'seedance-1.5-pro',
     displayName: 'Seedance 1.5 Pro',
     description: 'Fast and efficient video generation',
@@ -116,6 +103,19 @@ const DEFAULT_MODELS: ModelConfig[] = [
     parameters: { resolutions: ['480p', '720p'], durations: [5, 10] },
     creditsCost: { 'text-to-video': 4, 'image-to-video': 6 },
     tags: ['Fast'],
+    priority: 100,
+  },
+  {
+    id: 'seedance-2.0',
+    displayName: 'Seedance 2.0 (Available Soon)',
+    description: 'Latest multi-modal AI video model',
+    currentProvider: 'evolink',
+    providerModelId: 'seedance-2.0',
+    enabled: false,
+    supportedModes: ['text-to-video', 'image-to-video', 'video-to-video'],
+    parameters: { resolutions: ['480p', '720p'], durations: [5, 10] },
+    creditsCost: { 'text-to-video': 6, 'image-to-video': 8, 'video-to-video': 10 },
+    tags: ['Coming Soon'],
     priority: 90,
   },
 ];
@@ -357,13 +357,26 @@ export function VideoGenerator({
       .then((res) => res.json())
       .then((data) => {
         if (data.code === 0 && data.data && data.data.length > 0) {
-          setModelConfigs(data.data);
-          // Set default model from API data
-          const defaultModel = data.data.find((m: ModelConfig) => 
-            m.supportedModes.includes('text-to-video')
-          );
-          if (defaultModel) {
-            setModel(defaultModel.id);
+          // Filter out seedance-2.0 if it comes from API since it's not ready
+          // Or just prioritize 1.5-pro
+          const models = data.data as ModelConfig[];
+
+          setModelConfigs(models);
+          
+          // Try to find Seedance 1.5 Pro first
+          const seedance15 = models.find(m => m.id === 'seedance-1.5-pro' && m.supportedModes.includes('text-to-video'));
+          
+          if (seedance15) {
+            setModel(seedance15.id);
+          } else {
+            // Fallback to any text-to-video model
+            const defaultModel = models.find((m) => 
+                m.supportedModes.includes('text-to-video') && m.id !== 'seedance-2.0'
+            ) || models.find((m) => m.supportedModes.includes('text-to-video'));
+            
+            if (defaultModel) {
+              setModel(defaultModel.id);
+            }
           }
         } else {
           // Use default models if API returns empty
