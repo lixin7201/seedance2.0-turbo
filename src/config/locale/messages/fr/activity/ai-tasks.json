@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "Titre",
+    "media_type": "Type de média",
+    "provider": "Fournisseur",
+    "model": "Modèle",
+    "prompt": "Prompt",
+    "options": "Options",
+    "status": "Statut",
+    "result": "Résultat",
+    "cost_credits": "Coût des crédits",
+    "created_at": "Créé le",
+    "action": "Action",
+    "progress": "Progression",
+    "expires_at": "Expire le"
+  },
+  "list": {
+    "title": "Tâches IA",
+    "tabs": {
+      "all": "Tous",
+      "music": "Musique",
+      "image": "Image",
+      "video": "Vidéo",
+      "audio": "Audio",
+      "text": "Texte"
+    },
+    "buttons": {
+      "view": "Voir la tâche",
+      "refresh": "Actualiser la tâche",
+      "delete": "Supprimer",
+      "download": "Télécharger",
+      "play": "Lire",
+      "retry": "Réessayer"
+    },
+    "empty_message": "Aucune tâche trouvée",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette tâche ?",
+    "delete_success": "Tâche supprimée avec succès",
+    "hint_async": "Vous pouvez fermer cette page. Nous vous notifierons quand ce sera terminé.",
+    "view_history": "Voir l'historique"
+  },
+  "status": {
+    "pending": "En file d'attente",
+    "processing": "Traitement",
+    "success": "Terminé",
+    "failed": "Échoué",
+    "expired": "Expiré"
+  }
+}

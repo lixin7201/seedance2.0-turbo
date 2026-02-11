@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "Título",
+    "media_type": "Tipo de Mídia",
+    "provider": "Provedor",
+    "model": "Modelo",
+    "prompt": "Prompt",
+    "options": "Opções",
+    "status": "Status",
+    "result": "Resultado",
+    "cost_credits": "Custo de Créditos",
+    "created_at": "Criado em",
+    "action": "Ação",
+    "progress": "Progresso",
+    "expires_at": "Expira em"
+  },
+  "list": {
+    "title": "Tarefas de IA",
+    "tabs": {
+      "all": "Todos",
+      "music": "Música",
+      "image": "Imagem",
+      "video": "Vídeo",
+      "audio": "Áudio",
+      "text": "Texto"
+    },
+    "buttons": {
+      "view": "Ver Tarefa",
+      "refresh": "Atualizar Tarefa",
+      "delete": "Excluir",
+      "download": "Baixar",
+      "play": "Reproduzir",
+      "retry": "Tentar Novamente"
+    },
+    "empty_message": "Nenhuma tarefa encontrada",
+    "confirm_delete": "Tem certeza de que deseja excluir esta tarefa?",
+    "delete_success": "Tarefa excluída com sucesso",
+    "hint_async": "Você pode fechar esta página. Notificaremos quando estiver pronto.",
+    "view_history": "Ver Histórico"
+  },
+  "status": {
+    "pending": "Na Fila",
+    "processing": "Processando",
+    "success": "Concluído",
+    "failed": "Falhou",
+    "expired": "Expirado"
+  }
+}

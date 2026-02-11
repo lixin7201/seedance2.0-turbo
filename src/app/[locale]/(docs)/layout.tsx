@@ -18,6 +18,15 @@ const es: Partial<Translations> = {
 const ar: Partial<Translations> = {
   search: 'البحث عن محتوى',
 };
+const pt: Partial<Translations> = {
+  search: 'Pesquisar conteúdo',
+};
+const fr: Partial<Translations> = {
+  search: 'Rechercher du contenu',
+};
+const de: Partial<Translations> = {
+  search: 'Inhalt suchen',
+};
 // available languages that will be displayed on UI
 // make sure `locale` is consistent with your i18n config
 const locales = [
@@ -37,6 +46,18 @@ const locales = [
     name: 'العربية',
     locale: 'ar',
   },
+  {
+    name: 'Portuguese',
+    locale: 'pt',
+  },
+  {
+    name: 'Français',
+    locale: 'fr',
+  },
+  {
+    name: 'Deutsch',
+    locale: 'de',
+  },
 ];
 
 export default async function DocsRootLayout({
@@ -54,7 +75,7 @@ export default async function DocsRootLayout({
       i18n={{
         locale: lang,
         locales,
-        translations: { zh, es, ar }[lang],
+        translations: { zh, es, ar, pt, fr, de }[lang],
       }}
       search={{
         options: {

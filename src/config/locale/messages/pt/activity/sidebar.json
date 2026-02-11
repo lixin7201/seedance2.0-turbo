@@ -1,0 +1,36 @@
+{
+  "title": "Atividade",
+  "nav": {
+    "items": [
+      {
+        "title": "Tarefas de IA",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "Notificações",
+        "url": "/activity/notifications",
+        "icon": "RiNotification3Line"
+      },
+      {
+        "title": "Chats de IA",
+        "url": "/activity/chats",
+        "icon": "RiChat2Line"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Atividade",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Configurações",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

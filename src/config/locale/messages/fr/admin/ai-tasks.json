@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "ID de Tâche",
+    "media_type": "Type de Média",
+    "provider": "Fournisseur",
+    "model": "Modèle",
+    "prompt": "Prompt",
+    "options": "Options",
+    "user": "Utilisateur",
+    "status": "Statut",
+    "cost_credits": "Coût en Crédits",
+    "result": "Résultat",
+    "created_at": "Créé le",
+    "action": "Action",
+    "scene": "Scène"
+  },
+  "list": {
+    "title": "Tâches IA",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "Tâches IA"
+    },
+    "tabs": {
+      "all": "Tous",
+      "music": "Musique",
+      "image": "Image",
+      "video": "Vidéo",
+      "audio": "Audio",
+      "text": "Texte"
+    },
+    "buttons": {
+      "view": "Voir la Tâche",
+      "refresh": "Actualiser la Tâche"
+    },
+    "empty_message": "Aucune tâche trouvée"
+  }
+}

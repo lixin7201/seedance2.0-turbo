@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Blog",
+    "description": "Leia os últimos recursos, soluções e atualizações do produto."
+  },
+  "page": {
+    "title": "Blog Seedance",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Blog",
+        "description": "Leia os últimos recursos, soluções e atualizações do produto."
+      }
+    }
+  },
+  "messages": {
+    "all": "Todos",
+    "no_content": "Sem Conteúdo",
+    "crumb": "Blog",
+    "toc": "Índice"
+  }
+}

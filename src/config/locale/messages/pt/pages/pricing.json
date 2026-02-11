@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "Preços - Seedance 2.0",
+    "description": "Escolha o plano Seedance 2.0 que atende às suas necessidades. Comece a criar vídeos de IA cinematográficos hoje.",
+    "keywords": "preços, planos, teste grátis, geração de vídeo, vídeo IA, créditos"
+  },
+  "page": {
+    "title": "Preços Seedance 2.0",
+    "show_sections": [
+      "hero",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-simple",
+        "title": "Preços Simples e Transparentes",
+        "highlight_text": "Preços Transparentes",
+        "description": "Escolha o plano perfeito para suas necessidades de criação de vídeo. Comece grátis, atualize a qualquer momento.",
+        "tip": "🎁 Experimente grátis com 10 segundos de créditos de vídeo",
+        "buttons": [
+          {
+            "title": "Experimente Grátis",
+            "icon": "Zap",
+            "url": "#pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Comparar Planos",
+            "icon": "ArrowDown",
+            "url": "#comparison",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "background_image": {
+          "src": "https://picsum.photos/seed/seedance-pricing-bg/1920/600",
+          "alt": "fundo de preços"
+        }
+      },
+      "pricing": {
+        "id": "pricing",
+        "title": "Escolha Seu Plano",
+        "description": "Obtenha todos os recursos do Seedance 2.0. Crie vídeos de IA impressionantes com nossos planos de preços flexíveis.",
+        "groups": [
+          {
+            "name": "monthly",
+            "title": "Mensal",
+            "is_featured": true
+          },
+          {
+            "name": "yearly",
+            "title": "Anual",
+            "label": "Economize 20%"
+          }
+        ],
+        "items": [
+          {
+            "title": "Grátis",
+            "description": "Experimente o Seedance 2.0 com créditos gratuitos.",
+            "features_title": "Inclui",
+            "features": [
+              "10 créditos (10 segundos de vídeo)",
+              "Saída de resolução 720p",
+              "Geração básica de vídeo",
+              "1 tarefa de geração simultânea",
+              "Suporte da comunidade",
+              "Marca d'água nos vídeos"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Créditos de teste únicos",
+            "button": {
+              "title": "Experimente Grátis",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Teste Grátis Seedance",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "monthly"
+          },
+          {
+            "title": "Iniciante",
+            "description": "Perfeito para hobbyistas e criadores casuais.",
+            "features_title": "Inclui",
+            "features": [
+              "150 créditos/mês (cerca de 15 vídeos)",
+              "Resolução Full HD 1080p",
+              "Sem marca d'água",
+              "Até 3 tarefas de geração simultâneas",
+              "Fila de prioridade média",
+              "Suporte por email"
+            ],
+            "interval": "month",
+            "amount": 2900,
+            "currency": "USD",
+            "price": "$29",
+            "original_price": "",
+            "unit": "/ mês",
+            "is_featured": false,
+            "tip": "~5 créditos/dia",
+            "button": {
+              "title": "Assinar",
+              "url": "/sign-up?plan=starter",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-monthly",
+            "product_name": "Seedance Iniciante Mensal",
+            "credits": 150,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Iniciante"
+          },
+          {
+            "title": "Pro",
+            "label": "Mais Popular",
+            "description": "Para criadores profissionais e empresas.",
+            "features_title": "Tudo no Iniciante, mais",
+            "features": [
+              "450 créditos/mês (cerca de 45 vídeos)",
+              "Resolução Full HD 1080p",
+              "Mais créditos por mês",
+              "Até 3 tarefas de geração simultâneas",
+              "Suporte prioritário por email"
+            ],
+            "interval": "month",
+            "amount": 7900,
+            "currency": "USD",
+            "price": "$79",
+            "original_price": "",
+            "unit": "/ mês",
+            "is_featured": true,
+            "tip": "~15 créditos/dia",
+            "button": {
+              "title": "Assinar",
+              "url": "/sign-up?plan=pro",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-monthly",
+            "product_name": "Seedance Pro Mensal",
+            "credits": 450,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "Empresarial",
+            "description": "Para equipes e necessidades corporativas.",
+            "features_title": "Tudo no Pro, mais",
+            "features": [
+              "1200 créditos/mês (cerca de 120 vídeos)",
+              "Resolução Full HD 1080p",
+              "Máximo de créditos mensais",
+              "Até 3 tarefas de geração simultâneas",
+              "Suporte dedicado por email"
+            ],
+            "interval": "month",
+            "amount": 19900,
+            "currency": "USD",
+            "price": "$199",
+            "original_price": "",
+            "unit": "/ mês",
+            "is_featured": false,
+            "tip": "~40 créditos/dia",
+            "button": {
+              "title": "Contate Vendas",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-monthly",
+            "product_name": "Seedance Empresarial Mensal",
+            "credits": 1200,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Empresarial"
+          },
+          {
+            "title": "Grátis",
+            "description": "Experimente o Seedance 2.0 com créditos gratuitos.",
+            "features_title": "Inclui",
+            "features": [
+              "10 créditos (10 segundos de vídeo)",
+              "Saída de resolução 720p",
+              "Geração básica de vídeo",
+              "1 tarefa de geração simultânea",
+              "Suporte da comunidade",
+              "Marca d'água nos vídeos"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Créditos de teste únicos",
+            "button": {
+              "title": "Experimente Grátis",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Teste Grátis Seedance",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "yearly"
+          },
+          {
+            "title": "Iniciante",
+            "description": "Perfeito para hobbyistas e criadores casuais.",
+            "features_title": "Inclui",
+            "features": [
+              "150 créditos/mês (cerca de 15 vídeos)",
+              "Resolução Full HD 1080p",
+              "Sem marca d'água",
+              "Até 3 tarefas de geração simultâneas",
+              "Fila de prioridade média",
+              "Suporte por email"
+            ],
+            "interval": "year",
+            "amount": 27600,
+            "currency": "USD",
+            "price": "$23",
+            "original_price": "$29",
+            "unit": "/ mês",
+            "is_featured": false,
+            "tip": "Faturado anualmente em $276",
+            "button": {
+              "title": "Assinar",
+              "url": "/sign-up?plan=starter-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-yearly",
+            "product_name": "Seedance Iniciante Anual",
+            "credits": 1800,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Iniciante"
+          },
+          {
+            "title": "Pro",
+            "label": "Mais Popular",
+            "description": "Para criadores profissionais e empresas.",
+            "features_title": "Tudo no Iniciante, mais",
+            "features": [
+              "450 créditos/mês (cerca de 45 vídeos)",
+              "Resolução Full HD 1080p",
+              "Mais créditos por mês",
+              "Até 3 tarefas de geração simultâneas",
+              "Suporte prioritário por email"
+            ],
+            "interval": "year",
+            "amount": 75600,
+            "currency": "USD",
+            "price": "$63",
+            "original_price": "$79",
+            "unit": "/ mês",
+            "is_featured": true,
+            "tip": "Faturado anualmente em $756",
+            "button": {
+              "title": "Assinar",
+              "url": "/sign-up?plan=pro-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-yearly",
+            "product_name": "Seedance Pro Anual",
+            "credits": 5400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "Empresarial",
+            "description": "Para equipes e necessidades corporativas.",
+            "features_title": "Tudo no Pro, mais",
+            "features": [
+              "1200 créditos/mês (cerca de 120 vídeos)",
+              "Resolução Full HD 1080p",
+              "Máximo de créditos mensais",
+              "Até 3 tarefas de geração simultâneas",
+              "Suporte dedicado por email"
+            ],
+            "interval": "year",
+            "amount": 190800,
+            "currency": "USD",
+            "price": "$159",
+            "original_price": "$199",
+            "unit": "/ mês",
+            "is_featured": false,
+            "tip": "Faturado anualmente em $1,908",
+            "button": {
+              "title": "Contate Vendas",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-yearly",
+            "product_name": "Seedance Empresarial Anual",
+            "credits": 14400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Empresarial"
+          }
+        ]
+      },
+      "comparison": {
+        "id": "comparison",
+        "block": "comparison-table",
+        "title": "Comparar Todos os Recursos",
+        "description": "Veja o que está incluído em cada plano",
+        "plans": [
+          "Grátis",
+          "Iniciante",
+          "Pro",
+          "Empresarial"
+        ],
+        "categories": [
+          {
+            "name": "Geração de Vídeo",
+            "features": [
+              {
+                "name": "Créditos Mensais",
+                "values": [
+                  "10 (único)",
+                  "150",
+                  "450",
+                  "1200"
+                ]
+              },
+              {
+                "name": "Resolução Máxima",
+                "values": [
+                  "720p",
+                  "1080p",
+                  "1080p",
+                  "1080p"
+                ]
+              },
+              {
+                "name": "Texto para Vídeo",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Imagem para Vídeo",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Saída e Qualidade",
+            "features": [
+              {
+                "name": "Marca d'água",
+                "values": [
+                  "Sim",
+                  "Não",
+                  "Não",
+                  "Não"
+                ]
+              },
+              {
+                "name": "Resolução HD",
+                "values": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Extras",
+            "features": [
+              {
+                "name": "Suporte",
+                "values": [
+                  "Comunidade",
+                  "Email",
+                  "Email Prioritário",
+                  "Email Dedicado"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Perguntas Frequentes",
+        "description": "Tem mais perguntas? Contate nossa equipe de suporte.",
+        "items": [
+          {
+            "question": "O que são créditos e como funcionam?",
+            "answer": "Créditos são a moeda para gerar vídeos em nossa plataforma. Os créditos são consumidos por geração de vídeo, e o custo exato é mostrado antes de gerar. Os créditos são renovados mensalmente para assinantes."
+          },
+          {
+            "question": "Posso atualizar ou rebaixar meu plano?",
+            "answer": "Sim, você pode alterar seu plano a qualquer momento. Ao atualizar, você será cobrado pela diferença proporcional. Ao rebaixar, a nova taxa se aplica no seu próximo ciclo de faturamento."
+          },
+          {
+            "question": "Os créditos não utilizados acumulam para o próximo mês?",
+            "answer": "Os créditos expiram no final de cada período de faturamento. Por favor, use seus créditos antes do fim do ciclo de faturamento."
+          },
+          {
+            "question": "Quais métodos de pagamento vocês aceitam?",
+            "answer": "Aceitamos todos os principais cartões de crédito (Visa, MasterCard, American Express). Os pagamentos são processados com segurança através do nosso parceiro de pagamento."
+          },
+          {
+            "question": "Existe uma política de reembolso?",
+            "answer": "Sim, oferecemos uma garantia de reembolso de 14 dias. Se você não estiver satisfeito com sua assinatura, entre em contato conosco dentro de 14 dias para um reembolso total."
+          },
+          {
+            "question": "Posso usar vídeos gerados para meus projetos?",
+            "answer": "Sim, você pode usar os vídeos que gerar para projetos pessoais e não comerciais. Para direitos de uso comercial, consulte os termos de serviço dos modelos de IA subjacentes."
+          },
+          {
+            "question": "Quais resoluções de vídeo são suportadas?",
+            "answer": "Usuários gratuitos podem gerar vídeos na resolução 720p. Assinantes pagos têm acesso à resolução Full HD 1080p para saída de maior qualidade."
+          },
+          {
+            "question": "Posso experimentar antes de assinar?",
+            "answer": "Com certeza! Inscreva-se gratuitamente e ganhe 10 créditos para experimentar o poder da geração de vídeo AI Seedance 2.0."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Pronto para Criar Vídeos Incríveis?",
+        "description": "Comece com créditos gratuitos e experimente o poder da geração de vídeo com IA.",
+        "buttons": [
+          {
+            "title": "Começar Teste Grátis",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Contate Vendas",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Plano Atual",
+    "processing": "Processando",
+    "save_percent": "Economize 20%",
+    "per_month": "/ mês",
+    "billed_annually": "faturado anualmente",
+    "money_back": "Garantia de reembolso de 14 dias"
+  }
+}

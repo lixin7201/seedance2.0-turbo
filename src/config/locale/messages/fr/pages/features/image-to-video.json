@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Image en Vidéo - Animation IA",
+    "description": "Téléchargez des images statiques et laissez l'IA leur donner vie. Reconnaissance d'image intelligente avec des effets de mouvement fluides, naturels et des animations personnalisées."
+  },
+  "page": {
+    "title": "Image en Vidéo",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Image en Vidéo",
+        "highlight_text": "Image en Vidéo",
+        "description": "Téléchargez des images statiques et laissez l'IA leur donner vie.<br/>Reconnaissance d'image intelligente avec des effets de mouvement fluides, naturels et des animations personnalisées.",
+        "tip": "🖼️ Transformez vos images en vidéos dynamiques",
+        "buttons": [
+          {
+            "title": "Commencer à Animer",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Voir des Exemples",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "Animation IA Image en Vidéo",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "fond"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Pourquoi Choisir Image en Vidéo",
+        "label": "Avantages",
+        "description": "Transformez n'importe quelle image statique en une vidéo dynamique avec une animation IA intelligente.",
+        "items": [
+          {
+            "title": "Téléchargez N'importe Quelle Image",
+            "description": "Prise en charge de tous les formats d'image courants, y compris JPG, PNG et WebP. Téléchargez des photos, des œuvres d'art, des captures d'écran ou toute image statique.",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "Téléchargement d'Images"
+            }
+          },
+          {
+            "title": "Reconnaissance Intelligente des Éléments",
+            "description": "L'IA identifie automatiquement les éléments de l'image comme les personnes, les animaux, les objets et les arrière-plans pour appliquer des effets de mouvement appropriés.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "Reconnaissance Intelligente"
+            }
+          },
+          {
+            "title": "Mouvement Fluide Naturel",
+            "description": "Créez des animations fluides et réalistes qui maintiennent le style original de l'image tout en ajoutant un mouvement naturel et une dynamique.",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "Mouvement Fluide"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Fonctionnalités Principales",
+        "description": "Tout ce dont vous avez besoin pour animer vos images avec l'IA.",
+        "items": [
+          {
+            "title": "🖼️ Téléchargez N'importe Quelle Image",
+            "description": "Prise en charge de JPG, PNG, WebP et d'autres formats courants. Fonctionne avec des photos, des œuvres d'art et des graphiques.",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 Reconnaissance Intelligente",
+            "description": "L'IA identifie automatiquement les personnes, les animaux, les objets et les éléments de la scène pour une animation intelligente.",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 Mouvement Fluide Naturel",
+            "description": "Animations douces et réalistes qui préservent le style visuel et l'esthétique d'origine.",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ Descriptions de Mouvement Personnalisées",
+            "description": "Ajoutez des invites textuelles supplémentaires pour contrôler des effets de mouvement et des animations spécifiques.",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 Mouvements de Caméra",
+            "description": "Ajoutez des effets de caméra cinématographiques comme des zooms, des panoramiques et de la parallaxe à vos animations.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 Sortie de Qualité HD",
+            "description": "Exportez des vidéos animées en résolution 1080p Full HD ou 2K avec des fréquences d'images fluides.",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "Exemples d'Animation",
+        "label": "Exemples",
+        "description": "Voyez ce qui est possible avec l'animation image en vidéo IA.",
+        "items": [
+          {
+            "title": "Animation de Portrait",
+            "description": "Donnez vie aux photos de portrait avec des expressions naturelles et des mouvements subtils.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "Animation de Portrait"
+            }
+          },
+          {
+            "title": "Animation de Paysage",
+            "description": "Ajoutez de l'eau qui coule, des nuages en mouvement et des arbres qui se balancent aux images de paysage.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "Animation de Paysage"
+            }
+          },
+          {
+            "title": "Animation d'Art",
+            "description": "Animez l'art numérique, les illustrations et les peintures tout en préservant le style artistique.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "Animation d'Art"
+            }
+          },
+          {
+            "title": "Animation de Produit",
+            "description": "Créez des vitrines de produits dynamiques et des effets de rotation à 360 degrés.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "Animation de Produit"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Questions Fréquentes",
+        "description": "Questions courantes sur l'animation image en vidéo.",
+        "items": [
+          {
+            "question": "Qu'est-ce que Image en Vidéo ?",
+            "answer": "Image en Vidéo est une technologie IA qui transforme des images statiques en animations vidéo dynamiques. Téléchargez n'importe quelle image et l'IA ajoutera un mouvement réaliste, des mouvements de caméra et des effets spéciaux tout en préservant le style visuel original."
+          },
+          {
+            "question": "Quels formats d'image sont pris en charge ?",
+            "answer": "Nous prenons en charge tous les formats d'image courants, y compris JPG, PNG, WebP et GIF. Les images doivent avoir au moins 512x512 pixels pour de meilleurs résultats, les images à résolution plus élevée produisant des animations de meilleure qualité."
+          },
+          {
+            "question": "Puis-je contrôler les effets d'animation ?",
+            "answer": "Oui ! Vous pouvez ajouter des invites textuelles supplémentaires pour décrire des effets de mouvement spécifiques que vous souhaitez, comme 'brise légère bougeant les feuilles' ou 'eau ondulant doucement'. L'IA intégrera vos descriptions."
+          },
+          {
+            "question": "Comment fonctionne la reconnaissance intelligente ?",
+            "answer": "Notre IA identifie automatiquement différents éléments de votre image, y compris les personnes, les animaux, les objets, le ciel, l'eau et le feuillage. Chaque élément reçoit des effets de mouvement appropriés en fonction de sa nature."
+          },
+          {
+            "question": "Quelle qualité vidéo puis-je attendre ?",
+            "answer": "Les vidéos animées sont exportées en résolution 1080p Full HD ou 2K avec des fréquences d'images fluides. L'IA maintient la qualité de l'image originale tout en ajoutant des effets de mouvement fluides et naturels."
+          },
+          {
+            "question": "Puis-je animer des œuvres d'art et des illustrations ?",
+            "answer": "Absolument ! L'IA fonctionne très bien avec l'art numérique, les illustrations, les peintures et les graphiques. Elle préserve le style artistique tout en ajoutant des animations subtiles et appropriées."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Donnez Vie à Vos Images",
+        "description": "Transformez des images statiques en vidéos animées époustouflantes avec la technologie image en vidéo alimentée par l'IA.",
+        "buttons": [
+          {
+            "title": "Essayer Maintenant",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Voir les Tarifs",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

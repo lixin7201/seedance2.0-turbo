@@ -5,9 +5,12 @@ export const localeNames: any = {
   zh: '中文',
   es: 'Español',
   ar: 'العربية',
+  pt: 'Portuguese',
+  fr: 'Français',
+  de: 'Deutsch',
 };
 
-export const locales = ['en', 'zh', 'es', 'ar'];
+export const locales = ['en', 'zh', 'es', 'ar', 'pt', 'fr', 'de'];
 
 export const defaultLocale = envConfigs.locale;
 

@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Générateur de Vidéo IA Seedance 2.0 – Créez des Vidéos Cinématographiques avec l'IA",
+    "description": "Créez des vidéos cinématographiques époustouflantes avec le générateur de vidéo IA Seedance 2.0. Texte en vidéo, image en vidéo avec un mouvement fluide et une qualité professionnelle. Essayez gratuitement maintenant.",
+    "keywords": "Seedance 2.0, générateur de vidéo IA, texte en vidéo, image en vidéo, vidéo IA cinématographique, Seedance IA, génération de vidéo, créateur de vidéo IA"
+  },
+  "sign": {
+    "sign_in_title": "Se connecter",
+    "sign_in_description": "Connectez-vous à votre compte",
+    "sign_up_title": "S'inscrire",
+    "sign_up_description": "Créer un compte",
+    "email_title": "Email",
+    "email_placeholder": "Entrez votre email ici",
+    "password_title": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe ici",
+    "forgot_password": "Mot de passe oublié ?",
+    "or": "Ou",
+    "continue": "Continuer",
+    "no_account": "Vous n'avez pas de compte ?",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "email_sign_in": "Se connecter avec Email",
+    "google_sign_in_title": "Se connecter avec Google",
+    "github_sign_in_title": "Se connecter avec GitHub",
+    "close_title": "Fermer",
+    "cancel_title": "Annuler",
+    "sign_out_title": "Se déconnecter",
+    "billing_title": "Facturation",
+    "name_title": "Nom",
+    "name_placeholder": "Entrez votre nom ici",
+    "email_verification_hint": "Utilisez une adresse email à laquelle vous pouvez accéder. Vous devez vérifier votre email après l'inscription.",
+    "admin_title": "Système Admin",
+    "credits_title": "Crédits : {credits}",
+    "verify_email_sent": "Email de vérification envoyé. Veuillez vérifier votre boîte de réception.",
+    "verify_email_required": "Veuillez vérifier votre adresse email avant de vous connecter.",
+    "resend_verification": "Renvoyer l'email de vérification",
+    "resend_verification_sent": "Email de vérification renvoyé. Veuillez vérifier votre boîte de réception.",
+    "verify_email_page_title": "Vérifiez votre email",
+    "verify_email_page_description": "Pour continuer, cliquez sur le lien envoyé à",
+    "verify_email_continue": "Continuer",
+    "verify_email_tip": "Après vérification, cliquez sur \"Continuer\".",
+    "verify_email_not_verified_yet": "Pas encore vérifié. Veuillez d'abord cliquer sur le lien dans votre email.",
+    "verify_email_account_mismatch": "Connecté en tant que {current}. Cette page attend {expected}.",
+    "resend_verification_countdown": "Renvoyer l'email de vérification ({seconds}s)",
+    "resend_verification_wait": "Veuillez attendre {seconds}s avant de renvoyer.",
+    "back_to_sign_in": "Retour à la connexion"
+  },
+  "payment": {
+    "choose_payment_method": "Choisir le mode de paiement",
+    "choose_payment_method_description": "",
+    "cancel_title": "Annuler"
+  },
+  "locale_detector": {
+    "title": "Nous avons détecté que la langue de votre navigateur est {locale}. Basculer vers celle-ci ?",
+    "switch_to": "Basculer vers {locale}"
+  }
+}

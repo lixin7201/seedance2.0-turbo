@@ -1,0 +1,282 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "showcase_grid",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-video",
+        "title": "Transformez vos Idées en Vidéos Cinématographiques avec Seedance 2.0",
+        "highlight_text": "Vidéos Cinématographiques",
+        "description": "Seedance 2.0 est un puissant générateur de vidéos par IA qui donne vie à votre vision créative. Des invites textuelles à l'animation d'images — créez des vidéos de qualité professionnelle avec un mouvement fluide, une physique réaliste et des effets visuels époustouflants. Aucune expérience de montage nécessaire.",
+        "video_url": "/videos/hero-bg.mp4",
+        "announcement": {
+          "badge": "Nouveau",
+          "title": "🎬 Seedance 2.0 — Génération de Vidéo IA de Nouvelle Génération",
+          "url": "/#showcase_grid"
+        },
+        "tip": "✨ Rejoignez des milliers de créateurs produisant du contenu cinématographique avec l'IA",
+        "buttons": [
+          {
+            "title": "Commencer à Créer",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Voir des Exemples",
+            "icon": "Play",
+            "url": "/#showcase_grid",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": null,
+        "image_invert": null,
+        "background_image": null
+      },
+      "showcase_grid": {
+        "id": "showcase_grid",
+        "block": "showcase-grid",
+        "label": "Propulsé par Seedance 2.0",
+        "title": "Que Peut Créer Seedance 2.0 ?",
+        "description": "De l'action à grande vitesse aux histoires de personnages intimes — voyez ce que la génération de vidéo IA de Seedance 2.0 peut faire. Chaque image ci-dessous a été générée par l'IA.",
+        "items": [
+          {
+            "id": "showcase-racing",
+            "title": "Mouvement Fluide et Réaliste",
+            "description": "Seedance 2.0 produit une synthèse de mouvement ultra-fluide qui maintient chaque image stable et sans artefacts. Regardez cette séquence de course à grande vitesse — des éclaboussures de pneus au suivi de la caméra, chaque détail coule avec une précision cinématographique et un réalisme basé sur la physique.",
+            "video_url": "/videos/showcase-racing.mp4",
+            "tags": ["Mouvement Fluide", "Simulation Physique", "Haute Vitesse"]
+          },
+          {
+            "id": "showcase-character",
+            "title": "Animation de Personnage Expressive",
+            "description": "Donnez vie aux personnages avec le moteur de mouvement avancé de Seedance 2.0. Des expressions faciales subtiles aux gestes corporels complets, les personnages générés par l'IA bougent naturellement et de manière expressive — parfait pour la narration, les vidéos de marque et les projets créatifs.",
+            "video_url": "/videos/showcase-character.mp4",
+            "tags": ["Animation de Personnage", "Mouvement Naturel", "Narration"]
+          },
+          {
+            "id": "showcase-motion",
+            "title": "Cohérence Multi-Personnages",
+            "description": "Seedance 2.0 verrouille les traits du visage, les vêtements et les proportions corporelles sous tous les angles et dans toutes les scènes. Dans cette séquence de poursuite pleine d'action, chaque personnage reste visuellement cohérent — idéal pour les publicités, le contenu narratif et les séries vidéo de marque.",
+            "video_url": "/videos/showcase-motion.mp4",
+            "tags": ["Cohérence des Personnages", "Multi-Scènes", "Action"]
+          },
+          {
+            "id": "showcase-cinematic",
+            "title": "Image vers Vidéo Cinématographique",
+            "description": "Téléchargez une seule photo et regardez Seedance 2.0 la transformer en un clip cinématographique immersif. Mouvement de caméra dynamique, rythme professionnel et effets atmosphériques transforment les images statiques en contenu de mouvement époustouflant — aucun montage requis.",
+            "video_url": "/videos/showcase-cinematic.mp4",
+            "tags": ["Image vers Vidéo", "Cinématographique", "Un Clic"]
+          },
+          {
+            "id": "showcase-3d",
+            "title": "Action 3D et Effets Visuels",
+            "description": "Seedance 2.0 excelle dans la génération de séquences d'action 3D complexes avec un travail de caméra cinématographique et une chorégraphie fluide. Cette animation CG de qualité film présente un mouvement physiquement précis, un éclairage dramatique et des effets visuels de qualité blockbuster.",
+            "video_url": "/videos/showcase-3d.mp4",
+            "tags": ["Animation 3D", "VFX", "Séquence d'Action"]
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Qu'est-ce que Seedance 2.0",
+        "label": "À Propos",
+        "description": "Notre plateforme fournit une interface conviviale pour la génération de vidéo IA Seedance. Nous offrons un accès à des capacités avancées de texte vers vidéo et image vers vidéo via des modèles d'IA tiers. Ceci est un service indépendant, non affilié aux fournisseurs de modèles.",
+        "image": {
+          "src": "https://picsum.photos/seed/seedance-intro/800/600",
+          "alt": "Introduction Seedance 2.0"
+        },
+        "items": [
+          {
+            "title": "Génération Text-to-Video",
+            "description": "Décrivez n'importe quelle scène en langage naturel et laissez Seedance 2.0 générer une vidéo entièrement rendue avec des personnages, des environnements et un mouvement dynamique.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-t2v/600/400",
+              "alt": "Texte vers Vidéo"
+            }
+          },
+          {
+            "title": "Animation Image-to-Video",
+            "description": "Téléchargez n'importe quelle photo — une photo de produit, un portrait ou un paysage — et Seedance 2.0 lui donne vie avec un mouvement intelligent et des effets cinématographiques.",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-i2v/600/400",
+              "alt": "Image vers Vidéo"
+            }
+          },
+          {
+            "title": "Rendu Basé sur la Physique",
+            "description": "La technologie de simulation avancée modélise les interactions réalistes des objets, l'éclairage et le comportement des matériaux pour une sortie crédible et prête pour la production.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "Simulation Physique"
+            }
+          },
+          {
+            "title": "Sortie Ultra-HD",
+            "description": "Exportez vos créations en 1080p Full HD avec des détails cristallins. Pas de tremblements, pas d'artefacts — juste une sortie vidéo propre et professionnelle.",
+            "icon": "RiHdLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "Sortie HD"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Pourquoi les Créateurs Choisissent Seedance 2.0",
+        "label": "Avantages",
+        "description": "Découvrez ce qui fait de Seedance 2.0 l'outil vidéo IA incontournable pour les créateurs de contenu, les spécialistes du marketing et les cinéastes.",
+        "items": [
+          {
+            "title": "Modèles d'IA de Pointe",
+            "description": "Propulsé par une IA multimodale de pointe, Seedance 2.0 offre une génération vidéo révolutionnaire avec une qualité constante à chaque génération.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-ai/800/500",
+              "alt": "Technologie IA"
+            }
+          },
+          {
+            "title": "Qualité Visuelle de Film",
+            "description": "Chaque vidéo semble provenir d'un studio professionnel — avec un étalonnage des couleurs cinématographique, un mouvement stable et des textures détaillées jusqu'à une résolution de 1080p.",
+            "icon": "RiFilmLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-quality/800/500",
+              "alt": "Qualité Visuelle"
+            }
+          },
+          {
+            "title": "Narration Plan par Plan",
+            "description": "Construisez des récits complets avec plusieurs scènes, personnages et angles de caméra — tout en maintenant une identité visuelle cohérente.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "Récits Complexes"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Fonctionnalités Principales de Seedance 2.0",
+        "description": "Tout ce dont vous avez besoin pour créer des vidéos générées par IA professionnelles.",
+        "items": [
+          {
+            "title": "🎬 Texte vers Vidéo",
+            "description": "Tapez une invite, obtenez une vidéo. Contrôle total de la scène avec des personnages, des environnements et des actions.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🖼️ Image vers Vidéo",
+            "description": "Animez n'importe quelle photo avec un mouvement intelligent, un mouvement de caméra cinématographique et des effets atmosphériques.",
+            "icon": "RiImage2Line"
+          },
+          {
+            "title": "📐 Moteur Physique",
+            "description": "Simulation réaliste de la dynamique des objets, de l'éclairage et des interactions matérielles.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Sortie Cinématographique",
+            "description": "Sortie 1080p Full HD avec étalonnage des couleurs professionnel et zéro artefact.",
+            "icon": "RiFilmLine"
+          },
+          {
+            "title": "📖 Continuité Narrative",
+            "description": "Scènes multi-plans, multi-personnages avec une identité visuelle cohérente tout au long.",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "🎨 Polyvalence de Style",
+            "description": "Réaliste, anime, cyberpunk, aquarelle et bien d'autres styles visuels créatifs.",
+            "icon": "RiPaletteLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Questions Fréquemment Posées",
+        "description": "Vous avez plus de questions ? Contactez-nous pour le support.",
+        "items": [
+          {
+            "question": "Qu'est-ce que Seedance 2.0 ?",
+            "answer": "Notre plateforme fournit un accès à des modèles avancés de génération de vidéo IA via une interface conviviale. Nous sommes un service indépendant, non affilié à des fournisseurs de modèles d'IA. Cette plateforme est un service wrapper qui offre une convivialité améliorée et des fonctionnalités supplémentaires sur les technologies d'IA sous-jacentes."
+          },
+          {
+            "question": "Quelles résolutions vidéo Seedance 2.0 prend-il en charge ?",
+            "answer": "Notre plateforme prend actuellement en charge une résolution de sortie allant jusqu'à 1080p Full HD. La qualité de sortie peut varier en fonction du modèle d'IA utilisé."
+          },
+          {
+            "question": "Quelle est la durée des vidéos générées par Seedance 2.0 ?",
+            "answer": "Les vidéos générées durent généralement de 5 à 10 secondes. Des durées plus longues peuvent être disponibles selon le modèle et votre plan d'abonnement."
+          },
+          {
+            "question": "Quels styles visuels Seedance 2.0 peut-il générer ?",
+            "answer": "Plusieurs styles visuels sont pris en charge, y compris réaliste, anime, cyberpunk, aquarelle et plus encore. Vous pouvez spécifier votre style préféré dans l'invite textuelle."
+          },
+          {
+            "question": "Puis-je animer des images existantes avec Seedance 2.0 ?",
+            "answer": "Oui ! Avec la fonctionnalité d'image vers vidéo, vous pouvez télécharger des images statiques et les transformer en vidéos dynamiques. L'IA ajoute un mouvement réaliste, des mouvements de caméra et des animations de scène tout en préservant le style original de l'image."
+          },
+          {
+            "question": "Quelle est la relation entre cette plateforme et ByteDance ?",
+            "answer": "Cette plateforme est un service indépendant qui fournit une interface conviviale pour la génération de vidéo IA. Nous ne sommes pas affiliés, approuvés ou parrainés par ByteDance. Nous utilisons des modèles d'IA via des intégrations d'API pour fournir nos services de génération de vidéo."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Prêt à Créer avec Seedance 2.0 ?",
+        "description": "Rejoignez des créateurs du monde entier utilisant Seedance 2.0 pour transformer l'imagination en contenu vidéo cinématographique. Commencez gratuitement dès aujourd'hui.",
+        "buttons": [
+          {
+            "title": "Commencer à Créer",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Voir les Tarifs",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "Abonnez-vous aux Mises à Jour",
+        "description": "Recevez les dernières nouvelles sur Seedance 2.0.",
+        "submit": {
+          "input": {
+            "placeholder": "Entrez votre email"
+          },
+          "button": {
+            "title": "S'abonner"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}

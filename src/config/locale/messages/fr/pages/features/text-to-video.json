@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "Texte en Vidéo - Génération Vidéo IA",
+    "description": "Créez des vidéos dynamiques à partir de descriptions textuelles. Prise en charge d'invites détaillées de scène, de personnage et d'action avec plusieurs styles visuels et une sortie HD 1080p/2K."
+  },
+  "page": {
+    "title": "Texte en Vidéo",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Texte en Vidéo",
+        "highlight_text": "Texte en Vidéo",
+        "description": "Créez des vidéos dynamiques à partir de vos descriptions textuelles.<br/>Invites détaillées de scène, de personnage et d'action avec plusieurs styles visuels et une sortie HD 1080p/2K.",
+        "tip": "🎬 Transformez vos mots en vidéos époustouflantes",
+        "buttons": [
+          {
+            "title": "Commencer à Créer",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Voir des Exemples",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "Génération Vidéo IA Texte en Vidéo",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "fond"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Pourquoi Choisir Texte en Vidéo",
+        "label": "Avantages",
+        "description": "Découvrez la technologie IA texte-vidéo la plus avancée avec un contrôle créatif inégalé.",
+        "items": [
+          {
+            "title": "Prise en Charge d'Invites Détaillées",
+            "description": "Créez des scènes complexes avec des invites textuelles complètes. Décrivez les personnages, les décors, les actions, l'éclairage et les mouvements de caméra en langage naturel.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "Invites Détaillées"
+            }
+          },
+          {
+            "title": "Multiples Styles Visuels",
+            "description": "Choisissez parmi des styles réalistes, anime, aquarelle, cyberpunk, peinture à l'huile et bien d'autres styles artistiques pour correspondre à votre vision créative.",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "Styles Visuels"
+            }
+          },
+          {
+            "title": "Simulation Physique",
+            "description": "Un moteur physique révolutionnaire assure un mouvement réaliste des objets, des interactions d'éclairage naturelles et des comportements physiques crédibles.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "Simulation Physique"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Fonctionnalités Principales",
+        "description": "Tout ce dont vous avez besoin pour créer des vidéos générées par IA professionnelles à partir de texte.",
+        "items": [
+          {
+            "title": "🎬 Invites Textuelles Détaillées",
+            "description": "Écrivez des descriptions complètes de la scène, y compris les personnages, les actions, les environnements et les mouvements de caméra.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 Multiples Styles Visuels",
+            "description": "Styles réaliste, anime, aquarelle, cyberpunk, peinture à l'huile et plus encore.",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 Sortie HD 1080p/2K",
+            "description": "Générez des vidéos cristallines en résolution full HD 1080p ou 2K sans artefacts.",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 Simulation Physique",
+            "description": "Moteur physique avancé pour un mouvement réaliste, un éclairage naturel et des interactions crédibles.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Contrôle de la Caméra",
+            "description": "Spécifiez les angles de caméra, les mouvements, les zooms et les transitions dans vos invites textuelles.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ Durée Étendue",
+            "description": "Générez des vidéos de plus de 30 secondes avec une qualité constante et une cohérence de scène.",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "Cas d'Utilisation",
+        "label": "Applications",
+        "description": "Découvrez les possibilités infinies de la génération de vidéo IA texte en vidéo.",
+        "items": [
+          {
+            "title": "Création de Contenu",
+            "description": "Créez des vidéos engageantes pour les réseaux sociaux, du contenu YouTube et des supports marketing à partir de simples descriptions textuelles.",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "Création de Contenu"
+            }
+          },
+          {
+            "title": "Narration",
+            "description": "Donnez vie à vos histoires avec des scènes, des personnages et des récits générés par IA.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "Narration"
+            }
+          },
+          {
+            "title": "Éducation",
+            "description": "Créez des vidéos éducatives et des explications visuelles pour des concepts complexes.",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "Éducation"
+            }
+          },
+          {
+            "title": "Publicité",
+            "description": "Générez des vitrines de produits, des vidéos promotionnelles et du contenu publicitaire rapidement.",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "Publicité"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Questions Fréquentes",
+        "description": "Questions courantes sur la génération texte en vidéo.",
+        "items": [
+          {
+            "question": "Qu'est-ce que Texte en Vidéo ?",
+            "answer": "Texte en Vidéo est une technologie IA qui convertit des descriptions textuelles écrites en contenu vidéo dynamique. Décrivez simplement la scène, les personnages, les actions et le style que vous souhaitez, et l'IA générera une vidéo correspondante."
+          },
+          {
+            "question": "Quels styles visuels sont pris en charge ?",
+            "answer": "Nous prenons en charge plusieurs styles visuels, y compris réaliste, anime, aquarelle, cyberpunk, peinture à l'huile, animation 3D et plus encore. Vous pouvez spécifier votre style préféré dans l'invite textuelle."
+          },
+          {
+            "question": "Quelles résolutions vidéo sont disponibles ?",
+            "answer": "Nous prenons en charge les résolutions de sortie 1080p Full HD et 2K ultra-claires. La technologie IA avancée élimine les problèmes courants comme les tremblements, le flou et les artefacts."
+          },
+          {
+            "question": "Combien de temps peuvent durer les vidéos générées ?",
+            "answer": "Les vidéos générées peuvent durer plus de 30 secondes tout en maintenant une qualité de scène constante et une cohérence des personnages."
+          },
+          {
+            "question": "À quel point mes invites textuelles doivent-elles être détaillées ?",
+            "answer": "Plus vos invites sont détaillées, meilleurs sont les résultats. Incluez des descriptions des personnages, des décors, des actions, de l'éclairage, des angles de caméra et du style artistique. Cependant, même des invites simples peuvent produire des résultats impressionnants."
+          },
+          {
+            "question": "Puis-je contrôler les mouvements de la caméra ?",
+            "answer": "Oui ! Vous pouvez spécifier les mouvements de caméra, les angles, les zooms, les panoramiques et les transitions dans vos invites textuelles. L'IA intégrera ces directions dans la vidéo générée."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Commencez à Créer des Vidéos à Partir de Texte",
+        "description": "Transformez vos idées en vidéos époustouflantes avec la génération texte en vidéo alimentée par l'IA.",
+        "buttons": [
+          {
+            "title": "Essayer Maintenant",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Voir les Tarifs",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

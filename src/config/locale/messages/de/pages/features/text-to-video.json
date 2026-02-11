@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "Text zu Video - KI-Videogenerierung",
+    "description": "Erstellen Sie dynamische Videos aus Textbeschreibungen. Unterstützung für detaillierte Szenen-, Charakter- und Handlungsaufforderungen mit mehreren visuellen Stilen und 1080p/2K HD-Ausgabe."
+  },
+  "page": {
+    "title": "Text zu Video",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Text zu Video",
+        "highlight_text": "Text zu Video",
+        "description": "Erstellen Sie dynamische Videos aus Ihren Textbeschreibungen.<br/>Detaillierte Szenen-, Charakter- und Handlungsaufforderungen mit mehreren visuellen Stilen und 1080p/2K HD-Ausgabe.",
+        "tip": "🎬 Verwandeln Sie Ihre Worte in atemberaubende Videos",
+        "buttons": [
+          {
+            "title": "Kreativ werden",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Beispiele ansehen",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "Text zu Video KI-Generierung",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "hintergrund"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Warum Text-zu-Video wählen",
+        "label": "Vorteile",
+        "description": "Erleben Sie die fortschrittlichste Text-zu-Video-KI-Technologie mit unübertroffener kreativer Kontrolle.",
+        "items": [
+          {
+            "title": "Unterstützung für detaillierte Aufforderungen",
+            "description": "Erstellen Sie komplexe Szenen mit umfassenden Textaufforderungen. Beschreiben Sie Charaktere, Einstellungen, Handlungen, Beleuchtung und Kamerabewegungen in natürlicher Sprache.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "Detaillierte Aufforderungen"
+            }
+          },
+          {
+            "title": "Mehrere visuelle Stile",
+            "description": "Wählen Sie aus realistischen, Anime-, Aquarell-, Cyberpunk-, Ölgemälde- und vielen weiteren künstlerischen Stilen, die zu Ihrer kreativen Vision passen.",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "Visuelle Stile"
+            }
+          },
+          {
+            "title": "Physiksimulation",
+            "description": "Revolutionäre Physik-Engine sorgt für realistische Objektbewegung, natürliche Beleuchtungsinteraktionen und glaubwürdige physikalische Verhaltensweisen.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "Physiksimulation"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Kernfunktionen",
+        "description": "Alles, was Sie brauchen, um professionelle KI-generierte Videos aus Text zu erstellen.",
+        "items": [
+          {
+            "title": "🎬 Detaillierte Textaufforderungen",
+            "description": "Schreiben Sie umfassende Szenenbeschreibungen einschließlich Charakteren, Aktionen, Umgebungen und Kamerabewegungen.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 Mehrere visuelle Stile",
+            "description": "Realistisch, Anime, Aquarell, Cyberpunk, Ölgemälde und weitere künstlerische Stile verfügbar.",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 1080p/2K HD-Ausgabe",
+            "description": "Generieren Sie kristallklare Videos in Full HD 1080p oder 2K Auflösung ohne Artefakte.",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 Physiksimulation",
+            "description": "Fortschrittliche Physik-Engine für realistische Bewegung, natürliche Beleuchtung und glaubwürdige Interaktionen.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Kamerasteuerung",
+            "description": "Spezifizieren Sie Kamerawinkel, Bewegungen, Zooms und Übergänge in Ihren Textaufforderungen.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ Erweiterte Dauer",
+            "description": "Generieren Sie Videos über 30 Sekunden mit gleichbleibender Qualität und Szenenkohärenz.",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "Anwendungsfälle",
+        "label": "Anwendungen",
+        "description": "Entdecken Sie die endlosen Möglichkeiten der KI-Text-zu-Video-Generierung.",
+        "items": [
+          {
+            "title": "Content-Erstellung",
+            "description": "Erstellen Sie ansprechende Social-Media-Videos, YouTube-Inhalte und Marketingmaterialien aus einfachen Textbeschreibungen.",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "Content-Erstellung"
+            }
+          },
+          {
+            "title": "Storytelling",
+            "description": "Erwecken Sie Ihre Geschichten mit KI-generierten Szenen, Charakteren und Erzählungen zum Leben.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "Storytelling"
+            }
+          },
+          {
+            "title": "Bildung",
+            "description": "Erstellen Sie Lehrvideos und visuelle Erklärungen für komplexe Konzepte.",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "Bildung"
+            }
+          },
+          {
+            "title": "Werbung",
+            "description": "Generieren Sie Produktpräsentationen, Werbevideos und Werbeinhalte schnell.",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "Werbung"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Häufig gestellte Fragen",
+        "description": "Häufige Fragen zur Text-zu-Video-Generierung.",
+        "items": [
+          {
+            "question": "Was ist Text-zu-Video?",
+            "answer": "Text-zu-Video ist eine KI-Technologie, die geschriebene Textbeschreibungen in dynamischen Videoinhalt umwandelt. Beschreiben Sie einfach die Szene, Charaktere, Aktionen und den Stil, den Sie möchten, und die KI generiert ein entsprechendes Video."
+          },
+          {
+            "question": "Welche visuellen Stile werden unterstützt?",
+            "answer": "Wir unterstützen mehrere visuelle Stile, darunter Realistisch, Anime, Aquarell, Cyberpunk, Ölgemälde, 3D-Animation und mehr. Sie können Ihren bevorzugten Stil in der Textaufforderung angeben."
+          },
+          {
+            "question": "Welche Videoauflösungen sind verfügbar?",
+            "answer": "Wir unterstützen 1080p Full HD und 2K ultra-klare Ausgabeauflösungen. Die fortschrittliche KI-Technologie eliminiert häufige Probleme wie Wackeln, Unschärfe und Artefakte."
+          },
+          {
+            "question": "Wie lang können generierte Videos sein?",
+            "answer": "Generierte Videos können über 30 Sekunden lang sein, während die Qualität der Szene und die Kohärenz der Charaktere erhalten bleiben."
+          },
+          {
+            "question": "Wie detailliert sollten meine Textaufforderungen sein?",
+            "answer": "Je detaillierter Ihre Aufforderungen, desto besser die Ergebnisse. Fügen Sie Beschreibungen von Charakteren, Einstellungen, Aktionen, Beleuchtung, Kamerawinkeln und künstlerischem Stil hinzu. Aber auch einfache Aufforderungen können beeindruckende Ergebnisse liefern."
+          },
+          {
+            "question": "Kann ich Kamerabewegungen steuern?",
+            "answer": "Ja! Sie können Kamerabewegungen, Winkel, Zooms, Schwenks und Übergänge in Ihren Textaufforderungen angeben. Die KI wird diese Anweisungen in das generierte Video integrieren."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Beginnen Sie mit der Erstellung von Videos aus Text",
+        "description": "Verwandeln Sie Ihre Ideen in atemberaubende Videos mit KI-gestützter Text-zu-Video-Generierung.",
+        "buttons": [
+          {
+            "title": "Jetzt ausprobieren",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Preise ansehen",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

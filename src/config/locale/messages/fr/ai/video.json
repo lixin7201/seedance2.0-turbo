@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Générateur de Vidéo IA",
+    "description": "Générez des vidéos avec des modèles d'IA, supportez le texte en vidéo, l'image en vidéo et la vidéo en vidéo."
+  },
+  "page": {
+    "title": "Générateur de Vidéo IA",
+    "description": "Générez des vidéos avec des modèles d'IA, supportez le texte en vidéo, l'image en vidéo et la vidéo en vidéo."
+  },
+  "generator": {
+    "title": "Générateur de Vidéo",
+    "description": "Générez des vidéos avec des modèles d'IA, supportez le texte en vidéo, l'image en vidéo et la vidéo en vidéo.",
+    "tabs": {
+      "text-to-video": "Texte en Vidéo",
+      "image-to-video": "Image en Vidéo",
+      "video-to-video": "Vidéo en Vidéo"
+    },
+    "form": {
+      "provider": "Fournisseur",
+      "model": "Modèle",
+      "resolution": "Résolution",
+      "duration": "Durée",
+      "select_provider": "Sélectionner le Fournisseur",
+      "select_model": "Sélectionner le Modèle",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Décrivez le contenu de la vidéo, comme la scène, l'action, le style, etc.",
+      "reference_image": "Image de Référence",
+      "reference_image_placeholder": "Téléchargez une image de référence pour la génération de vidéo",
+      "reference_video": "URL de la Vidéo de Référence",
+      "reference_video_placeholder": "Entrez l'URL de la vidéo de référence",
+      "some_images_failed_to_upload": "L'image n'a pas pu être téléchargée, veuillez supprimer et retélécharger",
+      "prompt_too_long": "Le prompt est trop long, veuillez supprimer du contenu"
+    },
+    "generate": "Générer la Vidéo",
+    "checking_account": "Vérification du Compte...",
+    "loading": "Chargement...",
+    "generating": "Génération...",
+    "sign_in_to_generate": "Connectez-vous pour Générer la Vidéo",
+    "credits_cost": "Coût de {credits} crédits",
+    "credits_remaining": "{credits} crédits restants",
+    "buy_credits": "Acheter des Crédits",
+    "progress": "Progression",
+    "generated_videos": "Aperçu de la Vidéo",
+    "ready_to_generate": "Prêt à Générer",
+    "ready_for_generating": "Prêt pour la Génération",
+    "no_videos_generated": "Aucune Vidéo Générée",
+    "preview_examples_hint": "Ce sont des exemples de vidéos créées par Seedance 2.0. Remplissez le formulaire à gauche et cliquez sur \"Générer la Vidéo\" pour créer votre propre vidéo.",
+    "seedance2_coming_soon": "Seedance 2.0 Bientôt Disponible",
+    "hint_async": "Vous pouvez fermer cette page. Nous vous notifierons quand ce sera terminé.",
+    "view_history": "Voir l'Historique"
+  },
+  "preview_examples_hint": "Ce sont des exemples de vidéos créées en utilisant notre plateforme. Remplissez le formulaire à gauche et cliquez sur \"Générer la Vidéo\" pour créer votre propre vidéo."
+}

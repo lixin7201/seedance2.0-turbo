@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "Titel",
+    "media_type": "Medientyp",
+    "provider": "Anbieter",
+    "model": "Modell",
+    "prompt": "Prompt",
+    "options": "Optionen",
+    "status": "Status",
+    "result": "Ergebnis",
+    "cost_credits": "Kosten Credits",
+    "created_at": "Erstellt am",
+    "action": "Aktion",
+    "progress": "Fortschritt",
+    "expires_at": "Läuft ab am"
+  },
+  "list": {
+    "title": "KI-Aufgaben",
+    "tabs": {
+      "all": "Alle",
+      "music": "Musik",
+      "image": "Bild",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Text"
+    },
+    "buttons": {
+      "view": "Aufgabe ansehen",
+      "refresh": "Aufgabe aktualisieren",
+      "delete": "Löschen",
+      "download": "Herunterladen",
+      "play": "Abspielen",
+      "retry": "Wiederholen"
+    },
+    "empty_message": "Keine Aufgaben gefunden",
+    "confirm_delete": "Möchten Sie diese Aufgabe wirklich löschen?",
+    "delete_success": "Aufgabe erfolgreich gelöscht",
+    "hint_async": "Sie können diese Seite schließen. Wir benachrichtigen Sie, wenn es fertig ist.",
+    "view_history": "Verlauf ansehen"
+  },
+  "status": {
+    "pending": "In Warteschlange",
+    "processing": "Verarbeitung",
+    "success": "Abgeschlossen",
+    "failed": "Fehlgeschlagen",
+    "expired": "Abgelaufen"
+  }
+}

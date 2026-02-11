@@ -1,0 +1,109 @@
+{
+  "sidebar": {
+    "header": {
+      "brand": {
+        "title": "Seedance 2.0",
+        "logo": {
+          "src": "/logo-v2.png",
+          "alt": "Seedance 2.0"
+        },
+        "url": "/chat"
+      },
+      "show_trigger": false
+    },
+    "buttons": [
+      {
+        "title": "Novo Chat",
+        "icon": "Plus",
+        "url": "/chat",
+        "variant": "outline"
+      }
+    ],
+    "main_navs": [
+      {
+        "items": [
+          {
+            "title": "Histórico",
+            "icon": "History",
+            "url": "/chat/history"
+          }
+        ]
+      }
+    ],
+    "bottom_nav": {
+      "items": []
+    },
+    "user": {
+      "nav": {
+        "items": [
+          {
+            "title": "Perfil",
+            "url": "/settings/profile",
+            "icon": "User",
+            "target": "_blank"
+          }
+        ]
+      },
+      "show_email": false,
+      "show_signout": true,
+      "signout_callback": "/chat",
+      "signin_callback": "/chat"
+    },
+    "footer": {
+      "nav": {
+        "items": [
+          {
+            "title": "Início",
+            "url": "/",
+            "icon": "Home",
+            "target": "_blank"
+          },
+          {
+            "title": "X",
+            "url": "https://x.com/seedance",
+            "icon": "RiTwitterXFill",
+            "target": "_blank"
+          },
+          {
+            "title": "Email",
+            "url": "mailto:support@seedance2.shop",
+            "icon": "Mail",
+            "target": "_blank"
+          }
+        ]
+      },
+      "show_theme": true,
+      "show_locale": false
+    },
+    "variant": "sidebar"
+  },
+  "library": {
+    "title": "Biblioteca",
+    "icon": "History",
+    "url": "/chat/history",
+    "more": "Mais",
+    "actions": {
+      "edit_title": "Editar Título",
+      "share": "Compartilhar",
+      "delete": "Excluir"
+    }
+  },
+  "generator": {
+    "title": "Em que posso ajudar hoje?",
+    "input_placeholder": "Você pode me perguntar qualquer coisa"
+  },
+  "history": {
+    "title": "Histórico de chat",
+    "description": "Revise e revisite suas conversas anteriores.",
+    "empty": "Nenhuma conversa ainda.",
+    "error": "Falha ao carregar conversas.",
+    "retry": "Tentar novamente",
+    "signin": "Faça login para ver seu histórico de chat.",
+    "summary": "Mostrando {from}-{to} de {total}",
+    "perPage": "Por página",
+    "prev": "Anterior",
+    "next": "Próximo",
+    "open": "Abrir chat",
+    "untitled": "Conversa sem título"
+  }
+}

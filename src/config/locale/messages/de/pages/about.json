@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Über Uns - Seedance 2.0",
+    "description": "Erfahren Sie mehr über Seedance 2.0 und die Leidenschaft, KI-Videogenerierung für alle zugänglich zu machen."
+  },
+  "page": {
+    "title": "Über Seedance 2.0",
+    "show_sections": ["hero", "team", "values", "cta"],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Die Geschichte hinter Seedance 2.0",
+        "highlight_text": "Geschichte",
+        "description": "Was als einfache Idee begann, ist zu etwas gewachsen, auf das ich wirklich stolz bin.<br/>Seedance 2.0 ist mein Weg, die Kraft der KI-Videogenerierung für Kreative überall hin zu bringen.",
+        "buttons": [
+          {
+            "title": "Kostenlos Testen",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Kontakt",
+            "icon": "Mail",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "image": null,
+        "background_image": null
+      },
+      "team": {
+        "block": "features-list",
+        "id": "team",
+        "title": "Warum ich das gebaut habe",
+        "label": "Meine Mission",
+        "description": "Als Solo-Entwickler glaube ich, dass jeder Zugang zu professionellen KI-Tools verdient, ohne Komplexität oder Kostenbarrieren.",
+        "image": {
+          "src": "https://picsum.photos/seed/about-team/800/600",
+          "alt": "Über den Entwickler"
+        },
+        "items": [
+          {
+            "title": "Leidenschaft für Kreation",
+            "description": "Ich war schon immer fasziniert von der Schnittstelle zwischen Technologie und Kreativität. Seedance 2.0 ist das Ergebnis dieser Leidenschaft.",
+            "icon": "Heart",
+            "image": {
+              "src": "https://picsum.photos/seed/about-passion/600/400",
+              "alt": "Leidenschaft für Kreation"
+            }
+          },
+          {
+            "title": "Einfachheit zuerst",
+            "description": "Komplexe Tools sollten kein Handbuch erfordern. Ich habe hart daran gearbeitet, die Videogenerierung so intuitiv wie möglich zu gestalten.",
+            "icon": "Sparkles",
+            "image": {
+              "src": "https://picsum.photos/seed/about-simple/600/400",
+              "alt": "Einfachheit zuerst"
+            }
+          },
+          {
+            "title": "Kontinuierliche Verbesserung",
+            "description": "Dies ist erst der Anfang. Ich lerne ständig aus dem Nutzerfeedback, um Seedance jeden Tag besser zu machen.",
+            "icon": "TrendingUp",
+            "image": {
+              "src": "https://picsum.photos/seed/about-improve/600/400",
+              "alt": "Kontinuierliche Verbesserung"
+            }
+          },
+          {
+            "title": "Community Gesteuert",
+            "description": "Ihre Vorschläge formen die Roadmap. Ich lese jede E-Mail und schätze Ihren Input wirklich.",
+            "icon": "Users",
+            "image": {
+              "src": "https://picsum.photos/seed/about-community/600/400",
+              "alt": "Community Gesteuert"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "values": {
+        "block": "features",
+        "id": "values",
+        "title": "Wofür ich stehe",
+        "description": "Diese Prinzipien leiten jede Entscheidung, die ich für Seedance 2.0 treffe.",
+        "items": [
+          {
+            "title": "🎯 Qualität vor Quantität",
+            "description": "Ich mache lieber ein paar Dinge außergewöhnlich gut, als mich auf viele Funktionen zu verteilen.",
+            "icon": "Target"
+          },
+          {
+            "title": "🤝 Ehrliche Kommunikation",
+            "description": "Keine versteckten Gebühren, keine Überraschungen. Was Sie sehen, ist was Sie bekommen.",
+            "icon": "Shield"
+          },
+          {
+            "title": "🚀 Ständig Innovieren",
+            "description": "KI bewegt sich schnell, und ich auch. Erwarten Sie regelmäßige Updates und neue Möglichkeiten.",
+            "icon": "Rocket"
+          },
+          {
+            "title": "💬 Aufmerksam Zuhören",
+            "description": "Jedes Feedback ist ein Geschenk. Ich nehme Ihre Vorschläge ernst.",
+            "icon": "MessageCircle"
+          },
+          {
+            "title": "🌍 Für alle zugänglich",
+            "description": "Großartige Tools sollten für jeden verfügbar sein, nicht nur für große Studios.",
+            "icon": "Globe"
+          },
+          {
+            "title": "❤️ Mit Sorgfalt gebaut",
+            "description": "Dies ist nicht nur ein Produkt – es ist etwas, woran ich wirklich glaube.",
+            "icon": "Heart"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Lassen Sie uns etwas zusammen erschaffen",
+        "description": "Haben Sie Fragen, Ideen oder wollen Sie einfach Hallo sagen? Ich würde gerne von Ihnen hören.",
+        "buttons": [
+          {
+            "title": "Kreativ werden",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Kontaktieren Sie mich",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "Mail"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "Générateur de Musique IA",
+    "description": "Générez de la musique incroyable avec l'IA"
+  },
+  "page": {
+    "title": "Générateur de Musique IA",
+    "description": "Générez de la musique incroyable avec l'IA"
+  },
+  "generator": {
+    "title": "Générateur de Musique",
+    "prompt": "Prompt",
+    "prompt_placeholder": "Une histoire d'amour de Roméo et Juliette",
+    "generate": "Générer de la Musique",
+    "loading": "Chargement...",
+    "generating": "Génération...",
+    "sign_in_to_generate": "Connectez-vous pour générer de la musique",
+    "credits_cost": "Coût de {credits} crédits",
+    "credits_remaining": "{credits} crédits restants",
+    "buy_credits": "Acheter des Crédits",
+    "generation_progress": "Progression de la Génération",
+    "time_cost": "Cela peut prendre jusqu'à 2-3 minutes...",
+    "generated_song": "Chanson Générée",
+    "ready_to_play": "Prêt à Jouer",
+    "audio_generating": "Génération Audio...",
+    "generating_song": "Génération Chanson...",
+    "waiting_generation": "Veuillez patienter pendant que nous créons votre chef-d'œuvre",
+    "no_song_generated": "Aucune Chanson Générée",
+    "downloading": "Téléchargement...",
+    "download_success": "Téléchargement terminé avec succès",
+    "download_failed": "Échec du téléchargement audio",
+    "form": {
+      "custom_mode": "Mode Personnalisé",
+      "title": "Titre",
+      "title_placeholder": "Le Son du Silence",
+      "style": "Style de Musique",
+      "style_placeholder": "indie, électronique, synthés, 120bpm, distordu",
+      "instrumental": "Instrumental",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Une chanson folk country sur l'amour",
+      "model": "Modèle",
+      "lyrics": "Paroles",
+      "lyrics_placeholder": "Écrivez vos propres paroles, deux couplets (8 lignes) pour le meilleur résultat"
+    }
+  }
+}

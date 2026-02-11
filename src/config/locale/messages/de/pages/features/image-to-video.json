@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Bild zu Video - KI-Animation",
+    "description": "Laden Sie statische Bilder hoch und lassen Sie die KI sie zum Leben erwecken. Intelligente Bilderkennung mit flüssigen, natürlichen Bewegungseffekten und benutzerdefinierten Animationen."
+  },
+  "page": {
+    "title": "Bild zu Video",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Bild zu Video",
+        "highlight_text": "Bild zu Video",
+        "description": "Laden Sie statische Bilder hoch und lassen Sie die KI sie zum Leben erwecken.<br/>Intelligente Bilderkennung mit flüssigen, natürlichen Bewegungseffekten und benutzerdefinierten Animationen.",
+        "tip": "🖼️ Verwandeln Sie Ihre Bilder in dynamische Videos",
+        "buttons": [
+          {
+            "title": "Animation Starten",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Beispiele Ansehen",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "Bild zu Video KI-Animation",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "hintergrund"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Warum Bild-zu-Video wählen",
+        "label": "Vorteile",
+        "description": "Verwandeln Sie jedes statische Bild in ein dynamisches Video mit intelligenter KI-Animation.",
+        "items": [
+          {
+            "title": "Jedes Bild Hochladen",
+            "description": "Unterstützung für alle gängigen Bildformate einschließlich JPG, PNG und WebP. Laden Sie Fotos, Kunstwerke, Screenshots oder jedes statische Bild hoch.",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "Bilder Hochladen"
+            }
+          },
+          {
+            "title": "Intelligente Elementerkennung",
+            "description": "KI identifiziert automatisch Bildelemente wie Menschen, Tiere, Objekte und Hintergründe, um entsprechende Bewegungseffekte anzuwenden.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "Intelligente Erkennung"
+            }
+          },
+          {
+            "title": "Natürliche Flüssige Bewegung",
+            "description": "Erstellen Sie sanfte, realistische Animationen, die den ursprünglichen Bildstil beibehalten und gleichzeitig natürliche Bewegung und Dynamik hinzufügen.",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "Flüssige Bewegung"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Kernfunktionen",
+        "description": "Alles, was Sie brauchen, um Ihre Bilder mit KI zu animieren.",
+        "items": [
+          {
+            "title": "🖼️ Jedes Bild Hochladen",
+            "description": "Unterstützung für JPG, PNG, WebP und andere gängige Formate. Funktioniert mit Fotos, Kunstwerken und Grafiken.",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 Intelligente Erkennung",
+            "description": "KI identifiziert automatisch Menschen, Tiere, Objekte und Szenenelemente für intelligente Animation.",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 Natürliche Flüssige Bewegung",
+            "description": "Sanfte, realistische Animationen, die den ursprünglichen visuellen Stil und die Ästhetik bewahren.",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ Benutzerdefinierte Bewegungsbeschreibungen",
+            "description": "Fügen Sie ergänzende Textaufforderungen hinzu, um spezifische Bewegungseffekte und Animationen zu steuern.",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 Kamerabewegungen",
+            "description": "Fügen Sie filmische Kameraeffekte wie Zooms, Schwenks und Parallaxe zu Ihren Animationen hinzu.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 Ausgabe in HD-Qualität",
+            "description": "Exportieren Sie animierte Videos in 1080p Full HD oder 2K Auflösung mit flüssigen Bildraten.",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "Animationsbeispiele",
+        "label": "Beispiele",
+        "description": "Sehen Sie, was mit KI-Bild-zu-Video-Animation möglich ist.",
+        "items": [
+          {
+            "title": "Porträtanimation",
+            "description": "Erwecken Sie Porträtfotos mit natürlichen Ausdrücken und subtilen Bewegungen zum Leben.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "Porträtanimation"
+            }
+          },
+          {
+            "title": "Landschaftsanimation",
+            "description": "Fügen Sie fließendes Wasser, ziehende Wolken und wiegende Bäume zu Landschaftsbildern hinzu.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "Landschaftsanimation"
+            }
+          },
+          {
+            "title": "Kunstwarnimation",
+            "description": "Animieren Sie digitale Kunst, Illustrationen und Gemälde unter Beibehaltung des künstlerischen Stils.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "Kunstwarnimation"
+            }
+          },
+          {
+            "title": "Produktanimation",
+            "description": "Erstellen Sie dynamische Produktpräsentationen und 360-Grad-Rotationseffekte.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "Produktanimation"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Häufig gestellte Fragen",
+        "description": "Häufige Fragen zur Bild-zu-Video-Animation.",
+        "items": [
+          {
+            "question": "Was ist Bild-zu-Video?",
+            "answer": "Bild-zu-Video ist eine KI-Technologie, die statische Bilder in dynamische Videoanimationen verwandelt. Laden Sie ein beliebiges Bild hoch, und die KI fügt realistische Bewegung, Kamerabewegungen und Spezialeffekte hinzu, während der ursprüngliche visuelle Stil erhalten bleibt."
+          },
+          {
+            "question": "Welche Bildformate werden unterstützt?",
+            "answer": "Wir unterstützen alle gängigen Bildformate einschließlich JPG, PNG, WebP und GIF. Bilder sollten mindestens 512x512 Pixel groß sein für beste Ergebnisse, wobei höher aufgelöste Bilder qualitativ bessere Animationen erzeugen."
+          },
+          {
+            "question": "Kann ich die Animationseffekte steuern?",
+            "answer": "Ja! Sie können ergänzende Textaufforderungen hinzufügen, um spezifische Bewegungseffekte zu beschreiben, die Sie möchten, wie z.B. 'sanfte Brise bewegt die Blätter' oder 'Wasser kräuselt sich sanft'. Die KI wird Ihre Beschreibungen integrieren."
+          },
+          {
+            "question": "Wie funktioniert die intelligente Erkennung?",
+            "answer": "Unsere KI identifiziert automatisch verschiedene Elemente in Ihrem Bild, einschließlich Menschen, Tiere, Objekte, Himmel, Wasser und Laub. Jedes Element erhält entsprechende Bewegungseffekte basierend auf seiner Art."
+          },
+          {
+            "question": "Welche Videoqualität kann ich erwarten?",
+            "answer": "Animierte Videos werden in 1080p Full HD oder 2K Auflösung mit flüssigen Bildraten exportiert. Die KI behält die ursprüngliche Bildqualität bei und fügt flüssige, natürliche Bewegungseffekte hinzu."
+          },
+          {
+            "question": "Kann ich Kunstwerke und Illustrationen animieren?",
+            "answer": "Absolut! Die KI funktioniert hervorragend mit digitaler Kunst, Illustrationen, Gemälden und Grafiken. Sie bewahrt den künstlerischen Stil und fügt subtile, angemessene Animationen hinzu."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Erwecken Sie Ihre Bilder zum Leben",
+        "description": "Verwandeln Sie statische Bilder in atemberaubende animierte Videos mit KI-gestützter Bild-zu-Video-Technologie.",
+        "buttons": [
+          {
+            "title": "Jetzt ausprobieren",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Preise ansehen",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sidebar": {
+    "header": {
+      "brand": {
+        "title": "Seedance 2.0",
+        "logo": {
+          "src": "/logo-v2.png",
+          "alt": "Seedance 2.0"
+        },
+        "url": "/chat"
+      },
+      "show_trigger": false
+    },
+    "buttons": [
+      {
+        "title": "Nouvelle discussion",
+        "icon": "Plus",
+        "url": "/chat",
+        "variant": "outline"
+      }
+    ],
+    "main_navs": [
+      {
+        "items": [
+          {
+            "title": "Historique",
+            "icon": "History",
+            "url": "/chat/history"
+          }
+        ]
+      }
+    ],
+    "bottom_nav": {
+      "items": []
+    },
+    "user": {
+      "nav": {
+        "items": [
+          {
+            "title": "Profil",
+            "url": "/settings/profile",
+            "icon": "User",
+            "target": "_blank"
+          }
+        ]
+      },
+      "show_email": false,
+      "show_signout": true,
+      "signout_callback": "/chat",
+      "signin_callback": "/chat"
+    },
+    "footer": {
+      "nav": {
+        "items": [
+          {
+            "title": "Accueil",
+            "url": "/",
+            "icon": "Home",
+            "target": "_blank"
+          },
+          {
+            "title": "X",
+            "url": "https://x.com/seedance",
+            "icon": "RiTwitterXFill",
+            "target": "_blank"
+          },
+          {
+            "title": "Email",
+            "url": "mailto:support@seedance2.shop",
+            "icon": "Mail",
+            "target": "_blank"
+          }
+        ]
+      },
+      "show_theme": true,
+      "show_locale": false
+    },
+    "variant": "sidebar"
+  },
+  "library": {
+    "title": "Bibliothèque",
+    "icon": "History",
+    "url": "/chat/history",
+    "more": "Plus",
+    "actions": {
+      "edit_title": "Modifier le titre",
+      "share": "Partager",
+      "delete": "Supprimer"
+    }
+  },
+  "generator": {
+    "title": "En quoi puis-je vous aider aujourd'hui ?",
+    "input_placeholder": "Vous pouvez me demander n'importe quoi"
+  },
+  "history": {
+    "title": "Historique des discussions",
+    "description": "Revoir et revisiter vos conversations précédentes.",
+    "empty": "Pas encore de conversations.",
+    "error": "Échec du chargement des conversations.",
+    "retry": "Réessayer",
+    "signin": "Connectez-vous pour voir votre historique de discussion.",
+    "summary": "Affichage {from}-{to} sur {total}",
+    "perPage": "Par page",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "open": "Ouvrir la discussion",
+    "untitled": "Conversation sans titre"
+  }
+}
