@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "Titel",
+    "key": "Sleutel",
+    "user": "Gebruiker",
+    "status": "Status",
+    "created_at": "Aangemaakt Op",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "API-sleutels",
+    "crumbs": {
+      "admin": "Beheer",
+      "apikeys": "API-sleutels"
+    }
+  }
+}

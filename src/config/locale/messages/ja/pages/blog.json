@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "ブログ",
+    "description": "最新の製品機能、ソリューション、アップデートを読む。"
+  },
+  "page": {
+    "title": "Seedanceブログ",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "ブログ",
+        "description": "最新の製品機能、ソリューション、アップデートを読む。"
+      }
+    }
+  },
+  "messages": {
+    "all": "すべて",
+    "no_content": "コンテンツなし",
+    "crumb": "ブログ",
+    "toc": "目次"
+  }
+}

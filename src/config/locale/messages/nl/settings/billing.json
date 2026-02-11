@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "Abonnement Nr",
+    "interval": "Interval",
+    "provider": "Provider",
+    "current_period": "Huidige Periode",
+    "plan": "Plan",
+    "status": "Status",
+    "amount": "Bedrag",
+    "created_at": "Aangemaakt op",
+    "end_time": "Eindtijd",
+    "action": "Actie"
+  },
+  "view": {
+    "title": "Huidig Plan",
+    "tip": "Je abonnement wordt automatisch verlengd op {date}",
+    "end_tip": "Je abonnement wordt automatisch geannuleerd op {date}",
+    "no_subscription": "Geen plan",
+    "buttons": {
+      "adjust": "Plan aanpassen",
+      "subscribe": "Abonneren",
+      "manage": "Abonnement beheren",
+      "cancel": "Abonnement annuleren"
+    }
+  },
+  "list": {
+    "title": "Abonnementen Geschiedenis",
+    "tabs": {
+      "all": "Alle",
+      "active": "Actief",
+      "pending_cancel": "In afwachting van annulering",
+      "canceled": "Geannuleerd",
+      "trialing": "Proefperiode",
+      "paused": "Gepauzeerd",
+      "expired": "Verlopen"
+    }
+  },
+  "cancel": {
+    "title": "Abonnement annuleren",
+    "description": "Weet je zeker dat je je abonnement wilt annuleren?",
+    "fields": {
+      "subscription_no": "Abonnement Nr",
+      "subscription_amount": "Abonnement Bedrag",
+      "interval_cycle": "Interval Cyclus",
+      "subscription_created_at": "Abonnement Aangemaakt op",
+      "current_period": "Huidige Periode",
+      "start_at": "Start op",
+      "end_at": "Eindigt op"
+    },
+    "crumbs": {
+      "settings": "Instellingen",
+      "billing": "Facturering",
+      "cancel": "Abonnement annuleren"
+    },
+    "buttons": {
+      "confirm_cancel": "Annuleren bevestigen"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "title": "Tekst naar Video - AI Video Generatie",
+    "description": "Creëer dynamische video's van tekstbeschrijvingen. Ondersteuning voor gedetailleerde scène-, karakter- en actieprompts met meerdere visuele stijlen en 1080p/2K HD-uitvoer."
+  },
+  "page": {
+    "title": "Tekst naar Video",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Tekst naar Video",
+        "highlight_text": "Tekst naar Video",
+        "description": "Creëer dynamische video's van je tekstbeschrijvingen.<br/>Gedetailleerde scène-, karakter- en actieprompts met meerdere visuele stijlen en 1080p/2K HD-uitvoer.",
+        "tip": "🎬 Transformeer je woorden in prachtige video's",
+        "buttons": [
+          {
+            "title": "Start met Creëren",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Bekijk Voorbeelden",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "Tekst naar Video AI Generatie",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "achtergrond"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Waarom kiezen voor Tekst-naar-Video",
+        "label": "Voordelen",
+        "description": "Ervaar de meest geavanceerde tekst-naar-video AI-technologie met ongeëvenaarde creatieve controle.",
+        "items": [
+          {
+            "title": "Gedetailleerde Prompt Ondersteuning",
+            "description": "Maak ingewikkelde scènes met uitgebreide tekstprompts. Beschrijf personages, instellingen, acties, verlichting en camerabewegingen in natuurlijke taal.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "Gedetailleerde Prompts"
+            }
+          },
+          {
+            "title": "Meerdere Visuele Stijlen",
+            "description": "Kies uit realistische, anime, aquarel, cyberpunk, olieverfschilderij en nog veel meer artistieke stijlen die passen bij jouw creatieve visie.",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "Visuele Stijlen"
+            }
+          },
+          {
+            "title": "Fysica Simulatie",
+            "description": "Revolutionaire fysica-engine zorgt voor realistische objectbeweging, natuurlijke lichte interacties en geloofwaardig fysiek gedrag.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "Fysica Simulatie"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Kernfuncties",
+        "description": "Alles wat je nodig hebt om professionele AI-gegenereerde video's van tekst te maken.",
+        "items": [
+          {
+            "title": "🎬 Gedetailleerde Tekstprompts",
+            "description": "Schrijf uitgebreide scènebeschrijvingen inclusief personages, acties, omgevingen en camerabewegingen.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 Meerdere Visuele Stijlen",
+            "description": "Realistische, anime, aquarel, cyberpunk, olieverfschilderij en meer artistieke stijlen beschikbaar.",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 1080p/2K HD Uitvoer",
+            "description": "Genereer kristalheldere video's in full HD 1080p of 2K resolutie met nul artefacten.",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 Fysica Simulatie",
+            "description": "Geavanceerde fysica-engine voor realistische beweging, natuurlijke verlichting en geloofwaardige interacties.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Camerabesturing",
+            "description": "Specificeer camerahoeken, bewegingen, zooms en overgangen in je tekstprompts.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ Verlengde Duur",
+            "description": "Genereer video's van meer dan 30 seconden met consistente kwaliteit en scène-coherentie.",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "Toepassingen",
+        "label": "Gebruiksscenario's",
+        "description": "Ontdek de eindeloze mogelijkheden van AI tekst-naar-video generatie.",
+        "items": [
+          {
+            "title": "Content Creatie",
+            "description": "Maak boeiende sociale media video's, YouTube content en marketingmateriaal van eenvoudige tekstbeschrijvingen.",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "Content Creatie"
+            }
+          },
+          {
+            "title": "Verhalen Vertellen",
+            "description": "Breng je verhalen tot leven met AI-gegenereerde scènes, personages en verhalen.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "Verhalen Vertellen"
+            }
+          },
+          {
+            "title": "Onderwijs",
+            "description": "Maak educatieve video's en visuele verduidelijkingen voor complexe concepten.",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "Onderwijs"
+            }
+          },
+          {
+            "title": "Reclame",
+            "description": "Genereer snel product showcases, promotievideo's en advertentiecontent.",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "Reclame"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Veelgestelde Vragen",
+        "description": "Veelvoorkomende vragen over tekst-naar-video generatie.",
+        "items": [
+          {
+            "question": "Wat is Tekst-naar-Video?",
+            "answer": "Tekst-naar-Video is een AI-technologie die geschreven tekstbeschrijvingen omzet in dynamische videocontent. Beschrijf eenvoudig de scène, personages, acties en stijl die je wilt, en de AI genereert een bijbehorende video."
+          },
+          {
+            "question": "Welke visuele stijlen worden ondersteund?",
+            "answer": "We ondersteunen meerdere visuele stijlen waaronder realistisch, anime, aquarel, cyberpunk, olieverfschilderij, 3D-animatie en meer. Je kunt je voorkeursstijl specificeren in de tekstprompt."
+          },
+          {
+            "question": "Welke videoresoluties zijn beschikbaar?",
+            "answer": "We ondersteunen 1080p Full HD en 2K ultra-heldere uitvoerresoluties. De geavanceerde AI-technologie elimineert veelvoorkomende problemen zoals jitter, vervaging en artefacten."
+          },
+          {
+            "question": "Hoe lang kunnen gegenereerde video's zijn?",
+            "answer": "Gegenereerde video's kunnen meer dan 30 seconden lang zijn terwijl de consistente scènekwaliteit en karaktercoherentie behouden blijven."
+          },
+          {
+            "question": "Hoe gedetailleerd moeten mijn tekstprompts zijn?",
+            "answer": "Hoe gedetailleerder je prompts, hoe beter de resultaten. Inclusief beschrijvingen van personages, instellingen, acties, verlichting, camerahoeken en artistieke stijl. Echter, zelfs eenvoudige prompts kunnen indrukwekkende resultaten opleveren."
+          },
+          {
+            "question": "Kan ik camerabewegingen besturen?",
+            "answer": "Ja! Je kunt camerabewegingen, hoeken, zooms, pans en overgangen specificeren in je tekstprompts. De AI zal deze aanwijzingen verwerken in de gegenereerde video."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Start met video's maken van tekst",
+        "description": "Transformeer je ideeën in prachtige video's met AI-gedreven tekst-naar-video generatie.",
+        "buttons": [
+          {
+            "title": "Probeer Nu",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Bekijk Prijzen",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

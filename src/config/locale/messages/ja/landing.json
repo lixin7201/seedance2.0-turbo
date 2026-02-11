@@ -1,0 +1,147 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "機能",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "料金",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "請求",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "アクティビティ",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": ""
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "Seedance 2.0は、テキストから動画、画像から動画への高品質な出力をサポートする、使いやすいAI動画生成インターフェースを提供します。",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "概要",
+          "children": [
+            {
+              "title": "機能",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "リソース",
+          "children": [
+            {
+              "title": "ブログ",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "フレンド",
+          "children": [
+            {
+              "title": "Runway",
+              "url": "https://runwayml.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Pika",
+              "url": "https://pika.art",
+              "target": "_blank"
+            },
+            {
+              "title": "Kling",
+              "url": "https://kling.kuaishou.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@seedance2.shop",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "返金ポリシー",
+          "url": "/refund-policy"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false,
+    "disclaimer": "このプラットフォームは独立した製品であり、ByteDanceとは提携、承認、またはスポンサー関係にはありません。独自のインターフェースを通じてAI動画生成へのアクセスを提供しています。"
+  }
+}

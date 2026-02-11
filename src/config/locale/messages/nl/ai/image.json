@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "AI Beeldgenerator",
+    "description": "Genereer afbeeldingen met AI-modellen, ondersteuning voor tekst-naar-beeld en beeld-naar-beeld."
+  },
+  "page": {
+    "title": "AI Beeldgenerator",
+    "description": "Genereer afbeeldingen met AI-modellen, ondersteuning voor tekst-naar-beeld en beeld-naar-beeld."
+  },
+  "generator": {
+    "title": "Beeldgenerator",
+    "description": "Genereer afbeeldingen met AI-modellen, ondersteuning voor tekst-naar-beeld en beeld-naar-beeld.",
+    "tabs": {
+      "text-to-image": "Tekst naar beeld",
+      "image-to-image": "Beeld naar beeld"
+    },
+    "form": {
+      "provider": "Provider",
+      "model": "Model",
+      "select_provider": "Selecteer Provider",
+      "select_model": "Selecteer Model",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Beschrijf de details van de afbeelding, zoals kleur, vorm, textuur, enz.",
+      "reference_image": "Referentieafbeelding",
+      "reference_image_placeholder": "Upload referentieafbeeldingen, ondersteuning voor meerdere afbeeldingen",
+      "some_images_failed_to_upload": "Sommige afbeeldingen zijn niet geüpload, verwijder ze en upload opnieuw",
+      "prompt_too_long": "Prompt is te lang, verwijder wat inhoud"
+    },
+    "generate": "Afbeeldingen genereren",
+    "checking_account": "Account controleren...",
+    "loading": "Laden...",
+    "generating": "Genereren...",
+    "sign_in_to_generate": "Log in om afbeelding te genereren",
+    "credits_cost": "Kosten {credits} credits",
+    "credits_remaining": "Resterend {credits} credits",
+    "buy_credits": "Credits kopen",
+    "progress": "Voortgang",
+    "generated_images": "Afbeelding voorbeeld",
+    "ready_to_generate": "Klaar om te genereren",
+    "ready_for_generating": "Klaar voor genereren",
+    "no_images_generated": "Geen afbeeldingen gegenereerd"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "ИИ Генератор музыки",
+    "description": "Создавайте удивительную музыку с ИИ"
+  },
+  "page": {
+    "title": "ИИ Генератор музыки",
+    "description": "Создавайте удивительную музыку с ИИ"
+  },
+  "generator": {
+    "title": "Генератор музыки",
+    "prompt": "Промпт",
+    "prompt_placeholder": "История любви Ромео и Джульетты",
+    "generate": "Создать музыку",
+    "loading": "Загрузка...",
+    "generating": "Генерация...",
+    "sign_in_to_generate": "Войдите, чтобы создать музыку",
+    "credits_cost": "Стоимость {credits} кредитов",
+    "credits_remaining": "Осталось {credits} кредитов",
+    "buy_credits": "Купить кредиты",
+    "generation_progress": "Прогресс генерации",
+    "time_cost": "Это может занять до 2-3 минут...",
+    "generated_song": "Созданная песня",
+    "ready_to_play": "Готово к воспроизведению",
+    "audio_generating": "Генерация аудио...",
+    "generating_song": "Генерация песни...",
+    "waiting_generation": "Пожалуйста, подождите, пока мы создаем ваш шедевр",
+    "no_song_generated": "Песня не создана",
+    "downloading": "Скачивание...",
+    "download_success": "Скачивание успешно завершено",
+    "download_failed": "Не удалось скачать аудио",
+    "form": {
+      "custom_mode": "Пользовательский режим",
+      "title": "Название",
+      "title_placeholder": "Звук тишины",
+      "style": "Стиль музыки",
+      "style_placeholder": "инди, электроника, синтезаторы, 120bpm, искаженный",
+      "instrumental": "Инструментальный",
+      "prompt": "Промпт",
+      "prompt_placeholder": "Кантри-фолк песня о любви",
+      "model": "Модель",
+      "lyrics": "Текст песни",
+      "lyrics_placeholder": "Напишите свой текст, два куплета (8 строк) для лучшего результата"
+    }
+  }
+}

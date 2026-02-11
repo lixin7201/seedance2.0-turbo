@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "Название",
+    "key": "Ключ",
+    "user": "Пользователь",
+    "status": "Статус",
+    "created_at": "Создано",
+    "action": "Действие"
+  },
+  "list": {
+    "title": "API ключи",
+    "crumbs": {
+      "admin": "Админ",
+      "apikeys": "API ключи"
+    }
+  }
+}

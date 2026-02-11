@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "Obraz na Wideo - Animacja AI",
+    "description": "Prześlij statyczne obrazy i pozwól AI tchnąć w nie życie. Inteligentne rozpoznawanie obrazu z naturalnymi, płynnymi efektami ruchu i niestandardowymi animacjami."
+  },
+  "page": {
+    "title": "Obraz na Wideo",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Obraz na Wideo",
+        "highlight_text": "Obraz na Wideo",
+        "description": "Prześlij statyczne obrazy i pozwól AI tchnąć w nie życie.<br/>Inteligentne rozpoznawanie obrazu z naturalnymi, płynnymi efektami ruchu i niestandardowymi animacjami.",
+        "tip": "🖼️ Przekształć swoje obrazy w dynamiczne wideo",
+        "buttons": [
+          {
+            "title": "Rozpocznij Animację",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Zobacz Przykłady",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "Animacja AI Obraz na Wideo",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "tło"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Dlaczego Warto Wybrać Obraz-na-Wideo",
+        "label": "Korzyści",
+        "description": "Przekształć dowolny statyczny obraz w dynamiczne wideo z inteligentną animacją AI.",
+        "items": [
+          {
+            "title": "Prześlij Dowolny Obraz",
+            "description": "Obsługa wszystkich popularnych formatów obrazów, w tym JPG, PNG i WebP. Przesyłaj zdjęcia, dzieła sztuki, zrzuty ekranu lub dowolny obraz statyczny.",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "Prześlij Obrazy"
+            }
+          },
+          {
+            "title": "Inteligentne Rozpoznawanie Elementów",
+            "description": "AI automatycznie identyfikuje elementy obrazu, takie jak ludzie, zwierzęta, obiekty i tła, aby zastosować odpowiednie efekty ruchu.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "Inteligentne Rozpoznawanie"
+            }
+          },
+          {
+            "title": "Naturalny Płynny Ruch",
+            "description": "Twórz płynne, realistyczne animacje, które zachowują oryginalny styl obrazu, dodając jednocześnie naturalny ruch i dynamikę.",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "Płynny Ruch"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Główne Funkcje",
+        "description": "Wszystko, czego potrzebujesz, aby animować swoje obrazy z AI.",
+        "items": [
+          {
+            "title": "🖼️ Prześlij Dowolny Obraz",
+            "description": "Obsługa JPG, PNG, WebP i innych popularnych formatów. Działa ze zdjęciami, dziełami sztuki i grafiką.",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 Inteligentne Rozpoznawanie",
+            "description": "AI automatycznie identyfikuje ludzie, zwierzęta, obiekty i elementy sceny dla inteligentnej animacji.",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 Naturalny Płynny Ruch",
+            "description": "Płynne, realistyczne animacje, które zachowują oryginalny styl i estetykę obrazu.",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ Niestandardowe Opisy Ruchu",
+            "description": "Dodaj dodatkowe podpowiedzi tekstowe, aby kontrolować określone efekty ruchu i animacje.",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 Ruchy Kamery",
+            "description": "Dodaj kinowe efekty kamery, takie jak zoomy, panoramy i paralaksa do swoich animacji.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 Wyjście Jakości HD",
+            "description": "Eksportuj animowane wideo w rozdzielczości Full HD 1080p lub 2K z płynną liczbą klatek na sekundę.",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "Prezentacje Animacji",
+        "label": "Przykłady",
+        "description": "Zobacz, co jest możliwe dzięki animacji obraz-na-wideo AI.",
+        "items": [
+          {
+            "title": "Animacja Portretowa",
+            "description": "Ożyw zdjęcia portretowe naturalnymi wyrazami twarzy i subtelnymi ruchami.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "Animacja Portretowa"
+            }
+          },
+          {
+            "title": "Animacja Krajobrazu",
+            "description": "Dodaj płynącą wodę, poruszające się chmury i kołyszące się drzewa do zdjęć krajobrazowych.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "Animacja Krajobrazu"
+            }
+          },
+          {
+            "title": "Animacja Dzieł Sztuki",
+            "description": "Animuj sztukę cyfrową, ilustracje i obrazy, zachowując styl artystyczny.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "Animacja Dzieł Sztuki"
+            }
+          },
+          {
+            "title": "Animacja Produktu",
+            "description": "Twórz dynamiczne prezentacje produktów i efekty obrotu o 360 stopni.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "Animacja Produktu"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Często Zadawane Pytania",
+        "description": "Częste pytania dotyczące animacji obraz-na-wideo.",
+        "items": [
+          {
+            "question": "Co to jest Obraz-na-Wideo?",
+            "answer": "Obraz-na-Wideo to technologia AI, która przekształca statyczne obrazy w dynamiczne animacje wideo. Prześlij dowolny obraz, a AI doda realistyczny ruch, ruchy kamery i efekty specjalne, zachowując oryginalny styl wizualny."
+          },
+          {
+            "question": "Jakie formaty obrazów są obsługiwane?",
+            "answer": "Obsługujemy wszystkie popularne formaty obrazów, w tym JPG, PNG, WebP i GIF. Obrazy powinny mieć co najmniej 512x512 pikseli dla najlepszych wyników."
+          },
+          {
+            "question": "Czy mogę kontrolować efekty animacji?",
+            "answer": "Tak! Możesz dodać dodatkowe podpowiedzi tekstowe, aby opisać określone efekty ruchu, które chcesz, takie jak 'delikatny wiatr poruszający liśćmi' lub 'woda falująca miękko'. AI uwzględni Twoje opisy."
+          },
+          {
+            "question": "Jak działa inteligentne rozpoznawanie?",
+            "answer": "Nasze AI automatycznie identyfikuje różne elementy na Twoim obrazie, w tym ludzi, zwierzęta, obiekty, niebo, wodę i listowie. Każdy element otrzymuje odpowiednie efekty ruchu w oparciu o swoją naturę."
+          },
+          {
+            "question": "Jakiej jakości wideo mogę się spodziewać?",
+            "answer": "Animowane wideo są eksportowane w rozdzielczości Full HD 1080p lub 2K z płynną liczbą klatek na sekundę. AI zachowuje oryginalną jakość obrazu, dodając naturalne, płynne efekty ruchu."
+          },
+          {
+            "question": "Czy mogę animować dzieła sztuki i ilustracje?",
+            "answer": "Oczywiście! AI świetnie sprawdza się w przypadku sztuki cyfrowej, ilustracji, obrazów i grafiki. Zachowuje styl artystyczny, dodając subtelne, odpowiednie animacje."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Ożyw Swoje Obrazy",
+        "description": "Przekształć statyczne obrazy w oszałamiające animowane wideo dzięki technologii obraz-na-wideo opartej na AI.",
+        "buttons": [
+          {
+            "title": "Spróbuj Teraz",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Zobacz Cennik",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

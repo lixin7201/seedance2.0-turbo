@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Changelog",
+    "description": "Bekijk de changelog van onze producten, inclusief de nieuwste functies en verbeteringen."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Changelog",
+        "description": "Bekijk de changelog van onze producten, inclusief de nieuwste functies en verbeteringen."
+      }
+    }
+  }
+}

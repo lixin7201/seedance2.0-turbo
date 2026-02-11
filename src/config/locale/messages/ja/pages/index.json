@@ -1,0 +1,282 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "showcase_grid",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-video",
+        "title": "Seedance 2.0でアイデアをシネマティックな動画に",
+        "highlight_text": "シネマティックな動画",
+        "description": "Seedance 2.0は、あなたの創造的なビジョンを実現する強力なAI動画ジェネレーターです。テキストから動画へ、画像から動画へ — 流れるような動き、リアルな物理、見事な視覚効果を備えたプログレードの動画を作成します。編集経験は必要ありません。",
+        "video_url": "/videos/hero-bg.mp4",
+        "announcement": {
+          "badge": "New",
+          "title": "🎬 Seedance 2.0 — 次世代AI動画生成",
+          "url": "/#showcase_grid"
+        },
+        "tip": "✨ AIでシネマティックなコンテンツを作成する数千人のクリエイターに参加しましょう",
+        "buttons": [
+          {
+            "title": "作成を開始",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "例を見る",
+            "icon": "Play",
+            "url": "/#showcase_grid",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": null,
+        "image_invert": null,
+        "background_image": null
+      },
+      "showcase_grid": {
+        "id": "showcase_grid",
+        "block": "showcase-grid",
+        "label": "Powered by Seedance 2.0",
+        "title": "Seedance 2.0で何が作れる？",
+        "description": "ハイスピードのアクションから親密なキャラクターの物語まで — Seedance 2.0 AI動画生成で何ができるかをご覧ください。以下のすべてのフレームはAIによって生成されました。",
+        "items": [
+          {
+            "id": "showcase-racing",
+            "title": "流れるようなリアルな動き",
+            "description": "Seedance 2.0は、すべてのフレームを安定させ、アーティファクトのない超滑らかなモーション合成を生成します。この高速レースシーケンスをご覧ください — タイヤの水しぶきからカメラの追跡まで、すべての詳細がシネマティックな精度と物理ベースのリアリズムで流れています。",
+            "video_url": "/videos/showcase-racing.mp4",
+            "tags": ["スムーズな動き", "物理シミュレーション", "ハイスピード"]
+          },
+          {
+            "id": "showcase-character",
+            "title": "表現豊かなキャラクターアニメーション",
+            "description": "Seedance 2.0の高度なモーションエンジンでキャラクターに命を吹き込みます。繊細な表情から全身のジェスチャーまで、AI生成のキャラクターは自然で表現豊かに動きます — ストーリーテリング、ブランド動画、クリエイティブプロジェクトに最適です。",
+            "video_url": "/videos/showcase-character.mp4",
+            "tags": ["キャラクターアニメーション", "自然な動き", "ストーリーテリング"]
+          },
+          {
+            "id": "showcase-motion",
+            "title": "マルチキャラクターの一貫性",
+            "description": "Seedance 2.0は、あらゆる角度やシーンで顔の特徴、服装、体型をロックします。このアクション満載の追跡シーケンスでは、各キャラクターが視覚的に一貫しています — 広告、ナラティブコンテンツ、ブランド動画シリーズに最適です。",
+            "video_url": "/videos/showcase-motion.mp4",
+            "tags": ["キャラクターの一貫性", "マルチシーン", "アクション"]
+          },
+          {
+            "id": "showcase-cinematic",
+            "title": "画像からシネマティック動画へ",
+            "description": "1枚の写真をアップロードして、Seedance 2.0が没入感のあるシネマティッククリップに変換するのを見てください。ダイナミックなカメラの動き、プロフェッショナルなペーシング、雰囲気のあるエフェクトにより、静止画を見事なモーションコンテンツに変えます — 編集は不要です。",
+            "video_url": "/videos/showcase-cinematic.mp4",
+            "tags": ["画像から動画へ", "シネマティック", "ワンクリック"]
+          },
+          {
+            "id": "showcase-3d",
+            "title": "3Dアクションと視覚効果",
+            "description": "Seedance 2.0は、シネマティックなカメラワークと流れるような振り付けを備えた複雑な3Dアクションシーケンスの生成に優れています。この映画グレードのCGアニメーションは、物理的に正確な動き、劇的な照明、大作映画品質の視覚効果を示しています。",
+            "video_url": "/videos/showcase-3d.mp4",
+            "tags": ["3Dアニメーション", "VFX", "アクションシーケンス"]
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Seedance 2.0とは",
+        "label": "About",
+        "description": "私たちのプラットフォームは、Seedance AI動画生成のための使いやすいインターフェースを提供します。サードパーティのAIモデルを通じて、高度なテキストから動画へ、画像から動画への機能へのアクセスを提供します。これは独立したサービスであり、モデルプロバイダーとは提携していません。",
+        "image": {
+          "src": "https://picsum.photos/seed/seedance-intro/800/600",
+          "alt": "Seedance 2.0 紹介"
+        },
+        "items": [
+          {
+            "title": "テキストから動画への生成",
+            "description": "自然言語でシーンを説明し、Seedance 2.0にキャラクター、環境、ダイナミックな動きを備えた完全にレンダリングされた動画を生成させます。",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-t2v/600/400",
+              "alt": "テキストから動画へ"
+            }
+          },
+          {
+            "title": "画像から動画へのアニメーション",
+            "description": "製品写真、ポートレート、風景など、あらゆる写真をアップロードすると、Seedance 2.0がインテリジェントな動きとシネマティックなエフェクトで命を吹き込みます。",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-i2v/600/400",
+              "alt": "画像から動画へ"
+            }
+          },
+          {
+            "title": "物理ベースのレンダリング",
+            "description": "高度なシミュレーション技術により、リアルなオブジェクトの相互作用、照明、および材料の挙動をモデル化し、信頼性の高い、制作準備の整った出力を実現します。",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "物理シミュレーション"
+            }
+          },
+          {
+            "title": "Ultra-HD出力",
+            "description": "鮮明なディテールを備えた1080pフルHDで作品をエクスポートします。ジッターもアーティファクトもありません — クリーンでプロフェッショナルな動画出力だけです。",
+            "icon": "RiHdLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "HD出力"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "クリエイターがSeedance 2.0を選ぶ理由",
+        "label": "メリット",
+        "description": "コンテンツクリエイター、マーケター、映画製作者にとって、Seedance 2.0が頼りになるAI動画ツールである理由を発見してください。",
+        "items": [
+          {
+            "title": "最先端のAIモデル",
+            "description": "最先端のマルチモーダルAIを搭載したSeedance 2.0は、すべての生成において一貫した品質で画期的な動画生成を実現します。",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-ai/800/500",
+              "alt": "AIテクノロジー"
+            }
+          },
+          {
+            "title": "映画グレードの画質",
+            "description": "すべての動画は、シネマティックなカラーグレーディング、安定した動き、最大1080p解像度の詳細なテクスチャを備え、プロのスタジオから来たかのように見えます。",
+            "icon": "RiFilmLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-quality/800/500",
+              "alt": "画質"
+            }
+          },
+          {
+            "title": "マルチショットのストーリーテリング",
+            "description": "複数のシーン、キャラクター、カメラアングルで完全な物語を構築し、全体を通して視覚的な一貫性を維持します。",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "複雑な物語"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Seedance 2.0の主な機能",
+        "description": "プロフェッショナルなAI生成動画を作成するために必要なものすべて。",
+        "items": [
+          {
+            "title": "🎬 テキストから動画へ",
+            "description": "プロンプトを入力して、動画を取得します。キャラクター、環境、アクションを完全に制御。",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🖼️ 画像から動画へ",
+            "description": "インテリジェントな動き、シネマティックなカメラの動き、雰囲気のあるエフェクトであらゆる写真をアニメーション化します。",
+            "icon": "RiImage2Line"
+          },
+          {
+            "title": "📐 物理エンジン",
+            "description": "オブジェクトのダイナミクス、照明、および材料の相互作用のリアルなシミュレーション。",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 シネマティック出力",
+            "description": "プロフェッショナルなカラーグレーディングとゼロアーティファクトを備えた1080pフルHD出力。",
+            "icon": "RiFilmLine"
+          },
+          {
+            "title": "📖 物語の継続性",
+            "description": "全体を通して一貫した視覚的アイデンティティを持つ、マルチショット、マルチキャラクターのシーン。",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "🎨 スタイルの多様性",
+            "description": "リアル、アニメ、サイバーパンク、水彩画など、多くの創造的な視覚スタイル。",
+            "icon": "RiPaletteLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "よくある質問",
+        "description": "さらに質問がありますか？サポートにお問い合わせください。",
+        "items": [
+          {
+            "question": "Seedance 2.0とは何ですか？",
+            "answer": "私たちのプラットフォームは、使いやすいインターフェースを通じて高度なAI動画生成モデルへのアクセスを提供します。私たちは独立したサービスであり、AIモデルプロバイダーとは提携していません。このプラットフォームは、基盤となるAI技術の上に強化された使いやすさと追加機能を提供するラッパーサービスです。"
+          },
+          {
+            "question": "Seedance 2.0はどの動画解像度をサポートしていますか？",
+            "answer": "私たちのプラットフォームは現在、最大1080pフルHD出力解像度をサポートしています。出力品質は、使用するAIモデルによって異なる場合があります。"
+          },
+          {
+            "question": "Seedance 2.0で生成される動画の長さは？",
+            "answer": "生成される動画は通常5〜10秒の長さです。モデルやサブスクリプションプランによっては、より長い時間が利用できる場合があります。"
+          },
+          {
+            "question": "Seedance 2.0はどのような視覚スタイルを生成できますか？",
+            "answer": "リアル、アニメ、サイバーパンク、水彩画など、複数の視覚スタイルがサポートされています。テキストプロンプトで好みのスタイルを指定できます。"
+          },
+          {
+            "question": "Seedance 2.0で既存の画像をアニメーション化できますか？",
+            "answer": "はい！画像から動画への機能を使用すると、静止画をアップロードしてダイナミックな動画に変換できます。AIは、元の画像スタイルを維持しながら、リアルな動き、カメラの動き、シーンアニメーションを追加します。"
+          },
+          {
+            "question": "このプラットフォームとByteDanceの関係は何ですか？",
+            "answer": "このプラットフォームは、AI動画生成のための使いやすいインターフェースを提供する独立したサービスです。ByteDanceと提携、推奨、または後援されているわけではありません。私たちはAPI統合を通じてAIモデルを活用し、動画生成サービスを提供しています。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Seedance 2.0で作成する準備はできましたか？",
+        "description": "Seedance 2.0を使用して想像力をシネマティックな動画コンテンツに変える世界中のクリエイターに参加しましょう。今日から無料で始めましょう。",
+        "buttons": [
+          {
+            "title": "作成を開始",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "料金を見る",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "アップデートを購読",
+        "description": "Seedance 2.0に関する最新ニュースを入手してください。",
+        "submit": {
+          "input": {
+            "placeholder": "メールアドレスを入力"
+          },
+          "button": {
+            "title": "購読"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}

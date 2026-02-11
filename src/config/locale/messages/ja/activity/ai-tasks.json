@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "タイトル",
+    "media_type": "メディアタイプ",
+    "provider": "プロバイダー",
+    "model": "モデル",
+    "prompt": "プロンプト",
+    "options": "オプション",
+    "status": "ステータス",
+    "result": "結果",
+    "cost_credits": "消費クレジット",
+    "created_at": "作成日時",
+    "action": "アクション",
+    "progress": "進捗",
+    "expires_at": "有効期限"
+  },
+  "list": {
+    "title": "AIタスク",
+    "tabs": {
+      "all": "すべて",
+      "music": "音楽",
+      "image": "画像",
+      "video": "動画",
+      "audio": "音声",
+      "text": "テキスト"
+    },
+    "buttons": {
+      "view": "タスクを表示",
+      "refresh": "タスクを更新",
+      "delete": "削除",
+      "download": "ダウンロード",
+      "play": "再生",
+      "retry": "再試行"
+    },
+    "empty_message": "タスクが見つかりません",
+    "confirm_delete": "このタスクを削除してもよろしいですか？",
+    "delete_success": "タスクを削除しました",
+    "hint_async": "このページを閉じても構いません。完了したら通知します。",
+    "view_history": "履歴を表示"
+  },
+  "status": {
+    "pending": "待機中",
+    "processing": "処理中",
+    "success": "完了",
+    "failed": "失敗",
+    "expired": "期限切れ"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "Nr subskrypcji",
+    "interval": "Interwał",
+    "provider": "Dostawca",
+    "current_period": "Obecny okres",
+    "plan": "Plan",
+    "status": "Status",
+    "amount": "Kwota",
+    "created_at": "Utworzono",
+    "end_time": "Czas zakończenia",
+    "action": "Akcja"
+  },
+  "view": {
+    "title": "Obecny Plan",
+    "tip": "Twoja subskrypcja odnowi się automatycznie {date}",
+    "end_tip": "Twoja subskrypcja zostanie anulowana automatycznie {date}",
+    "no_subscription": "Brak planu",
+    "buttons": {
+      "adjust": "Dostosuj plan",
+      "subscribe": "Subskrybuj",
+      "manage": "Zarządzaj subskrypcją",
+      "cancel": "Anuluj subskrypcję"
+    }
+  },
+  "list": {
+    "title": "Historia subskrypcji",
+    "tabs": {
+      "all": "Wszystkie",
+      "active": "Aktywne",
+      "pending_cancel": "Oczekujące na anulowanie",
+      "canceled": "Anulowane",
+      "trialing": "Okres próbny",
+      "paused": "Wstrzymane",
+      "expired": "Wygasłe"
+    }
+  },
+  "cancel": {
+    "title": "Anuluj subskrypcję",
+    "description": "Czy na pewno chcesz anulować subskrypcję?",
+    "fields": {
+      "subscription_no": "Nr subskrypcji",
+      "subscription_amount": "Kwota subskrypcji",
+      "interval_cycle": "Cykl interwału",
+      "subscription_created_at": "Subskrypcja utworzona",
+      "current_period": "Obecny okres",
+      "start_at": "Rozpoczęcie",
+      "end_at": "Zakończenie"
+    },
+    "crumbs": {
+      "settings": "Ustawienia",
+      "billing": "Rozliczenia",
+      "cancel": "Anuluj subskrypcję"
+    },
+    "buttons": {
+      "confirm_cancel": "Potwierdź anulowanie"
+    }
+  }
+}

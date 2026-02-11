@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "№ Заказа",
+    "user": "Пользователь",
+    "amount": "Сумма",
+    "product_name": "Название продукта",
+    "price": "Цена",
+    "paid_amount": "Оплачено",
+    "discount_amount": "Скидка",
+    "description": "Описание",
+    "type": "Тип",
+    "provider": "Провайдер",
+    "created_at": "Дата создания",
+    "status": "Статус",
+    "action": "Действие",
+    "actions": {
+      "view_invoice": "Просмотреть счет"
+    }
+  },
+  "list": {
+    "title": "Платежи",
+    "description": "Просмотр ваших платежей",
+    "tabs": {
+      "all": "Все",
+      "one-time": "Разовые",
+      "subscription": "Подписка",
+      "renew": "Продление"
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "showcase_grid",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-video",
+        "title": "Zamień Pomysły w Kinowe Wideo z Seedance 2.0",
+        "highlight_text": "Kinowe Wideo",
+        "description": "Seedance 2.0 to potężny generator wideo AI, który ożywia Twoją wizję twórczą. Od tekstu do wideo po animację obrazu — twórz wideo profesjonalnej jakości z płynnym ruchem, realistyczną fizyką i oszałamiającymi efektami wizualnymi. Nie jest wymagane doświadczenie w montażu.",
+        "video_url": "/videos/hero-bg.mp4",
+        "announcement": {
+          "badge": "Nowość",
+          "title": "🎬 Seedance 2.0 — Generowanie Wideo AI Nowej Generacji",
+          "url": "/#showcase_grid"
+        },
+        "tip": "✨ Dołącz do tysięcy twórców tworzących kinowe treści z AI",
+        "buttons": [
+          {
+            "title": "Zacznij Tworzyć",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Zobacz Przykłady",
+            "icon": "Play",
+            "url": "/#showcase_grid",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": null,
+        "image_invert": null,
+        "background_image": null
+      },
+      "showcase_grid": {
+        "id": "showcase_grid",
+        "block": "showcase-grid",
+        "label": "Napędzane przez Seedance 2.0",
+        "title": "Co Może Stworzyć Seedance 2.0?",
+        "description": "Od szybkiej akcji po intymne historie postaci — zobacz, co może zrobić generowanie wideo AI Seedance 2.0. Każda klatka poniżej została wygenerowana przez AI.",
+        "items": [
+          {
+            "id": "showcase-racing",
+            "title": "Płynny, Realistyczny Ruch",
+            "description": "Seedance 2.0 wytwarza ultra-płynną syntezę ruchu, która utrzymuje każdą klatkę stabilną i wolną od artefaktów. Obejrzyj tę szybką sekwencję wyścigową — od rozprysku opon po śledzenie kamerą, każdy szczegół płynie z kinową precyzją i realizmem opartym na fizyce.",
+            "video_url": "/videos/showcase-racing.mp4",
+            "tags": ["Płynny Ruch", "Symulacja Fizyki", "Wysoka Prędkość"]
+          },
+          {
+            "id": "showcase-character",
+            "title": "Ekspresyjna Animacja Postaci",
+            "description": "Ożyw postacie dzięki zaawansowanemu silnikowi ruchu Seedance 2.0. Od subtelnych wyrazów twarzy po gesty całego ciała, postacie generowane przez AI poruszają się naturalnie i ekspresyjnie — idealne do opowiadania historii, filmów marek i projektów kreatywnych.",
+            "video_url": "/videos/showcase-character.mp4",
+            "tags": ["Animacja Postaci", "Naturalny Ruch", "Opowiadanie Historii"]
+          },
+          {
+            "id": "showcase-motion",
+            "title": "Spójność Wielu Postaci",
+            "description": "Seedance 2.0 blokuje cechy twarzy, ubrania i proporcje ciała pod każdym kątem i w każdej scenie. W tej pełnej akcji sekwencji pościgu każda postać pozostaje wizualnie spójna — idealna do reklam, treści narracyjnych i markowych serii wideo.",
+            "video_url": "/videos/showcase-motion.mp4",
+            "tags": ["Spójność Postaci", "Wiele Scen", "Akcja"]
+          },
+          {
+            "id": "showcase-cinematic",
+            "title": "Obraz na Kinowe Wideo",
+            "description": "Prześlij pojedyncze zdjęcie i zobacz, jak Seedance 2.0 przekształca je we wciągający klip kinowy. Dynamiczny ruch kamery, profesjonalne tempo i nastrojowe efekty zmieniają statyczne obrazy w oszałamiające treści ruchome — edycja nie jest wymagana.",
+            "video_url": "/videos/showcase-cinematic.mp4",
+            "tags": ["Obraz na Wideo", "Kinowe", "Jedno Kliknięcie"]
+          },
+          {
+            "id": "showcase-3d",
+            "title": "Akcja 3D i Efekty Wizualne",
+            "description": "Seedance 2.0 doskonale radzi sobie z generowaniem złożonych sekwencji akcji 3D z kinową pracą kamery i płynną choreografią. Ta animacja CG klasy filmowej prezentuje fizycznie dokładny ruch, dramatyczne oświetlenie i efekty wizualne o jakości kinowej.",
+            "video_url": "/videos/showcase-3d.mp4",
+            "tags": ["Animacja 3D", "VFX", "Sekwencja Akcji"]
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Czym jest Seedance 2.0",
+        "label": "O nas",
+        "description": "Nasza platforma zapewnia przyjazny dla użytkownika interfejs do generowania wideo AI Seedance. Oferujemy dostęp do zaawansowanych możliwości tekst-na-wideo i obraz-na-wideo za pośrednictwem modeli AI firm trzecich. Jest to niezależna usługa, niepowiązana z dostawcami modeli.",
+        "image": {
+          "src": "https://picsum.photos/seed/seedance-intro/800/600",
+          "alt": "Wprowadzenie do Seedance 2.0"
+        },
+        "items": [
+          {
+            "title": "Generowanie Tekst-na-Wideo",
+            "description": "Opisz dowolną scenę w języku naturalnym i pozwól Seedance 2.0 wygenerować w pełni wyrenderowane wideo z postaciami, środowiskami i dynamicznym ruchem.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-t2v/600/400",
+              "alt": "Tekst na Wideo"
+            }
+          },
+          {
+            "title": "Animacja Obraz-na-Wideo",
+            "description": "Prześlij dowolne zdjęcie — ujęcie produktu, portret lub krajobraz — a Seedance 2.0 tchnie w nie życie dzięki inteligentnemu ruchowi i efektom kinowym.",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-i2v/600/400",
+              "alt": "Obraz na Wideo"
+            }
+          },
+          {
+            "title": "Renderowanie Oparte na Fizyce",
+            "description": "Zaawansowana technologia symulacji modeluje realistyczne interakcje obiektów, oświetlenie i zachowanie materiałów, zapewniając wiarygodne, gotowe do produkcji wyniki.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "Symulacja Fizyki"
+            }
+          },
+          {
+            "title": "Wyjście Ultra-HD",
+            "description": "Eksportuj swoje dzieła w rozdzielczości 1080p Full HD z krystalicznie czystymi szczegółami. Bez drżeń, bez artefaktów — po prostu czyste, profesjonalne wyjście wideo.",
+            "icon": "RiHdLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "Wyjście HD"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Dlaczego Twórcy Wybierają Seedance 2.0",
+        "label": "Korzyści",
+        "description": "Odkryj, co sprawia, że Seedance 2.0 jest preferowanym narzędziem wideo AI dla twórców treści, marketerów i filmowców.",
+        "items": [
+          {
+            "title": "Najnowocześniejsze Modele AI",
+            "description": "Napędzany przez najnowocześniejsze multimodalne AI, Seedance 2.0 zapewnia przełomowe generowanie wideo o stałej jakości w każdej generacji.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-ai/800/500",
+              "alt": "Technologia AI"
+            }
+          },
+          {
+            "title": "Jakość Wizualna Klasy Filmowej",
+            "description": "Każde wideo wygląda tak, jakby pochodziło z profesjonalnego studia — z kinową gradacją kolorów, stabilnym ruchem i szczegółowymi teksturami w rozdzielczości do 1080p.",
+            "icon": "RiFilmLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-quality/800/500",
+              "alt": "Jakość Wizualna"
+            }
+          },
+          {
+            "title": "Opowiadanie Historii Wieloma Ujęciami",
+            "description": "Buduj kompletne narracje z wieloma scenami, postaciami i kątami kamery — zachowując spójność wizualną przez cały czas.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "Złożone Narracje"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Główne Funkcje Seedance 2.0",
+        "description": "Wszystko, czego potrzebujesz, aby tworzyć profesjonalne wideo generowane przez AI.",
+        "items": [
+          {
+            "title": "🎬 Tekst-na-Wideo",
+            "description": "Wpisz podpowiedź, otrzymaj wideo. Pełna kontrola sceny z postaciami, środowiskami i akcjami.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🖼️ Obraz-na-Wideo",
+            "description": "Animuj dowolne zdjęcie z inteligentnym ruchem, kinowym ruchem kamery i nastrojowymi efektami.",
+            "icon": "RiImage2Line"
+          },
+          {
+            "title": "📐 Silnik Fizyki",
+            "description": "Realistyczna symulacja dynamiki obiektów, oświetlenia i interakcji materiałów.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Wyjście Kinowe",
+            "description": "Wyjście 1080p Full HD z profesjonalną gradacją kolorów i zerowymi artefaktami.",
+            "icon": "RiFilmLine"
+          },
+          {
+            "title": "📖 Ciągłość Narracyjna",
+            "description": "Wieloujęciowe, wielopostaciowe sceny ze spójną tożsamością wizualną przez cały czas.",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "🎨 Wszechstronność Stylu",
+            "description": "Realistyczny, anime, cyberpunk, akwarela i wiele innych kreatywnych stylów wizualnych.",
+            "icon": "RiPaletteLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Często Zadawane Pytania",
+        "description": "Masz więcej pytań? Skontaktuj się z nami w celu uzyskania wsparcia.",
+        "items": [
+          {
+            "question": "Czym jest Seedance 2.0?",
+            "answer": "Nasza platforma zapewnia dostęp do zaawansowanych modeli generowania wideo AI za pośrednictwem przyjaznego dla użytkownika interfejsu. Jesteśmy niezależną usługą, niepowiązaną z dostawcami modeli AI. Ta platforma jest usługą typu wrapper, która oferuje zwiększoną użyteczność i dodatkowe funkcje oprócz bazowych technologii AI."
+          },
+          {
+            "question": "Jakie rozdzielczości wideo obsługuje Seedance 2.0?",
+            "answer": "Nasza platforma obsługuje obecnie rozdzielczość wyjściową do 1080p Full HD. Jakość wyjściowa może się różnić w zależności od używanego modelu AI."
+          },
+          {
+            "question": "Jak długie mogą być wideo generowane przez Seedance 2.0?",
+            "answer": "Generowane wideo mają zazwyczaj 5-10 sekund długości. Dłuższe czasy trwania mogą być dostępne w zależności od modelu i planu subskrypcji."
+          },
+          {
+            "question": "Jakie style wizualne może generować Seedance 2.0?",
+            "answer": "Obsługiwanych jest wiele stylów wizualnych, w tym realistyczny, anime, cyberpunk, akwarela i inne. Możesz określić preferowany styl w podpowiedzi tekstowej."
+          },
+          {
+            "question": "Czy mogę animować istniejące obrazy za pomocą Seedance 2.0?",
+            "answer": "Tak! Dzięki funkcji obraz-na-wideo możesz przesyłać statyczne obrazy i przekształcać je w dynamiczne wideo. AI dodaje realistyczny ruch, ruchy kamery i animacje scen, zachowując oryginalny styl obrazu."
+          },
+          {
+            "question": "Jaka jest relacja między tą platformą a ByteDance?",
+            "answer": "Ta platforma jest niezależną usługą, która zapewnia przyjazny dla użytkownika interfejs do generowania wideo AI. Nie jesteśmy powiązani, wspierani ani sponsorowani przez ByteDance. Wykorzystujemy modele AI poprzez integracje API, aby świadczyć nasze usługi generowania wideo."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Gotowy na tworzenie z Seedance 2.0?",
+        "description": "Dołącz do twórców na całym świecie używających Seedance 2.0, aby zmienić wyobraźnię w kinowe treści wideo. Zacznij za darmo już dziś.",
+        "buttons": [
+          {
+            "title": "Zacznij Tworzyć",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Zobacz Cennik",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "Subskrybuj Aktualizacje",
+        "description": "Otrzymuj najnowsze wiadomości o Seedance 2.0.",
+        "submit": {
+          "input": {
+            "placeholder": "Wpisz swój e-mail"
+          },
+          "button": {
+            "title": "Subskrybuj"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "AI音楽ジェネレーター",
+    "description": "AIで素晴らしい音楽を生成しよう"
+  },
+  "page": {
+    "title": "AI音楽ジェネレーター",
+    "description": "AIで素晴らしい音楽を生成しよう"
+  },
+  "generator": {
+    "title": "音楽ジェネレーター",
+    "prompt": "プロンプト",
+    "prompt_placeholder": "ロミオとジュリエットのラブストーリー",
+    "generate": "音楽を生成",
+    "loading": "読み込み中...",
+    "generating": "生成中...",
+    "sign_in_to_generate": "音楽を生成するにはサインイン",
+    "credits_cost": "{credits} クレジットを消費",
+    "credits_remaining": "残り {credits} クレジット",
+    "buy_credits": "クレジットを購入",
+    "generation_progress": "生成の進捗",
+    "time_cost": "最大2〜3分かかる場合があります...",
+    "generated_song": "生成された曲",
+    "ready_to_play": "再生準備完了",
+    "audio_generating": "音声を生成中...",
+    "generating_song": "曲を生成中...",
+    "waiting_generation": "傑作を作成中ですのでお待ちください",
+    "no_song_generated": "曲は生成されていません",
+    "downloading": "ダウンロード中...",
+    "download_success": "ダウンロードが正常に完了しました",
+    "download_failed": "音声のダウンロードに失敗しました",
+    "form": {
+      "custom_mode": "カスタムモード",
+      "title": "タイトル",
+      "title_placeholder": "The Sound of Silence",
+      "style": "音楽のスタイル",
+      "style_placeholder": "インディー, エレクトロニック, シンセ, 120bpm, 歪んだ",
+      "instrumental": "インストゥルメンタル",
+      "prompt": "プロンプト",
+      "prompt_placeholder": "愛についてのカントリーフォークソング",
+      "model": "モデル",
+      "lyrics": "歌詞",
+      "lyrics_placeholder": "独自の歌詞を書いてください。2つのバース（8行）が最適です"
+    }
+  }
+}

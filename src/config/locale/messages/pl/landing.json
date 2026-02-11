@@ -1,0 +1,147 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Funkcje",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Cennik",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Rozliczenia",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Aktywność",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": ""
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "Seedance 2.0 zapewnia łatwy w użyciu interfejs do generowania wideo AI, wspierając zamianę tekstu na wideo i obrazu na wideo z wysoką jakością wyjściową.",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "O nas",
+          "children": [
+            {
+              "title": "Funkcje",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Zasoby",
+          "children": [
+            {
+              "title": "Blog",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Przyjaciele",
+          "children": [
+            {
+              "title": "Runway",
+              "url": "https://runwayml.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Pika",
+              "url": "https://pika.art",
+              "target": "_blank"
+            },
+            {
+              "title": "Kling",
+              "url": "https://kling.kuaishou.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@seedance2.shop",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Polityka prywatności",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Warunki korzystania",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Polityka zwrotów",
+          "url": "/refund-policy"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false,
+    "disclaimer": "Ta platforma jest niezależnym produktem i nie jest powiązana, wspierana ani sponsorowana przez ByteDance. Zapewniamy dostęp do generowania wideo AI za pośrednictwem naszego niestandardowego interfejsu."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "subscription_no": "Abonnementsnummer",
+    "user": "Gebruiker",
+    "amount": "Bedrag",
+    "interval": "Interval",
+    "provider": "Provider",
+    "created_at": "Aangemaakt Op",
+    "current_period_start": "Huidige Periode Start",
+    "current_period_end": "Huidige Periode Einde",
+    "status": "Status",
+    "description": "Beschrijving",
+    "action": "Actie"
+  },
+  "list": {
+    "title": "Abonnementen",
+    "crumbs": {
+      "admin": "Beheer",
+      "subscriptions": "Abonnementen"
+    },
+    "tabs": {
+      "all": "Alles",
+      "month": "Maand",
+      "year": "Jaar"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+---
+title: 'Выпуск Seedance Two'
+description: 'Мы выпустили вторую основную версию Seedance'
+date: '2025-11-11'
+tags: ['Seedance Two', 'Next.js 16', 'AI SaaS', 'Boilerplate']
+version: '2.0.0'
+---
+
+![Seedance Two](/imgs/features/admin-settings.png)
+
+Seedance Two основан на последнем `Next.js 16`, предлагая значительные улучшения производительности компиляции с более быстрой локальной разработкой и уменьшенным использованием памяти.
+
+<Accordion type="multiple" className="not-prose w-full">
+    <AccordionItem value="features">
+        <AccordionTrigger>Основные особенности</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <ul className="list-disc space-y-2 pl-4">
+            <li>Основные системы: Панель администратора, Консоль пользователя, Целевая страница</li>
+            <li>Основные модули: База данных, Управление контентом, i18n, Контроль доступа</li>
+            <li>Модули расширения: Аутентификация, Платежи, Хранение, Аналитика, Реклама, Партнерский маркетинг, ИИ</li>
+            <li>Система тем: Цветовые схемы, Типографика, Макеты, Компоненты</li>
+            <li>Система конфигурации: Визуальная конфигурация, Конфигурация кода, Переменные среды</li>
+            <li>Управление контентом: Категории, Посты, Страницы, Логи</li>
+        </ul>
+        </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="performance">
+        <AccordionTrigger>Улучшения по сравнению с Seedance One</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <ul className="list-disc space-y-2 pl-4">
+            <li>Auth.js заменен на Better-Auth, поддерживающий больше методов аутентификации</li>
+            <li>Основан на Next.js 16, более быстрая локальная разработка и меньший объем памяти</li>
+            <li>UI Панели администратора оптимизирован для лучшей эстетики и удобства использования</li>
+            <li>Поддерживает визуальную конфигурацию для большей гибкости и удобства</li>
+            <li>Поддерживает RBAC (Контроль доступа на основе ролей)</li>
+            <li>Интегрированы более полные функции управления контентом</li>
+        </ul>
+        </AccordionContent>
+    </AccordionItem>
+
+</Accordion>
+
+> Быстрый старт
+
+```bash
+git clone git@github.com:seedance/seedance-template-two.git
+```
+
+[Документация Seedance Two](https://seedance.ai/docs/quick-start)

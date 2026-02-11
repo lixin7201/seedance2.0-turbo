@@ -1,0 +1,147 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Функции",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Цены",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Биллинг",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Активность",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": ""
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "Seedance 2.0 предоставляет простой в использовании интерфейс для генерации видео ИИ, поддерживая преобразование текста и изображений в видео с высоким качеством.",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "О нас",
+          "children": [
+            {
+              "title": "Функции",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Ресурсы",
+          "children": [
+            {
+              "title": "Блог",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Друзья",
+          "children": [
+            {
+              "title": "Runway",
+              "url": "https://runwayml.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Pika",
+              "url": "https://pika.art",
+              "target": "_blank"
+            },
+            {
+              "title": "Kling",
+              "url": "https://kling.kuaishou.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@seedance2.shop",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Политика конфиденциальности",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Условия использования",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Политика возврата",
+          "url": "/refund-policy"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false,
+    "disclaimer": "Эта платформа является независимым продуктом и не связана, не одобрена и не спонсируется ByteDance. Мы предоставляем доступ к генерации видео ИИ через наш пользовательский интерфейс."
+  }
+}

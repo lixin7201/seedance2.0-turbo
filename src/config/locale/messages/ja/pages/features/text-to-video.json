@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "テキストから動画へ - AI動画生成",
+    "description": "テキストの説明からダイナミックな動画を作成します。詳細なシーン、キャラクター、アクションのプロンプトをサポートし、複数の視覚スタイルと1080p/2K HD出力を備えています。"
+  },
+  "page": {
+    "title": "テキストから動画へ",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "テキストから動画へ",
+        "highlight_text": "テキストから動画へ",
+        "description": "テキストの説明からダイナミックな動画を作成します。<br/>詳細なシーン、キャラクター、アクションのプロンプトをサポートし、複数の視覚スタイルと1080p/2K HD出力を備えています。",
+        "tip": "🎬 言葉を見事な動画に変換",
+        "buttons": [
+          {
+            "title": "作成を開始",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "例を見る",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "テキストから動画へ AI生成",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "背景"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "なぜテキストから動画へを選ぶのか",
+        "label": "メリット",
+        "description": "比類のない創造的制御を備えた最先端のテキストから動画へのAI技術を体験してください。",
+        "items": [
+          {
+            "title": "詳細なプロンプトサポート",
+            "description": "包括的なテキストプロンプトで複雑なシーンを作成します。キャラクター、設定、アクション、照明、カメラの動きを自然言語で記述します。",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "詳細なプロンプト"
+            }
+          },
+          {
+            "title": "複数の視覚スタイル",
+            "description": "リアル、アニメ、水彩画、サイバーパンク、油絵など、創造的なビジョンに合わせて多くの芸術的なスタイルから選択できます。",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "視覚スタイル"
+            }
+          },
+          {
+            "title": "物理シミュレーション",
+            "description": "革命的な物理エンジンにより、リアルな物体の動き、自然な照明の相互作用、信憑性のある物理的動作が保証されます。",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "物理シミュレーション"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "主な機能",
+        "description": "テキストからプロフェッショナルなAI生成動画を作成するために必要なものすべて。",
+        "items": [
+          {
+            "title": "🎬 詳細なテキストプロンプト",
+            "description": "キャラクター、アクション、環境、カメラの動きを含む包括的なシーン説明を書きます。",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 複数の視覚スタイル",
+            "description": "リアル、アニメ、水彩画、サイバーパンク、油絵など、利用可能な芸術的スタイル。",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 1080p/2K HD出力",
+            "description": "クリスタルクリアな動画をフルHD 1080pまたは2K解像度でアーティファクトなしで生成します。",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 物理シミュレーション",
+            "description": "リアルな動き、自然な照明、信憑性のある相互作用のための高度な物理エンジン。",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 カメラ制御",
+            "description": "テキストプロンプトでカメラアングル、動き、ズーム、トランジションを指定します。",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ 長時間の持続",
+            "description": "一貫した品質とシーンの一貫性を保ちながら、30秒以上の動画を生成します。",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "ユースケース",
+        "label": "アプリケーション",
+        "description": "AIテキストから動画への生成の無限の可能性を発見してください。",
+        "items": [
+          {
+            "title": "コンテンツ作成",
+            "description": "魅力的なソーシャルメディア動画、YouTubeコンテンツ、マーケティング資料を簡単なテキスト説明から作成します。",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "コンテンツ作成"
+            }
+          },
+          {
+            "title": "ストーリーテリング",
+            "description": "AI生成のシーン、キャラクター、ナラティブであなたの物語に命を吹き込みます。",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "ストーリーテリング"
+            }
+          },
+          {
+            "title": "教育",
+            "description": "教育用動画や複雑な概念の視覚的な説明を作成します。",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "教育"
+            }
+          },
+          {
+            "title": "広告",
+            "description": "製品ショーケース、プロモーション動画、広告コンテンツを迅速に生成します。",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "広告"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "よくある質問",
+        "description": "テキストから動画への生成に関する一般的な質問。",
+        "items": [
+          {
+            "question": "テキストから動画へとは何ですか？",
+            "answer": "テキストから動画へは、書かれたテキストの説明をダイナミックな動画コンテンツに変換するAI技術です。シーン、キャラクター、アクション、スタイルを説明するだけで、AIが対応する動画を生成します。"
+          },
+          {
+            "question": "どのような視覚スタイルがサポートされていますか？",
+            "answer": "リアル、アニメ、水彩画、サイバーパンク、油絵、3Dアニメーションなど、複数の視覚スタイルをサポートしています。テキストプロンプトで好みのスタイルを指定できます。"
+          },
+          {
+            "question": "利用可能な動画解像度は？",
+            "answer": "1080pフルHDと2K超クリア出力解像度をサポートしています。高度なAI技術により、ジッター、ぼやけ、アーティファクトなどの一般的な問題が排除されます。"
+          },
+          {
+            "question": "生成される動画の長さは？",
+            "answer": "生成される動画は、一貫したシーン品質とキャラクターの一貫性を維持しながら、30秒以上の長さにすることができます。"
+          },
+          {
+            "question": "テキストプロンプトはどのくらい詳細にする必要がありますか？",
+            "answer": "プロンプトが詳細であるほど、結果は良くなります。キャラクター、設定、アクション、照明、カメラアングル、芸術的スタイルの説明を含めてください。ただし、シンプルなプロンプトでも印象的な結果を生み出すことができます。"
+          },
+          {
+            "question": "カメラの動きを制御できますか？",
+            "answer": "はい！テキストプロンプトでカメラの動き、アングル、ズーム、パン、トランジションを指定できます。AIはこれらの指示を生成された動画に組み込みます。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "テキストから動画を作成し始める",
+        "description": "AI搭載のテキストから動画への生成で、アイデアを見事な動画に変換します。",
+        "buttons": [
+          {
+            "title": "今すぐ試す",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "料金を見る",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

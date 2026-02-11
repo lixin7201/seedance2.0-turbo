@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0について",
+    "description": "Seedance 2.0と、AI動画生成をすべての人に届けるという情熱についてもっと知りましょう。"
+  },
+  "page": {
+    "title": "Seedance 2.0について",
+    "show_sections": ["hero", "team", "values", "cta"],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Seedance 2.0のストーリー",
+        "highlight_text": "ストーリー",
+        "description": "シンプルなアイデアから始まったものが、私が本当に誇りに思えるものへと成長しました。<br/>Seedance 2.0は、AI動画生成の力を世界中のクリエイターに届けるための私の方法です。",
+        "buttons": [
+          {
+            "title": "無料で試す",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "お問い合わせ",
+            "icon": "Mail",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "image": null,
+        "background_image": null
+      },
+      "team": {
+        "block": "features-list",
+        "id": "team",
+        "title": "なぜこれを作ったのか",
+        "label": "私のミッション",
+        "description": "一人のクリエイターとして、誰もが複雑さやコストの壁を感じることなく、プロフェッショナルなAIツールを利用できるべきだと信じています。",
+        "image": {
+          "src": "https://picsum.photos/seed/about-team/800/600",
+          "alt": "開発者について"
+        },
+        "items": [
+          {
+            "title": "創造への情熱",
+            "description": "私は常にテクノロジーと創造性の交差点に魅了されてきました。Seedance 2.0はその情熱の結果です。",
+            "icon": "Heart",
+            "image": {
+              "src": "https://picsum.photos/seed/about-passion/600/400",
+              "alt": "創造への情熱"
+            }
+          },
+          {
+            "title": "シンプルさ第一",
+            "description": "複雑なツールにマニュアルは不要であるべきです。動画生成を可能な限り直感的にするために努力しました。",
+            "icon": "Sparkles",
+            "image": {
+              "src": "https://picsum.photos/seed/about-simple/600/400",
+              "alt": "シンプルさ第一"
+            }
+          },
+          {
+            "title": "継続的な改善",
+            "description": "これは始まりに過ぎません。ユーザーのフィードバックから常に学び、Seedanceを日々より良くしています。",
+            "icon": "TrendingUp",
+            "image": {
+              "src": "https://picsum.photos/seed/about-improve/600/400",
+              "alt": "継続的な改善"
+            }
+          },
+          {
+            "title": "コミュニティ主導",
+            "description": "あなたの提案がロードマップを形成します。私はすべてのメールを読み、あなたの意見を心から尊重しています。",
+            "icon": "Users",
+            "image": {
+              "src": "https://picsum.photos/seed/about-community/600/400",
+              "alt": "コミュニティ主導"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "values": {
+        "block": "features",
+        "id": "values",
+        "title": "私が大切にしていること",
+        "description": "これらの原則が、Seedance 2.0における私のすべての決定を導いています。",
+        "items": [
+          {
+            "title": "🎯 質より量",
+            "description": "多くの機能に手を広げるよりも、少数のことを並外れてうまくやりたいと考えています。",
+            "icon": "Target"
+          },
+          {
+            "title": "🤝 正直なコミュニケーション",
+            "description": "隠れた料金も、驚きもありません。あなたが見ているものがすべてです。",
+            "icon": "Shield"
+          },
+          {
+            "title": "🚀 革新を続ける",
+            "description": "AIの進化は早く、私もそうです。定期的なアップデートと新機能を期待してください。",
+            "icon": "Rocket"
+          },
+          {
+            "title": "💬 注意深く聞く",
+            "description": "すべてのフィードバックは贈り物です。私はあなたの提案を真剣に受け止めます。",
+            "icon": "MessageCircle"
+          },
+          {
+            "title": "🌍 すべての人にアクセス可能に",
+            "description": "素晴らしいツールは、大きなスタジオだけでなく、すべての人が利用できるべきです。",
+            "icon": "Globe"
+          },
+          {
+            "title": "❤️ 心を込めて作る",
+            "description": "これは単なる製品ではなく、私が心から信じているものです。",
+            "icon": "Heart"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "一緒に何かを作りましょう",
+        "description": "質問やアイデアがある場合、または単に挨拶したい場合でも、あなたからの連絡をお待ちしています。",
+        "buttons": [
+          {
+            "title": "作成を開始",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "お問い合わせ",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "Mail"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Meldingen",
+  "empty": "Nog geen meldingen",
+  "mark_all_read": "Alles als gelezen markeren",
+  "unread": "Ongelezen",
+  "read": "Gelezen",
+  "task_success": "Generatie voltooid",
+  "task_failed": "Generatie mislukt",
+  "view_task": "Taak bekijken"
+}

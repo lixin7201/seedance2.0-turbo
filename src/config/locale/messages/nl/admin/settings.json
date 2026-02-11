@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "E-mail Authenticatie",
+    "google_auth": "Google Authenticatie",
+    "github_auth": "Github Authenticatie",
+    "basic_payment": "Basisbetaling",
+    "stripe": "Stripe",
+    "creem": "Creem",
+    "paypal": "Paypal",
+    "resend": "Resend",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicate",
+    "fal": "Fal",
+    "google_analytics": "Google Analytics",
+    "clarity": "Clarity",
+    "plausible": "Plausible",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromoteKit",
+    "tawk": "Tawk",
+    "crisp": "Crisp",
+    "credit": "Credit",
+    "appinfo": "App Info",
+    "user_role": "Gebruikersrol"
+  },
+  "edit": {
+    "title": "Instellingen",
+    "crumbs": {
+      "admin": "Beheer",
+      "settings": "Instellingen"
+    },
+    "tabs": {
+      "general": "Algemeen",
+      "auth": "Authenticatie",
+      "payment": "Betaling",
+      "credit": "Credit",
+      "email": "E-mail",
+      "storage": "Opslag",
+      "ai": "AI",
+      "analytics": "Analytics",
+      "ads": "Advertenties",
+      "affiliate": "Affiliate",
+      "customer_service": "Klantenservice"
+    },
+    "buttons": {
+      "submit": "Opslaan"
+    }
+  }
+}

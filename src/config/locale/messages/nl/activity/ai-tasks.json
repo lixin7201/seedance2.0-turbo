@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "Titel",
+    "media_type": "Mediatype",
+    "provider": "Provider",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Opties",
+    "status": "Status",
+    "result": "Resultaat",
+    "cost_credits": "Kosten Credits",
+    "created_at": "Aangemaakt op",
+    "action": "Actie",
+    "progress": "Voortgang",
+    "expires_at": "Verloopt op"
+  },
+  "list": {
+    "title": "AI Taken",
+    "tabs": {
+      "all": "Alle",
+      "music": "Muziek",
+      "image": "Afbeelding",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Tekst"
+    },
+    "buttons": {
+      "view": "Taak bekijken",
+      "refresh": "Taak vernieuwen",
+      "delete": "Verwijderen",
+      "download": "Downloaden",
+      "play": "Afspelen",
+      "retry": "Opnieuw proberen"
+    },
+    "empty_message": "Geen taken gevonden",
+    "confirm_delete": "Weet je zeker dat je deze taak wilt verwijderen?",
+    "delete_success": "Taak succesvol verwijderd",
+    "hint_async": "Je kunt deze pagina sluiten. We laten het je weten als het klaar is.",
+    "view_history": "Geschiedenis bekijken"
+  },
+  "status": {
+    "pending": "In wachtrij",
+    "processing": "Verwerken",
+    "success": "Voltooid",
+    "failed": "Mislukt",
+    "expired": "Verlopen"
+  }
+}

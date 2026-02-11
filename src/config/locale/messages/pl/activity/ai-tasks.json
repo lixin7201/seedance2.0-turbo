@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "title": "Tytuł",
+    "media_type": "Typ mediów",
+    "provider": "Dostawca",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Opcje",
+    "status": "Status",
+    "result": "Wynik",
+    "cost_credits": "Koszt kredytów",
+    "created_at": "Utworzono",
+    "action": "Akcja",
+    "progress": "Postęp",
+    "expires_at": "Wygasa"
+  },
+  "list": {
+    "title": "Zadania AI",
+    "tabs": {
+      "all": "Wszystkie",
+      "music": "Muzyka",
+      "image": "Obraz",
+      "video": "Wideo",
+      "audio": "Audio",
+      "text": "Tekst"
+    },
+    "buttons": {
+      "view": "Zobacz zadanie",
+      "refresh": "Odśwież zadanie",
+      "delete": "Usuń",
+      "download": "Pobierz",
+      "play": "Odtwórz",
+      "retry": "Ponów"
+    },
+    "empty_message": "Nie znaleziono zadań",
+    "confirm_delete": "Czy na pewno chcesz usunąć to zadanie?",
+    "delete_success": "Zadanie usunięte pomyślnie",
+    "hint_async": "Możesz zamknąć tę stronę. Powiadomimy Cię, gdy zadanie zostanie ukończone.",
+    "view_history": "Zobacz historię"
+  },
+  "status": {
+    "pending": "W kolejce",
+    "processing": "Przetwarzanie",
+    "success": "Ukończone",
+    "failed": "Niepowodzenie",
+    "expired": "Wygasło"
+  }
+}

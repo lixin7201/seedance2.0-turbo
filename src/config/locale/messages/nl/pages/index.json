@@ -1,0 +1,282 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "showcase_grid",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-video",
+        "title": "Zet ideeën om in filmische video's met Seedance 2.0",
+        "highlight_text": "filmische video's",
+        "description": "Seedance 2.0 is een krachtige AI-videogenerator die jouw creatieve visie tot leven brengt. Van tekst-naar-video tot beeldanimatie — creëer video's van professionele kwaliteit met vloeiende beweging, realistische fysica en verbluffende visuele effecten. Geen montage-ervaring nodig.",
+        "video_url": "/videos/hero-bg.mp4",
+        "announcement": {
+          "badge": "Nieuw",
+          "title": "🎬 Seedance 2.0 — Next-Gen AI Video Generatie",
+          "url": "/#showcase_grid"
+        },
+        "tip": "✨ Sluit je aan bij duizenden makers die filmische content maken met AI",
+        "buttons": [
+          {
+            "title": "Start met Creëren",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Bekijk Voorbeelden",
+            "icon": "Play",
+            "url": "/#showcase_grid",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": null,
+        "image_invert": null,
+        "background_image": null
+      },
+      "showcase_grid": {
+        "id": "showcase_grid",
+        "block": "showcase-grid",
+        "label": "Aangedreven door Seedance 2.0",
+        "title": "Wat kan Seedance 2.0 creëren?",
+        "description": "Van snelle actie tot intieme karakterverhalen — zie wat Seedance 2.0 AI-videogeneratie kan doen. Elk frame hieronder is door AI gegenereerd.",
+        "items": [
+          {
+            "id": "showcase-racing",
+            "title": "Vloeiende, Realistische Beweging",
+            "description": "Seedance 2.0 produceert ultravloeiende bewegingssynthese die elk frame stabiel en artefactvrij houdt. Bekijk deze snelle racesequentie — van bandenspray tot cameratracking, elk detail vloeit met filmische precisie en fysica-gebaseerd realisme.",
+            "video_url": "/videos/showcase-racing.mp4",
+            "tags": ["Vloeiende Beweging", "Fysica Simulatie", "Hoge Snelheid"]
+          },
+          {
+            "id": "showcase-character",
+            "title": "Expressieve Karakteranimatie",
+            "description": "Breng personages tot leven met de geavanceerde bewegingsengine van Seedance 2.0. Van subtiele gezichtsuitdrukkingen tot volledige lichaamsgebaren, AI-gegenereerde personages bewegen natuurlijk en expressief — perfect voor verhalen vertellen, merkvideo's en creatieve projecten.",
+            "video_url": "/videos/showcase-character.mp4",
+            "tags": ["Karakteranimatie", "Natuurlijke Beweging", "Verhalen Vertellen"]
+          },
+          {
+            "id": "showcase-motion",
+            "title": "Consistentie met Meerdere Personages",
+            "description": "Seedance 2.0 vergrendelt gezichtskenmerken, kleding en lichaamsproporties over elke hoek en scène. In deze actievolle achtervolgingssequentie blijft elk personage visueel consistent — ideaal voor advertenties, verhalende inhoud en merkgebonden videoseries.",
+            "video_url": "/videos/showcase-motion.mp4",
+            "tags": ["Karakter Consistentie", "Meerdere Scènes", "Actie"]
+          },
+          {
+            "id": "showcase-cinematic",
+            "title": "Afbeelding-naar-Filmische Video",
+            "description": "Upload een enkele foto en zie hoe Seedance 2.0 deze transformeert in een meeslepende filmische clip. Dynamische camerabeweging, professionele pacing en sfeervolle effecten veranderen statische beelden in verbluffende bewegingsinhoud — geen montage vereist.",
+            "video_url": "/videos/showcase-cinematic.mp4",
+            "tags": ["Afbeelding naar Video", "Filmisch", "Eén Klik"]
+          },
+          {
+            "id": "showcase-3d",
+            "title": "3D Actie & Visuele Effecten",
+            "description": "Seedance 2.0 blinkt uit in het genereren van complexe 3D-actiesequenties met filmisch camerawerk en vloeiende choreografie. Deze filmwaardige CG-animatie toont natuurkundig nauwkeurige beweging, dramatische verlichting en visuele effecten van blockbusterkwaliteit.",
+            "video_url": "/videos/showcase-3d.mp4",
+            "tags": ["3D Animatie", "VFX", "Actiesequentie"]
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Wat is Seedance 2.0",
+        "label": "Over",
+        "description": "Ons platform biedt een gebruiksvriendelijke interface voor Seedance AI-videogeneratie. We bieden toegang tot geavanceerde tekst-naar-video en afbeelding-naar-video mogelijkheden via AI-modellen van derden. Dit is een onafhankelijke dienst, niet gelieerd aan modelaanbieders.",
+        "image": {
+          "src": "https://picsum.photos/seed/seedance-intro/800/600",
+          "alt": "Seedance 2.0 Introductie"
+        },
+        "items": [
+          {
+            "title": "Tekst-naar-Video Generatie",
+            "description": "Beschrijf elke scène in natuurlijke taal en laat Seedance 2.0 een volledig gerenderde video genereren met personages, omgevingen en dynamische beweging.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-t2v/600/400",
+              "alt": "Tekst naar Video"
+            }
+          },
+          {
+            "title": "Afbeelding-naar-Video Animatie",
+            "description": "Upload elke foto — een productfoto, portret of landschap — en Seedance 2.0 brengt deze tot leven met intelligente beweging en filmische effecten.",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-i2v/600/400",
+              "alt": "Afbeelding naar Video"
+            }
+          },
+          {
+            "title": "Fysica-gebaseerde Rendering",
+            "description": "Geavanceerde simulatietechnologie modelleert realistische objectinteracties, verlichting en materiaalgedrag voor geloofwaardige, productieklaar resultaat.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "Fysica Simulatie"
+            }
+          },
+          {
+            "title": "Ultra-HD Uitvoer",
+            "description": "Exporteer je creaties in 1080p Full HD met kristalhelder detail. Geen jitter, geen artefacten — gewoon schone, professionele video-uitvoer.",
+            "icon": "RiHdLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "HD Uitvoer"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Waarom Makers Kiezen voor Seedance 2.0",
+        "label": "Voordelen",
+        "description": "Ontdek wat Seedance 2.0 de go-to AI-videotool maakt voor contentmakers, marketeers en filmmakers.",
+        "items": [
+          {
+            "title": "Baanbrekende AI-modellen",
+            "description": "Aangedreven door state-of-the-art multimodale AI, levert Seedance 2.0 doorbraak videogeneratie met consistente kwaliteit over elke generatie.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-ai/800/500",
+              "alt": "AI Technologie"
+            }
+          },
+          {
+            "title": "Filmisch Visuele Kwaliteit",
+            "description": "Elke video ziet eruit alsof hij uit een professionele studio komt — met filmische kleurgradatie, stabiele beweging en gedetailleerde texturen tot 1080p resolutie.",
+            "icon": "RiFilmLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-quality/800/500",
+              "alt": "Visuele Kwaliteit"
+            }
+          },
+          {
+            "title": "Multi-Shot Verhalen Vertellen",
+            "description": "Bouw complete verhalen met meerdere scènes, personages en camerahoeken — allemaal met behoud van visuele consistentie.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "Complexe Verhalen"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Kernfuncties van Seedance 2.0",
+        "description": "Alles wat je nodig hebt om professionele AI-gegenereerde video's te maken.",
+        "items": [
+          {
+            "title": "🎬 Tekst-naar-Video",
+            "description": "Typ een prompt, krijg een video. Volledige scènecontrole met personages, omgevingen en acties.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🖼️ Afbeelding-naar-Video",
+            "description": "Animeer elke foto met intelligente beweging, filmische camerabeweging en sfeervolle effecten.",
+            "icon": "RiImage2Line"
+          },
+          {
+            "title": "📐 Fysica-engine",
+            "description": "Realistische simulatie van objectdynamica, verlichting en materiaalinteracties.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Filmische Uitvoer",
+            "description": "1080p Full HD-uitvoer met professionele kleurgradatie en nul artefacten.",
+            "icon": "RiFilmLine"
+          },
+          {
+            "title": "📖 Verhalende Continuïteit",
+            "description": "Multi-shot, multi-karakter scènes met consistente visuele identiteit.",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "🎨 Stijlveelzijdigheid",
+            "description": "Realistisch, anime, cyberpunk, aquarel en nog veel meer creatieve visuele stijlen.",
+            "icon": "RiPaletteLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Veelgestelde Vragen",
+        "description": "Heb je meer vragen? Neem contact met ons op voor ondersteuning.",
+        "items": [
+          {
+            "question": "Wat is Seedance 2.0?",
+            "answer": "Ons platform biedt toegang tot geavanceerde AI-videogeneratiemodellen via een gebruiksvriendelijke interface. Wij zijn een onafhankelijke dienst, niet gelieerd aan AI-modelaanbieders. Dit platform is een wrapper-service die verbeterde bruikbaarheid en extra functies biedt bovenop de onderliggende AI-technologieën."
+          },
+          {
+            "question": "Welke videoresoluties ondersteunt Seedance 2.0?",
+            "answer": "Ons platform ondersteunt momenteel tot 1080p Full HD uitvoerresolutie. De uitvoerkwaliteit kan variëren afhankelijk van het gebruikte AI-model."
+          },
+          {
+            "question": "Hoe lang kunnen door Seedance 2.0 gegenereerde video's zijn?",
+            "answer": "Gegenereerde video's zijn doorgaans 5-10 seconden lang. Langere duren kunnen beschikbaar zijn, afhankelijk van het model en je abonnement."
+          },
+          {
+            "question": "Welke visuele stijlen kan Seedance 2.0 genereren?",
+            "answer": "Meerdere visuele stijlen worden ondersteund, waaronder realistisch, anime, cyberpunk, aquarel en meer. Je kunt je voorkeursstijl specificeren in de tekstprompt."
+          },
+          {
+            "question": "Kan ik bestaande afbeeldingen animeren met Seedance 2.0?",
+            "answer": "Ja! Met de afbeelding-naar-video functionaliteit kun je statische afbeeldingen uploaden en deze transformeren in dynamische video's. De AI voegt realistische beweging, camerabewegingen en scène-animaties toe met behoud van de originele beeldstijl."
+          },
+          {
+            "question": "Wat is de relatie tussen dit platform en ByteDance?",
+            "answer": "Dit platform is een onafhankelijke dienst die een gebruiksvriendelijke interface biedt voor AI-videogeneratie. We zijn niet gelieerd aan, onderschreven door of gesponsord door ByteDance. We maken gebruik van AI-modellen via API-integraties om onze videogeneratiediensten aan te bieden."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Klaar om te creëren met Seedance 2.0?",
+        "description": "Sluit je aan bij makers wereldwijd die Seedance 2.0 gebruiken om verbeelding om te zetten in filmische videocontent. Start vandaag gratis.",
+        "buttons": [
+          {
+            "title": "Start met Creëren",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Bekijk Prijzen",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "Abonneer op Updates",
+        "description": "Ontvang het laatste nieuws over Seedance 2.0.",
+        "submit": {
+          "input": {
+            "placeholder": "Voer je e-mail in"
+          },
+          "button": {
+            "title": "Abonneren"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}

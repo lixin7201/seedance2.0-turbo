@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "AI Videogenerator",
+    "description": "Genereer video's met AI-modellen, ondersteuning voor tekst-naar-video, beeld-naar-video en video-naar-video."
+  },
+  "page": {
+    "title": "AI Videogenerator",
+    "description": "Genereer video's met AI-modellen, ondersteuning voor tekst-naar-video, beeld-naar-video en video-naar-video."
+  },
+  "generator": {
+    "title": "Videogenerator",
+    "description": "Genereer video's met AI-modellen, ondersteuning voor tekst-naar-video, beeld-naar-video en video-naar-video.",
+    "tabs": {
+      "text-to-video": "Tekst naar video",
+      "image-to-video": "Beeld naar video",
+      "video-to-video": "Video naar video"
+    },
+    "form": {
+      "provider": "Provider",
+      "model": "Model",
+      "resolution": "Resolutie",
+      "duration": "Duur",
+      "select_provider": "Selecteer Provider",
+      "select_model": "Selecteer Model",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Beschrijf de video-inhoud, zoals scène, actie, stijl, enz.",
+      "reference_image": "Referentieafbeelding",
+      "reference_image_placeholder": "Upload een referentieafbeelding voor video-generatie",
+      "reference_video": "Referentievideo URL",
+      "reference_video_placeholder": "Voer de URL van de referentievideo in",
+      "some_images_failed_to_upload": "Afbeelding uploaden mislukt, verwijder en upload opnieuw",
+      "prompt_too_long": "Prompt is te lang, verwijder wat inhoud"
+    },
+    "generate": "Video genereren",
+    "checking_account": "Account controleren...",
+    "loading": "Laden...",
+    "generating": "Genereren...",
+    "sign_in_to_generate": "Log in om video te genereren",
+    "credits_cost": "Kosten {credits} credits",
+    "credits_remaining": "Resterend {credits} credits",
+    "buy_credits": "Credits kopen",
+    "progress": "Voortgang",
+    "generated_videos": "Video voorbeeld",
+    "ready_to_generate": "Klaar om te genereren",
+    "ready_for_generating": "Klaar voor genereren",
+    "no_videos_generated": "Geen video's gegenereerd",
+    "preview_examples_hint": "Dit zijn voorbeeldvideo's gemaakt door Seedance 2.0. Vul het formulier aan de linkerkant in en klik op \"Video genereren\" om je eigen video te maken.",
+    "seedance2_coming_soon": "Seedance 2.0 Binnenkort",
+    "hint_async": "Je kunt deze pagina sluiten. We laten het je weten als het klaar is.",
+    "view_history": "Geschiedenis bekijken"
+  },
+  "preview_examples_hint": "Dit zijn voorbeeldvideo's gemaakt met ons platform. Vul het formulier aan de linkerkant in en klik op \"Video genereren\" om je eigen video te maken."
+}

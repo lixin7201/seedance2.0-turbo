@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "Generator obrazów AI",
+    "description": "Generuj obrazy za pomocą modeli AI, wspiera tekst na obraz i obraz na obraz."
+  },
+  "page": {
+    "title": "Generator obrazów AI",
+    "description": "Generuj obrazy za pomocą modeli AI, wspiera tekst na obraz i obraz na obraz."
+  },
+  "generator": {
+    "title": "Generator obrazów",
+    "description": "Generuj obrazy za pomocą modeli AI, wspiera tekst na obraz i obraz na obraz.",
+    "tabs": {
+      "text-to-image": "Tekst na obraz",
+      "image-to-image": "Obraz na obraz"
+    },
+    "form": {
+      "provider": "Dostawca",
+      "model": "Model",
+      "select_provider": "Wybierz dostawcę",
+      "select_model": "Wybierz model",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Opisz szczegóły obrazu, takie jak kolor, kształt, tekstura itp.",
+      "reference_image": "Obraz referencyjny",
+      "reference_image_placeholder": "Prześlij obrazy referencyjne, obsługiwane wiele obrazów",
+      "some_images_failed_to_upload": "Niektóre obrazy nie zostały przesłane, usuń je i prześlij ponownie",
+      "prompt_too_long": "Prompt jest zbyt długi, usuń część treści"
+    },
+    "generate": "Generuj obrazy",
+    "checking_account": "Sprawdzanie konta...",
+    "loading": "Ładowanie...",
+    "generating": "Generowanie...",
+    "sign_in_to_generate": "Zaloguj się, aby wygenerować obraz",
+    "credits_cost": "Koszt {credits} kredytów",
+    "credits_remaining": "Pozostało {credits} kredytów",
+    "buy_credits": "Kup kredyty",
+    "progress": "Postęp",
+    "generated_images": "Podgląd obrazu",
+    "ready_to_generate": "Gotowy do generowania",
+    "ready_for_generating": "Gotowy do generowania",
+    "no_images_generated": "Brak wygenerowanych obrazów"
+  }
+}

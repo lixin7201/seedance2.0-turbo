@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "Tekst na Wideo - Generowanie Wideo AI",
+    "description": "Twórz dynamiczne wideo na podstawie opisów tekstowych. Obsługa szczegółowych podpowiedzi dotyczących scen, postaci i akcji z wieloma stylami wizualnymi i wyjściem 1080p/2K HD."
+  },
+  "page": {
+    "title": "Tekst na Wideo",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "use_cases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Tekst na Wideo",
+        "highlight_text": "Tekst na Wideo",
+        "description": "Twórz dynamiczne wideo ze swoich opisów tekstowych.<br/>Szczegółowe podpowiedzi dotyczące scen, postaci i akcji z wieloma stylami wizualnymi i wyjściem 1080p/2K HD.",
+        "tip": "🎬 Przekształć swoje słowa w oszałamiające wideo",
+        "buttons": [
+          {
+            "title": "Zacznij Tworzyć",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Zobacz Przykłady",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
+          "alt": "Generowanie Tekst na Wideo AI",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
+          "alt": "tło"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Dlaczego warto wybrać Tekst-na-Wideo",
+        "label": "Korzyści",
+        "description": "Poznaj najbardziej zaawansowaną technologię AI tekst-na-wideo z niezrównaną kontrolą kreatywną.",
+        "items": [
+          {
+            "title": "Szczegółowa Obsługa Podpowiedzi",
+            "description": "Twórz skomplikowane sceny dzięki kompleksowym podpowiedziom tekstowym. Opisuj postacie, ustawienia, akcje, oświetlenie i ruchy kamery w języku naturalnym.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
+              "alt": "Szczegółowe Podpowiedzi"
+            }
+          },
+          {
+            "title": "Wiele Stylów Wizualnych",
+            "description": "Wybieraj spośród realistycznych, anime, akwarelowych, cyberpunkowych, olejnych i wielu innych stylów artystycznych, aby dopasować je do swojej wizji twórczej.",
+            "icon": "RiPaletteLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-styles/800/600",
+              "alt": "Style Wizualne"
+            }
+          },
+          {
+            "title": "Symulacja Fizyki",
+            "description": "Rewolucyjny silnik fizyki zapewnia realistyczny ruch obiektów, naturalne interakcje oświetlenia i wiarygodne zachowania fizyczne.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-physics/800/600",
+              "alt": "Symulacja Fizyki"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Główne Funkcje",
+        "description": "Wszystko, czego potrzebujesz, aby tworzyć profesjonalne wideo generowane przez AI z tekstu.",
+        "items": [
+          {
+            "title": "🎬 Szczegółowe Podpowiedzi Tekstowe",
+            "description": "Pisz kompleksowe opisy scen, w tym postacie, akcje, środowiska i ruchy kamery.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🎨 Wiele Stylów Wizualnych",
+            "description": "Realistyczne, anime, akwarelowe, cyberpunkowe, olejne i inne dostępne style artystyczne.",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "📺 Wyjście 1080p/2K HD",
+            "description": "Generuj krystalicznie czyste wideo w rozdzielczości Full HD 1080p lub 2K bez artefaktów.",
+            "icon": "RiHdLine"
+          },
+          {
+            "title": "📐 Symulacja Fizyki",
+            "description": "Zaawansowany silnik fizyki dla realistycznego ruchu, naturalnego oświetlenia i wiarygodnych interakcji.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Kontrola Kamery",
+            "description": "Określaj kąty kamery, ruchy, zoomy i przejścia w swoich podpowiedziach tekstowych.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "⏱️ Wydłużony Czas Trwania",
+            "description": "Generuj wideo dłuższe niż 30 sekund przy zachowaniu stałej jakości i spójności scen.",
+            "icon": "RiTimerLine"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features-list",
+        "id": "use_cases",
+        "title": "Zastosowania",
+        "label": "Przypadki użycia",
+        "description": "Odkryj nieskończone możliwości generowania wideo z tekstu przez AI.",
+        "items": [
+          {
+            "title": "Tworzenie Treści",
+            "description": "Twórz angażujące wideo do mediów społecznościowych, treści na YouTube i materiały marketingowe z prostych opisów tekstowych.",
+            "icon": "RiVideoLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-content/600/400",
+              "alt": "Tworzenie Treści"
+            }
+          },
+          {
+            "title": "Opowiadanie Historii",
+            "description": "Ożyw swoje historie dzięki scenom, postaciom i narracjom generowanym przez AI.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-story/600/400",
+              "alt": "Opowiadanie Historii"
+            }
+          },
+          {
+            "title": "Edukacja",
+            "description": "Twórz filmy edukacyjne i wizualne wyjaśnienia złożonych koncepcji.",
+            "icon": "RiGraduationCapLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-edu/600/400",
+              "alt": "Edukacja"
+            }
+          },
+          {
+            "title": "Reklama",
+            "description": "Szybko generuj prezentacje produktów, filmy promocyjne i treści reklamowe.",
+            "icon": "RiMegaphoneLine",
+            "image": {
+              "src": "https://picsum.photos/seed/t2v-ads/600/400",
+              "alt": "Reklama"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Często Zadawane Pytania",
+        "description": "Częste pytania dotyczące generowania wideo z tekstu.",
+        "items": [
+          {
+            "question": "Co to jest Tekst-na-Wideo?",
+            "answer": "Tekst-na-Wideo to technologia AI, która przekształca pisemne opisy tekstowe w dynamiczne treści wideo. Po prostu opisz scenę, postacie, akcje i styl, który chcesz, a AI wygeneruje odpowiednie wideo."
+          },
+          {
+            "question": "Jakie style wizualne są obsługiwane?",
+            "answer": "Obsługujemy wiele stylów wizualnych, w tym realistyczny, anime, akwarelowy, cyberpunkowy, olejny, animację 3D i inne. Możesz określić preferowany styl w podpowiedzi tekstowej."
+          },
+          {
+            "question": "Jakie rozdzielczości wideo są dostępne?",
+            "answer": "Obsługujemy rozdzielczości wyjściowe 1080p Full HD i 2K ultra-clear. Zaawansowana technologia AI eliminuje powszechne problemy, takie jak drżenie, rozmycie i artefakty."
+          },
+          {
+            "question": "Jak długie mogą być generowane wideo?",
+            "answer": "Generowane wideo mogą mieć ponad 30 sekund długości, zachowując stałą jakość scen i spójność postaci."
+          },
+          {
+            "question": "Jak szczegółowe powinny być moje podpowiedzi tekstowe?",
+            "answer": "Im bardziej szczegółowe podpowiedzi, tym lepsze wyniki. Dołącz opisy postaci, ustawień, akcji, oświetlenia, kątów kamery i stylu artystycznego. Jednak nawet proste podpowiedzi mogą dać imponujące wyniki."
+          },
+          {
+            "question": "Czy mogę kontrolować ruchy kamery?",
+            "answer": "Tak! Możesz określić ruchy kamery, kąty, zoomy, panoramy i przejścia w swoich podpowiedziach tekstowych. AI włączy te wskazówki do wygenerowanego wideo."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Zacznij tworzyć wideo z tekstu",
+        "description": "Przekształć swoje pomysły w oszałamiające wideo dzięki generowaniu tekst-na-wideo opartemu na AI.",
+        "buttons": [
+          {
+            "title": "Spróbuj Teraz",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Zobacz Cennik",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "fields": {
+    "slug": "Slug",
+    "title": "Titel",
+    "description": "Beschrijving",
+    "image": "Afbeelding",
+    "content": "Inhoud",
+    "categories": "Categorieën",
+    "tags": "Tags",
+    "author_name": "Auteursnaam",
+    "author_role": "Auteursrol",
+    "author_image": "Auteursafbeelding",
+    "status": "Status",
+    "created_at": "Aangemaakt Op",
+    "updated_at": "Bijgewerkt Op",
+    "deleted_at": "Verwijderd Op"
+  },
+  "list": {
+    "title": "Berichten",
+    "crumbs": {
+      "admin": "Beheer",
+      "posts": "Berichten"
+    },
+    "buttons": {
+      "add": "Bericht Toevoegen",
+      "edit": "Bericht Bewerken",
+      "view": "Bericht Bekijken",
+      "delete": "Bericht Verwijderen"
+    },
+    "tabs": {
+      "all": "Alles",
+      "published": "Gepubliceerd",
+      "pending": "In Afwachting",
+      "draft": "Concept",
+      "archived": "Gearchiveerd"
+    }
+  },
+  "add": {
+    "title": "Bericht Toevoegen",
+    "crumbs": {
+      "admin": "Beheer",
+      "posts": "Berichten",
+      "add": "Bericht Toevoegen"
+    },
+    "buttons": {
+      "submit": "Bericht Toevoegen"
+    }
+  },
+  "edit": {
+    "title": "Bericht Bewerken",
+    "crumbs": {
+      "admin": "Beheer",
+      "posts": "Berichten",
+      "edit": "Bericht Bewerken"
+    },
+    "buttons": {
+      "submit": "Bericht Bewerken"
+    }
+  }
+}

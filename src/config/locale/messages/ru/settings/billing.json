@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "№ Подписки",
+    "interval": "Интервал",
+    "provider": "Провайдер",
+    "current_period": "Текущий период",
+    "plan": "План",
+    "status": "Статус",
+    "amount": "Сумма",
+    "created_at": "Дата создания",
+    "end_time": "Дата окончания",
+    "action": "Действие"
+  },
+  "view": {
+    "title": "Текущий план",
+    "tip": "Ваша подписка будет автоматически продлена {date}",
+    "end_tip": "Ваша подписка будет автоматически отменена {date}",
+    "no_subscription": "Нет плана",
+    "buttons": {
+      "adjust": "Изменить план",
+      "subscribe": "Подписаться",
+      "manage": "Управление подпиской",
+      "cancel": "Отменить подписку"
+    }
+  },
+  "list": {
+    "title": "История подписок",
+    "tabs": {
+      "all": "Все",
+      "active": "Активные",
+      "pending_cancel": "Ожидают отмены",
+      "canceled": "Отмененные",
+      "trialing": "Пробный период",
+      "paused": "Приостановленные",
+      "expired": "Истекшие"
+    }
+  },
+  "cancel": {
+    "title": "Отменить подписку",
+    "description": "Вы уверены, что хотите отменить подписку?",
+    "fields": {
+      "subscription_no": "№ Подписки",
+      "subscription_amount": "Сумма подписки",
+      "interval_cycle": "Цикл интервала",
+      "subscription_created_at": "Дата создания подписки",
+      "current_period": "Текущий период",
+      "start_at": "Начало",
+      "end_at": "Окончание"
+    },
+    "crumbs": {
+      "settings": "Настройки",
+      "billing": "Биллинг",
+      "cancel": "Отменить подписку"
+    },
+    "buttons": {
+      "confirm_cancel": "Подтвердить отмену"
+    }
+  }
+}

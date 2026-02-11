@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Dziennik zmian",
+    "description": "Zobacz dziennik zmian naszych produktów, w tym najnowsze funkcje i ulepszenia."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Dziennik zmian",
+        "description": "Zobacz dziennik zmian naszych produktów, w tym najnowsze funkcje i ulepszenia."
+      }
+    }
+  }
+}

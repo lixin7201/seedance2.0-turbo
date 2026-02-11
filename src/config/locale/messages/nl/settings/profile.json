@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "email": "E-mail",
+    "name": "Naam",
+    "avatar": "Avatar"
+  },
+  "edit": {
+    "title": "Profiel",
+    "description": "Update je profiel",
+    "crumbs": {
+      "settings": "Instellingen",
+      "profile": "Profiel"
+    },
+    "buttons": {
+      "submit": "Opslaan"
+    }
+  }
+}

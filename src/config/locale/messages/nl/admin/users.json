@@ -1,0 +1,77 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Naam",
+    "avatar": "Avatar",
+    "email": "E-mail",
+    "email_verified": "E-mail Geverifieerd",
+    "remaining_credits": "Resterende Credits",
+    "created_at": "Aangemaakt Op",
+    "actions": "Acties",
+    "roles": "Rollen",
+    "ip": "IP",
+    "locale": "Landinstelling",
+    "utm_source": "UTM Bron"
+  },
+  "list": {
+    "title": "Gebruikers",
+    "crumbs": {
+      "admin": "Beheer",
+      "users": "Gebruikers"
+    },
+    "buttons": {
+      "add": "Gebruiker Toevoegen",
+      "edit": "Gebruiker Bewerken",
+      "view": "Gebruiker Bekijken",
+      "delete": "Gebruiker Verwijderen",
+      "edit_roles": "Rollen Bewerken",
+      "grant_credits": "Credits Toekennen"
+    },
+    "search": {
+      "email": {
+        "title": "E-mail",
+        "placeholder": "E-mail"
+      }
+    }
+  },
+  "edit": {
+    "title": "Gebruiker Bewerken",
+    "crumbs": {
+      "admin": "Beheer",
+      "users": "Gebruikers",
+      "edit": "Bewerken"
+    },
+    "buttons": {
+      "submit": "Bijwerken"
+    }
+  },
+  "edit_roles": {
+    "title": "Rollen Bewerken",
+    "crumbs": {
+      "admin": "Beheer",
+      "users": "Gebruikers",
+      "edit_roles": "Rollen Bewerken"
+    },
+    "buttons": {
+      "submit": "Bijwerken"
+    }
+  },
+  "grant_credits": {
+    "title": "Credits Toekennen",
+    "crumbs": {
+      "admin": "Beheer",
+      "users": "Gebruikers",
+      "grant_credits": "Credits Toekennen"
+    },
+    "buttons": {
+      "submit": "Toekennen"
+    },
+    "fields": {
+      "credits": "Aantal Credits",
+      "valid_days": "Credits Geldige Dagen",
+      "valid_days_tip": "0 betekent geen vervaldatum",
+      "description": "Beschrijving Creditstoekenning",
+      "description_placeholder": "Beheerder kent credits toe"
+    }
+  }
+}

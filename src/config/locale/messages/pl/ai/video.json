@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "Generator wideo AI",
+    "description": "Generuj wideo za pomocą modeli AI, wspiera tekst na wideo, obraz na wideo i wideo na wideo."
+  },
+  "page": {
+    "title": "Generator wideo AI",
+    "description": "Generuj wideo za pomocą modeli AI, wspiera tekst na wideo, obraz na wideo i wideo na wideo."
+  },
+  "generator": {
+    "title": "Generator wideo",
+    "description": "Generuj wideo za pomocą modeli AI, wspiera tekst na wideo, obraz na wideo i wideo na wideo.",
+    "tabs": {
+      "text-to-video": "Tekst na wideo",
+      "image-to-video": "Obraz na wideo",
+      "video-to-video": "Wideo na wideo"
+    },
+    "form": {
+      "provider": "Dostawca",
+      "model": "Model",
+      "resolution": "Rozdzielczość",
+      "duration": "Czas trwania",
+      "select_provider": "Wybierz dostawcę",
+      "select_model": "Wybierz model",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Opisz treść wideo, taką jak scena, akcja, styl itp.",
+      "reference_image": "Obraz referencyjny",
+      "reference_image_placeholder": "Prześlij obraz referencyjny do generowania wideo",
+      "reference_video": "URL wideo referencyjnego",
+      "reference_video_placeholder": "Wprowadź URL wideo referencyjnego",
+      "some_images_failed_to_upload": "Przesyłanie obrazu nie powiodło się, usuń i prześlij ponownie",
+      "prompt_too_long": "Prompt jest zbyt długi, usuń część treści"
+    },
+    "generate": "Generuj wideo",
+    "checking_account": "Sprawdzanie konta...",
+    "loading": "Ładowanie...",
+    "generating": "Generowanie...",
+    "sign_in_to_generate": "Zaloguj się, aby wygenerować wideo",
+    "credits_cost": "Koszt {credits} kredytów",
+    "credits_remaining": "Pozostało {credits} kredytów",
+    "buy_credits": "Kup kredyty",
+    "progress": "Postęp",
+    "generated_videos": "Podgląd wideo",
+    "ready_to_generate": "Gotowy do generowania",
+    "ready_for_generating": "Gotowy do generowania",
+    "no_videos_generated": "Brak wygenerowanych wideo",
+    "preview_examples_hint": "To są przykładowe wideo utworzone przez Seedance 2.0. Wypełnij formularz po lewej stronie i kliknij „Generuj wideo”, aby utworzyć własne wideo.",
+    "seedance2_coming_soon": "Seedance 2.0 Wkrótce",
+    "hint_async": "Możesz zamknąć tę stronę. Powiadomimy Cię, gdy zadanie zostanie ukończone.",
+    "view_history": "Zobacz historię"
+  },
+  "preview_examples_hint": "To są przykładowe wideo utworzone za pomocą naszej platformy. Wypełnij formularz po lewej stronie i kliknij „Generuj wideo”, aby utworzyć własne wideo."
+}

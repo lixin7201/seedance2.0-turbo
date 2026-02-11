@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "AI Muziekgenerator",
+    "description": "Genereer geweldige muziek met AI"
+  },
+  "page": {
+    "title": "AI Muziekgenerator",
+    "description": "Genereer geweldige muziek met AI"
+  },
+  "generator": {
+    "title": "Muziekgenerator",
+    "prompt": "Prompt",
+    "prompt_placeholder": "Een liefdesverhaal van Romeo en Julia",
+    "generate": "Muziek genereren",
+    "loading": "Laden...",
+    "generating": "Genereren...",
+    "sign_in_to_generate": "Log in om muziek te genereren",
+    "credits_cost": "{credits} credits kosten",
+    "credits_remaining": "{credits} credits over",
+    "buy_credits": "Credits kopen",
+    "generation_progress": "Generatie voortgang",
+    "time_cost": "Dit kan tot 2-3 minuten duren...",
+    "generated_song": "Gegenereerd nummer",
+    "ready_to_play": "Klaar om af te spelen",
+    "audio_generating": "Audio genereren...",
+    "generating_song": "Nummer genereren...",
+    "waiting_generation": "Een moment geduld terwijl we je meesterwerk creëren",
+    "no_song_generated": "Geen nummer gegenereerd",
+    "downloading": "Downloaden...",
+    "download_success": "Download succesvol voltooid",
+    "download_failed": "Kan audio niet downloaden",
+    "form": {
+      "custom_mode": "Aangepaste modus",
+      "title": "Titel",
+      "title_placeholder": "The Sound of Silence",
+      "style": "Muziekstijl",
+      "style_placeholder": "indie, elektronisch, synths, 120bpm, vervormd",
+      "instrumental": "Instrumentaal",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Een country folk nummer over liefde",
+      "model": "Model",
+      "lyrics": "Tekst",
+      "lyrics_placeholder": "Schrijf je eigen tekst, twee verzen (8 regels) voor het beste resultaat"
+    }
+  }
+}

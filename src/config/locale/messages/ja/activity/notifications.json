@@ -1,0 +1,10 @@
+{
+  "title": "通知",
+  "empty": "通知はありません",
+  "mark_all_read": "すべて既読にする",
+  "unread": "未読",
+  "read": "既読",
+  "task_success": "生成が完了しました",
+  "task_failed": "生成に失敗しました",
+  "view_task": "タスクを表示"
+}

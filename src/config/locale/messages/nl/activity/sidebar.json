@@ -1,0 +1,36 @@
+{
+  "title": "Activiteit",
+  "nav": {
+    "items": [
+      {
+        "title": "AI Taken",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "Meldingen",
+        "url": "/activity/notifications",
+        "icon": "RiNotification3Line"
+      },
+      {
+        "title": "AI Chats",
+        "url": "/activity/chats",
+        "icon": "RiChat2Line"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Activiteit",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Instellingen",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

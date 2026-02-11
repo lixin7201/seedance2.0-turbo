@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "task_id": "ID Zadania",
+    "media_type": "Typ Multimediów",
+    "provider": "Dostawca",
+    "model": "Model",
+    "prompt": "Podpowiedź",
+    "options": "Opcje",
+    "user": "Użytkownik",
+    "status": "Status",
+    "cost_credits": "Koszt Punktów",
+    "result": "Wynik",
+    "created_at": "Utworzono",
+    "action": "Akcja",
+    "scene": "Scena"
+  },
+  "list": {
+    "title": "Zadania AI",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "Zadania AI"
+    },
+    "tabs": {
+      "all": "Wszystkie",
+      "music": "Muzyka",
+      "image": "Obraz",
+      "video": "Wideo",
+      "audio": "Audio",
+      "text": "Tekst"
+    },
+    "buttons": {
+      "view": "Zobacz Zadanie",
+      "refresh": "Odśwież Zadanie"
+    },
+    "empty_message": "Nie znaleziono zadań"
+  }
+}

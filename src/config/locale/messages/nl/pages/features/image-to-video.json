@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "Afbeelding naar Video - AI Animatie",
+    "description": "Upload statische afbeeldingen en laat AI ze tot leven brengen. Intelligente beeldherkenning met natuurlijke, vloeiende bewegingseffecten en aangepaste animaties."
+  },
+  "page": {
+    "title": "Afbeelding naar Video",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Afbeelding naar Video",
+        "highlight_text": "Afbeelding naar Video",
+        "description": "Upload statische afbeeldingen en laat AI ze tot leven brengen.<br/>Intelligente beeldherkenning met natuurlijke, vloeiende bewegingseffecten en aangepaste animaties.",
+        "tip": "🖼️ Transformeer je afbeeldingen in dynamische video's",
+        "buttons": [
+          {
+            "title": "Start met Animeren",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "Bekijk Voorbeelden",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "Afbeelding naar Video AI Animatie",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "achtergrond"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Waarom kiezen voor Afbeelding-naar-Video",
+        "label": "Voordelen",
+        "description": "Transformeer elke statische afbeelding in een dynamische video met intelligente AI-animatie.",
+        "items": [
+          {
+            "title": "Upload Elke Afbeelding",
+            "description": "Ondersteuning voor alle gangbare afbeeldingsformaten waaronder JPG, PNG en WebP. Upload foto's, kunstwerken, screenshots of elke statische afbeelding.",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "Upload Afbeeldingen"
+            }
+          },
+          {
+            "title": "Intelligente Element Herkenning",
+            "description": "AI herkent automatisch beeldelementen zoals mensen, dieren, objecten en achtergronden om passende bewegingseffecten toe te passen.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "Slimme Herkenning"
+            }
+          },
+          {
+            "title": "Natuurlijke Vloeiende Beweging",
+            "description": "Creëer soepele, realistische animaties die de originele beeldstijl behouden terwijl ze natuurlijke beweging en dynamiek toevoegen.",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "Vloeiende Beweging"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Kernfuncties",
+        "description": "Alles wat je nodig hebt om je afbeeldingen te animeren met AI.",
+        "items": [
+          {
+            "title": "🖼️ Upload Elke Afbeelding",
+            "description": "Ondersteuning voor JPG, PNG, WebP en andere gangbare formaten. Werkt met foto's, kunstwerken en afbeeldingen.",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 Intelligente Herkenning",
+            "description": "AI identificeert automatisch mensen, dieren, objecten en scène-elementen voor slimme animatie.",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 Natuurlijke Vloeiende Beweging",
+            "description": "Soepele, realistische animaties die de originele beeldstijl en esthetiek behouden.",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ Aangepaste Bewegingsbeschrijvingen",
+            "description": "Voeg aanvullende tekstprompts toe om specifieke bewegingseffecten en animaties te besturen.",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 Camerabewegingen",
+            "description": "Voeg filmische camera-effecten zoals zooms, pans en parallax toe aan je animaties.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 HD Kwaliteit Uitvoer",
+            "description": "Exporteer geanimeerde video's in 1080p Full HD of 2K resolutie met soepele frame rates.",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "Animatie Showcases",
+        "label": "Voorbeelden",
+        "description": "Zie wat mogelijk is met AI afbeelding-naar-video animatie.",
+        "items": [
+          {
+            "title": "Portret Animatie",
+            "description": "Breng portretfoto's tot leven met natuurlijke uitdrukkingen en subtiele bewegingen.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "Portret Animatie"
+            }
+          },
+          {
+            "title": "Landschap Animatie",
+            "description": "Voeg stromend water, bewegende wolken en wuivende bomen toe aan landschapsbeelden.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "Landschap Animatie"
+            }
+          },
+          {
+            "title": "Kunstwerk Animatie",
+            "description": "Animeer digitale kunst, illustraties en schilderijen met behoud van de artistieke stijl.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "Kunstwerk Animatie"
+            }
+          },
+          {
+            "title": "Product Animatie",
+            "description": "Creëer dynamische product showcases en 360-graden rotatie-effecten.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "Product Animatie"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Veelgestelde Vragen",
+        "description": "Veelvoorkomende vragen over afbeelding-naar-video animatie.",
+        "items": [
+          {
+            "question": "Wat is Afbeelding-naar-Video?",
+            "answer": "Afbeelding-naar-Video is een AI-technologie die statische afbeeldingen omzet in dynamische video-animaties. Upload een afbeelding en de AI voegt realistische beweging, camerabewegingen en speciale effecten toe met behoud van de originele visuele stijl."
+          },
+          {
+            "question": "Welke afbeeldingsformaten worden ondersteund?",
+            "answer": "We ondersteunen alle gangbare afbeeldingsformaten, waaronder JPG, PNG, WebP en GIF. Afbeeldingen moeten minimaal 512x512 pixels zijn voor de beste resultaten, waarbij hogere resolutie afbeeldingen betere kwaliteit animaties produceren."
+          },
+          {
+            "question": "Kan ik de animatie-effecten besturen?",
+            "answer": "Ja! Je kunt aanvullende tekstprompts toevoegen om specifieke bewegingseffecten te beschrijven, zoals 'zachte bries die de bladeren beweegt' of 'water dat zachtjes kabbelt'. De AI zal je beschrijvingen verwerken."
+          },
+          {
+            "question": "Hoe werkt intelligente herkenning?",
+            "answer": "Onze AI identificeert automatisch verschillende elementen in je afbeelding, waaronder mensen, dieren, objecten, lucht, water en gebladerte. Elk element krijgt passende bewegingseffecten op basis van zijn aard."
+          },
+          {
+            "question": "Welke videokwaliteit kan ik verwachten?",
+            "answer": "Geanimeerde video's worden geëxporteerd in 1080p Full HD of 2K resolutie met soepele frame rates. De AI behoudt de originele beeldkwaliteit terwijl het natuurlijke, vloeiende bewegingseffecten toevoegt."
+          },
+          {
+            "question": "Kan ik kunstwerken en illustraties animeren?",
+            "answer": "Absoluut! De AI werkt geweldig met digitale kunst, illustraties, schilderijen en grafische afbeeldingen. Het behoudt de artistieke stijl terwijl het subtiele, passende animaties toevoegt."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Breng je afbeeldingen tot leven",
+        "description": "Transformeer statische afbeeldingen in prachtige geanimeerde video's met AI-gedreven afbeelding-naar-video technologie.",
+        "buttons": [
+          {
+            "title": "Probeer Nu",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "Bekijk Prijzen",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

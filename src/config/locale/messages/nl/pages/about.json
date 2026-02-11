@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Over Seedance 2.0",
+    "description": "Leer meer over Seedance 2.0 en onze passie om AI-video generatie voor iedereen toegankelijk te maken."
+  },
+  "page": {
+    "title": "Over Seedance 2.0",
+    "show_sections": ["hero", "team", "values", "cta"],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Het verhaal van Seedance 2.0",
+        "highlight_text": "Verhaal",
+        "description": "Wat begon als een eenvoudig idee, is uitgegroeid tot iets waar ik echt trots op ben.<br/>Seedance 2.0 is mijn manier om de kracht van AI-video generatie naar makers overal te brengen.",
+        "buttons": [
+          {
+            "title": "Probeer gratis",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Neem contact op",
+            "icon": "Mail",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "image": null,
+        "background_image": null
+      },
+      "team": {
+        "block": "features-list",
+        "id": "team",
+        "title": "Waarom ik dit heb gebouwd",
+        "label": "Mijn missie",
+        "description": "Als maker geloof ik dat iedereen toegang moet hebben tot professionele AI-tools zonder de barrières van complexiteit of kosten.",
+        "image": {
+          "src": "https://picsum.photos/seed/about-team/800/600",
+          "alt": "Over de ontwikkelaar"
+        },
+        "items": [
+          {
+            "title": "Passie voor Creatie",
+            "description": "Ik ben altijd gefascineerd geweest door het snijvlak van technologie en creativiteit. Seedance 2.0 is het resultaat van die passie.",
+            "icon": "Heart",
+            "image": {
+              "src": "https://picsum.photos/seed/about-passion/600/400",
+              "alt": "Passie voor Creatie"
+            }
+          },
+          {
+            "title": "Eenvoud Eerst",
+            "description": "Complexe tools zouden geen handleiding nodig moeten hebben. Ik heb hard gewerkt om videogeneratie zo intuïtief mogelijk te maken.",
+            "icon": "Sparkles",
+            "image": {
+              "src": "https://picsum.photos/seed/about-simple/600/400",
+              "alt": "Eenvoud Eerst"
+            }
+          },
+          {
+            "title": "Continue Verbetering",
+            "description": "Dit is nog maar het begin. Ik leer voortdurend van gebruikersfeedback om Seedance elke dag beter te maken.",
+            "icon": "TrendingUp",
+            "image": {
+              "src": "https://picsum.photos/seed/about-improve/600/400",
+              "alt": "Continue Verbetering"
+            }
+          },
+          {
+            "title": "Community Gedreven",
+            "description": "Jouw suggesties vormen de roadmap. Ik lees elke e-mail en waardeer je inbreng enorm.",
+            "icon": "Users",
+            "image": {
+              "src": "https://picsum.photos/seed/about-community/600/400",
+              "alt": "Community Gedreven"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "values": {
+        "block": "features",
+        "id": "values",
+        "title": "Waar ik waarde aan hecht",
+        "description": "Deze principes leiden elke beslissing die ik maak voor Seedance 2.0.",
+        "items": [
+          {
+            "title": "🎯 Kwaliteit boven Kwantiteit",
+            "description": "Ik doe liever een paar dingen uitzonderlijk goed dan veel functies middelmatig aan te bieden.",
+            "icon": "Target"
+          },
+          {
+            "title": "🤝 Eerlijke Communicatie",
+            "description": "Geen verborgen kosten, geen verrassingen. Wat je ziet is wat je krijgt.",
+            "icon": "Shield"
+          },
+          {
+            "title": "🚀 Blijven Innoveren",
+            "description": "AI beweegt snel, en ik ook. Verwacht regelmatige updates en nieuwe functies.",
+            "icon": "Rocket"
+          },
+          {
+            "title": "💬 Goed Luisteren",
+            "description": "Elk stukje feedback is een geschenk. Ik neem je suggesties serieus.",
+            "icon": "MessageCircle"
+          },
+          {
+            "title": "🌍 Toegankelijk voor Iedereen",
+            "description": "Geweldige tools zouden beschikbaar moeten zijn voor iedereen, niet alleen voor grote studio's.",
+            "icon": "Globe"
+          },
+          {
+            "title": "❤️ Met Zorg Gebouwd",
+            "description": "Dit is niet zomaar een product; het is iets waar ik echt in geloof.",
+            "icon": "Heart"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Laten we samen iets maken",
+        "description": "Of je nu een vraag hebt, een idee, of gewoon hallo wilt zeggen, ik hoor graag van je.",
+        "buttons": [
+          {
+            "title": "Start met Maken",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Neem contact op",
+            "url": "mailto:support@seedance2.shop",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "Mail"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

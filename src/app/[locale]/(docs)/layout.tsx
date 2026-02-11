@@ -27,6 +27,18 @@ const fr: Partial<Translations> = {
 const de: Partial<Translations> = {
   search: 'Inhalt suchen',
 };
+const ja: Partial<Translations> = {
+  search: 'コンテンツを検索',
+};
+const nl: Partial<Translations> = {
+  search: 'Inhoud zoeken',
+};
+const pl: Partial<Translations> = {
+  search: 'Szukaj treści',
+};
+const ru: Partial<Translations> = {
+  search: 'Поиск контента',
+};
 // available languages that will be displayed on UI
 // make sure `locale` is consistent with your i18n config
 const locales = [
@@ -58,6 +70,22 @@ const locales = [
     name: 'Deutsch',
     locale: 'de',
   },
+  {
+    name: '日本語',
+    locale: 'ja',
+  },
+  {
+    name: 'Nederlands',
+    locale: 'nl',
+  },
+  {
+    name: 'Polski',
+    locale: 'pl',
+  },
+  {
+    name: 'Русский',
+    locale: 'ru',
+  },
 ];
 
 export default async function DocsRootLayout({
@@ -75,7 +103,7 @@ export default async function DocsRootLayout({
       i18n={{
         locale: lang,
         locales,
-        translations: { zh, es, ar, pt, fr, de }[lang],
+        translations: { zh, es, ar, pt, fr, de, ja, nl, pl, ru }[lang],
       }}
       search={{
         options: {

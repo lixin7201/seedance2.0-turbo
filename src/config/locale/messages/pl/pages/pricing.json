@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "Cennik - Seedance 2.0",
+    "description": "Wybierz plan Seedance 2.0, który odpowiada Twoim potrzebom. Zacznij tworzyć kinowe wideo AI już dziś.",
+    "keywords": "cennik, plany, darmowy okres próbny, generowanie wideo, wideo AI, kredyty"
+  },
+  "page": {
+    "title": "Cennik Seedance 2.0",
+    "show_sections": [
+      "hero",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-simple",
+        "title": "Prosty, Przejrzysty Cennik",
+        "highlight_text": "Przejrzysty Cennik",
+        "description": "Wybierz idealny plan dla swoich potrzeb tworzenia wideo. Zacznij za darmo, zaktualizuj w dowolnym momencie.",
+        "tip": "🎁 Wypróbuj za darmo z kredytami na 10 sekund wideo",
+        "buttons": [
+          {
+            "title": "Wypróbuj Za Darmo",
+            "icon": "Zap",
+            "url": "#pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Porównaj Plany",
+            "icon": "ArrowDown",
+            "url": "#comparison",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "background_image": {
+          "src": "https://picsum.photos/seed/seedance-pricing-bg/1920/600",
+          "alt": "tło cennika"
+        }
+      },
+      "pricing": {
+        "id": "pricing",
+        "title": "Wybierz Swój Plan",
+        "description": "Uzyskaj wszystkie funkcje Seedance 2.0. Twórz oszałamiające wideo AI dzięki naszym elastycznym planom cenowym.",
+        "groups": [
+          {
+            "name": "monthly",
+            "title": "Miesięcznie",
+            "is_featured": true
+          },
+          {
+            "name": "yearly",
+            "title": "Rocznie",
+            "label": "Zaoszczędź 20%"
+          }
+        ],
+        "items": [
+          {
+            "title": "Darmowy",
+            "description": "Doświadcz Seedance 2.0 z darmowymi kredytami.",
+            "features_title": "Zawiera",
+            "features": [
+              "10 kredytów (10 sekund wideo)",
+              "Wyjście w rozdzielczości 720p",
+              "Podstawowe generowanie wideo",
+              "1 jednoczesne zadanie generowania",
+              "Wsparcie społeczności",
+              "Znak wodny na wideo"
+            ],
+            "interval": "jednorazowo",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Jednorazowe kredyty próbne",
+            "button": {
+              "title": "Wypróbuj Za Darmo",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Darmowy Próbny Seedance",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "monthly"
+          },
+          {
+            "title": "Starter",
+            "description": "Idealny dla hobbystów i okazjonalnych twórców.",
+            "features_title": "Zawiera",
+            "features": [
+              "150 kredytów/miesiąc (około 15 wideo)",
+              "Rozdzielczość 1080p Full HD",
+              "Brak znaku wodnego",
+              "Do 3 jednoczesnych zadań generowania",
+              "Kolejka o średnim priorytecie",
+              "Wsparcie e-mailowe"
+            ],
+            "interval": "miesiąc",
+            "amount": 2900,
+            "currency": "USD",
+            "price": "$29",
+            "original_price": "",
+            "unit": "/ miesiąc",
+            "is_featured": false,
+            "tip": "~5 kredytów/dzień",
+            "button": {
+              "title": "Subskrybuj",
+              "url": "/sign-up?plan=starter",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-monthly",
+            "product_name": "Seedance Starter Miesięczny",
+            "credits": 150,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Pro",
+            "label": "Najpopularniejszy",
+            "description": "Dla profesjonalnych twórców i firm.",
+            "features_title": "Wszystko w Starterze, plus",
+            "features": [
+              "450 kredytów/miesiąc (około 45 wideo)",
+              "Rozdzielczość 1080p Full HD",
+              "Więcej kredytów miesięcznie",
+              "Do 3 jednoczesnych zadań generowania",
+              "Priorytetowe wsparcie e-mailowe"
+            ],
+            "interval": "miesiąc",
+            "amount": 7900,
+            "currency": "USD",
+            "price": "$79",
+            "original_price": "",
+            "unit": "/ miesiąc",
+            "is_featured": true,
+            "tip": "~15 kredytów/dzień",
+            "button": {
+              "title": "Subskrybuj",
+              "url": "/sign-up?plan=pro",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-monthly",
+            "product_name": "Seedance Pro Miesięczny",
+            "credits": 450,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "Biznes",
+            "description": "Dla zespołów i potrzeb przedsiębiorstwa.",
+            "features_title": "Wszystko w Pro, plus",
+            "features": [
+              "1200 kredytów/miesiąc (około 120 wideo)",
+              "Rozdzielczość 1080p Full HD",
+              "Maksymalne miesięczne kredyty",
+              "Do 3 jednoczesnych zadań generowania",
+              "Dedykowane wsparcie e-mailowe"
+            ],
+            "interval": "miesiąc",
+            "amount": 19900,
+            "currency": "USD",
+            "price": "$199",
+            "original_price": "",
+            "unit": "/ miesiąc",
+            "is_featured": false,
+            "tip": "~40 kredytów/dzień",
+            "button": {
+              "title": "Kontakt ze Sprzedażą",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-monthly",
+            "product_name": "Seedance Biznes Miesięczny",
+            "credits": 1200,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Biznes"
+          },
+          {
+            "title": "Darmowy",
+            "description": "Doświadcz Seedance 2.0 z darmowymi kredytami.",
+            "features_title": "Zawiera",
+            "features": [
+              "10 kredytów (10 sekund wideo)",
+              "Wyjście w rozdzielczości 720p",
+              "Podstawowe generowanie wideo",
+              "1 jednoczesne zadanie generowania",
+              "Wsparcie społeczności",
+              "Znak wodny na wideo"
+            ],
+            "interval": "jednorazowo",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Jednorazowe kredyty próbne",
+            "button": {
+              "title": "Wypróbuj Za Darmo",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Darmowy Próbny Seedance",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "rocznie"
+          },
+          {
+            "title": "Starter",
+            "description": "Idealny dla hobbystów i okazjonalnych twórców.",
+            "features_title": "Zawiera",
+            "features": [
+              "150 kredytów/miesiąc (około 15 wideo)",
+              "Rozdzielczość 1080p Full HD",
+              "Brak znaku wodnego",
+              "Do 3 jednoczesnych zadań generowania",
+              "Kolejka o średnim priorytecie",
+              "Wsparcie e-mailowe"
+            ],
+            "interval": "rok",
+            "amount": 27600,
+            "currency": "USD",
+            "price": "$23",
+            "original_price": "$29",
+            "unit": "/ miesiąc",
+            "is_featured": false,
+            "tip": "Rozliczane rocznie jako $276",
+            "button": {
+              "title": "Subskrybuj",
+              "url": "/sign-up?plan=starter-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-yearly",
+            "product_name": "Seedance Starter Roczny",
+            "credits": 1800,
+            "valid_days": 365,
+            "group": "rocznie",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Pro",
+            "label": "Najpopularniejszy",
+            "description": "Dla profesjonalnych twórców i firm.",
+            "features_title": "Wszystko w Starterze, plus",
+            "features": [
+              "450 kredytów/miesiąc (około 45 wideo)",
+              "Rozdzielczość 1080p Full HD",
+              "Więcej kredytów miesięcznie",
+              "Do 3 jednoczesnych zadań generowania",
+              "Priorytetowe wsparcie e-mailowe"
+            ],
+            "interval": "rok",
+            "amount": 75600,
+            "currency": "USD",
+            "price": "$63",
+            "original_price": "$79",
+            "unit": "/ miesiąc",
+            "is_featured": true,
+            "tip": "Rozliczane rocznie jako $756",
+            "button": {
+              "title": "Subskrybuj",
+              "url": "/sign-up?plan=pro-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-yearly",
+            "product_name": "Seedance Pro Roczny",
+            "credits": 5400,
+            "valid_days": 365,
+            "group": "rocznie",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "Biznes",
+            "description": "Dla zespołów i potrzeb przedsiębiorstwa.",
+            "features_title": "Wszystko w Pro, plus",
+            "features": [
+              "1200 kredytów/miesiąc (około 120 wideo)",
+              "Rozdzielczość 1080p Full HD",
+              "Maksymalne miesięczne kredyty",
+              "Do 3 jednoczesnych zadań generowania",
+              "Dedykowane wsparcie e-mailowe"
+            ],
+            "interval": "rok",
+            "amount": 190800,
+            "currency": "USD",
+            "price": "$159",
+            "original_price": "$199",
+            "unit": "/ miesiąc",
+            "is_featured": false,
+            "tip": "Rozliczane rocznie jako $1,908",
+            "button": {
+              "title": "Kontakt ze Sprzedażą",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-yearly",
+            "product_name": "Seedance Biznes Roczny",
+            "credits": 14400,
+            "valid_days": 365,
+            "group": "rocznie",
+            "plan_name": "Biznes"
+          }
+        ]
+      },
+      "comparison": {
+        "id": "comparison",
+        "block": "comparison-table",
+        "title": "Porównaj Wszystkie Funkcje",
+        "description": "Zobacz, co zawiera każdy plan",
+        "plans": [
+          "Darmowy",
+          "Starter",
+          "Pro",
+          "Biznes"
+        ],
+        "categories": [
+          {
+            "name": "Generowanie Wideo",
+            "features": [
+              {
+                "name": "Miesięczne Kredyty",
+                "values": [
+                  "10 (jednorazowo)",
+                  "150",
+                  "450",
+                  "1200"
+                ]
+              },
+              {
+                "name": "Maksymalna Rozdzielczość",
+                "values": [
+                  "720p",
+                  "1080p",
+                  "1080p",
+                  "1080p"
+                ]
+              },
+              {
+                "name": "Tekst-na-Wideo",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Obraz-na-Wideo",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Wyjście i Jakość",
+            "features": [
+              {
+                "name": "Znak Wodny",
+                "values": [
+                  "Tak",
+                  "Nie",
+                  "Nie",
+                  "Nie"
+                ]
+              },
+              {
+                "name": "Rozdzielczość HD",
+                "values": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dodatki",
+            "features": [
+              {
+                "name": "Wsparcie",
+                "values": [
+                  "Społeczność",
+                  "E-mail",
+                  "Priorytetowy E-mail",
+                  "Dedykowany E-mail"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Często Zadawane Pytania",
+        "description": "Masz więcej pytań? Skontaktuj się z naszym zespołem wsparcia.",
+        "items": [
+          {
+            "question": "Czym są kredyty i jak działają?",
+            "answer": "Kredyty są walutą do generowania filmów na naszej platformie. Kredyty są zużywane na generowanie wideo, a dokładny koszt jest pokazywany przed wygenerowaniem. Kredyty odnawiają się co miesiąc dla subskrybentów."
+          },
+          {
+            "question": "Czy mogę w dowolnym momencie zmienić plan?",
+            "answer": "Tak, możesz zmienić swój plan w dowolnym momencie. Podczas aktualizacji zostanie naliczona proporcjonalna różnica. W przypadku obniżenia planu nowa stawka obowiązuje od następnego cyklu rozliczeniowego."
+          },
+          {
+            "question": "Czy niewykorzystane kredyty przechodzą na następny miesiąc?",
+            "answer": "Kredyty wygasają pod koniec każdego okresu rozliczeniowego. Prosimy o wykorzystanie kredytów przed zakończeniem cyklu rozliczeniowego."
+          },
+          {
+            "question": "Jakie metody płatności akceptujecie?",
+            "answer": "Akceptujemy wszystkie główne karty kredytowe (Visa, MasterCard, American Express). Płatności są przetwarzane bezpiecznie przez naszego partnera płatniczego."
+          },
+          {
+            "question": "Czy istnieje polityka zwrotów?",
+            "answer": "Tak, oferujemy 14-dniową gwarancję zwrotu pieniędzy. Jeśli nie jesteś zadowolony z subskrypcji, skontaktuj się z nami w ciągu 14 dni, aby uzyskać pełny zwrot pieniędzy."
+          },
+          {
+            "question": "Czy mogę używać wygenerowanych filmów w moich projektach?",
+            "answer": "Tak, możesz używać wygenerowanych filmów w projektach osobistych i niekomercyjnych. W przypadku praw do użytku komercyjnego zapoznaj się z warunkami korzystania z bazowych modeli AI."
+          },
+          {
+            "question": "Jakie rozdzielczości wideo są obsługiwane?",
+            "answer": "Użytkownicy darmowi mogą generować wideo w rozdzielczości 720p. Płatni subskrybenci mają dostęp do rozdzielczości 1080p Full HD dla wyższej jakości wyjściowej."
+          },
+          {
+            "question": "Czy mogę wypróbować przed subskrypcją?",
+            "answer": "Absolutnie! Zarejestruj się za darmo i otrzymaj 10 kredytów, aby doświadczyć mocy generowania wideo AI Seedance 2.0."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Gotowy na tworzenie niesamowitych filmów?",
+        "description": "Zacznij od darmowych kredytów i doświadcz mocy generowania wideo AI.",
+        "buttons": [
+          {
+            "title": "Rozpocznij Darmowy Próbny Okres",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Kontakt ze Sprzedażą",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Obecny Plan",
+    "processing": "Przetwarzanie",
+    "save_percent": "Zaoszczędź 20%",
+    "per_month": "/ miesiąc",
+    "billed_annually": "rozliczane rocznie",
+    "money_back": "14-dniowa gwarancja zwrotu pieniędzy"
+  }
+}

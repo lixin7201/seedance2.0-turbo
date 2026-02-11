@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "title": "AI動画ジェネレーター",
+    "description": "AIモデルを使用して動画を生成します。テキストから動画、画像から動画、動画から動画をサポート。"
+  },
+  "page": {
+    "title": "AI動画ジェネレーター",
+    "description": "AIモデルを使用して動画を生成します。テキストから動画、画像から動画、動画から動画をサポート。"
+  },
+  "generator": {
+    "title": "動画ジェネレーター",
+    "description": "AIモデルを使用して動画を生成します。テキストから動画、画像から動画、動画から動画をサポート。",
+    "tabs": {
+      "text-to-video": "テキストから動画",
+      "image-to-video": "画像から動画",
+      "video-to-video": "動画から動画"
+    },
+    "form": {
+      "provider": "プロバイダー",
+      "model": "モデル",
+      "resolution": "解像度",
+      "duration": "期間",
+      "select_provider": "プロバイダーを選択",
+      "select_model": "モデルを選択",
+      "prompt": "プロンプト",
+      "prompt_placeholder": "シーン、アクション、スタイルなど、動画の内容を記述してください。",
+      "reference_image": "参照画像",
+      "reference_image_placeholder": "動画生成用の参照画像をアップロード",
+      "reference_video": "参照動画URL",
+      "reference_video_placeholder": "参照動画のURLを入力してください",
+      "some_images_failed_to_upload": "画像のアップロードに失敗しました。削除して再アップロードしてください",
+      "prompt_too_long": "プロンプトが長すぎます。内容を削除してください"
+    },
+    "generate": "動画を生成",
+    "checking_account": "アカウントを確認中...",
+    "loading": "読み込み中...",
+    "generating": "生成中...",
+    "sign_in_to_generate": "動画を生成するにはサインイン",
+    "credits_cost": "{credits} クレジットを消費",
+    "credits_remaining": "残り {credits} クレジット",
+    "buy_credits": "クレジットを購入",
+    "progress": "進捗",
+    "generated_videos": "動画プレビュー",
+    "ready_to_generate": "生成の準備完了",
+    "ready_for_generating": "生成の準備ができました",
+    "no_videos_generated": "動画は生成されていません",
+    "preview_examples_hint": "これらはSeedance 2.0で作成されたサンプル動画です。左側のフォームに入力し、「動画を生成」をクリックして独自の動画を作成してください。",
+    "seedance2_coming_soon": "Seedance 2.0 近日公開",
+    "hint_async": "このページを閉じても構いません。完了したら通知します。",
+    "view_history": "履歴を表示"
+  },
+  "preview_examples_hint": "これらは当社のプラットフォームを使用して作成されたサンプル動画です。左側のフォームに入力し、「動画を生成」をクリックして独自の動画を作成してください。"
+}

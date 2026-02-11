@@ -1,0 +1,109 @@
+{
+  "sidebar": {
+    "header": {
+      "brand": {
+        "title": "Seedance 2.0",
+        "logo": {
+          "src": "/logo-v2.png",
+          "alt": "Seedance 2.0"
+        },
+        "url": "/chat"
+      },
+      "show_trigger": false
+    },
+    "buttons": [
+      {
+        "title": "Nowy czat",
+        "icon": "Plus",
+        "url": "/chat",
+        "variant": "outline"
+      }
+    ],
+    "main_navs": [
+      {
+        "items": [
+          {
+            "title": "Historia",
+            "icon": "History",
+            "url": "/chat/history"
+          }
+        ]
+      }
+    ],
+    "bottom_nav": {
+      "items": []
+    },
+    "user": {
+      "nav": {
+        "items": [
+          {
+            "title": "Profil",
+            "url": "/settings/profile",
+            "icon": "User",
+            "target": "_blank"
+          }
+        ]
+      },
+      "show_email": false,
+      "show_signout": true,
+      "signout_callback": "/chat",
+      "signin_callback": "/chat"
+    },
+    "footer": {
+      "nav": {
+        "items": [
+          {
+            "title": "Strona główna",
+            "url": "/",
+            "icon": "Home",
+            "target": "_blank"
+          },
+          {
+            "title": "X",
+            "url": "https://x.com/seedance",
+            "icon": "RiTwitterXFill",
+            "target": "_blank"
+          },
+          {
+            "title": "E-mail",
+            "url": "mailto:support@seedance2.shop",
+            "icon": "Mail",
+            "target": "_blank"
+          }
+        ]
+      },
+      "show_theme": true,
+      "show_locale": false
+    },
+    "variant": "sidebar"
+  },
+  "library": {
+    "title": "Biblioteka",
+    "icon": "History",
+    "url": "/chat/history",
+    "more": "Więcej",
+    "actions": {
+      "edit_title": "Edytuj tytuł",
+      "share": "Udostępnij",
+      "delete": "Usuń"
+    }
+  },
+  "generator": {
+    "title": "W czym mogę Ci dzisiaj pomóc?",
+    "input_placeholder": "Możesz mnie o wszystko zapytać"
+  },
+  "history": {
+    "title": "Historia czatu",
+    "description": "Przeglądaj swoje poprzednie rozmowy.",
+    "empty": "Brak rozmów.",
+    "error": "Nie udało się załadować rozmów.",
+    "retry": "Spróbuj ponownie",
+    "signin": "Zaloguj się, aby zobaczyć historię czatu.",
+    "summary": "Wyświetlanie {from}-{to} z {total}",
+    "perPage": "Na stronę",
+    "prev": "Poprzednia",
+    "next": "Następna",
+    "open": "Otwórz czat",
+    "untitled": "Rozmowa bez tytułu"
+  }
+}

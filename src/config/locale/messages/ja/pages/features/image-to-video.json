@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "画像から動画へ - AIアニメーション",
+    "description": "静止画をアップロードして、AIで命を吹き込みましょう。自然で流れるようなモーションエフェクトとカスタムアニメーションによるインテリジェントな画像認識。"
+  },
+  "page": {
+    "title": "画像から動画へ",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "画像から動画へ",
+        "highlight_text": "画像から動画へ",
+        "description": "静止画をアップロードして、AIで命を吹き込みましょう。<br/>自然で流れるようなモーションエフェクトとカスタムアニメーションによるインテリジェントな画像認識。",
+        "tip": "🖼️ 画像をダイナミックな動画に変換",
+        "buttons": [
+          {
+            "title": "アニメーションを開始",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "例を見る",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "画像から動画へ AIアニメーション",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "背景"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "なぜ画像から動画へを選ぶのか",
+        "label": "メリット",
+        "description": "あらゆる静止画をインテリジェントなAIアニメーションでダイナミックな動画に変換します。",
+        "items": [
+          {
+            "title": "あらゆる画像をアップロード",
+            "description": "JPG、PNG、WebPなど、すべての一般的な画像形式をサポート。写真、アートワーク、スクリーンショット、またはあらゆる静止画をアップロードできます。",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "画像をアップロード"
+            }
+          },
+          {
+            "title": "インテリジェントな要素認識",
+            "description": "AIは、人物、動物、物体、背景などの画像要素を自動的に識別し、適切なモーションエフェクトを適用します。",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "スマート認識"
+            }
+          },
+          {
+            "title": "自然で流れるような動き",
+            "description": "元の画像のスタイルを維持しながら、自然な動きとダイナミクスを追加して、滑らかでリアルなアニメーションを作成します。",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "流れるような動き"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "主な機能",
+        "description": "AIで画像をアニメーション化するために必要なものすべて。",
+        "items": [
+          {
+            "title": "🖼️ あらゆる画像をアップロード",
+            "description": "JPG、PNG、WebPなどの一般的な形式をサポート。写真、アートワーク、グラフィックで動作します。",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 インテリジェント認識",
+            "description": "AIは、スマートなアニメーションのために、人物、動物、物体、シーン要素を自動的に識別します。",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 自然で流れるような動き",
+            "description": "元の画像のスタイルと美学を維持する、滑らかでリアルなアニメーション。",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ カスタムモーション記述",
+            "description": "特定のモーションエフェクトやアニメーションを制御するための補足テキストプロンプトを追加します。",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 カメラの動き",
+            "description": "ズーム、パン、視差などのシネマティックなカメラエフェクトをアニメーションに追加します。",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 HD画質出力",
+            "description": "アニメーション動画を滑らかなフレームレートの1080pフルHDまたは2K解像度でエクスポートします。",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "アニメーションのショーケース",
+        "label": "例",
+        "description": "AI画像から動画へのアニメーションで何が可能かをご覧ください。",
+        "items": [
+          {
+            "title": "ポートレートアニメーション",
+            "description": "自然な表情と微妙な動きで、ポートレート写真に命を吹き込みます。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "ポートレートアニメーション"
+            }
+          },
+          {
+            "title": "風景アニメーション",
+            "description": "流れる水、動く雲、揺れる木々を風景画像に追加します。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "風景アニメーション"
+            }
+          },
+          {
+            "title": "アートワークアニメーション",
+            "description": "芸術的なスタイルを維持しながら、デジタルアート、イラスト、絵画をアニメーション化します。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "アートワークアニメーション"
+            }
+          },
+          {
+            "title": "製品アニメーション",
+            "description": "ダイナミックな製品ショーケースと360度回転エフェクトを作成します。",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "製品アニメーション"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "よくある質問",
+        "description": "画像から動画へのアニメーションに関する一般的な質問。",
+        "items": [
+          {
+            "question": "画像から動画へとは何ですか？",
+            "answer": "画像から動画へは、静止画をダイナミックな動画アニメーションに変換するAI技術です。画像をアップロードすると、AIが元の視覚スタイルを維持しながら、リアルな動き、カメラの動き、特殊効果を追加します。"
+          },
+          {
+            "question": "どの画像形式がサポートされていますか？",
+            "answer": "JPG、PNG、WebP、GIFなど、すべての一般的な画像形式をサポートしています。最高の結果を得るには、画像は少なくとも512x512ピクセルである必要があります。高解像度の画像ほど、より良い品質のアニメーションが生成されます。"
+          },
+          {
+            "question": "アニメーションエフェクトを制御できますか？",
+            "answer": "はい！「葉を動かすそよ風」や「柔らかく波打つ水」など、必要な特定のモーションエフェクトを説明する補足テキストプロンプトを追加できます。AIはあなたの説明を取り入れます。"
+          },
+          {
+            "question": "インテリジェント認識はどのように機能しますか？",
+            "answer": "私たちのAIは、人物、動物、物体、空、水、植物など、画像内のさまざまな要素を自動的に識別します。各要素は、その性質に基づいて適切なモーションエフェクトを受け取ります。"
+          },
+          {
+            "question": "どのような動画品質が期待できますか？",
+            "answer": "アニメーション動画は、滑らかなフレームレートの1080pフルHDまたは2K解像度でエクスポートされます。AIは元の画質を維持しながら、自然で流れるようなモーションエフェクトを追加します。"
+          },
+          {
+            "question": "アートワークやイラストをアニメーション化できますか？",
+            "answer": "もちろんです！AIはデジタルアート、イラスト、絵画、グラフィックでうまく機能します。芸術的なスタイルを維持しながら、微妙で適切なアニメーションを追加します。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "画像に命を吹き込む",
+        "description": "AI搭載の画像から動画への技術で、静止画を見事なアニメーション動画に変換します。",
+        "buttons": [
+          {
+            "title": "今すぐ試す",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "料金を見る",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

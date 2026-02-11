@@ -1,0 +1,10 @@
+{
+  "title": "Powiadomienia",
+  "empty": "Brak powiadomień",
+  "mark_all_read": "Oznacz wszystkie jako przeczytane",
+  "unread": "Nieprzeczytane",
+  "read": "Przeczytane",
+  "task_success": "Generowanie ukończone",
+  "task_failed": "Generowanie nie powiodło się",
+  "view_task": "Zobacz zadanie"
+}

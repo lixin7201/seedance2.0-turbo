@@ -1,0 +1,50 @@
+---
+title: 'Seedance Two リリース'
+description: 'Seedanceの2番目のメジャーバージョンをリリースしました'
+date: '2025-11-11'
+tags: ['Seedance Two', 'Next.js 16', 'AI SaaS', 'ボイラープレート']
+version: '2.0.0'
+---
+
+![Seedance Two](/imgs/features/admin-settings.png)
+
+Seedance Twoは最新の`Next.js 16`に基づいており、コンパイルパフォーマンスが大幅に向上し、ローカル開発が高速化され、メモリ使用量が削減されています。
+
+<Accordion type="multiple" className="not-prose w-full">
+    <AccordionItem value="features">
+        <AccordionTrigger>主な機能</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <ul className="list-disc space-y-2 pl-4">
+            <li>コアシステム: 管理者ダッシュボード、ユーザーコンソール、ランディングページ</li>
+            <li>コアモジュール: データベース、コンテンツ管理、i18n、アクセス制御</li>
+            <li>拡張モジュール: 認証、決済、ストレージ、アナリティクス、広告、アフィリエイトマーケティング、AI</li>
+            <li>テーマシステム: 配色、タイポグラフィ、レイアウト、コンポーネント</li>
+            <li>設定システム: ビジュアル設定、コード設定、環境変数</li>
+            <li>コンテンツ管理: カテゴリ、投稿、ページ、ログ</li>
+        </ul>
+        </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="performance">
+        <AccordionTrigger>Seedance Oneからの改善点</AccordionTrigger>
+        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <ul className="list-disc space-y-2 pl-4">
+            <li>Auth.jsをBetter-Authに置き換え、より多くの認証方法をサポート</li>
+            <li>Next.js 16ベースで、ローカル開発が高速化し、メモリフットプリントが小さくなりました</li>
+            <li>管理者ダッシュボードUIが最適化され、美観と使いやすさが向上しました</li>
+            <li>柔軟性と利便性を高めるビジュアル設定をサポート</li>
+            <li>RBAC (ロールベースのアクセス制御) をサポート</li>
+            <li>より包括的なコンテンツ管理機能を統合</li>
+        </ul>
+        </AccordionContent>
+    </AccordionItem>
+
+</Accordion>
+
+> クイックスタート
+
+```bash
+git clone git@github.com:seedance/seedance-template-two.git
+```
+
+[Seedance Two ドキュメント](https://seedance.ai/docs/quick-start)

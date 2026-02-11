@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "Generator muzyki AI",
+    "description": "Generuj niesamowitą muzykę z AI"
+  },
+  "page": {
+    "title": "Generator muzyki AI",
+    "description": "Generuj niesamowitą muzykę z AI"
+  },
+  "generator": {
+    "title": "Generator muzyki",
+    "prompt": "Prompt",
+    "prompt_placeholder": "Historia miłosna Romea i Julii",
+    "generate": "Generuj muzykę",
+    "loading": "Ładowanie...",
+    "generating": "Generowanie...",
+    "sign_in_to_generate": "Zaloguj się, aby wygenerować muzykę",
+    "credits_cost": "Koszt {credits} kredytów",
+    "credits_remaining": "Pozostało {credits} kredytów",
+    "buy_credits": "Kup kredyty",
+    "generation_progress": "Postęp generowania",
+    "time_cost": "Może to potrwać do 2-3 minut...",
+    "generated_song": "Wygenerowany utwór",
+    "ready_to_play": "Gotowy do odtwarzania",
+    "audio_generating": "Generowanie audio...",
+    "generating_song": "Generowanie utworu...",
+    "waiting_generation": "Proszę czekać, tworzymy Twoje arcydzieło",
+    "no_song_generated": "Brak wygenerowanego utworu",
+    "downloading": "Pobieranie...",
+    "download_success": "Pobieranie zakończone pomyślnie",
+    "download_failed": "Nie udało się pobrać audio",
+    "form": {
+      "custom_mode": "Tryb niestandardowy",
+      "title": "Tytuł",
+      "title_placeholder": "The Sound of Silence",
+      "style": "Styl muzyki",
+      "style_placeholder": "indie, electronic, synths, 120bpm, distorted",
+      "instrumental": "Instrumentalny",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Piosenka country folk o miłości",
+      "model": "Model",
+      "lyrics": "Tekst piosenki",
+      "lyrics_placeholder": "Napisz własny tekst, dwie zwrotki (8 wersów) dla najlepszego rezultatu"
+    }
+  }
+}

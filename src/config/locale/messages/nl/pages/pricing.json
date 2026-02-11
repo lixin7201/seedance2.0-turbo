@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "Prijzen - Seedance 2.0",
+    "description": "Kies het Seedance 2.0 plan dat bij jouw behoeften past. Start vandaag met het maken van filmische AI-video's.",
+    "keywords": "prijzen, plannen, gratis proefperiode, video generatie, AI video, credits"
+  },
+  "page": {
+    "title": "Seedance 2.0 Prijzen",
+    "show_sections": [
+      "hero",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-simple",
+        "title": "Eenvoudige, Transparante Prijzen",
+        "highlight_text": "Transparante Prijzen",
+        "description": "Kies het perfecte plan voor jouw videocreatiebehoeften. Start gratis, upgrade op elk moment.",
+        "tip": "🎁 Probeer gratis met 10 seconden video credits",
+        "buttons": [
+          {
+            "title": "Probeer Gratis",
+            "icon": "Zap",
+            "url": "#pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Vergelijk Plannen",
+            "icon": "ArrowDown",
+            "url": "#comparison",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "background_image": {
+          "src": "https://picsum.photos/seed/seedance-pricing-bg/1920/600",
+          "alt": "prijzen achtergrond"
+        }
+      },
+      "pricing": {
+        "id": "pricing",
+        "title": "Kies Je Plan",
+        "description": "Krijg alle functies van Seedance 2.0. Creëer prachtige AI-video's met onze flexibele prijsplannen.",
+        "groups": [
+          {
+            "name": "monthly",
+            "title": "Maandelijks",
+            "is_featured": true
+          },
+          {
+            "name": "yearly",
+            "title": "Jaarlijks",
+            "label": "Bespaar 20%"
+          }
+        ],
+        "items": [
+          {
+            "title": "Gratis",
+            "description": "Ervaar Seedance 2.0 met gratis credits.",
+            "features_title": "Inclusief",
+            "features": [
+              "10 credits (10 seconden video)",
+              "720p resolutie uitvoer",
+              "Basis video generatie",
+              "1 gelijktijdige generatietaak",
+              "Community ondersteuning",
+              "Watermerk op video's"
+            ],
+            "interval": "eenmalig",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Eenmalige proefcredits",
+            "button": {
+              "title": "Probeer Gratis",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Seedance Gratis Proefperiode",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "monthly"
+          },
+          {
+            "title": "Starter",
+            "description": "Perfect voor hobbyisten en occasionele makers.",
+            "features_title": "Inclusief",
+            "features": [
+              "150 credits/maand (ongeveer 15 video's)",
+              "1080p Full HD resolutie",
+              "Geen watermerk",
+              "Tot 3 gelijktijdige generatietaken",
+              "Gemiddelde prioriteit wachtrij",
+              "E-mailondersteuning"
+            ],
+            "interval": "maand",
+            "amount": 2900,
+            "currency": "USD",
+            "price": "$29",
+            "original_price": "",
+            "unit": "/ maand",
+            "is_featured": false,
+            "tip": "~5 credits/dag",
+            "button": {
+              "title": "Abonneren",
+              "url": "/sign-up?plan=starter",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-monthly",
+            "product_name": "Seedance Starter Maandelijks",
+            "credits": 150,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Pro",
+            "label": "Meest Populair",
+            "description": "Voor professionele makers en bedrijven.",
+            "features_title": "Alles in Starter, plus",
+            "features": [
+              "450 credits/maand (ongeveer 45 video's)",
+              "1080p Full HD resolutie",
+              "Meer credits per maand",
+              "Tot 3 gelijktijdige generatietaken",
+              "Prioriteit e-mailondersteuning"
+            ],
+            "interval": "maand",
+            "amount": 7900,
+            "currency": "USD",
+            "price": "$63",
+            "original_price": "",
+            "unit": "/ maand",
+            "is_featured": true,
+            "tip": "~15 credits/dag",
+            "button": {
+              "title": "Abonneren",
+              "url": "/sign-up?plan=pro",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-monthly",
+            "product_name": "Seedance Pro Maandelijks",
+            "credits": 450,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "Zakelijk",
+            "description": "Voor teams en enterprise behoeften.",
+            "features_title": "Alles in Pro, plus",
+            "features": [
+              "1200 credits/maand (ongeveer 120 video's)",
+              "1080p Full HD resolutie",
+              "Maximale maandelijkse credits",
+              "Tot 3 gelijktijdige generatietaken",
+              "Toegewijde e-mailondersteuning"
+            ],
+            "interval": "maand",
+            "amount": 19900,
+            "currency": "USD",
+            "price": "$199",
+            "original_price": "",
+            "unit": "/ maand",
+            "is_featured": false,
+            "tip": "~40 credits/dag",
+            "button": {
+              "title": "Contact Verkoop",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-monthly",
+            "product_name": "Seedance Zakelijk Maandelijks",
+            "credits": 1200,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Zakelijk"
+          },
+          {
+            "title": "Gratis",
+            "description": "Ervaar Seedance 2.0 met gratis credits.",
+            "features_title": "Inclusief",
+            "features": [
+              "10 credits (10 seconden video)",
+              "720p resolutie uitvoer",
+              "Basis video generatie",
+              "1 gelijktijdige generatietaak",
+              "Community ondersteuning",
+              "Watermerk op video's"
+            ],
+            "interval": "eenmalig",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Eenmalige proefcredits",
+            "button": {
+              "title": "Probeer Gratis",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Seedance Gratis Proefperiode",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "yearly"
+          },
+          {
+            "title": "Starter",
+            "description": "Perfect voor hobbyisten en occasionele makers.",
+            "features_title": "Inclusief",
+            "features": [
+              "150 credits/maand (ongeveer 15 video's)",
+              "1080p Full HD resolutie",
+              "Geen watermerk",
+              "Tot 3 gelijktijdige generatietaken",
+              "Gemiddelde prioriteit wachtrij",
+              "E-mailondersteuning"
+            ],
+            "interval": "jaar",
+            "amount": 27600,
+            "currency": "USD",
+            "price": "$23",
+            "original_price": "$29",
+            "unit": "/ maand",
+            "is_featured": false,
+            "tip": "Jaarlijks gefactureerd voor $276",
+            "button": {
+              "title": "Abonneren",
+              "url": "/sign-up?plan=starter-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-yearly",
+            "product_name": "Seedance Starter Jaarlijks",
+            "credits": 1800,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Pro",
+            "label": "Meest Populair",
+            "description": "Voor professionele makers en bedrijven.",
+            "features_title": "Alles in Starter, plus",
+            "features": [
+              "450 credits/maand (ongeveer 45 video's)",
+              "1080p Full HD resolutie",
+              "Meer credits per maand",
+              "Tot 3 gelijktijdige generatietaken",
+              "Prioriteit e-mailondersteuning"
+            ],
+            "interval": "jaar",
+            "amount": 75600,
+            "currency": "USD",
+            "price": "$63",
+            "original_price": "$79",
+            "unit": "/ maand",
+            "is_featured": true,
+            "tip": "Jaarlijks gefactureerd voor $756",
+            "button": {
+              "title": "Abonneren",
+              "url": "/sign-up?plan=pro-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-yearly",
+            "product_name": "Seedance Pro Jaarlijks",
+            "credits": 5400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "Zakelijk",
+            "description": "Voor teams en enterprise behoeften.",
+            "features_title": "Alles in Pro, plus",
+            "features": [
+              "1200 credits/maand (ongeveer 120 video's)",
+              "1080p Full HD resolutie",
+              "Maximale maandelijkse credits",
+              "Tot 3 gelijktijdige generatietaken",
+              "Toegewijde e-mailondersteuning"
+            ],
+            "interval": "jaar",
+            "amount": 190800,
+            "currency": "USD",
+            "price": "$159",
+            "original_price": "$199",
+            "unit": "/ maand",
+            "is_featured": false,
+            "tip": "Jaarlijks gefactureerd voor $1,908",
+            "button": {
+              "title": "Contact Verkoop",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-yearly",
+            "product_name": "Seedance Zakelijk Jaarlijks",
+            "credits": 14400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Zakelijk"
+          }
+        ]
+      },
+      "comparison": {
+        "id": "comparison",
+        "block": "comparison-table",
+        "title": "Vergelijk Alle Functies",
+        "description": "Zie wat is inbegrepen in elk plan",
+        "plans": [
+          "Gratis",
+          "Starter",
+          "Pro",
+          "Zakelijk"
+        ],
+        "categories": [
+          {
+            "name": "Video Generatie",
+            "features": [
+              {
+                "name": "Maandelijkse Credits",
+                "values": [
+                  "10 (eenmalig)",
+                  "150",
+                  "450",
+                  "1200"
+                ]
+              },
+              {
+                "name": "Maximale Resolutie",
+                "values": [
+                  "720p",
+                  "1080p",
+                  "1080p",
+                  "1080p"
+                ]
+              },
+              {
+                "name": "Tekst-naar-Video",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Afbeelding-naar-Video",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Uitvoer & Kwaliteit",
+            "features": [
+              {
+                "name": "Watermerk",
+                "values": [
+                  "Ja",
+                  "Nee",
+                  "Nee",
+                  "Nee"
+                ]
+              },
+              {
+                "name": "HD Resolutie",
+                "values": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Extra's",
+            "features": [
+              {
+                "name": "Ondersteuning",
+                "values": [
+                  "Community",
+                  "E-mail",
+                  "Prioriteit E-mail",
+                  "Toegewijd E-mail"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Veelgestelde Vragen",
+        "description": "Heb je meer vragen? Neem contact op met ons ondersteuningsteam.",
+        "items": [
+          {
+            "question": "Wat zijn credits en hoe werken ze?",
+            "answer": "Credits zijn de valuta voor het genereren van video's op ons platform. Credits worden verbruikt per video generatie, en de exacte kosten worden getoond voordat je genereert. Credits vernieuwen maandelijks voor abonnees."
+          },
+          {
+            "question": "Kan ik mijn plan op elk moment upgraden of downgraden?",
+            "answer": "Ja, je kunt je plan op elk moment wijzigen. Bij een upgrade betaal je het verschil naar rato. Bij een downgrade wordt het nieuwe tarief toegepast bij je volgende factureringscyclus."
+          },
+          {
+            "question": "Gaan ongebruikte credits mee naar de volgende maand?",
+            "answer": "Credits verlopen aan het einde van elke factureringsperiode. Gebruik je credits alsjeblieft voordat de factureringscyclus eindigt."
+          },
+          {
+            "question": "Welke betaalmethoden accepteren jullie?",
+            "answer": "We accepteren alle gangbare creditcards (Visa, MasterCard, American Express). Betalingen worden veilig verwerkt via onze betalingspartner."
+          },
+          {
+            "question": "Is er een terugbetalingsbeleid?",
+            "answer": "Ja, we bieden een 14-dagen geld-terug-garantie. Als je niet tevreden bent met je abonnement, neem dan binnen 14 dagen contact met ons op voor een volledige terugbetaling."
+          },
+          {
+            "question": "Kan ik gegenereerde video's gebruiken voor mijn projecten?",
+            "answer": "Ja, je kunt de video's die je genereert gebruiken voor persoonlijke en niet-commerciële projecten. Voor commerciële gebruiksrechten, raadpleeg de gebruiksvoorwaarden van de onderliggende AI-modellen."
+          },
+          {
+            "question": "Welke videoresoluties worden ondersteund?",
+            "answer": "Gratis gebruikers kunnen video's genereren met 720p resolutie. Betaalde abonnees hebben toegang tot 1080p Full HD resolutie voor hogere kwaliteit uitvoer."
+          },
+          {
+            "question": "Kan ik het proberen voordat ik me abonneer?",
+            "answer": "Absoluut! Meld je gratis aan en ontvang 10 credits om de kracht van Seedance 2.0 AI-videogeneratie te ervaren."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Klaar om Geweldige Video's te Maken?",
+        "description": "Start met gratis credits en ervaar de kracht van AI-videogeneratie.",
+        "buttons": [
+          {
+            "title": "Start Gratis Proefperiode",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Contact Verkoop",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Huidig Plan",
+    "processing": "Verwerken",
+    "save_percent": "Bespaar 20%",
+    "per_month": "/ maand",
+    "billed_annually": "jaarlijks gefactureerd",
+    "money_back": "14-dagen geld-terug-garantie"
+  }
+}
