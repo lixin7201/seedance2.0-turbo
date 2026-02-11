@@ -25,6 +25,7 @@ export default async function LandingLayout({
 
   return (
     <Layout header={header} footer={footer}>
+      <link rel="preload" as="image" href="/videos/hero-bg-poster.webp" />
       <LocaleDetector />
       {header.topbanner && header.topbanner.text && (
         <TopBanner
