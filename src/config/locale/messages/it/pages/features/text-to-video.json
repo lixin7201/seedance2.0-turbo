@@ -1,218 +1,142 @@
 {
   "metadata": {
-    "title": "Seedance 2.0 Text to Video | AI Video Generator from Text Prompts",
-    "description": "Turn text into cinematic AI videos with Seedance 2.0. Describe scenes, characters & camera movements — get 2K HD video with native audio and physics-based motion. Try now."
+    "title": "Seedance 2.0 Da Testo a Video | Generatore Video AI da Prompt di Testo",
+    "description": "Trasforma il testo in video AI cinematografici con Seedance 2.0. Descrivi scene, personaggi e movimenti della fotocamera — ottieni video 2K HD con audio nativo e movimento basato sulla fisica. Prova ora."
   },
   "page": {
-    "title": "Text to Video",
-    "show_sections": [
-      "hero",
-      "benefits",
-      "features",
-      "use_cases",
-      "faq",
-      "cta"
-    ],
+    "title": "Da Testo a Video",
     "sections": {
       "hero": {
-        "id": "hero",
-        "title": "Seedance 2.0 Text to Video AI Generator",
-        "highlight_text": "Text to Video",
-        "description": "Turn your text prompts into cinematic AI videos with Seedance 2.0.<br/>Describe scenes, characters & camera movements — get 2K HD video with native audio sync and physics-based motion.",
-        "tip": "🎬 Transform your words into stunning cinematic videos with AI",
+        "title": "Generatore AI Da Testo a Video Seedance 2.0",
+        "highlight_text": "Da Testo a Video",
+        "description": "Trasforma i tuoi prompt di testo in video AI cinematografici con Seedance 2.0.<br/>Descrivi scene, personaggi e movimenti della fotocamera — ottieni video 2K HD con sincronizzazione audio nativa e movimento basato sulla fisica.",
+        "tip": "🎬 Trasforma le tue parole in straordinari video cinematografici con l'IA",
         "buttons": [
           {
-            "title": "Start Creating",
-            "url": "/ai-video-generator",
-            "icon": "Zap",
-            "variant": "default"
+            "title": "Inizia a Creare",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "View Examples",
-            "url": "/ai-video-generator",
-            "icon": "Play",
-            "variant": "outline"
+            "title": "Vedi Esempi",
+            "url": "/ai-video-generator"
           }
-        ],
-        "image": {
-          "src": "https://picsum.photos/seed/t2v-hero/1200/800",
-          "alt": "Seedance 2.0 Text to Video AI Generation",
-          "width": 1200,
-          "height": 800
-        },
-        "background_image": {
-          "src": "https://picsum.photos/seed/t2v-bg/1600/900",
-          "alt": "background"
-        }
+        ]
       },
       "benefits": {
-        "block": "features-accordion",
-        "id": "benefits",
-        "title": "Why Choose Seedance 2.0 Text-to-Video",
-        "label": "Benefits",
-        "description": "Experience the most advanced text-to-video AI technology with native audio sync, physics simulation, and multi-shot narrative control.",
+        "title": "Perché Scegliere Seedance 2.0 Da Testo a Video",
+        "label": "Benefici",
+        "description": "Sperimenta la tecnologia AI da testo a video più avanzata con sincronizzazione audio nativa, simulazione fisica e controllo narrativo multi-shot.",
         "items": [
           {
-            "title": "Multi-Modal Prompt Support",
-            "description": "Craft intricate scenes with comprehensive text prompts. Describe characters, settings, actions, lighting, camera movements, and even audio cues. Seedance 2.0 understands complex multi-element prompts with up to 12 reference inputs.",
-            "icon": "RiFileTextLine",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-prompt/800/600",
-              "alt": "Multi-Modal Prompts"
-            }
+            "title": "Supporto Prompt Multi-Modale",
+            "description": "Crea scene intricate con prompt di testo completi. Descrivi personaggi, ambientazioni, azioni, illuminazione, movimenti della fotocamera e persino indicazioni audio. Seedance 2.0 comprende prompt complessi a più elementi con un massimo di 12 input di riferimento."
           },
           {
-            "title": "Multiple Visual Styles",
-            "description": "Choose from photorealistic, anime, watercolor, cyberpunk, oil painting, 3D CG, and many more artistic styles. Seedance 2.0 renders each style with cinematic precision and consistent quality.",
-            "icon": "RiPaletteLine",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-styles/800/600",
-              "alt": "Visual Styles"
-            }
+            "title": "Stili Visivi Multipli",
+            "description": "Scegli tra stili fotorealistici, anime, acquerello, cyberpunk, pittura a olio, CG 3D e molti altri stili artistici. Seedance 2.0 rende ogni stile con precisione cinematografica e qualità costante."
           },
           {
-            "title": "Physics-Aware Generation",
-            "description": "Seedance 2.0's Spatial-Temporal Causal Modeling (STCM) ensures realistic motion — gravity, inertia, cloth dynamics, and object interaction all behave according to real-world physics.",
-            "icon": "RiSettings3Line",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-physics/800/600",
-              "alt": "Physics Simulation"
-            }
+            "title": "Generazione Consapevole della Fisica",
+            "description": "La Modellazione Causale Spazio-Temporale (STCM) di Seedance 2.0 garantisce un movimento realistico: gravità, inerzia, dinamica dei tessuti e interazione tra oggetti si comportano secondo la fisica del mondo reale."
           }
         ]
       },
       "features": {
-        "id": "features",
-        "title": "Seedance 2.0 Text-to-Video Core Features",
-        "description": "Everything you need to create professional AI-generated videos from text prompts.",
+        "title": "Caratteristiche Principali Seedance 2.0 Da Testo a Video",
+        "description": "Tutto ciò di cui hai bisogno per creare video professionali generati dall'IA da prompt di testo.",
         "items": [
           {
-            "title": "🎬 Detailed Text Prompts",
-            "description": "Write comprehensive scene descriptions including characters, actions, environments, camera movements, and audio cues.",
-            "icon": "RiFileTextLine"
+            "title": "🎬 Prompt di Testo Dettagliati",
+            "description": "Scrivi descrizioni complete della scena inclusi personaggi, azioni, ambienti, movimenti della fotocamera e indicazioni audio."
           },
           {
-            "title": "🎨 Multiple Visual Styles",
-            "description": "Photorealistic, anime, watercolor, cyberpunk, oil painting, 3D CG, and more artistic styles available.",
-            "icon": "RiPaletteLine"
+            "title": "🎨 Stili Visivi Multipli",
+            "description": "Disponibili stili fotorealistici, anime, acquerello, cyberpunk, pittura a olio, CG 3D e altri stili artistici."
           },
           {
-            "title": "📺 Up to 2K HD Output",
-            "description": "Generate crystal-clear videos in up to 2K high-definition resolution with zero artifacts.",
-            "icon": "RiHdLine"
+            "title": "📺 Output fino a 2K HD",
+            "description": "Genera video cristallini con risoluzione ad alta definizione fino a 2K senza artefatti."
           },
           {
-            "title": "📐 Physics Simulation",
-            "description": "STCM-powered physics engine for realistic motion, natural lighting, and believable interactions.",
-            "icon": "RiSettings3Line"
+            "title": "📐 Simulazione Fisica",
+            "description": "Motore fisico basato su STCM per movimento realistico, illuminazione naturale e interazioni credibili."
           },
           {
-            "title": "🎥 Auto Camera & Directing",
-            "description": "AI automatically plans shot sequences, camera angles, zooms, and transitions from your description.",
-            "icon": "RiVideoChatLine"
+            "title": "🎥 Telecamera e Regia Automatica",
+            "description": "L'IA pianifica automaticamente sequenze di inquadrature, angoli di ripresa, zoom e transizioni dalla tua descrizione."
           },
           {
-            "title": "🔊 Native Audio Generation",
-            "description": "Generate videos with synchronized audio — dialogue, sound effects, and music produced alongside the visuals.",
-            "icon": "RiMusic2Line"
+            "title": "🔊 Generazione Audio Nativa",
+            "description": "Genera video con audio sincronizzato — dialoghi, effetti sonori e musica prodotti insieme alle immagini."
           }
         ]
       },
       "use_cases": {
-        "block": "features-list",
-        "id": "use_cases",
-        "title": "Use Cases for Seedance 2.0 Text-to-Video",
-        "label": "Applications",
-        "description": "Discover the endless possibilities of AI text-to-video generation with Seedance 2.0.",
+        "title": "Casi d'Uso per Seedance 2.0 Da Testo a Video",
+        "label": "Applicazioni",
+        "description": "Scopri le infinite possibilità della generazione AI da testo a video con Seedance 2.0.",
         "items": [
           {
-            "title": "Social Media Content",
-            "description": "Create engaging TikTok, Reels, and YouTube Shorts from simple text descriptions. Generate eye-catching videos in minutes with Seedance 2.0.",
-            "icon": "RiVideoLine",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-content/600/400",
-              "alt": "Social Media Content"
-            }
+            "title": "Contenuti per Social Media",
+            "description": "Crea TikTok, Reels e YouTube Shorts coinvolgenti da semplici descrizioni testuali. Genera video accattivanti in pochi minuti con Seedance 2.0."
           },
           {
-            "title": "Short Film & Storytelling",
-            "description": "Bring your stories to life with multi-shot AI narratives. Seedance 2.0 maintains character consistency across scenes for cohesive storytelling.",
-            "icon": "RiBookOpenLine",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-story/600/400",
-              "alt": "Storytelling"
-            }
+            "title": "Cortometraggi e Storytelling",
+            "description": "Dai vita alle tue storie con narrazioni AI multi-shot. Seedance 2.0 mantiene la coerenza dei personaggi tra le scene per una narrazione coesa."
           },
           {
-            "title": "Education & Tutorials",
-            "description": "Create educational videos and visual explanations. Seedance 2.0 generates step-by-step demonstrations with narration and sound effects.",
-            "icon": "RiGraduationCapLine",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-edu/600/400",
-              "alt": "Education"
-            }
+            "title": "Istruzione e Tutorial",
+            "description": "Crea video educativi e spiegazioni visive. Seedance 2.0 genera dimostrazioni passo-passo con narrazione ed effetti sonori."
           },
           {
-            "title": "Advertising & Marketing",
-            "description": "Generate product showcases, promotional videos, and advertising content quickly. Professional-grade output for marketing campaigns.",
-            "icon": "RiMegaphoneLine",
-            "image": {
-              "src": "https://picsum.photos/seed/t2v-ads/600/400",
-              "alt": "Advertising"
-            }
+            "title": "Pubblicità e Marketing",
+            "description": "Genera rapidamente presentazioni di prodotti, video promozionali e contenuti pubblicitari. Output di livello professionale per campagne di marketing."
           }
-        ],
-        "className": "bg-muted"
+        ]
       },
       "faq": {
-        "id": "faq",
-        "title": "Seedance 2.0 Text-to-Video — FAQ",
-        "description": "Common questions about Seedance 2.0 text-to-video generation.",
+        "title": "Seedance 2.0 Da Testo a Video — FAQ",
+        "description": "Domande comuni sulla generazione da testo a video di Seedance 2.0.",
         "items": [
           {
-            "question": "What is Text-to-Video?",
-            "answer": "Text-to-Video is an AI technology that converts written text descriptions into dynamic video content. With Seedance 2.0, you describe the scene, characters, actions, and style — the AI generates a cinematic video with native audio, physics-based motion, and up to 2K resolution."
+            "question": "Cos'è Da Testo a Video?",
+            "answer": "Da Testo a Video è una tecnologia AI che converte le descrizioni di testo scritte in contenuti video dinamici. Con Seedance 2.0, descrivi la scena, i personaggi, le azioni e lo stile — l'IA genera un video cinematografico con audio nativo, movimento basato sulla fisica e risoluzione fino a 2K."
           },
           {
-            "question": "What visual styles are supported?",
-            "answer": "Seedance 2.0 supports multiple visual styles including photorealistic, anime, watercolor, cyberpunk, oil painting, 3D CG animation, and more. You can specify your preferred style in the text prompt or use image references."
+            "question": "Quali stili visivi sono supportati?",
+            "answer": "Seedance 2.0 supporta più stili visivi tra cui fotorealistico, anime, acquerello, cyberpunk, pittura a olio, animazione CG 3D e altro ancora. Puoi specificare il tuo stile preferito nel prompt di testo o utilizzare riferimenti immagine."
           },
           {
-            "question": "What video resolutions are available?",
-            "answer": "Seedance 2.0 supports up to 2K high-definition output. Multiple aspect ratios are available including 16:9, 9:16, 1:1, 4:3, and 3:4 to fit any platform."
+            "question": "Quali risoluzioni video sono disponibili?",
+            "answer": "Seedance 2.0 supporta l'output ad alta definizione fino a 2K. Sono disponibili più proporzioni tra cui 16:9, 9:16, 1:1, 4:3 e 3:4 per adattarsi a qualsiasi piattaforma."
           },
           {
-            "question": "How long can generated videos be?",
-            "answer": "Generated videos range from 4 to 15 seconds with precision down to 1-second increments. A 15-second video typically generates in about 60 seconds. Multi-shot storytelling allows you to create longer narratives by connecting multiple clips."
+            "question": "Quanto possono essere lunghi i video generati?",
+            "answer": "I video generati variano da 4 a 15 secondi con una precisione fino a incrementi di 1 secondo. Un video di 15 secondi genera in genere in circa 60 secondi. La narrazione multi-shot ti consente di creare narrazioni più lunghe collegando più clip."
           },
           {
-            "question": "How detailed should my text prompts be?",
-            "answer": "The more detailed your prompts, the better the results. Include descriptions of characters, settings, actions, lighting, camera angles, and artistic style. However, even simple prompts can produce impressive results thanks to Seedance 2.0's AI directing capabilities."
+            "question": "Quanto dovrebbero essere dettagliati i miei prompt di testo?",
+            "answer": "Più dettagliati sono i tuoi prompt, migliori saranno i risultati. Includi descrizioni di personaggi, ambientazioni, azioni, illuminazione, angoli di ripresa e stile artistico. Tuttavia, anche semplici prompt possono produrre risultati impressionanti grazie alle capacità di regia AI di Seedance 2.0."
           },
           {
-            "question": "Can Seedance 2.0 generate video with sound?",
-            "answer": "Yes! Seedance 2.0 features native audio-visual sync. The dual-branch diffusion transformer generates dialogue, sound effects, and music in parallel with visuals — so audio is inherently synced, not dubbed."
+            "question": "Seedance 2.0 può generare video con suono?",
+            "answer": "Sì! Seedance 2.0 offre una sincronizzazione audio-visiva nativa. Il trasformatore di diffusione a doppio ramo genera dialoghi, effetti sonori e musica in parallelo con le immagini — quindi l'audio è intrinsecamente sincronizzato, non doppiato."
           }
         ]
       },
       "cta": {
-        "id": "cta",
-        "title": "Start Creating Videos from Text with Seedance 2.0",
-        "description": "Transform your ideas into stunning cinematic videos with Seedance 2.0's AI-powered text-to-video generation. Try free today.",
+        "title": "Inizia a Creare Video dal Testo con Seedance 2.0",
+        "description": "Trasforma le tue idee in straordinari video cinematografici con la generazione da testo a video basata sull'IA di Seedance 2.0. Prova gratis oggi.",
         "buttons": [
           {
-            "title": "Try Now",
-            "url": "/ai-video-generator",
-            "icon": "Zap"
+            "title": "Prova Ora",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "View Pricing",
-            "url": "/pricing",
-            "variant": "outline",
-            "icon": "CreditCard"
+            "title": "Vedi Prezzi",
+            "url": "/pricing"
           }
-        ],
-        "className": "bg-muted"
+        ]
       }
     }
   }

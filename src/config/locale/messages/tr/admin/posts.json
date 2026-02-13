@@ -1,60 +1,60 @@
 {
   "fields": {
     "slug": "Slug",
-    "title": "Title",
-    "description": "Description",
-    "image": "Image",
-    "content": "Content",
-    "categories": "Categories",
-    "tags": "Tags",
-    "author_name": "Author Name",
-    "author_role": "Author Role",
-    "author_image": "Author Image",
-    "status": "Status",
-    "created_at": "Created At",
-    "updated_at": "Updated At",
-    "deleted_at": "Deleted At"
+    "title": "Başlık",
+    "description": "Açıklama",
+    "image": "Resim",
+    "content": "İçerik",
+    "categories": "Kategoriler",
+    "tags": "Etiketler",
+    "author_name": "Yazar Adı",
+    "author_role": "Yazar Rolü",
+    "author_image": "Yazar Resmi",
+    "status": "Durum",
+    "created_at": "Oluşturulma Tarihi",
+    "updated_at": "Güncellenme Tarihi",
+    "deleted_at": "Silinme Tarihi"
   },
   "list": {
-    "title": "Posts",
+    "title": "Yazılar",
     "crumbs": {
-      "admin": "Admin",
-      "posts": "Posts"
+      "admin": "Yönetici",
+      "posts": "Yazılar"
     },
     "buttons": {
-      "add": "Add Post",
-      "edit": "Edit Post",
-      "view": "View Post",
-      "delete": "Delete Post"
+      "add": "Yazı Ekle",
+      "edit": "Yazıyı Düzenle",
+      "view": "Yazıyı Görüntüle",
+      "delete": "Yazıyı Sil"
     },
     "tabs": {
-      "all": "All",
-      "published": "Published",
-      "pending": "Pending",
-      "draft": "Draft",
-      "archived": "Archived"
+      "all": "Tümü",
+      "published": "Yayınlandı",
+      "pending": "Beklemede",
+      "draft": "Taslak",
+      "archived": "Arşivlendi"
     }
   },
   "add": {
-    "title": "Add Post",
+    "title": "Yazı Ekle",
     "crumbs": {
-      "admin": "Admin",
-      "posts": "Posts",
-      "add": "Add Post"
+      "admin": "Yönetici",
+      "posts": "Yazılar",
+      "add": "Yazı Ekle"
     },
     "buttons": {
-      "submit": "Add Post"
+      "submit": "Yazı Ekle"
     }
   },
   "edit": {
-    "title": "Edit Post",
+    "title": "Yazıyı Düzenle",
     "crumbs": {
-      "admin": "Admin",
-      "posts": "Posts",
-      "edit": "Edit Post"
+      "admin": "Yönetici",
+      "posts": "Yazılar",
+      "edit": "Yazıyı Düzenle"
     },
     "buttons": {
-      "submit": "Edit Post"
+      "submit": "Yazıyı Düzenle"
     }
   }
 }

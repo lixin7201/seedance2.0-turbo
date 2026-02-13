@@ -1,7 +1,7 @@
 {
   "header": {
     "brand": {
-      "title": "Seedance 2.0 Admin",
+      "title": "Seedance 2.0 Yönetici",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0"
@@ -12,62 +12,62 @@
   },
   "main_navs": [
     {
-      "title": "System",
+      "title": "Sistem",
       "items": [
         {
-          "title": "Users & Permissions",
+          "title": "Kullanıcılar & İzinler",
           "icon": "User",
           "is_expand": true,
           "children": [
             {
-              "title": "Users",
+              "title": "Kullanıcılar",
               "url": "/admin/users",
               "icon": "User"
             },
             {
-              "title": "Roles",
+              "title": "Roller",
               "url": "/admin/roles",
               "icon": "Users"
             },
             {
-              "title": "Permissions",
+              "title": "İzinler",
               "url": "/admin/permissions",
               "icon": "ShieldCheck"
             }
           ]
         },
         {
-          "title": "Pages & Content",
+          "title": "Sayfalar & İçerik",
           "icon": "FileText",
           "children": [
             {
-              "title": "Categories",
+              "title": "Kategoriler",
               "icon": "Folder",
               "url": "/admin/categories"
             },
             {
-              "title": "Posts",
+              "title": "Yazılar",
               "icon": "FileText",
               "url": "/admin/posts"
             }
           ]
         },
         {
-          "title": "Payments & Credits",
+          "title": "Ödemeler & Krediler",
           "icon": "DollarSign",
           "children": [
             {
-              "title": "Payments",
+              "title": "Ödemeler",
               "url": "/admin/payments",
               "icon": "DollarSign"
             },
             {
-              "title": "Subscriptions",
+              "title": "Abonelikler",
               "url": "/admin/subscriptions",
               "icon": "CreditCard"
             },
             {
-              "title": "Credits",
+              "title": "Krediler",
               "url": "/admin/credits",
               "icon": "Coins"
             }
@@ -76,20 +76,20 @@
       ]
     },
     {
-      "title": "Business",
+      "title": "İş",
       "items": [
         {
-          "title": "AI Tasks",
+          "title": "AI Görevleri",
           "url": "/admin/ai-tasks",
           "icon": "Brain"
         },
         {
-          "title": "AI Chats",
+          "title": "AI Sohbetleri",
           "url": "/admin/chats",
           "icon": "MessageCircle"
         },
         {
-          "title": "Model Config",
+          "title": "Model Yapılandırması",
           "url": "/admin/model-config",
           "icon": "Settings2"
         }
@@ -99,12 +99,12 @@
   "bottom_nav": {
     "items": [
       {
-        "title": "Settings",
+        "title": "Ayarlar",
         "url": "/admin/settings/general",
         "icon": "Settings"
       },
       {
-        "title": "API Keys",
+        "title": "API Anahtarları",
         "url": "/admin/apikeys",
         "icon": "Key"
       }
@@ -114,7 +114,7 @@
     "nav": {
       "items": [
         {
-          "title": "Profile",
+          "title": "Profil",
           "url": "/settings/profile",
           "icon": "User",
           "target": "_blank"
@@ -129,7 +129,7 @@
     "nav": {
       "items": [
         {
-          "title": "Home",
+          "title": "Ana Sayfa",
           "url": "/",
           "icon": "Home",
           "target": "_blank"
@@ -141,7 +141,7 @@
           "target": "_blank"
         },
         {
-          "title": "Email",
+          "title": "E-posta",
           "url": "mailto:support@seedance2.shop",
           "icon": "Mail",
           "target": "_blank"

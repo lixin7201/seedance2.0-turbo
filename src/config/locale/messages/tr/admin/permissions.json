@@ -1,19 +1,19 @@
 {
   "fields": {
     "id": "ID",
-    "code": "Code",
-    "title": "Title",
-    "resource": "Resource",
-    "action": "Action",
-    "description": "Description",
-    "created_at": "Created At",
-    "updated_at": "Updated At"
+    "code": "Kod",
+    "title": "Başlık",
+    "resource": "Kaynak",
+    "action": "Eylem",
+    "description": "Açıklama",
+    "created_at": "Oluşturulma Tarihi",
+    "updated_at": "Güncellenme Tarihi"
   },
   "list": {
-    "title": "Permissions",
+    "title": "İzinler",
     "crumbs": {
-      "admin": "Admin",
-      "permissions": "Permissions"
+      "admin": "Yönetici",
+      "permissions": "İzinler"
     }
   }
 }

@@ -1,145 +1,92 @@
 {
   "metadata": {
-    "title": "About Seedance 2.0 | AI Video Generation Platform",
-    "description": "Learn about Seedance 2.0 — the AI video generation platform making cinematic content creation accessible to everyone. Our mission: everyone can be a director."
+    "title": "Seedance 2.0 Hakkında | AI Video Oluşturma Platformu",
+    "description": "Sinematik içerik oluşturmayı herkes için erişilebilir hale getiren AI video oluşturma platformu Seedance 2.0 hakkında bilgi edinin. Misyonumuz: herkes yönetmen olabilir."
   },
   "page": {
-    "title": "About Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "title": "Seedance 2.0 Hakkında",
     "sections": {
       "hero": {
-        "id": "hero",
-        "title": "The Story Behind Seedance 2.0",
-        "highlight_text": "Story",
-        "description": "What started as a simple idea has grown into something I'm truly proud of.<br/>Seedance 2.0 is my way of bringing the power of AI video generation to creators everywhere.",
+        "title": "Seedance 2.0'ın Arkasındaki Hikaye",
+        "highlight_text": "Hikaye",
+        "description": "Basit bir fikir olarak başlayan şey, gerçekten gurur duyduğum bir şeye dönüştü.<br/>Seedance 2.0, AI video oluşturmanın gücünü her yerdeki içerik oluşturuculara sunma yolum.",
         "buttons": [
           {
-            "title": "Try It Free",
-            "icon": "Zap",
-            "url": "/ai-video-generator",
-            "target": "_self",
-            "variant": "default"
+            "title": "Ücretsiz Dene",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "Get in Touch",
-            "icon": "Mail",
-            "url": "mailto:support@seedance2.shop",
-            "target": "_self",
-            "variant": "outline"
+            "title": "İletişime Geç",
+            "url": "mailto:support@seedance2.shop"
           }
-        ],
-        "show_avatars": false,
-        "image": null,
-        "background_image": null
+        ]
       },
       "team": {
-        "block": "features-list",
-        "id": "team",
-        "title": "Why I Built This",
-        "label": "My Mission",
-        "description": "As a solo creator, I believe everyone deserves access to professional-grade AI tools without the complexity or cost barriers.",
-        "image": {
-          "src": "https://picsum.photos/seed/about-team/800/600",
-          "alt": "About the Creator"
-        },
+        "title": "Bunu Neden İnşa Ettim",
+        "label": "Misyonum",
+        "description": "Tek başına bir içerik oluşturucu olarak, karmaşıklık veya maliyet engelleri olmadan herkesin profesyonel kalitede AI araçlarına erişimi hak ettiğine inanıyorum.",
         "items": [
           {
-            "title": "Passion for Creation",
-            "description": "I've always been fascinated by the intersection of technology and creativity. Seedance 2.0 is the result of that passion.",
-            "icon": "Heart",
-            "image": {
-              "src": "https://picsum.photos/seed/about-passion/600/400",
-              "alt": "Passion for Creation"
-            }
+            "title": "Oluşturma Tutkusu",
+            "description": "Teknoloji ve yaratıcılığın kesişimi beni her zaman büyülemiştir. Seedance 2.0 bu tutkunun sonucudur."
           },
           {
-            "title": "Simplicity First",
-            "description": "Complex tools shouldn't require a manual. I've worked hard to make video generation as intuitive as possible.",
-            "icon": "Sparkles",
-            "image": {
-              "src": "https://picsum.photos/seed/about-simple/600/400",
-              "alt": "Simplicity First"
-            }
+            "title": "Önce Basitlik",
+            "description": "Karmaşık araçlar bir kullanım kılavuzu gerektirmemelidir. Video oluşturmayı mümkün olduğunca sezgisel hale getirmek için çok çalıştım."
           },
           {
-            "title": "Continuous Improvement",
-            "description": "This is just the beginning. I'm constantly learning from user feedback to make Seedance better every day.",
-            "icon": "TrendingUp",
-            "image": {
-              "src": "https://picsum.photos/seed/about-improve/600/400",
-              "alt": "Continuous Improvement"
-            }
+            "title": "Sürekli İyileştirme",
+            "description": "Bu sadece başlangıç. Seedance'ı her gün daha iyi hale getirmek için sürekli olarak kullanıcı geri bildirimlerinden öğreniyorum."
           },
           {
-            "title": "Community Driven",
-            "description": "Your suggestions shape the roadmap. I read every email and genuinely value your input.",
-            "icon": "Users",
-            "image": {
-              "src": "https://picsum.photos/seed/about-community/600/400",
-              "alt": "Community Driven"
-            }
+            "title": "Topluluk Odaklı",
+            "description": "Önerileriniz yol haritasını şekillendiriyor. Her e-postayı okuyorum ve girdilerinize gerçekten değer veriyorum."
           }
-        ],
-        "className": "bg-muted"
+        ]
       },
       "values": {
-        "block": "features",
-        "id": "values",
-        "title": "What I Stand For",
-        "description": "These principles guide every decision I make for Seedance 2.0.",
+        "title": "Neyi Savunuyorum",
+        "description": "Bu ilkeler, Seedance 2.0 için verdiğim her karara rehberlik ediyor.",
         "items": [
           {
-            "title": "🎯 Quality Over Quantity",
-            "description": "I'd rather do a few things exceptionally well than spread thin across many features.",
-            "icon": "Target"
+            "title": "🎯 Nicelik Yerine Nitelik",
+            "description": "Birçok özelliğe yayılmaktansa birkaç şeyi olağanüstü iyi yapmayı tercih ederim."
           },
           {
-            "title": "🤝 Honest Communication",
-            "description": "No hidden fees, no surprises. What you see is what you get.",
-            "icon": "Shield"
+            "title": "🤝 Dürüst İletişim",
+            "description": "Gizli ücret yok, sürpriz yok. Ne görüyorsanız onu alırsınız."
           },
           {
-            "title": "🚀 Keep Innovating",
-            "description": "AI moves fast, and so do I. Expect regular updates and new capabilities.",
-            "icon": "Rocket"
+            "title": "🚀 Yenilik Yapmaya Devam Et",
+            "description": "AI hızlı ilerliyor, ben de öyle. Düzenli güncellemeler ve yeni yetenekler bekleyin."
           },
           {
-            "title": "💬 Listen Carefully",
-            "description": "Every piece of feedback is a gift. I take your suggestions seriously.",
-            "icon": "MessageCircle"
+            "title": "💬 Dikkatle Dinle",
+            "description": "Her geri bildirim bir hediyedir. Önerilerinizi ciddiye alıyorum."
           },
           {
-            "title": "🌍 Accessible to All",
-            "description": "Great tools should be available to everyone, not just big studios.",
-            "icon": "Globe"
+            "title": "🌍 Herkes İçin Erişilebilir",
+            "description": "Harika araçlar sadece büyük stüdyolar için değil, herkes için mevcut olmalıdır."
           },
           {
-            "title": "❤️ Built with Care",
-            "description": "This isn't just a product—it's something I genuinely believe in.",
-            "icon": "Heart"
+            "title": "❤️ Özenle İnşa Edildi",
+            "description": "Bu sadece bir ürün değil—gerçekten inandığım bir şey."
           }
         ]
       },
       "cta": {
-        "id": "cta",
-        "title": "Let's Create Something Together",
-        "description": "Have questions, ideas, or just want to say hi? I'd love to hear from you.",
+        "title": "Birlikte Bir Şeyler Yaratalım",
+        "description": "Sorularınız, fikirleriniz mi var veya sadece merhaba mı demek istiyorsunuz? Sizden haber almayı çok isterim.",
         "buttons": [
           {
-            "title": "Start Creating",
-            "url": "/ai-video-generator",
-            "target": "_self",
-            "icon": "Zap"
+            "title": "Oluşturmaya Başla",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "Contact Me",
-            "url": "mailto:support@seedance2.shop",
-            "target": "_self",
-            "variant": "outline",
-            "icon": "Mail"
+            "title": "Bana Ulaşın",
+            "url": "mailto:support@seedance2.shop"
           }
-        ],
-        "className": "bg-muted"
+        ]
       }
     }
   }

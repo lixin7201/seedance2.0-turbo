@@ -1,9 +1,9 @@
 {
   "groups": {
-    "email_auth": "Email Auth",
-    "google_auth": "Google Auth",
-    "github_auth": "Github Auth",
-    "basic_payment": "Basic Payment",
+    "email_auth": "E-posta Kimlik Doğrulama",
+    "google_auth": "Google Kimlik Doğrulama",
+    "github_auth": "Github Kimlik Doğrulama",
+    "basic_payment": "Temel Ödeme",
     "stripe": "Stripe",
     "creem": "Creem",
     "paypal": "Paypal",
@@ -23,31 +23,31 @@
     "promotekit": "PromoteKit",
     "tawk": "Tawk",
     "crisp": "Crisp",
-    "credit": "Credit",
-    "appinfo": "App Info",
-    "user_role": "User Role"
+    "credit": "Kredi",
+    "appinfo": "Uygulama Bilgisi",
+    "user_role": "Kullanıcı Rolü"
   },
   "edit": {
-    "title": "Settings",
+    "title": "Ayarlar",
     "crumbs": {
-      "admin": "Admin",
-      "settings": "Settings"
+      "admin": "Yönetici",
+      "settings": "Ayarlar"
     },
     "tabs": {
-      "general": "General",
-      "auth": "Auth",
-      "payment": "Payment",
-      "credit": "Credit",
-      "email": "Email",
-      "storage": "Storage",
+      "general": "Genel",
+      "auth": "Kimlik Doğrulama",
+      "payment": "Ödeme",
+      "credit": "Kredi",
+      "email": "E-posta",
+      "storage": "Depolama",
       "ai": "AI",
-      "analytics": "Analytics",
-      "ads": "Ads",
-      "affiliate": "Affiliate",
-      "customer_service": "Customer Service"
+      "analytics": "Analitik",
+      "ads": "Reklamlar",
+      "affiliate": "Satış Ortaklığı",
+      "customer_service": "Müşteri Hizmetleri"
     },
     "buttons": {
-      "submit": "Save"
+      "submit": "Kaydet"
     }
   }
 }

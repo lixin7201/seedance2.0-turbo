@@ -1,17 +1,17 @@
 {
   "fields": {
-    "title": "Title",
-    "key": "Key",
-    "user": "User",
-    "status": "Status",
-    "created_at": "Created At",
-    "action": "Action"
+    "title": "Başlık",
+    "key": "Anahtar",
+    "user": "Kullanıcı",
+    "status": "Durum",
+    "created_at": "Oluşturulma Tarihi",
+    "action": "Eylem"
   },
   "list": {
-    "title": "API Keys",
+    "title": "API Anahtarları",
     "crumbs": {
-      "admin": "Admin",
-      "apikeys": "API Keys"
+      "admin": "Yönetici",
+      "apikeys": "API Anahtarları"
     }
   }
 }

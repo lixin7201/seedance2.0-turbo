@@ -1,125 +1,125 @@
 ---
-title: "What is Seedance 2.0? The Next-Gen AI Video Generator"
-description: "Discover Seedance 2.0 — the AI video generator with native audio sync, multi-shot storytelling, and physics-based motion. Learn about its core technology, key features, and how it compares to Sora 2 and Kling 3.0."
+title: "Seedance 2.0 Nedir? Yeni Nesil AI Video Oluşturucu"
+description: "Yerel ses senkronizasyonu, çoklu çekim hikaye anlatımı ve fizik tabanlı harekete sahip AI video oluşturucu Seedance 2.0'ı keşfedin. Temel teknolojisi, temel özellikleri ve Sora 2 ve Kling 3.0 ile karşılaştırması hakkında bilgi edinin."
 created_at: 2026-02-10
 author_name: Admin
 author_image: /logo-v2.png
 image: /logo-v2.png
 ---
 
-Seedance 2.0 is a next-generation AI video generation model that represents a major leap in AI-powered content creation. Built on a novel dual-branch diffusion transformer architecture, it generates cinematic videos with native audio, multi-shot narratives, and physics-based motion — all from text prompts, images, video clips, and audio references.
+Seedance 2.0, AI destekli içerik oluşturmada büyük bir sıçramayı temsil eden yeni nesil bir AI video oluşturma modelidir. Yeni bir **çift dallı difüzyon transformatörü** (dual-branch diffusion transformer) mimarisi üzerine inşa edilen bu model, metin istemleri, resimler, video klipler ve ses referanslarından yerel ses, çoklu çekim anlatıları ve fizik tabanlı hareket içeren sinematik videolar oluşturur.
 
-Our platform provides independent access to Seedance 2.0's video generation capabilities through a user-friendly interface. We are not affiliated with ByteDance — we offer this technology as an independent service to make advanced AI video creation accessible to everyone.
+Platformumuz, kullanıcı dostu bir arayüz aracılığıyla Seedance 2.0'ın video oluşturma yeteneklerine bağımsız erişim sağlar. ByteDance ile bağlantımız yoktur — bu teknolojiyi gelişmiş AI video oluşturmayı herkes için erişilebilir kılmak amacıyla bağımsız bir hizmet olarak sunuyoruz.
 
-## Core Technology — Dual-Branch Diffusion Transformer
+## Temel Teknoloji — Çift Dallı Difüzyon Transformatörü
 
-At the heart of Seedance 2.0 lies the **dual-branch diffusion transformer** — an architecture that processes video and audio generation in parallel through two specialized branches:
+Seedance 2.0'ın kalbinde, video ve ses oluşturmayı iki özel dal aracılığıyla paralel olarak işleyen bir mimari olan **çift dallı difüzyon transformatörü** yatmaktadır:
 
-- **Visual Branch**: Handles frame generation, motion planning, and scene composition
-- **Audio Branch**: Generates dialogue, sound effects, and music synchronized with the visual output
+- **Görsel Dal**: Kare oluşturma, hareket planlama ve sahne kompozisyonunu yönetir
+- **Ses Dalı**: Görsel çıktı ile senkronize edilmiş diyalog, ses efektleri ve müzik oluşturur
 
-This parallel generation means audio and video are created together from the same source, achieving **frame-level lip-sync accuracy** (within 1 frame) — unlike other AI video tools that add audio as a post-process.
+Bu paralel oluşturma, ses ve videonun aynı kaynaktan birlikte oluşturulduğu anlamına gelir ve sesi işlem sonrası ekleyen diğer AI video araçlarının aksine **kare düzeyinde dudak senkronizasyonu doğruluğu** (1 kare içinde) sağlar.
 
-### Spatial-Temporal Causal Modeling (STCM)
+### Uzamsal-Zamansal Nedensel Modelleme (STCM)
 
-Seedance 2.0 introduces Spatial-Temporal Causal Modeling (STCM), which enhances the model's understanding of 3D space and temporal dynamics. This means:
+Seedance 2.0, modelin 3D uzay ve zamansal dinamikler anlayışını geliştiren Uzamsal-Zamansal Nedensel Modelleme'yi (STCM) sunar. Bu şu anlama gelir:
 
-- **Gravity and inertia** behave realistically — objects fall, bounce, and slide naturally
-- **Object interactions** are physically plausible — cloth flows, liquids splash, and debris scatters
-- **Dynamic memory** maintains consistency across frames — no sudden jumps or physics violations
+- **Yerçekimi ve atalet** gerçekçi davranır — nesneler doğal olarak düşer, zıplar ve kayar
+- **Nesne etkileşimleri** fiziksel olarak makuldür — kumaş akar, sıvılar sıçrar ve enkaz dağılır
+- **Dinamik bellek** kareler arasında tutarlılığı korur — ani atlamalar veya fizik ihlalleri olmaz
 
-## Key Features
+## Temel Özellikler
 
-### 1. Multi-Modal Input (12 References)
+### 1. Çok Modlu Giriş (12 Referans)
 
-Seedance 2.0 supports up to 12 simultaneous reference inputs:
-- **Up to 9 images** — for character, scene, and style reference
-- **Up to 3 video clips** (15 seconds total) — for camera and motion reference
-- **Up to 3 audio files** (15 seconds total) — for rhythm and soundtrack reference
-- **Text prompt** — for scene description and directing
+Seedance 2.0, aynı anda 12 referans girişini destekler:
+- **9'a kadar resim** — karakter, sahne ve stil referansı için
+- **3'e kadar video klip** (toplam 15 saniye) — kamera ve hareket referansı için
+- **3'e kadar ses dosyası** (toplam 15 saniye) — ritim ve film müziği referansı için
+- **Metin istemi** — sahne açıklaması ve yönetmenlik için
 
-### 2. Native Audio-Visual Sync
+### 2. Yerel Görsel-İşitsel Senkronizasyon
 
-The dual-branch architecture generates sound and vision simultaneously:
-- Lip-sync accuracy within 1 frame
-- Dialogue, sound effects, and ambient audio generated natively
-- No "dubbed" or post-processed feel
+Çift dallı mimari, ses ve görüntüyü aynı anda oluşturur:
+- 1 kare içinde dudak senkronizasyonu doğruluğu
+- Yerel olarak oluşturulan diyalog, ses efektleri ve ortam sesi
+- "Dublaj yapılmış" veya işlem sonrası hissi yok
 
-### 3. Multi-Shot Storytelling
+### 3. Çoklu Çekim Hikaye Anlatımı
 
-Generate connected multi-scene narratives with:
-- Consistent character identity across wide shots, medium shots, and close-ups
-- Uniform lighting and atmosphere throughout scenes
-- Automatic shot planning and transitions
+Şunlarla bağlantılı çok sahneli anlatılar oluşturun:
+- Geniş çekimler, orta çekimler ve yakın çekimler arasında tutarlı karakter kimliği
+- Sahneler boyunca tek tip aydınlatma ve atmosfer
+- Otomatik çekim planlama ve geçişler
 
-### 4. Auto Camera & Directing
+### 4. Otomatik Kamera ve Yönetmenlik
 
-Seedance 2.0 acts as an AI director:
-- Automatic shot sequence planning
-- Intelligent camera angle selection
-- Dynamic transitions based on scene content
+Seedance 2.0 bir AI yönetmeni gibi davranır:
+- Otomatik çekim sırası planlaması
+- Akıllı kamera açısı seçimi
+- Sahne içeriğine dayalı dinamik geçişler
 
-### 5. First & Last Frame Control
+### 5. İlk ve Son Kare Kontrolü
 
-Upload start and end frame images for:
-- Precise transition control
-- Smooth motion interpolation
-- Perfect loop creation
+Şunlar için başlangıç ve bitiş karesi resimlerini yükleyin:
+- Hassas geçiş kontrolü
+- Pürüzsüz hareket enterpolasyonu
+- Mükemmel döngü oluşturma
 
-### 6. Physics-Aware Generation
+### 6. Fizik Duyarlı Oluşturma
 
-Powered by STCM:
-- Realistic gravity, inertia, and friction
-- Cloth dynamics, fluid simulation, and particle effects
-- Natural light behavior and material interactions
+STCM tarafından desteklenmektedir:
+- Gerçekçi yerçekimi, atalet ve sürtünme
+- Kumaş dinamiği, sıvı simülasyonu ve parçacık efektleri
+- Doğal ışık davranışı ve malzeme etkileşimleri
 
-## Output Specifications
+## Çıktı Özellikleri
 
-| Specification | Details |
-|--------------|---------|
-| Resolution | Up to 2K HD |
-| Duration | 4–15 seconds (1-second increments) |
-| Aspect Ratios | 16:9, 9:16, 1:1, 4:3, 3:4 |
-| Generation Speed | ~60 seconds for a 15-second video |
+| Özellik | Ayrıntılar |
+|---------|------------|
+| Çözünürlük | 2K HD'ye kadar |
+| Süre | 4–15 saniye (1 saniyelik artışlar) |
+| En Boy Oranları | 16:9, 9:16, 1:1, 4:3, 3:4 |
+| Oluşturma Hızı | 15 saniyelik bir video için ~60 saniye |
 
-## How Seedance 2.0 Compares
+## Seedance 2.0 Karşılaştırması
 
-| Feature | Seedance 2.0 | Sora 2 | Kling 3.0 | Veo 3.1 |
-|---------|-------------|--------|-----------|---------|
-| Core Strength | Audio sync + Multi-shot narrative | Physics simulation | Motion control | 4K quality |
-| Native Audio | ✅ Yes | ❌ No | ❌ No | ✅ Yes |
-| Multi-Modal Input | 12 references | Single image | Image + Text | Image + Text |
-| Multi-Shot Narrative | ✅ Full support | Limited | Limited | Limited |
-| Audio-Visual Sync | Frame-level | Post-processing | Post-processing | Good |
+| Özellik | Seedance 2.0 | Sora 2 | Kling 3.0 | Veo 3.1 |
+|---------|--------------|--------|-----------|---------|
+| Temel Güç | Ses senkronizasyonu + Çoklu çekim anlatısı | Fizik simülasyonu | Hareket kontrolü | 4K kalite |
+| Yerel Ses | ✅ Evet | ❌ Hayır | ❌ Hayır | ✅ Evet |
+| Çok Modlu Giriş | 12 referans | Tek resim | Resim + Metin | Resim + Metin |
+| Çoklu Çekim Anlatısı | ✅ Tam destek | Sınırlı | Sınırlı | Sınırlı |
+| A/V Senkronizasyonu | Kare seviyesi | İşlem sonrası | İşlem sonrası | İyi |
 
-## Use Cases
+## Kullanım Durumları
 
-### Short Films & Storytelling
-Create multi-scene narratives with consistent characters, complete with dialogue and sound effects. Perfect for indie filmmakers and content creators.
+### Kısa Filmler ve Hikaye Anlatımı
+Diyalog ve ses efektleriyle tamamlanmış, tutarlı karakterlerle çok sahneli anlatılar oluşturun. Bağımsız film yapımcıları ve içerik oluşturucular için mükemmeldir.
 
-### Social Media Content
-Generate eye-catching TikTok, Reels, and YouTube Shorts in minutes. Support for multiple aspect ratios makes platform-specific content creation effortless.
+### Sosyal Medya İçeriği
+Dakikalar içinde göz alıcı TikTok, Reels ve YouTube Shorts videoları oluşturun. Çoklu en boy oranı desteği, platforma özgü içerik oluşturmayı zahmetsiz hale getirir.
 
-### Advertising & Marketing
-Produce product showcases, promotional videos, and branded content with professional quality. Multi-shot capability enables complete ad narratives.
+### Reklam ve Pazarlama
+Profesyonel kalitede ürün vitrinleri, tanıtım videoları ve markalı içerikler üretin. Çoklu çekim özelliği, eksiksiz reklam anlatıları sağlar.
 
-### Education & Tutorials
-Create educational videos with step-by-step demonstrations, narration, and visual effects. Make complex concepts accessible through AI-generated explainers.
+### Eğitim ve Öğreticiler
+Adım adım gösterimler, anlatım ve görsel efektlerle eğitici videolar oluşturun. Yapay zeka tarafından oluşturulan açıklayıcılarla karmaşık kavramları erişilebilir hale getirin.
 
-### Action & VFX
-Generate complex 3D action sequences with physically accurate motion, dramatic lighting, and blockbuster-quality visual effects — all from text prompts.
+### Aksiyon ve VFX
+Fiziksel olarak doğru hareket, dramatik aydınlatma ve gişe rekorları kıran kalitede görsel efektlerle karmaşık 3D aksiyon sekansları oluşturun — hepsi metin istemlerinden.
 
-## Getting Started
+## Başlarken
 
-Ready to create your first AI video with Seedance 2.0? Here's how:
+Seedance 2.0 ile ilk AI videonuzu oluşturmaya hazır mısınız? İşte nasıl yapılacağı:
 
-1. **Sign up** for a free account — you'll get free credits to start
-2. **Choose your mode** — Text-to-Video or Image-to-Video
-3. **Write your prompt** — describe your scene, characters, and style
-4. **Generate** — Seedance 2.0 handles the rest
+1. Ücretsiz bir hesap için **Kaydolun** — başlamak için ücretsiz krediler alacaksınız
+2. **Modunuzu seçin** — Metinden Videoya veya Resimden Videoya
+3. **İsteminizi yazın** — sahnenizi, karakterlerinizi ve tarzınızı tanımlayın
+4. **Oluşturun** — gerisini Seedance 2.0 halleder
 
-No editing skills required. No software to install. Start creating cinematic AI videos today.
+Düzenleme becerisi gerekmez. Yüklenecek yazılım yok. Sinematik AI videoları oluşturmaya bugün başlayın.
 
 ---
 
-*This platform is an independent service providing access to AI video generation technology. We are not affiliated with, endorsed by, or sponsored by ByteDance.*
+*Bu platform, AI video oluşturma teknolojisine erişim sağlayan bağımsız bir hizmettir. ByteDance ile bağlantımız yoktur, onlar tarafından onaylanmadık veya desteklenmiyoruz.*

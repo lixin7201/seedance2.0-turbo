@@ -1,43 +1,43 @@
 {
   "metadata": {
-    "title": "AI Image Generator",
-    "description": "Generate images with AI models, support text-to-image and image-to-image."
+    "title": "AI Resim Oluşturucu",
+    "description": "AI modelleriyle resimler oluşturun, metinden resme ve resimden resme desteği."
   },
   "page": {
-    "title": "AI Image Generator",
-    "description": "Generate images with AI models, support text-to-image and image-to-image."
+    "title": "AI Resim Oluşturucu",
+    "description": "AI modelleriyle resimler oluşturun, metinden resme ve resimden resme desteği."
   },
   "generator": {
-    "title": "Image Generator",
-    "description": "Generate images with AI models, support text-to-image and image-to-image.",
+    "title": "Resim Oluşturucu",
+    "description": "AI modelleriyle resimler oluşturun, metinden resme ve resimden resme desteği.",
     "tabs": {
-      "text-to-image": "Text to Image",
-      "image-to-image": "Image to Image"
+      "text-to-image": "Metinden Resme",
+      "image-to-image": "Resimden Resme"
     },
     "form": {
-      "provider": "Provider",
+      "provider": "Sağlayıcı",
       "model": "Model",
-      "select_provider": "Select Provider",
-      "select_model": "Select Model",
-      "prompt": "Prompt",
-      "prompt_placeholder": "Describe the details of the image, such as color, shape, texture, etc.",
-      "reference_image": "Reference Image",
-      "reference_image_placeholder": "Upload reference images, support multiple images",
-      "some_images_failed_to_upload": "Some images failed to upload, please delete them and re-upload",
-      "prompt_too_long": "Prompt is too long, please delete some content"
+      "select_provider": "Sağlayıcı Seç",
+      "select_model": "Model Seç",
+      "prompt": "İstem",
+      "prompt_placeholder": "Renk, şekil, doku vb. gibi resmin ayrıntılarını tanımlayın.",
+      "reference_image": "Referans Resim",
+      "reference_image_placeholder": "Referans resimleri yükleyin, çoklu resim desteği",
+      "some_images_failed_to_upload": "Bazı resimler yüklenemedi, lütfen onları silin ve yeniden yükleyin",
+      "prompt_too_long": "İstem çok uzun, lütfen bazı içerikleri silin"
     },
-    "generate": "Generate Images",
-    "checking_account": "Checking Account...",
-    "loading": "Loading...",
-    "generating": "Generating...",
-    "sign_in_to_generate": "Sign In to Generate Image",
-    "credits_cost": "Cost {credits} credits",
-    "credits_remaining": "Remaining {credits} credits",
-    "buy_credits": "Buy Credits",
-    "progress": "Progress",
-    "generated_images": "Image Preview",
-    "ready_to_generate": "Ready to Generate",
-    "ready_for_generating": "Ready for Generating",
-    "no_images_generated": "No Images Generated"
+    "generate": "Resim Oluştur",
+    "checking_account": "Hesap Kontrol Ediliyor...",
+    "loading": "Yükleniyor...",
+    "generating": "Oluşturuluyor...",
+    "sign_in_to_generate": "Resim Oluşturmak için Giriş Yapın",
+    "credits_cost": "Maliyet {credits} kredi",
+    "credits_remaining": "Kalan {credits} kredi",
+    "buy_credits": "Kredi Satın Al",
+    "progress": "İlerleme",
+    "generated_images": "Resim Önizleme",
+    "ready_to_generate": "Oluşturmaya Hazır",
+    "ready_for_generating": "Oluşturma için Hazır",
+    "no_images_generated": "Oluşturulan Resim Yok"
   }
 }

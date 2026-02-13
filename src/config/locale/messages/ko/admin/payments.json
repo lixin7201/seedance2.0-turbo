@@ -1,41 +1,41 @@
 {
   "fields": {
-    "order_no": "Order No",
-    "user": "User",
-    "amount": "Amount",
-    "product": "Product",
-    "description": "Description",
-    "type": "Type",
-    "provider": "Provider",
-    "created_at": "Created At",
-    "status": "Status",
-    "action": "Action"
+    "order_no": "주문 번호",
+    "user": "사용자",
+    "amount": "금액",
+    "product": "제품",
+    "description": "설명",
+    "type": "유형",
+    "provider": "공급자",
+    "created_at": "생성일",
+    "status": "상태",
+    "action": "작업"
   },
   "list": {
-    "title": "Payments",
+    "title": "결제",
     "crumbs": {
-      "admin": "Admin",
-      "payments": "Payments"
+      "admin": "관리자",
+      "payments": "결제"
     },
     "tabs": {
-      "all": "All",
-      "subscription": "Subscription",
-      "one-time": "One-Time"
+      "all": "전체",
+      "subscription": "구독",
+      "one-time": "일회성"
     },
     "filters": {
       "status": {
-        "title": "Status",
+        "title": "상태",
         "options": {
-          "all": "All",
-          "paid": "Paid",
-          "created": "Created",
-          "failed": "Failed"
+          "all": "전체",
+          "paid": "결제됨",
+          "created": "생성됨",
+          "failed": "실패함"
         }
       },
       "provider": {
-        "title": "Provider",
+        "title": "공급자",
         "options": {
-          "all": "All",
+          "all": "전체",
           "stripe": "Stripe",
           "creem": "Creem",
           "lemonsqueezy": "Lemonsqueezy",
@@ -45,8 +45,8 @@
     },
     "search": {
       "order_no": {
-        "title": "Order No",
-        "placeholder": "Order No"
+        "title": "주문 번호",
+        "placeholder": "주문 번호"
       }
     }
   }

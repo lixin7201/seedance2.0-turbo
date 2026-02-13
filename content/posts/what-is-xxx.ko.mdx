@@ -1,125 +1,125 @@
 ---
-title: "What is Seedance 2.0? The Next-Gen AI Video Generator"
-description: "Discover Seedance 2.0 — the AI video generator with native audio sync, multi-shot storytelling, and physics-based motion. Learn about its core technology, key features, and how it compares to Sora 2 and Kling 3.0."
+title: "Seedance 2.0이란 무엇인가요? 차세대 AI 비디오 생성기"
+description: "네이티브 오디오 동기화, 멀티 샷 스토리텔링, 물리 기반 모션을 갖춘 AI 비디오 생성기 Seedance 2.0을 만나보세요. 핵심 기술, 주요 기능, 그리고 Sora 2 및 Kling 3.0과의 비교를 확인해 보세요."
 created_at: 2026-02-10
 author_name: Admin
 author_image: /logo-v2.png
 image: /logo-v2.png
 ---
 
-Seedance 2.0 is a next-generation AI video generation model that represents a major leap in AI-powered content creation. Built on a novel dual-branch diffusion transformer architecture, it generates cinematic videos with native audio, multi-shot narratives, and physics-based motion — all from text prompts, images, video clips, and audio references.
+Seedance 2.0은 AI 기반 콘텐츠 제작의 큰 도약을 나타내는 차세대 AI 비디오 생성 모델입니다. 새로운 이중 분기 확산 트랜스포머(Dual-Branch Diffusion Transformer) 아키텍처를 기반으로 구축된 이 모델은 텍스트 프롬프트, 이미지, 비디오 클립 및 오디오 참조만으로 네이티브 오디오, 멀티 샷 내러티브 및 물리 기반 모션이 포함된 영화 같은 비디오를 생성합니다.
 
-Our platform provides independent access to Seedance 2.0's video generation capabilities through a user-friendly interface. We are not affiliated with ByteDance — we offer this technology as an independent service to make advanced AI video creation accessible to everyone.
+당사 플랫폼은 사용자 친화적인 인터페이스를 통해 Seedance 2.0의 비디오 생성 기능에 독립적으로 액세스할 수 있는 권한을 제공합니다. 당사는 ByteDance와 제휴하지 않았으며, 고급 AI 비디오 제작을 모든 사람이 이용할 수 있도록 독립적인 서비스로 이 기술을 제공합니다.
 
-## Core Technology — Dual-Branch Diffusion Transformer
+## 핵심 기술 — 이중 분기 확산 트랜스포머
 
-At the heart of Seedance 2.0 lies the **dual-branch diffusion transformer** — an architecture that processes video and audio generation in parallel through two specialized branches:
+Seedance 2.0의 핵심에는 비디오와 오디오 생성을 두 개의 전문화된 분기를 통해 병렬로 처리하는 아키텍처인 **이중 분기 확산 트랜스포머**가 있습니다:
 
-- **Visual Branch**: Handles frame generation, motion planning, and scene composition
-- **Audio Branch**: Generates dialogue, sound effects, and music synchronized with the visual output
+- **비주얼 분기**: 프레임 생성, 모션 계획 및 장면 구성 처리
+- **오디오 분기**: 비주얼 출력과 동기화된 대화, 음향 효과 및 음악 생성
 
-This parallel generation means audio and video are created together from the same source, achieving **frame-level lip-sync accuracy** (within 1 frame) — unlike other AI video tools that add audio as a post-process.
+이러한 병렬 생성을 통해 오디오와 비디오가 동일한 소스에서 함께 생성되어, 오디오를 후처리로 추가하는 다른 AI 비디오 도구와 달리 **프레임 수준의 립싱크 정확도**(1프레임 이내)를 달성합니다.
 
-### Spatial-Temporal Causal Modeling (STCM)
+### 시공간 인과 모델링 (STCM)
 
-Seedance 2.0 introduces Spatial-Temporal Causal Modeling (STCM), which enhances the model's understanding of 3D space and temporal dynamics. This means:
+Seedance 2.0은 모델의 3D 공간 및 시간 역학에 대한 이해를 향상시키는 시공간 인과 모델링(Spatial-Temporal Causal Modeling, STCM)을 도입했습니다. 이는 다음을 의미합니다:
 
-- **Gravity and inertia** behave realistically — objects fall, bounce, and slide naturally
-- **Object interactions** are physically plausible — cloth flows, liquids splash, and debris scatters
-- **Dynamic memory** maintains consistency across frames — no sudden jumps or physics violations
+- **중력과 관성**이 현실적으로 작용합니다 — 물체가 자연스럽게 떨어지고, 튀고, 미끄러집니다.
+- **물체 상호 작용**이 물리적으로 타당합니다 — 천이 흐르고, 액체가 튀고, 파편이 흩어집니다.
+- **동적 메모리**가 프레임 간의 일관성을 유지합니다 — 갑작스러운 점프나 물리 법칙 위반이 없습니다.
 
-## Key Features
+## 주요 기능
 
-### 1. Multi-Modal Input (12 References)
+### 1. 멀티 모달 입력 (12개 참조)
 
-Seedance 2.0 supports up to 12 simultaneous reference inputs:
-- **Up to 9 images** — for character, scene, and style reference
-- **Up to 3 video clips** (15 seconds total) — for camera and motion reference
-- **Up to 3 audio files** (15 seconds total) — for rhythm and soundtrack reference
-- **Text prompt** — for scene description and directing
+Seedance 2.0은 최대 12개의 동시 참조 입력을 지원합니다:
+- **최대 9개의 이미지** — 캐릭터, 장면 및 스타일 참조용
+- **최대 3개의 비디오 클립** (총 15초) — 카메라 및 모션 참조용
+- **최대 3개의 오디오 파일** (총 15초) — 리듬 및 사운드트랙 참조용
+- **텍스트 프롬프트** — 장면 설명 및 연출용
 
-### 2. Native Audio-Visual Sync
+### 2. 네이티브 시청각 동기화
 
-The dual-branch architecture generates sound and vision simultaneously:
-- Lip-sync accuracy within 1 frame
-- Dialogue, sound effects, and ambient audio generated natively
-- No "dubbed" or post-processed feel
+이중 분기 아키텍처는 소리와 영상을 동시에 생성합니다:
+- 1프레임 이내의 립싱크 정확도
+- 네이티브로 생성되는 대화, 음향 효과 및 주변 오디오
+- "더빙된" 느낌이나 후처리된 느낌이 없음
 
-### 3. Multi-Shot Storytelling
+### 3. 멀티 샷 스토리텔링
 
-Generate connected multi-scene narratives with:
-- Consistent character identity across wide shots, medium shots, and close-ups
-- Uniform lighting and atmosphere throughout scenes
-- Automatic shot planning and transitions
+다음과 같이 연결된 다중 장면 내러티브를 생성합니다:
+- 와이드 샷, 미디엄 샷 및 클로즈업 전반에 걸친 일관된 캐릭터 정체성
+- 장면 전체에 걸친 균일한 조명과 분위기
+- 자동 샷 계획 및 전환
 
-### 4. Auto Camera & Directing
+### 4. 자동 카메라 및 연출
 
-Seedance 2.0 acts as an AI director:
-- Automatic shot sequence planning
-- Intelligent camera angle selection
-- Dynamic transitions based on scene content
+Seedance 2.0은 AI 감독 역할을 합니다:
+- 자동 샷 시퀀스 계획
+- 지능형 카메라 앵글 선택
+- 장면 콘텐츠를 기반으로 한 동적 전환
 
-### 5. First & Last Frame Control
+### 5. 첫 번째 및 마지막 프레임 제어
 
-Upload start and end frame images for:
-- Precise transition control
-- Smooth motion interpolation
-- Perfect loop creation
+시작 및 끝 프레임 이미지를 업로드하여 다음을 수행합니다:
+- 정밀한 전환 제어
+- 부드러운 모션 보간
+- 완벽한 루프 생성
 
-### 6. Physics-Aware Generation
+### 6. 물리 인식 생성
 
-Powered by STCM:
-- Realistic gravity, inertia, and friction
-- Cloth dynamics, fluid simulation, and particle effects
-- Natural light behavior and material interactions
+STCM으로 구동됩니다:
+- 현실적인 중력, 관성 및 마찰
+- 천 역학, 유체 시뮬레이션 및 입자 효과
+- 자연광 거동 및 재료 상호 작용
 
-## Output Specifications
+## 출력 사양
 
-| Specification | Details |
-|--------------|---------|
-| Resolution | Up to 2K HD |
-| Duration | 4–15 seconds (1-second increments) |
-| Aspect Ratios | 16:9, 9:16, 1:1, 4:3, 3:4 |
-| Generation Speed | ~60 seconds for a 15-second video |
+| 사양 | 세부 정보 |
+|------|-----------|
+| 해상도 | 최대 2K HD |
+| 지속 시간 | 4–15초 (1초 단위) |
+| 종횡비 | 16:9, 9:16, 1:1, 4:3, 3:4 |
+| 생성 속도 | 15초 비디오의 경우 약 60초 |
 
-## How Seedance 2.0 Compares
+## Seedance 2.0 비교
 
-| Feature | Seedance 2.0 | Sora 2 | Kling 3.0 | Veo 3.1 |
-|---------|-------------|--------|-----------|---------|
-| Core Strength | Audio sync + Multi-shot narrative | Physics simulation | Motion control | 4K quality |
-| Native Audio | ✅ Yes | ❌ No | ❌ No | ✅ Yes |
-| Multi-Modal Input | 12 references | Single image | Image + Text | Image + Text |
-| Multi-Shot Narrative | ✅ Full support | Limited | Limited | Limited |
-| Audio-Visual Sync | Frame-level | Post-processing | Post-processing | Good |
+| 기능 | Seedance 2.0 | Sora 2 | Kling 3.0 | Veo 3.1 |
+|------|--------------|--------|-----------|---------|
+| 핵심 강점 | 오디오 동기화 + 멀티 샷 내러티브 | 물리 시뮬레이션 | 모션 제어 | 4K 화질 |
+| 네이티브 오디오 | ✅ 예 | ❌ 아니오 | ❌ 아니오 | ✅ 예 |
+| 멀티 모달 입력 | 12개 참조 | 단일 이미지 | 이미지 + 텍스트 | 이미지 + 텍스트 |
+| 멀티 샷 내러티브 | ✅ 전체 지원 | 제한적 | 제한적 | 제한적 |
+| 시청각 동기화 | 프레임 수준 | 후처리 | 후처리 | 양호 |
 
-## Use Cases
+## 사용 사례
 
-### Short Films & Storytelling
-Create multi-scene narratives with consistent characters, complete with dialogue and sound effects. Perfect for indie filmmakers and content creators.
+### 단편 영화 및 스토리텔링
+대화와 음향 효과가 포함된 일관된 캐릭터로 다중 장면 내러티브를 만듭니다. 인디 영화 제작자와 콘텐츠 크리에이터에게 완벽합니다.
 
-### Social Media Content
-Generate eye-catching TikTok, Reels, and YouTube Shorts in minutes. Support for multiple aspect ratios makes platform-specific content creation effortless.
+### 소셜 미디어 콘텐츠
+눈길을 끄는 TikTok, Reels 및 YouTube Shorts를 몇 분 만에 생성합니다. 여러 종횡비를 지원하여 플랫폼별 콘텐츠 제작이 쉽습니다.
 
-### Advertising & Marketing
-Produce product showcases, promotional videos, and branded content with professional quality. Multi-shot capability enables complete ad narratives.
+### 광고 및 마케팅
+전문적인 품질로 제품 쇼케이스, 홍보 비디오 및 브랜드 콘텐츠를 제작합니다. 멀티 샷 기능을 통해 완전한 광고 내러티브를 만들 수 있습니다.
 
-### Education & Tutorials
-Create educational videos with step-by-step demonstrations, narration, and visual effects. Make complex concepts accessible through AI-generated explainers.
+### 교육 및 튜토리얼
+단계별 시연, 내레이션 및 시각 효과가 포함된 교육 비디오를 만듭니다. AI 생성 설명 비디오를 통해 복잡한 개념을 쉽게 설명합니다.
 
-### Action & VFX
-Generate complex 3D action sequences with physically accurate motion, dramatic lighting, and blockbuster-quality visual effects — all from text prompts.
+### 액션 및 VFX
+텍스트 프롬프트만으로 물리적으로 정확한 모션, 극적인 조명 및 블록버스터급 시각 효과를 갖춘 복잡한 3D 액션 시퀀스를 생성합니다.
 
-## Getting Started
+## 시작하기
 
-Ready to create your first AI video with Seedance 2.0? Here's how:
+Seedance 2.0으로 첫 번째 AI 비디오를 만들 준비가 되셨나요? 방법은 다음과 같습니다:
 
-1. **Sign up** for a free account — you'll get free credits to start
-2. **Choose your mode** — Text-to-Video or Image-to-Video
-3. **Write your prompt** — describe your scene, characters, and style
-4. **Generate** — Seedance 2.0 handles the rest
+1. 무료 계정에 **가입**하세요 — 시작할 수 있는 무료 크레딧을 드립니다
+2. **모드 선택** — 텍스트-비디오(Text-to-Video) 또는 이미지-비디오(Image-to-Video)
+3. **프롬프트 작성** — 장면, 캐릭터 및 스타일을 설명하세요
+4. **생성** — 나머지는 Seedance 2.0이 처리합니다
 
-No editing skills required. No software to install. Start creating cinematic AI videos today.
+편집 기술이 필요하지 않습니다. 설치할 소프트웨어도 없습니다. 오늘 영화 같은 AI 비디오 제작을 시작하세요.
 
 ---
 
-*This platform is an independent service providing access to AI video generation technology. We are not affiliated with, endorsed by, or sponsored by ByteDance.*
+*이 플랫폼은 AI 비디오 생성 기술에 대한 액세스를 제공하는 독립적인 서비스입니다. 당사는 ByteDance와 제휴, 보증 또는 후원 관계가 아닙니다.*

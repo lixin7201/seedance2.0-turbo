@@ -1,7 +1,7 @@
 {
   "header": {
     "brand": {
-      "title": "Seedance 2.0 Admin",
+      "title": "Seedance 2.0 관리자",
       "logo": {
         "src": "/logo-v2.png",
         "alt": "Seedance 2.0"
@@ -12,62 +12,62 @@
   },
   "main_navs": [
     {
-      "title": "System",
+      "title": "시스템",
       "items": [
         {
-          "title": "Users & Permissions",
+          "title": "사용자 & 권한",
           "icon": "User",
           "is_expand": true,
           "children": [
             {
-              "title": "Users",
+              "title": "사용자",
               "url": "/admin/users",
               "icon": "User"
             },
             {
-              "title": "Roles",
+              "title": "역할",
               "url": "/admin/roles",
               "icon": "Users"
             },
             {
-              "title": "Permissions",
+              "title": "권한",
               "url": "/admin/permissions",
               "icon": "ShieldCheck"
             }
           ]
         },
         {
-          "title": "Pages & Content",
+          "title": "페이지 & 콘텐츠",
           "icon": "FileText",
           "children": [
             {
-              "title": "Categories",
+              "title": "카테고리",
               "icon": "Folder",
               "url": "/admin/categories"
             },
             {
-              "title": "Posts",
+              "title": "게시물",
               "icon": "FileText",
               "url": "/admin/posts"
             }
           ]
         },
         {
-          "title": "Payments & Credits",
+          "title": "결제 & 크레딧",
           "icon": "DollarSign",
           "children": [
             {
-              "title": "Payments",
+              "title": "결제",
               "url": "/admin/payments",
               "icon": "DollarSign"
             },
             {
-              "title": "Subscriptions",
+              "title": "구독",
               "url": "/admin/subscriptions",
               "icon": "CreditCard"
             },
             {
-              "title": "Credits",
+              "title": "크레딧",
               "url": "/admin/credits",
               "icon": "Coins"
             }
@@ -76,20 +76,20 @@
       ]
     },
     {
-      "title": "Business",
+      "title": "비즈니스",
       "items": [
         {
-          "title": "AI Tasks",
+          "title": "AI 작업",
           "url": "/admin/ai-tasks",
           "icon": "Brain"
         },
         {
-          "title": "AI Chats",
+          "title": "AI 채팅",
           "url": "/admin/chats",
           "icon": "MessageCircle"
         },
         {
-          "title": "Model Config",
+          "title": "모델 구성",
           "url": "/admin/model-config",
           "icon": "Settings2"
         }
@@ -99,12 +99,12 @@
   "bottom_nav": {
     "items": [
       {
-        "title": "Settings",
+        "title": "설정",
         "url": "/admin/settings/general",
         "icon": "Settings"
       },
       {
-        "title": "API Keys",
+        "title": "API 키",
         "url": "/admin/apikeys",
         "icon": "Key"
       }
@@ -114,7 +114,7 @@
     "nav": {
       "items": [
         {
-          "title": "Profile",
+          "title": "프로필",
           "url": "/settings/profile",
           "icon": "User",
           "target": "_blank"
@@ -129,7 +129,7 @@
     "nav": {
       "items": [
         {
-          "title": "Home",
+          "title": "홈",
           "url": "/",
           "icon": "Home",
           "target": "_blank"
@@ -141,7 +141,7 @@
           "target": "_blank"
         },
         {
-          "title": "Email",
+          "title": "이메일",
           "url": "mailto:support@seedance2.shop",
           "icon": "Mail",
           "target": "_blank"

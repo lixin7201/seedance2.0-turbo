@@ -1,214 +1,142 @@
 {
   "metadata": {
-    "title": "Seedance 2.0 Image to Video | Animate Photos with AI Video Generator",
-    "description": "Transform any photo into cinematic video with Seedance 2.0 AI. Upload images, add motion & camera effects automatically. 2K output with native audio sync. Free to try."
+    "title": "Seedance 2.0 Resimden Videoya | AI Video Oluşturucu ile Fotoğrafları Canlandırın",
+    "description": "Seedance 2.0 AI ile herhangi bir fotoğrafı sinematik videoya dönüştürün. Resim yükleyin, hareket ve kamera efektlerini otomatik olarak ekleyin. Yerel ses senkronizasyonu ile 2K çıktı. Ücretsiz deneyin."
   },
   "page": {
-    "title": "Image to Video",
-    "show_sections": [
-      "hero",
-      "benefits",
-      "features",
-      "showcases",
-      "faq",
-      "cta"
-    ],
+    "title": "Resimden Videoya",
     "sections": {
       "hero": {
-        "id": "hero",
-        "title": "Seedance 2.0 Image to Video AI Generator",
-        "highlight_text": "Image to Video",
-        "description": "Transform any photo into cinematic video with Seedance 2.0 AI.<br/>Upload images, add motion & camera effects automatically. 2K output with native audio sync.",
-        "tip": "🖼️ Animate your photos into cinematic videos with Seedance 2.0",
+        "title": "Seedance 2.0 Resimden Videoya AI Oluşturucu",
+        "highlight_text": "Resimden Videoya",
+        "description": "Seedance 2.0 AI ile herhangi bir fotoğrafı sinematik videoya dönüştürün.<br/>Resim yükleyin, hareket ve kamera efektlerini otomatik olarak ekleyin. Yerel ses senkronizasyonu ile 2K çıktı.",
+        "tip": "🖼️ Seedance 2.0 ile fotoğraflarınızı sinematik videolara dönüştürün",
         "buttons": [
           {
-            "title": "Start Animating",
-            "url": "/ai-video-generator",
-            "icon": "Zap",
-            "variant": "default"
+            "title": "Canlandırmaya Başla",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "View Examples",
-            "url": "/ai-video-generator",
-            "icon": "Play",
-            "variant": "outline"
+            "title": "Örnekleri Görüntüle",
+            "url": "/ai-video-generator"
           }
-        ],
-        "image": {
-          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
-          "alt": "Image to Video AI Animation",
-          "width": 1200,
-          "height": 800
-        },
-        "background_image": {
-          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
-          "alt": "background"
-        }
+        ]
       },
       "benefits": {
-        "block": "features-accordion",
-        "id": "benefits",
-        "title": "Why Choose Seedance 2.0 Image-to-Video",
-        "label": "Benefits",
-        "description": "Transform any static image into a dynamic cinematic video with Seedance 2.0's intelligent AI animation and native audio generation.",
+        "title": "Neden Seedance 2.0 Resimden-Videoya Seçmelisiniz",
+        "label": "Faydalar",
+        "description": "Seedance 2.0'ın akıllı AI animasyonu ve yerel ses oluşturma özelliği ile herhangi bir statik resmi dinamik bir sinematik videoya dönüştürün.",
         "items": [
           {
-            "title": "Upload Any Image",
-            "description": "Support for all common image formats including JPG, PNG, and WebP. Upload photos, artwork, screenshots, or any static image.",
-            "icon": "RiImageAddLine",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-upload/800/600",
-              "alt": "Upload Images"
-            }
+            "title": "Herhangi Bir Resmi Yükleyin",
+            "description": "JPG, PNG ve WebP dahil tüm yaygın resim formatlarını destekler. Fotoğraflar, sanat eserleri, ekran görüntüleri veya herhangi bir statik resim yükleyin."
           },
           {
-            "title": "Intelligent Element Recognition",
-            "description": "AI automatically identifies image elements like people, animals, objects, and backgrounds to apply appropriate motion effects.",
-            "icon": "RiRobot2Line",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-smart/800/600",
-              "alt": "Smart Recognition"
-            }
+            "title": "Akıllı Öğe Tanıma",
+            "description": "AI, uygun hareket efektlerini uygulamak için insanlar, hayvanlar, nesneler ve arka planlar gibi resim öğelerini otomatik olarak tanımlar."
           },
           {
-            "title": "Natural Fluid Motion",
-            "description": "Create smooth, realistic animations that maintain the original image style while adding natural movement and dynamics.",
-            "icon": "RiFlowChart",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-motion/800/600",
-              "alt": "Fluid Motion"
-            }
+            "title": "Doğal Akıcı Hareket",
+            "description": "Doğal hareket ve dinamikler eklerken orijinal resim stilini koruyan pürüzsüz, gerçekçi animasyonlar oluşturun."
           }
         ]
       },
       "features": {
-        "id": "features",
-        "title": "Seedance 2.0 Image-to-Video Core Features",
-        "description": "Everything you need to animate your images with Seedance 2.0 AI.",
+        "title": "Seedance 2.0 Resimden-Videoya Temel Özellikler",
+        "description": "Resimlerinizi Seedance 2.0 AI ile canlandırmak için ihtiyacınız olan her şey.",
         "items": [
           {
-            "title": "🖼️ Upload Any Image",
-            "description": "Support for JPG, PNG, WebP and other common formats. Works with photos, artwork, and graphics.",
-            "icon": "RiImageAddLine"
+            "title": "🖼️ Herhangi Bir Resmi Yükleyin",
+            "description": "JPG, PNG, WebP ve diğer yaygın formatları destekler. Fotoğraflar, sanat eserleri ve grafiklerle çalışır."
           },
           {
-            "title": "🤖 Intelligent Recognition",
-            "description": "AI automatically identifies people, animals, objects, and scene elements for smart animation.",
-            "icon": "RiRobot2Line"
+            "title": "🤖 Akıllı Tanıma",
+            "description": "AI, akıllı animasyon için insanları, hayvanları, nesneleri ve sahne öğelerini otomatik olarak tanımlar."
           },
           {
-            "title": "🌊 Natural Fluid Motion",
-            "description": "Smooth, realistic animations that preserve the original image style and aesthetic.",
-            "icon": "RiFlowChart"
+            "title": "🌊 Doğal Akıcı Hareket",
+            "description": "Orijinal resim stilini ve estetiğini koruyan pürüzsüz, gerçekçi animasyonlar."
           },
           {
-            "title": "✏️ Custom Motion Descriptions",
-            "description": "Add supplementary text prompts to control specific motion effects and animations.",
-            "icon": "RiEditLine"
+            "title": "✏️ Özel Hareket Açıklamaları",
+            "description": "Belirli hareket efektlerini ve animasyonları kontrol etmek için ek metin istemleri ekleyin."
           },
           {
-            "title": "🎬 Camera Movements",
-            "description": "Add cinematic camera effects like zooms, pans, and parallax to your animations.",
-            "icon": "RiVideoChatLine"
+            "title": "🎬 Kamera Hareketleri",
+            "description": "Animasyonlarınıza yakınlaştırma, kaydırma ve paralaks gibi sinematik kamera efektleri ekleyin."
           },
           {
-            "title": "📺 HD Quality Output",
-            "description": "Export animated videos in 1080p Full HD or 2K resolution with smooth frame rates.",
-            "icon": "RiHdLine"
+            "title": "📺 HD Kalitesinde Çıktı",
+            "description": "Animasyonlu videoları akıcı kare hızlarıyla 1080p Full HD veya 2K çözünürlükte dışa aktarın."
           }
         ]
       },
       "showcases": {
-        "block": "showcases",
-        "id": "showcases",
-        "title": "Seedance 2.0 Image-to-Video Showcases",
-        "label": "Examples",
-        "description": "See what's possible with Seedance 2.0 AI image-to-video animation.",
+        "title": "Seedance 2.0 Resimden-Videoya Vitrinleri",
+        "label": "Örnekler",
+        "description": "Seedance 2.0 AI resimden videoya animasyon ile nelerin mümkün olduğunu görün.",
         "items": [
           {
-            "title": "Portrait Animation",
-            "description": "Bring portrait photos to life with natural expressions and subtle movements.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
-              "alt": "Portrait Animation"
-            }
+            "title": "Portre Animasyonu",
+            "description": "Doğal ifadeler ve ince hareketlerle portre fotoğraflarına hayat verin."
           },
           {
-            "title": "Landscape Animation",
-            "description": "Add flowing water, moving clouds, and swaying trees to landscape images.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
-              "alt": "Landscape Animation"
-            }
+            "title": "Manzara Animasyonu",
+            "description": "Manzara resimlerine akan su, hareketli bulutlar ve sallanan ağaçlar ekleyin."
           },
           {
-            "title": "Artwork Animation",
-            "description": "Animate digital art, illustrations, and paintings while preserving artistic style.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-art/600/400",
-              "alt": "Artwork Animation"
-            }
+            "title": "Sanat Eseri Animasyonu",
+            "description": "Sanatsal stili korurken dijital sanatı, illüstrasyonları ve resimleri canlandırın."
           },
           {
-            "title": "Product Animation",
-            "description": "Create dynamic product showcases and 360-degree rotation effects.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-product/600/400",
-              "alt": "Product Animation"
-            }
+            "title": "Ürün Animasyonu",
+            "description": "Dinamik ürün vitrinleri ve 360 derece döndürme efektleri oluşturun."
           }
-        ],
-        "className": "bg-muted"
+        ]
       },
       "faq": {
-        "id": "faq",
-        "title": "Seedance 2.0 Image-to-Video — FAQ",
-        "description": "Common questions about Seedance 2.0 image-to-video animation.",
+        "title": "Seedance 2.0 Resimden-Videoya — SSS",
+        "description": "Seedance 2.0 resimden videoya animasyon hakkında sık sorulan sorular.",
         "items": [
           {
-            "question": "What is Image-to-Video?",
-            "answer": "Image-to-Video is an AI technology that transforms static images into dynamic video animations. Upload any image and the AI will add realistic motion, camera movements, and special effects while preserving the original visual style."
+            "question": "Resimden Videoya Nedir?",
+            "answer": "Resimden Videoya, statik resimleri dinamik video animasyonlarına dönüştüren bir AI teknolojisidir. Herhangi bir resmi yükleyin ve AI, orijinal görsel stili korurken gerçekçi hareket, kamera hareketleri ve özel efektler ekleyecektir."
           },
           {
-            "question": "What image formats are supported?",
-            "answer": "We support all common image formats including JPG, PNG, WebP, and GIF. Images should be at least 512x512 pixels for best results, with higher resolution images producing better quality animations."
+            "question": "Hangi resim formatları destekleniyor?",
+            "answer": "JPG, PNG, WebP ve GIF dahil tüm yaygın resim formatlarını destekliyoruz. En iyi sonuçlar için resimler en az 512x512 piksel olmalıdır, daha yüksek çözünürlüklü resimler daha kaliteli animasyonlar üretir."
           },
           {
-            "question": "Can I control the animation effects?",
-            "answer": "Yes! You can add supplementary text prompts to describe specific motion effects you want, such as 'gentle breeze moving the leaves' or 'water rippling softly'. The AI will incorporate your descriptions."
+            "question": "Animasyon efektlerini kontrol edebilir miyim?",
+            "answer": "Evet! 'Yaprakları hareket ettiren hafif rüzgar' veya 'hafifçe dalgalanan su' gibi istediğiniz belirli hareket efektlerini açıklayan ek metin istemleri ekleyebilirsiniz. AI açıklamalarınızı dahil edecektir."
           },
           {
-            "question": "How does intelligent recognition work?",
-            "answer": "Our AI automatically identifies different elements in your image including people, animals, objects, sky, water, and foliage. Each element receives appropriate motion effects based on its nature."
+            "question": "Akıllı tanıma nasıl çalışır?",
+            "answer": "Yapay zekamız, resminizdeki insanlar, hayvanlar, nesneler, gökyüzü, su ve bitki örtüsü dahil olmak üzere farklı öğeleri otomatik olarak tanımlar. Her öğe, doğasına bağlı olarak uygun hareket efektleri alır."
           },
           {
-            "question": "What video quality can I expect?",
-            "answer": "Animated videos are exported in 1080p Full HD or 2K resolution with smooth frame rates. The AI maintains the original image quality while adding natural, fluid motion effects."
+            "question": "Hangi video kalitesini bekleyebilirim?",
+            "answer": "Animasyonlu videolar, akıcı kare hızlarıyla 1080p Full HD veya 2K çözünürlükte dışa aktarılır. AI, doğal, akıcı hareket efektleri eklerken orijinal resim kalitesini korur."
           },
           {
-            "question": "Can I animate artwork and illustrations?",
-            "answer": "Absolutely! The AI works great with digital art, illustrations, paintings, and graphics. It preserves the artistic style while adding subtle, appropriate animations."
+            "question": "Sanat eserlerini ve illüstrasyonları canlandırabilir miyim?",
+            "answer": "Kesinlikle! AI, dijital sanat, illüstrasyonlar, resimler ve grafiklerle harika çalışır. Sanatsal stili korurken ince, uygun animasyonlar ekler."
           }
         ]
       },
       "cta": {
-        "id": "cta",
-        "title": "Bring Your Images to Life with Seedance 2.0",
-        "description": "Transform static images into stunning animated videos with Seedance 2.0's AI-powered image-to-video technology. Try free today.",
+        "title": "Seedance 2.0 ile Resimlerinize Hayat Verin",
+        "description": "Seedance 2.0'ın AI destekli resimden videoya teknolojisi ile statik resimleri çarpıcı animasyonlu videolara dönüştürün. Bugün ücretsiz deneyin.",
         "buttons": [
           {
-            "title": "Try Now",
-            "url": "/ai-video-generator",
-            "icon": "Zap"
+            "title": "Şimdi Dene",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "View Pricing",
-            "url": "/pricing",
-            "variant": "outline",
-            "icon": "CreditCard"
+            "title": "Fiyatlandırmayı Görüntüle",
+            "url": "/pricing"
           }
-        ],
-        "className": "bg-muted"
+        ]
       }
     }
   }

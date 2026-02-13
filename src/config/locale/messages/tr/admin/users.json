@@ -1,77 +1,77 @@
 {
   "fields": {
     "id": "ID",
-    "name": "Name",
+    "name": "İsim",
     "avatar": "Avatar",
-    "email": "Email",
-    "email_verified": "Email Verified",
-    "remaining_credits": "Remaining Credits",
-    "created_at": "Created At",
-    "actions": "Actions",
-    "roles": "Roles",
+    "email": "E-posta",
+    "email_verified": "E-posta Doğrulandı",
+    "remaining_credits": "Kalan Kredi",
+    "created_at": "Oluşturulma Tarihi",
+    "actions": "Eylemler",
+    "roles": "Roller",
     "ip": "IP",
-    "locale": "Locale",
-    "utm_source": "UTM Source"
+    "locale": "Yerel Ayar",
+    "utm_source": "UTM Kaynağı"
   },
   "list": {
-    "title": "Users",
+    "title": "Kullanıcılar",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users"
+      "admin": "Yönetici",
+      "users": "Kullanıcılar"
     },
     "buttons": {
-      "add": "Add User",
-      "edit": "Edit User",
-      "view": "View User",
-      "delete": "Delete User",
-      "edit_roles": "Edit Roles",
-      "grant_credits": "Grant Credits"
+      "add": "Kullanıcı Ekle",
+      "edit": "Kullanıcıyı Düzenle",
+      "view": "Kullanıcıyı Görüntüle",
+      "delete": "Kullanıcıyı Sil",
+      "edit_roles": "Rolleri Düzenle",
+      "grant_credits": "Kredi Ver"
     },
     "search": {
       "email": {
-        "title": "Email",
-        "placeholder": "Email"
+        "title": "E-posta",
+        "placeholder": "E-posta"
       }
     }
   },
   "edit": {
-    "title": "Edit User",
+    "title": "Kullanıcıyı Düzenle",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users",
-      "edit": "Edit"
+      "admin": "Yönetici",
+      "users": "Kullanıcılar",
+      "edit": "Düzenle"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "Güncelle"
     }
   },
   "edit_roles": {
-    "title": "Edit Roles",
+    "title": "Rolleri Düzenle",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users",
-      "edit_roles": "Edit Roles"
+      "admin": "Yönetici",
+      "users": "Kullanıcılar",
+      "edit_roles": "Rolleri Düzenle"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "Güncelle"
     }
   },
   "grant_credits": {
-    "title": "Grant Credits",
+    "title": "Kredi Ver",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users",
-      "grant_credits": "Grant Credits"
+      "admin": "Yönetici",
+      "users": "Kullanıcılar",
+      "grant_credits": "Kredi Ver"
     },
     "buttons": {
-      "submit": "Grant"
+      "submit": "Ver"
     },
     "fields": {
-      "credits": "Credits Amount",
-      "valid_days": "Credits Valid Days",
-      "valid_days_tip": "0 means no expiration",
-      "description": "Credits Grant Description",
-      "description_placeholder": "Admin grant credits"
+      "credits": "Kredi Miktarı",
+      "valid_days": "Kredi Geçerlilik Günleri",
+      "valid_days_tip": "0 sona erme yok demektir",
+      "description": "Kredi Verme Açıklaması",
+      "description_placeholder": "Yönetici kredi verdi"
     }
   }
 }

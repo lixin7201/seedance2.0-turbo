@@ -1,27 +1,27 @@
 {
   "fields": {
-    "subscription_no": "Subscription No",
-    "user": "User",
-    "amount": "Amount",
-    "interval": "Interval",
-    "provider": "Provider",
-    "created_at": "Created At",
-    "current_period_start": "Current Period Start",
-    "current_period_end": "Current Period End",
-    "status": "Status",
-    "description": "Description",
-    "action": "Action"
+    "subscription_no": "Abonelik No",
+    "user": "Kullanıcı",
+    "amount": "Tutar",
+    "interval": "Aralık",
+    "provider": "Sağlayıcı",
+    "created_at": "Oluşturulma Tarihi",
+    "current_period_start": "Mevcut Dönem Başlangıcı",
+    "current_period_end": "Mevcut Dönem Bitişi",
+    "status": "Durum",
+    "description": "Açıklama",
+    "action": "Eylem"
   },
   "list": {
-    "title": "Subscriptions",
+    "title": "Abonelikler",
     "crumbs": {
-      "admin": "Admin",
-      "subscriptions": "Subscriptions"
+      "admin": "Yönetici",
+      "subscriptions": "Abonelikler"
     },
     "tabs": {
-      "all": "All",
-      "month": "Month",
-      "year": "Year"
+      "all": "Tümü",
+      "month": "Ay",
+      "year": "Yıl"
     }
   }
 }

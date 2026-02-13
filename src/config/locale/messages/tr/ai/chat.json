@@ -13,7 +13,7 @@
     },
     "buttons": [
       {
-        "title": "New Chat",
+        "title": "Yeni Sohbet",
         "icon": "Plus",
         "url": "/chat",
         "variant": "outline"
@@ -23,7 +23,7 @@
       {
         "items": [
           {
-            "title": "History",
+            "title": "Geçmiş",
             "icon": "History",
             "url": "/chat/history"
           }
@@ -37,7 +37,7 @@
       "nav": {
         "items": [
           {
-            "title": "Profile",
+            "title": "Profil",
             "url": "/settings/profile",
             "icon": "User",
             "target": "_blank"
@@ -53,7 +53,7 @@
       "nav": {
         "items": [
           {
-            "title": "Home",
+            "title": "Ana Sayfa",
             "url": "/",
             "icon": "Home",
             "target": "_blank"
@@ -65,7 +65,7 @@
             "target": "_blank"
           },
           {
-            "title": "Email",
+            "title": "E-posta",
             "url": "mailto:support@seedance2.shop",
             "icon": "Mail",
             "target": "_blank"
@@ -78,32 +78,32 @@
     "variant": "sidebar"
   },
   "library": {
-    "title": "Library",
+    "title": "Kütüphane",
     "icon": "History",
     "url": "/chat/history",
-    "more": "More",
+    "more": "Daha Fazla",
     "actions": {
-      "edit_title": "Edit Title",
-      "share": "Share",
-      "delete": "Delete"
+      "edit_title": "Başlığı Düzenle",
+      "share": "Paylaş",
+      "delete": "Sil"
     }
   },
   "generator": {
-    "title": "What can I help you today?",
-    "input_placeholder": "You can ask me anything"
+    "title": "Bugün size nasıl yardımcı olabilirim?",
+    "input_placeholder": "Bana her şeyi sorabilirsiniz"
   },
   "history": {
-    "title": "Chat history",
-    "description": "Review and revisit your previous conversations.",
-    "empty": "No conversations yet.",
-    "error": "Failed to load conversations.",
-    "retry": "Try again",
-    "signin": "Sign in to view your chat history.",
-    "summary": "Showing {from}-{to} of {total}",
-    "perPage": "Per page",
-    "prev": "Previous",
-    "next": "Next",
-    "open": "Open chat",
-    "untitled": "Untitled conversation"
+    "title": "Sohbet Geçmişi",
+    "description": "Önceki konuşmalarınızı inceleyin ve tekrar ziyaret edin.",
+    "empty": "Henüz konuşma yok.",
+    "error": "Konuşmalar yüklenemedi.",
+    "retry": "Tekrar Dene",
+    "signin": "Sohbet geçmişinizi görüntülemek için giriş yapın.",
+    "summary": "{total} üzerinden {from}-{to} gösteriliyor",
+    "perPage": "Sayfa başına",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "open": "Sohbeti aç",
+    "untitled": "Başlıksız konuşma"
   }
 }

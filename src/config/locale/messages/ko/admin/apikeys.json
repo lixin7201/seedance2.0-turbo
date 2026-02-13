@@ -1,17 +1,17 @@
 {
   "fields": {
-    "title": "Title",
-    "key": "Key",
-    "user": "User",
-    "status": "Status",
-    "created_at": "Created At",
-    "action": "Action"
+    "title": "제목",
+    "key": "키",
+    "user": "사용자",
+    "status": "상태",
+    "created_at": "생성일",
+    "action": "작업"
   },
   "list": {
-    "title": "API Keys",
+    "title": "API 키",
     "crumbs": {
-      "admin": "Admin",
-      "apikeys": "API Keys"
+      "admin": "관리자",
+      "apikeys": "API 키"
     }
   }
 }

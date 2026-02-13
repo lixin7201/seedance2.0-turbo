@@ -1,77 +1,77 @@
 {
   "fields": {
     "id": "ID",
-    "name": "Name",
-    "avatar": "Avatar",
-    "email": "Email",
-    "email_verified": "Email Verified",
-    "remaining_credits": "Remaining Credits",
-    "created_at": "Created At",
-    "actions": "Actions",
-    "roles": "Roles",
+    "name": "이름",
+    "avatar": "아바타",
+    "email": "이메일",
+    "email_verified": "이메일 확인됨",
+    "remaining_credits": "남은 크레딧",
+    "created_at": "생성일",
+    "actions": "작업",
+    "roles": "역할",
     "ip": "IP",
-    "locale": "Locale",
-    "utm_source": "UTM Source"
+    "locale": "로케일",
+    "utm_source": "UTM 소스"
   },
   "list": {
-    "title": "Users",
+    "title": "사용자",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users"
+      "admin": "관리자",
+      "users": "사용자"
     },
     "buttons": {
-      "add": "Add User",
-      "edit": "Edit User",
-      "view": "View User",
-      "delete": "Delete User",
-      "edit_roles": "Edit Roles",
-      "grant_credits": "Grant Credits"
+      "add": "사용자 추가",
+      "edit": "사용자 편집",
+      "view": "사용자 보기",
+      "delete": "사용자 삭제",
+      "edit_roles": "역할 편집",
+      "grant_credits": "크레딧 부여"
     },
     "search": {
       "email": {
-        "title": "Email",
-        "placeholder": "Email"
+        "title": "이메일",
+        "placeholder": "이메일"
       }
     }
   },
   "edit": {
-    "title": "Edit User",
+    "title": "사용자 편집",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users",
-      "edit": "Edit"
+      "admin": "관리자",
+      "users": "사용자",
+      "edit": "편집"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "업데이트"
     }
   },
   "edit_roles": {
-    "title": "Edit Roles",
+    "title": "역할 편집",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users",
-      "edit_roles": "Edit Roles"
+      "admin": "관리자",
+      "users": "사용자",
+      "edit_roles": "역할 편집"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "업데이트"
     }
   },
   "grant_credits": {
-    "title": "Grant Credits",
+    "title": "크레딧 부여",
     "crumbs": {
-      "admin": "Admin",
-      "users": "Users",
-      "grant_credits": "Grant Credits"
+      "admin": "관리자",
+      "users": "사용자",
+      "grant_credits": "크레딧 부여"
     },
     "buttons": {
-      "submit": "Grant"
+      "submit": "부여"
     },
     "fields": {
-      "credits": "Credits Amount",
-      "valid_days": "Credits Valid Days",
-      "valid_days_tip": "0 means no expiration",
-      "description": "Credits Grant Description",
-      "description_placeholder": "Admin grant credits"
+      "credits": "크레딧 양",
+      "valid_days": "크레딧 유효 기간(일)",
+      "valid_days_tip": "0은 만료 없음",
+      "description": "크레딧 부여 설명",
+      "description_placeholder": "관리자가 크레딧 부여"
     }
   }
 }

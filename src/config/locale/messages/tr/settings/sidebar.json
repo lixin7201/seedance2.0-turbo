@@ -1,29 +1,29 @@
 {
-  "title": "Settings",
+  "title": "Ayarlar",
   "nav": {
     "items": [
       {
-        "title": "Profile",
+        "title": "Profil",
         "url": "/settings/profile",
         "icon": "User"
       },
       {
-        "title": "Billing",
+        "title": "Faturalandırma",
         "url": "/settings/billing",
         "icon": "CreditCard"
       },
       {
-        "title": "Payments",
+        "title": "Ödemeler",
         "url": "/settings/payments",
         "icon": "DollarSign"
       },
       {
-        "title": "Credits",
+        "title": "Krediler",
         "url": "/settings/credits",
         "icon": "Coins"
       },
       {
-        "title": "API Keys",
+        "title": "API Anahtarları",
         "url": "/settings/apikeys",
         "icon": "RiKeyLine"
       }
@@ -32,12 +32,12 @@
   "top_nav": {
     "items": [
       {
-        "title": "Activity",
+        "title": "Etkinlik",
         "url": "/activity",
         "icon": "Activity"
       },
       {
-        "title": "Settings",
+        "title": "Ayarlar",
         "url": "/settings",
         "icon": "Settings"
       }

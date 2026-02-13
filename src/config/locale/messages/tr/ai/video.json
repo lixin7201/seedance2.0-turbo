@@ -1,53 +1,53 @@
 {
   "metadata": {
-    "title": "Seedance 2.0 AI Video Generator Online | Text & Image to Video Free",
-    "description": "Create AI videos with Seedance 2.0 — the next-gen video generator with native audio, physics simulation, and multi-shot narrative. Text-to-video, image-to-video supported. Start free."
+    "title": "Seedance 2.0 Çevrimiçi AI Video Oluşturucu | Metin ve Resimden Videoya Ücretsiz",
+    "description": "Seedance 2.0 ile AI videoları oluşturun — yerel ses, fizik simülasyonu ve çoklu çekim anlatısına sahip yeni nesil video oluşturucu. Metinden videoya, resimden videoya desteklenir. Ücretsiz başlayın."
   },
   "page": {
-    "title": "Seedance 2.0 AI Video Generator",
-    "description": "Create stunning cinematic videos with Seedance 2.0. Native audio sync, physics-based motion, multi-shot storytelling. Text-to-video, image-to-video & video-to-video supported."
+    "title": "Seedance 2.0 AI Video Oluşturucu",
+    "description": "Seedance 2.0 ile çarpıcı sinematik videolar oluşturun. Yerel ses senkronizasyonu, fizik tabanlı hareket, çoklu çekim hikaye anlatımı. Metinden videoya, resimden videoya ve videodan videoya desteklenir."
   },
   "generator": {
-    "title": "Seedance 2.0 Video Generator",
-    "description": "Generate cinematic AI videos with Seedance 2.0. Native audio sync, multimodal input, and physics-aware generation. Text-to-video, image-to-video & video-to-video.",
+    "title": "Seedance 2.0 Video Oluşturucu",
+    "description": "Seedance 2.0 ile sinematik AI videoları oluşturun. Yerel ses senkronizasyonu, çok modlu giriş ve fizik duyarlı oluşturma. Metinden videoya, resimden videoya ve videodan videoya.",
     "tabs": {
-      "text-to-video": "Text to Video",
-      "image-to-video": "Image to Video",
-      "video-to-video": "Video to Video"
+      "text-to-video": "Metinden Videoya",
+      "image-to-video": "Resimden Videoya",
+      "video-to-video": "Videodan Videoya"
     },
     "form": {
-      "provider": "Provider",
+      "provider": "Sağlayıcı",
       "model": "Model",
-      "resolution": "Resolution",
-      "duration": "Duration",
-      "select_provider": "Select Provider",
-      "select_model": "Select Model",
-      "prompt": "Prompt",
-      "prompt_placeholder": "Describe the video content, such as scene, action, style, etc.",
-      "reference_image": "Reference Image",
-      "reference_image_placeholder": "Upload a reference image for video generation",
-      "reference_video": "Reference Video URL",
-      "reference_video_placeholder": "Enter the URL of the reference video",
-      "some_images_failed_to_upload": "Image failed to upload, please delete and re-upload",
-      "prompt_too_long": "Prompt is too long, please delete some content"
+      "resolution": "Çözünürlük",
+      "duration": "Süre",
+      "select_provider": "Sağlayıcı Seç",
+      "select_model": "Model Seç",
+      "prompt": "İstem",
+      "prompt_placeholder": "Sahne, eylem, stil vb. gibi video içeriğini tanımlayın.",
+      "reference_image": "Referans Resim",
+      "reference_image_placeholder": "Video oluşturma için bir referans resmi yükleyin",
+      "reference_video": "Referans Video URL'si",
+      "reference_video_placeholder": "Referans videonun URL'sini girin",
+      "some_images_failed_to_upload": "Resim yüklenemedi, lütfen silin ve yeniden yükleyin",
+      "prompt_too_long": "İstem çok uzun, lütfen bazı içerikleri silin"
     },
-    "generate": "Generate Video",
-    "checking_account": "Checking Account...",
-    "loading": "Loading...",
-    "generating": "Generating...",
-    "sign_in_to_generate": "Sign In to Generate Video",
-    "credits_cost": "Cost {credits} credits",
-    "credits_remaining": "Remaining {credits} credits",
-    "buy_credits": "Buy Credits",
-    "progress": "Progress",
-    "generated_videos": "Video Preview",
-    "ready_to_generate": "Ready to Generate",
-    "ready_for_generating": "Ready for Generating",
-    "no_videos_generated": "No Videos Generated",
-    "preview_examples_hint": "These are sample videos created by Seedance 2.0. Fill in the form on the left and click \"Generate Video\" to create your own video.",
-    "seedance2_coming_soon": "Seedance 2.0 Coming Soon",
-    "hint_async": "You can close this page. We'll notify you when it's done.",
-    "view_history": "View History"
+    "generate": "Video Oluştur",
+    "checking_account": "Hesap Kontrol Ediliyor...",
+    "loading": "Yükleniyor...",
+    "generating": "Oluşturuluyor...",
+    "sign_in_to_generate": "Video Oluşturmak için Giriş Yapın",
+    "credits_cost": "Maliyet {credits} kredi",
+    "credits_remaining": "Kalan {credits} kredi",
+    "buy_credits": "Kredi Satın Al",
+    "progress": "İlerleme",
+    "generated_videos": "Video Önizleme",
+    "ready_to_generate": "Oluşturmaya Hazır",
+    "ready_for_generating": "Oluşturma için Hazır",
+    "no_videos_generated": "Oluşturulan Video Yok",
+    "preview_examples_hint": "Bunlar Seedance 2.0 tarafından oluşturulan örnek videolardır. Kendi videonuzu oluşturmak için soldaki formu doldurun ve \"Video Oluştur\"a tıklayın.",
+    "seedance2_coming_soon": "Seedance 2.0 Çok Yakında",
+    "hint_async": "Bu sayfayı kapatabilirsiniz. Bittiğinde size bildireceğiz.",
+    "view_history": "Geçmişi Görüntüle"
   },
-  "preview_examples_hint": "These are sample videos created using our platform. Fill in the form on the left and click \"Generate Video\" to create your own video."
+  "preview_examples_hint": "Bunlar platformumuz kullanılarak oluşturulan örnek videolardır. Kendi videonuzu oluşturmak için soldaki formu doldurun ve \"Video Oluştur\"a tıklayın."
 }

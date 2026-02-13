@@ -1,214 +1,142 @@
 {
   "metadata": {
-    "title": "Seedance 2.0 Image to Video | Animate Photos with AI Video Generator",
-    "description": "Transform any photo into cinematic video with Seedance 2.0 AI. Upload images, add motion & camera effects automatically. 2K output with native audio sync. Free to try."
+    "title": "Seedance 2.0 이미지 비디오 변환 | AI 비디오 생성기로 사진 애니메이션화",
+    "description": "Seedance 2.0 AI로 어떤 사진이든 영화 같은 비디오로 변환하세요. 이미지를 업로드하고 모션 및 카메라 효과를 자동으로 추가하세요. 네이티브 오디오 동기화가 포함된 2K 출력. 무료로 체험해보세요."
   },
   "page": {
-    "title": "Image to Video",
-    "show_sections": [
-      "hero",
-      "benefits",
-      "features",
-      "showcases",
-      "faq",
-      "cta"
-    ],
+    "title": "이미지 비디오 변환",
     "sections": {
       "hero": {
-        "id": "hero",
-        "title": "Seedance 2.0 Image to Video AI Generator",
-        "highlight_text": "Image to Video",
-        "description": "Transform any photo into cinematic video with Seedance 2.0 AI.<br/>Upload images, add motion & camera effects automatically. 2K output with native audio sync.",
-        "tip": "🖼️ Animate your photos into cinematic videos with Seedance 2.0",
+        "title": "Seedance 2.0 이미지 비디오 변환 AI 생성기",
+        "highlight_text": "이미지 비디오 변환",
+        "description": "Seedance 2.0 AI로 어떤 사진이든 영화 같은 비디오로 변환하세요.<br/>이미지를 업로드하고 모션 및 카메라 효과를 자동으로 추가하세요. 네이티브 오디오 동기화가 포함된 2K 출력.",
+        "tip": "🖼️ Seedance 2.0으로 사진을 영화 같은 비디오로 애니메이션화하세요",
         "buttons": [
           {
-            "title": "Start Animating",
-            "url": "/ai-video-generator",
-            "icon": "Zap",
-            "variant": "default"
+            "title": "애니메이션 시작하기",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "View Examples",
-            "url": "/ai-video-generator",
-            "icon": "Play",
-            "variant": "outline"
+            "title": "예시 보기",
+            "url": "/ai-video-generator"
           }
-        ],
-        "image": {
-          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
-          "alt": "Image to Video AI Animation",
-          "width": 1200,
-          "height": 800
-        },
-        "background_image": {
-          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
-          "alt": "background"
-        }
+        ]
       },
       "benefits": {
-        "block": "features-accordion",
-        "id": "benefits",
-        "title": "Why Choose Seedance 2.0 Image-to-Video",
-        "label": "Benefits",
-        "description": "Transform any static image into a dynamic cinematic video with Seedance 2.0's intelligent AI animation and native audio generation.",
+        "title": "Seedance 2.0 이미지 비디오 변환을 선택해야 하는 이유",
+        "label": "혜택",
+        "description": "Seedance 2.0의 지능형 AI 애니메이션 및 네이티브 오디오 생성으로 정적 이미지를 역동적인 영화 같은 비디오로 변환하세요.",
         "items": [
           {
-            "title": "Upload Any Image",
-            "description": "Support for all common image formats including JPG, PNG, and WebP. Upload photos, artwork, screenshots, or any static image.",
-            "icon": "RiImageAddLine",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-upload/800/600",
-              "alt": "Upload Images"
-            }
+            "title": "모든 이미지 업로드",
+            "description": "JPG, PNG, WebP를 포함한 모든 일반 이미지 형식을 지원합니다. 사진, 예술 작품, 스크린샷 또는 모든 정적 이미지를 업로드하세요."
           },
           {
-            "title": "Intelligent Element Recognition",
-            "description": "AI automatically identifies image elements like people, animals, objects, and backgrounds to apply appropriate motion effects.",
-            "icon": "RiRobot2Line",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-smart/800/600",
-              "alt": "Smart Recognition"
-            }
+            "title": "지능형 요소 인식",
+            "description": "AI가 사람, 동물, 물체 및 배경과 같은 이미지 요소를 자동으로 식별하여 적절한 모션 효과를 적용합니다."
           },
           {
-            "title": "Natural Fluid Motion",
-            "description": "Create smooth, realistic animations that maintain the original image style while adding natural movement and dynamics.",
-            "icon": "RiFlowChart",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-motion/800/600",
-              "alt": "Fluid Motion"
-            }
+            "title": "자연스러운 유동적 모션",
+            "description": "자연스러운 움직임과 역동성을 추가하면서 원본 이미지 스타일을 유지하는 부드럽고 사실적인 애니메이션을 만듭니다."
           }
         ]
       },
       "features": {
-        "id": "features",
-        "title": "Seedance 2.0 Image-to-Video Core Features",
-        "description": "Everything you need to animate your images with Seedance 2.0 AI.",
+        "title": "Seedance 2.0 이미지 비디오 변환 핵심 기능",
+        "description": "Seedance 2.0 AI로 이미지를 애니메이션화하는 데 필요한 모든 것.",
         "items": [
           {
-            "title": "🖼️ Upload Any Image",
-            "description": "Support for JPG, PNG, WebP and other common formats. Works with photos, artwork, and graphics.",
-            "icon": "RiImageAddLine"
+            "title": "🖼️ 모든 이미지 업로드",
+            "description": "JPG, PNG, WebP 및 기타 일반 형식을 지원합니다. 사진, 예술 작품 및 그래픽과 함께 작동합니다."
           },
           {
-            "title": "🤖 Intelligent Recognition",
-            "description": "AI automatically identifies people, animals, objects, and scene elements for smart animation.",
-            "icon": "RiRobot2Line"
+            "title": "🤖 지능형 인식",
+            "description": "AI가 스마트 애니메이션을 위해 사람, 동물, 물체 및 장면 요소를 자동으로 식별합니다."
           },
           {
-            "title": "🌊 Natural Fluid Motion",
-            "description": "Smooth, realistic animations that preserve the original image style and aesthetic.",
-            "icon": "RiFlowChart"
+            "title": "🌊 자연스러운 유동적 모션",
+            "description": "원본 이미지 스타일과 미학을 보존하는 부드럽고 사실적인 애니메이션."
           },
           {
-            "title": "✏️ Custom Motion Descriptions",
-            "description": "Add supplementary text prompts to control specific motion effects and animations.",
-            "icon": "RiEditLine"
+            "title": "✏️ 맞춤형 모션 설명",
+            "description": "특정 모션 효과 및 애니메이션을 제어하기 위해 보충 텍스트 프롬프트를 추가하세요."
           },
           {
-            "title": "🎬 Camera Movements",
-            "description": "Add cinematic camera effects like zooms, pans, and parallax to your animations.",
-            "icon": "RiVideoChatLine"
+            "title": "🎬 카메라 움직임",
+            "description": "줌, 팬 및 시차와 같은 영화 같은 카메라 효과를 애니메이션에 추가하세요."
           },
           {
-            "title": "📺 HD Quality Output",
-            "description": "Export animated videos in 1080p Full HD or 2K resolution with smooth frame rates.",
-            "icon": "RiHdLine"
+            "title": "📺 HD 품질 출력",
+            "description": "부드러운 프레임 속도로 1080p Full HD 또는 2K 해상도로 애니메이션 비디오를 내보내세요."
           }
         ]
       },
       "showcases": {
-        "block": "showcases",
-        "id": "showcases",
-        "title": "Seedance 2.0 Image-to-Video Showcases",
-        "label": "Examples",
-        "description": "See what's possible with Seedance 2.0 AI image-to-video animation.",
+        "title": "Seedance 2.0 이미지 비디오 변환 쇼케이스",
+        "label": "예시",
+        "description": "Seedance 2.0 AI 이미지 비디오 변환 애니메이션으로 무엇이 가능한지 확인하세요.",
         "items": [
           {
-            "title": "Portrait Animation",
-            "description": "Bring portrait photos to life with natural expressions and subtle movements.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
-              "alt": "Portrait Animation"
-            }
+            "title": "인물 애니메이션",
+            "description": "자연스러운 표정과 미세한 움직임으로 인물 사진에 생명을 불어넣으세요."
           },
           {
-            "title": "Landscape Animation",
-            "description": "Add flowing water, moving clouds, and swaying trees to landscape images.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
-              "alt": "Landscape Animation"
-            }
+            "title": "풍경 애니메이션",
+            "description": "흐르는 물, 움직이는 구름, 흔들리는 나무를 풍경 이미지에 추가하세요."
           },
           {
-            "title": "Artwork Animation",
-            "description": "Animate digital art, illustrations, and paintings while preserving artistic style.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-art/600/400",
-              "alt": "Artwork Animation"
-            }
+            "title": "예술 작품 애니메이션",
+            "description": "예술적 스타일을 보존하면서 디지털 아트, 일러스트레이션 및 그림을 애니메이션화하세요."
           },
           {
-            "title": "Product Animation",
-            "description": "Create dynamic product showcases and 360-degree rotation effects.",
-            "image": {
-              "src": "https://picsum.photos/seed/i2v-product/600/400",
-              "alt": "Product Animation"
-            }
+            "title": "제품 애니메이션",
+            "description": "역동적인 제품 쇼케이스와 360도 회전 효과를 만듭니다."
           }
-        ],
-        "className": "bg-muted"
+        ]
       },
       "faq": {
-        "id": "faq",
-        "title": "Seedance 2.0 Image-to-Video — FAQ",
-        "description": "Common questions about Seedance 2.0 image-to-video animation.",
+        "title": "Seedance 2.0 이미지 비디오 변환 — 자주 묻는 질문",
+        "description": "Seedance 2.0 이미지 비디오 변환 애니메이션에 대한 일반적인 질문입니다.",
         "items": [
           {
-            "question": "What is Image-to-Video?",
-            "answer": "Image-to-Video is an AI technology that transforms static images into dynamic video animations. Upload any image and the AI will add realistic motion, camera movements, and special effects while preserving the original visual style."
+            "question": "이미지 비디오 변환이란 무엇인가요?",
+            "answer": "이미지 비디오 변환은 정적 이미지를 역동적인 비디오 애니메이션으로 변환하는 AI 기술입니다. 이미지를 업로드하면 AI가 원본 시각적 스타일을 보존하면서 현실적인 움직임, 카메라 움직임 및 특수 효과를 추가합니다."
           },
           {
-            "question": "What image formats are supported?",
-            "answer": "We support all common image formats including JPG, PNG, WebP, and GIF. Images should be at least 512x512 pixels for best results, with higher resolution images producing better quality animations."
+            "question": "어떤 이미지 형식이 지원되나요?",
+            "answer": "JPG, PNG, WebP 및 GIF를 포함한 모든 일반 이미지 형식을 지원합니다. 최상의 결과를 위해서는 이미지가 최소 512x512 픽셀이어야 하며, 해상도가 높을수록 더 나은 품질의 애니메이션이 생성됩니다."
           },
           {
-            "question": "Can I control the animation effects?",
-            "answer": "Yes! You can add supplementary text prompts to describe specific motion effects you want, such as 'gentle breeze moving the leaves' or 'water rippling softly'. The AI will incorporate your descriptions."
+            "question": "애니메이션 효과를 제어할 수 있나요?",
+            "answer": "네! '나뭇잎을 움직이는 산들바람'이나 '부드럽게 일렁이는 물결'과 같이 원하는 특정 모션 효과를 설명하는 보충 텍스트 프롬프트를 추가할 수 있습니다. AI가 설명을 반영합니다."
           },
           {
-            "question": "How does intelligent recognition work?",
-            "answer": "Our AI automatically identifies different elements in your image including people, animals, objects, sky, water, and foliage. Each element receives appropriate motion effects based on its nature."
+            "question": "지능형 인식은 어떻게 작동하나요?",
+            "answer": "AI가 사람, 동물, 물체, 하늘, 물, 나뭇잎 등 이미지의 다양한 요소를 자동으로 식별합니다. 각 요소는 특성에 따라 적절한 모션 효과를 받습니다."
           },
           {
-            "question": "What video quality can I expect?",
-            "answer": "Animated videos are exported in 1080p Full HD or 2K resolution with smooth frame rates. The AI maintains the original image quality while adding natural, fluid motion effects."
+            "question": "어떤 비디오 품질을 기대할 수 있나요?",
+            "answer": "애니메이션 비디오는 부드러운 프레임 속도로 1080p Full HD 또는 2K 해상도로 내보내집니다. AI는 자연스럽고 유동적인 모션 효과를 추가하면서 원본 이미지 품질을 유지합니다."
           },
           {
-            "question": "Can I animate artwork and illustrations?",
-            "answer": "Absolutely! The AI works great with digital art, illustrations, paintings, and graphics. It preserves the artistic style while adding subtle, appropriate animations."
+            "question": "예술 작품과 일러스트레이션을 애니메이션화할 수 있나요?",
+            "answer": "물론입니다! AI는 디지털 아트, 일러스트레이션, 그림 및 그래픽과 훌륭하게 작동합니다. 예술적 스타일을 보존하면서 미묘하고 적절한 애니메이션을 추가합니다."
           }
         ]
       },
       "cta": {
-        "id": "cta",
-        "title": "Bring Your Images to Life with Seedance 2.0",
-        "description": "Transform static images into stunning animated videos with Seedance 2.0's AI-powered image-to-video technology. Try free today.",
+        "title": "Seedance 2.0으로 이미지에 생명을 불어넣으세요",
+        "description": "Seedance 2.0의 AI 기반 이미지 비디오 변환 기술로 정적 이미지를 멋진 애니메이션 비디오로 변환하세요. 오늘 무료로 사용해 보세요.",
         "buttons": [
           {
-            "title": "Try Now",
-            "url": "/ai-video-generator",
-            "icon": "Zap"
+            "title": "지금 체험하기",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "View Pricing",
-            "url": "/pricing",
-            "variant": "outline",
-            "icon": "CreditCard"
+            "title": "요금제 보기",
+            "url": "/pricing"
           }
-        ],
-        "className": "bg-muted"
+        ]
       }
     }
   }

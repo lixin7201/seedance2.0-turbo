@@ -1,0 +1,22 @@
+{
+  "title": "المدفوعات",
+  "fields": {
+    "date": "التاريخ",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "method": "طريقة الدفع",
+    "description": "الوصف"
+  },
+  "filters": {
+    "status": {
+      "title": "الحالة",
+      "options": {
+        "all": "الكل",
+        "paid": "مدفوع",
+        "pending": "قيد الانتظار",
+        "failed": "فشل"
+      }
+    }
+  },
+  "empty_message": "لا توجد سجلات دفع"
+}

@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "ID",
+    "code": "Код",
+    "title": "Заголовок",
+    "resource": "Ресурс",
+    "action": "Действие",
+    "description": "Описание",
+    "created_at": "Создано",
+    "updated_at": "Обновлено"
+  },
+  "list": {
+    "title": "Разрешения",
+    "crumbs": {
+      "admin": "Админ",
+      "permissions": "Разрешения"
+    }
+  }
+}

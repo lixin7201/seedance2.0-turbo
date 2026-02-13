@@ -1,43 +1,43 @@
 {
   "metadata": {
-    "title": "AI Image Generator",
-    "description": "Generate images with AI models, support text-to-image and image-to-image."
+    "title": "AI 이미지 생성기",
+    "description": "AI 모델로 이미지를 생성하고 텍스트-이미지 및 이미지-이미지를 지원합니다."
   },
   "page": {
-    "title": "AI Image Generator",
-    "description": "Generate images with AI models, support text-to-image and image-to-image."
+    "title": "AI 이미지 생성기",
+    "description": "AI 모델로 이미지를 생성하고 텍스트-이미지 및 이미지-이미지를 지원합니다."
   },
   "generator": {
-    "title": "Image Generator",
-    "description": "Generate images with AI models, support text-to-image and image-to-image.",
+    "title": "이미지 생성기",
+    "description": "AI 모델로 이미지를 생성하고 텍스트-이미지 및 이미지-이미지를 지원합니다.",
     "tabs": {
-      "text-to-image": "Text to Image",
-      "image-to-image": "Image to Image"
+      "text-to-image": "텍스트 이미지 변환",
+      "image-to-image": "이미지 이미지 변환"
     },
     "form": {
-      "provider": "Provider",
-      "model": "Model",
-      "select_provider": "Select Provider",
-      "select_model": "Select Model",
-      "prompt": "Prompt",
-      "prompt_placeholder": "Describe the details of the image, such as color, shape, texture, etc.",
-      "reference_image": "Reference Image",
-      "reference_image_placeholder": "Upload reference images, support multiple images",
-      "some_images_failed_to_upload": "Some images failed to upload, please delete them and re-upload",
-      "prompt_too_long": "Prompt is too long, please delete some content"
+      "provider": "공급자",
+      "model": "모델",
+      "select_provider": "공급자 선택",
+      "select_model": "모델 선택",
+      "prompt": "프롬프트",
+      "prompt_placeholder": "색상, 모양, 질감 등 이미지의 세부 사항을 설명하세요.",
+      "reference_image": "참조 이미지",
+      "reference_image_placeholder": "참조 이미지 업로드, 다중 이미지 지원",
+      "some_images_failed_to_upload": "일부 이미지가 업로드 실패했습니다. 삭제하고 다시 업로드해 주세요",
+      "prompt_too_long": "프롬프트가 너무 깁니다. 내용을 일부 삭제해 주세요"
     },
-    "generate": "Generate Images",
-    "checking_account": "Checking Account...",
-    "loading": "Loading...",
-    "generating": "Generating...",
-    "sign_in_to_generate": "Sign In to Generate Image",
-    "credits_cost": "Cost {credits} credits",
-    "credits_remaining": "Remaining {credits} credits",
-    "buy_credits": "Buy Credits",
-    "progress": "Progress",
-    "generated_images": "Image Preview",
-    "ready_to_generate": "Ready to Generate",
-    "ready_for_generating": "Ready for Generating",
-    "no_images_generated": "No Images Generated"
+    "generate": "이미지 생성",
+    "checking_account": "계정 확인 중...",
+    "loading": "로딩 중...",
+    "generating": "생성 중...",
+    "sign_in_to_generate": "이미지를 생성하려면 로그인하세요",
+    "credits_cost": "{credits} 크레딧 비용",
+    "credits_remaining": "남은 크레딧 {credits}개",
+    "buy_credits": "크레딧 구매",
+    "progress": "진행 상황",
+    "generated_images": "이미지 미리보기",
+    "ready_to_generate": "생성 준비 완료",
+    "ready_for_generating": "생성 준비됨",
+    "no_images_generated": "생성된 이미지 없음"
   }
 }

@@ -1,18 +1,18 @@
 {
   "fields": {
-    "email": "Email",
-    "name": "Name",
-    "avatar": "Avatar"
+    "email": "이메일",
+    "name": "이름",
+    "avatar": "아바타"
   },
   "edit": {
-    "title": "Profile",
-    "description": "Update your profile",
+    "title": "프로필",
+    "description": "프로필 업데이트",
     "crumbs": {
-      "settings": "Settings",
-      "profile": "Profile"
+      "settings": "설정",
+      "profile": "프로필"
     },
     "buttons": {
-      "submit": "Save"
+      "submit": "저장"
     }
   }
 }

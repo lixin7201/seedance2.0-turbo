@@ -1,0 +1,155 @@
+{
+  "header": {
+    "brand": {
+      "title": "Seedance 2.0 管理",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "システム",
+      "items": [
+        {
+          "title": "ユーザーと権限",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "ユーザー",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "ロール",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "権限",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "ページとコンテンツ",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "カテゴリー",
+              "icon": "Folder",
+              "url": "/admin/categories"
+            },
+            {
+              "title": "投稿",
+              "icon": "FileText",
+              "url": "/admin/posts"
+            }
+          ]
+        },
+        {
+          "title": "支払いとクレジット",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "支払い",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "サブスクリプション",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "クレジット",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ビジネス",
+      "items": [
+        {
+          "title": "AIタスク",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        },
+        {
+          "title": "AIチャット",
+          "url": "/admin/chats",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "モデル設定",
+          "url": "/admin/model-config",
+          "icon": "Settings2"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "設定",
+        "url": "/admin/settings/general",
+        "icon": "Settings"
+      },
+      {
+        "title": "APIキー",
+        "url": "/admin/apikeys",
+        "icon": "Key"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "プロフィール",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "ホーム",
+          "url": "/",
+          "icon": "Home",
+          "target": "_blank"
+        },
+        {
+          "title": "X",
+          "url": "https://x.com/seedance",
+          "icon": "RiTwitterXFill",
+          "target": "_blank"
+        },
+        {
+          "title": "メール",
+          "url": "mailto:support@seedance2.shop",
+          "icon": "Mail",
+          "target": "_blank"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "sidebar"
+}

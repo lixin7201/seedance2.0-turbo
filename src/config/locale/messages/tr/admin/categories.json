@@ -1,52 +1,52 @@
 {
   "fields": {
     "slug": "Slug",
-    "title": "Title",
-    "description": "Description",
-    "status": "Status",
-    "created_at": "Created At",
-    "updated_at": "Updated At"
+    "title": "Başlık",
+    "description": "Açıklama",
+    "status": "Durum",
+    "created_at": "Oluşturulma Tarihi",
+    "updated_at": "Güncellenme Tarihi"
   },
   "list": {
-    "title": "Categories",
+    "title": "Kategoriler",
     "crumbs": {
-      "admin": "Admin",
-      "categories": "Categories"
+      "admin": "Yönetici",
+      "categories": "Kategoriler"
     },
     "buttons": {
-      "add": "Add Category",
-      "edit": "Edit Category",
-      "view": "View Category",
-      "delete": "Delete Category"
+      "add": "Kategori Ekle",
+      "edit": "Kategoriyi Düzenle",
+      "view": "Kategoriyi Görüntüle",
+      "delete": "Kategoriyi Sil"
     },
     "tabs": {
-      "all": "All",
-      "published": "Published",
-      "pending": "Pending",
-      "draft": "Draft",
-      "archived": "Archived"
+      "all": "Tümü",
+      "published": "Yayınlandı",
+      "pending": "Beklemede",
+      "draft": "Taslak",
+      "archived": "Arşivlendi"
     }
   },
   "add": {
-    "title": "Add Category",
+    "title": "Kategori Ekle",
     "crumbs": {
-      "admin": "Admin",
-      "categories": "Categories",
-      "add": "Add Category"
+      "admin": "Yönetici",
+      "categories": "Kategoriler",
+      "add": "Kategori Ekle"
     },
     "buttons": {
-      "submit": "Add Category"
+      "submit": "Kategori Ekle"
     }
   },
   "edit": {
-    "title": "Edit Category",
+    "title": "Kategoriyi Düzenle",
     "crumbs": {
-      "admin": "Admin",
-      "categories": "Categories",
-      "edit": "Edit Category"
+      "admin": "Yönetici",
+      "categories": "Kategoriler",
+      "edit": "Kategoriyi Düzenle"
     },
     "buttons": {
-      "submit": "Edit Category"
+      "submit": "Kategoriyi Düzenle"
     }
   }
 }

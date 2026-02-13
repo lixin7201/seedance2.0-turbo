@@ -1,27 +1,27 @@
 {
   "fields": {
-    "transaction_no": "Transaction No",
-    "user": "User",
-    "amount": "Amount",
-    "remaining": "Remaining",
-    "type": "Type",
-    "scene": "Scene",
-    "description": "Description",
-    "created_at": "Created At",
-    "expires_at": "Expires At",
-    "metadata": "Metadata",
-    "action": "Action"
+    "transaction_no": "거래 번호",
+    "user": "사용자",
+    "amount": "양",
+    "remaining": "남은 양",
+    "type": "유형",
+    "scene": "장면",
+    "description": "설명",
+    "created_at": "생성일",
+    "expires_at": "만료일",
+    "metadata": "메타데이터",
+    "action": "작업"
   },
   "list": {
-    "title": "Credits",
+    "title": "크레딧",
     "crumbs": {
-      "admin": "Admin",
-      "credits": "Credits"
+      "admin": "관리자",
+      "credits": "크레딧"
     },
     "tabs": {
-      "all": "All",
-      "grant": "Grant",
-      "consume": "Consume"
+      "all": "전체",
+      "grant": "부여",
+      "consume": "소비"
     }
   }
 }

@@ -1,49 +1,49 @@
 {
   "fields": {
     "id": "ID",
-    "name": "Name",
-    "title": "Title",
-    "description": "Description",
-    "status": "Status",
-    "sort": "Sort",
-    "created_at": "Created At",
-    "updated_at": "Updated At",
-    "permissions": "Permissions",
-    "actions": "Actions"
+    "name": "İsim",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "status": "Durum",
+    "sort": "Sırala",
+    "created_at": "Oluşturulma Tarihi",
+    "updated_at": "Güncellenme Tarihi",
+    "permissions": "İzinler",
+    "actions": "Eylemler"
   },
   "list": {
-    "title": "Roles",
+    "title": "Roller",
     "crumbs": {
-      "admin": "Admin",
-      "roles": "Roles"
+      "admin": "Yönetici",
+      "roles": "Roller"
     },
     "buttons": {
-      "create": "Create Role",
-      "edit": "Edit Role",
-      "edit_permissions": "Edit Permissions",
-      "delete": "Delete Role"
+      "create": "Rol Oluştur",
+      "edit": "Rolü Düzenle",
+      "edit_permissions": "İzinleri Düzenle",
+      "delete": "Rolü Sil"
     }
   },
   "edit": {
-    "title": "Edit Role",
+    "title": "Rolü Düzenle",
     "crumbs": {
-      "admin": "Admin",
-      "roles": "Roles",
-      "edit": "Edit Role"
+      "admin": "Yönetici",
+      "roles": "Roller",
+      "edit": "Rolü Düzenle"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "Güncelle"
     }
   },
   "edit_permissions": {
-    "title": "Edit Permissions",
+    "title": "İzinleri Düzenle",
     "crumbs": {
-      "admin": "Admin",
-      "roles": "Roles",
-      "edit_permissions": "Edit Permissions"
+      "admin": "Yönetici",
+      "roles": "Roller",
+      "edit_permissions": "İzinleri Düzenle"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "Güncelle"
     }
   }
 }

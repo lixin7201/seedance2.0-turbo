@@ -13,7 +13,7 @@
     },
     "buttons": [
       {
-        "title": "New Chat",
+        "title": "새 채팅",
         "icon": "Plus",
         "url": "/chat",
         "variant": "outline"
@@ -23,7 +23,7 @@
       {
         "items": [
           {
-            "title": "History",
+            "title": "기록",
             "icon": "History",
             "url": "/chat/history"
           }
@@ -37,7 +37,7 @@
       "nav": {
         "items": [
           {
-            "title": "Profile",
+            "title": "프로필",
             "url": "/settings/profile",
             "icon": "User",
             "target": "_blank"
@@ -53,7 +53,7 @@
       "nav": {
         "items": [
           {
-            "title": "Home",
+            "title": "홈",
             "url": "/",
             "icon": "Home",
             "target": "_blank"
@@ -65,7 +65,7 @@
             "target": "_blank"
           },
           {
-            "title": "Email",
+            "title": "이메일",
             "url": "mailto:support@seedance2.shop",
             "icon": "Mail",
             "target": "_blank"
@@ -78,32 +78,32 @@
     "variant": "sidebar"
   },
   "library": {
-    "title": "Library",
+    "title": "라이브러리",
     "icon": "History",
     "url": "/chat/history",
-    "more": "More",
+    "more": "더 보기",
     "actions": {
-      "edit_title": "Edit Title",
-      "share": "Share",
-      "delete": "Delete"
+      "edit_title": "제목 편집",
+      "share": "공유",
+      "delete": "삭제"
     }
   },
   "generator": {
-    "title": "What can I help you today?",
-    "input_placeholder": "You can ask me anything"
+    "title": "오늘 무엇을 도와드릴까요?",
+    "input_placeholder": "무엇이든 물어보세요"
   },
   "history": {
-    "title": "Chat history",
-    "description": "Review and revisit your previous conversations.",
-    "empty": "No conversations yet.",
-    "error": "Failed to load conversations.",
-    "retry": "Try again",
-    "signin": "Sign in to view your chat history.",
-    "summary": "Showing {from}-{to} of {total}",
-    "perPage": "Per page",
-    "prev": "Previous",
-    "next": "Next",
-    "open": "Open chat",
-    "untitled": "Untitled conversation"
+    "title": "채팅 기록",
+    "description": "이전 대화를 검토하고 다시 방문하세요.",
+    "empty": "아직 대화가 없습니다.",
+    "error": "대화를 불러오는 데 실패했습니다.",
+    "retry": "다시 시도",
+    "signin": "채팅 기록을 보려면 로그인하세요.",
+    "summary": "{total}개 중 {from}-{to} 표시",
+    "perPage": "페이지 당",
+    "prev": "이전",
+    "next": "다음",
+    "open": "채팅 열기",
+    "untitled": "제목 없는 대화"
   }
 }

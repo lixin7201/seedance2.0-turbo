@@ -1,27 +1,27 @@
 {
   "fields": {
-    "transaction_no": "Transaction No",
-    "user": "User",
-    "amount": "Amount",
-    "remaining": "Remaining",
-    "type": "Type",
-    "scene": "Scene",
-    "description": "Description",
-    "created_at": "Created At",
-    "expires_at": "Expires At",
-    "metadata": "Metadata",
-    "action": "Action"
+    "transaction_no": "İşlem No",
+    "user": "Kullanıcı",
+    "amount": "Miktar",
+    "remaining": "Kalan",
+    "type": "Tür",
+    "scene": "Sahne",
+    "description": "Açıklama",
+    "created_at": "Oluşturulma Tarihi",
+    "expires_at": "Son Kullanma Tarihi",
+    "metadata": "Meta Veri",
+    "action": "Eylem"
   },
   "list": {
-    "title": "Credits",
+    "title": "Krediler",
     "crumbs": {
-      "admin": "Admin",
-      "credits": "Credits"
+      "admin": "Yönetici",
+      "credits": "Krediler"
     },
     "tabs": {
-      "all": "All",
-      "grant": "Grant",
-      "consume": "Consume"
+      "all": "Tümü",
+      "grant": "Verilen",
+      "consume": "Tüketilen"
     }
   }
 }

@@ -1,29 +1,29 @@
 {
   "fields": {
-    "title": "Title",
-    "user": "User",
-    "status": "Status",
-    "model": "Model",
-    "provider": "Provider",
-    "created_at": "Created At",
-    "action": "Action"
+    "title": "제목",
+    "user": "사용자",
+    "status": "상태",
+    "model": "모델",
+    "provider": "공급자",
+    "created_at": "생성일",
+    "action": "작업"
   },
   "list": {
-    "title": "AI Chats",
+    "title": "AI 채팅",
     "crumbs": {
-      "admin": "Admin",
-      "chats": "AI Chats"
+      "admin": "관리자",
+      "chats": "AI 채팅"
     },
     "tabs": {
-      "all": "All",
-      "pending": "Pending",
-      "completed": "Completed",
-      "failed": "Failed"
+      "all": "전체",
+      "pending": "보류 중",
+      "completed": "완료됨",
+      "failed": "실패함"
     },
     "buttons": {
-      "view": "View Chat",
-      "new": "New Chat"
+      "view": "채팅 보기",
+      "new": "새 채팅"
     },
-    "empty_message": "No chats found"
+    "empty_message": "채팅을 찾을 수 없습니다"
   }
 }

@@ -1,47 +1,47 @@
 {
   "fields": {
-    "title": "Title",
-    "key": "Key",
-    "created_at": "Created At",
-    "action": "Action"
+    "title": "제목",
+    "key": "키",
+    "created_at": "생성일",
+    "action": "작업"
   },
   "list": {
-    "title": "API Keys",
-    "empty_message": "No API Keys",
+    "title": "API 키",
+    "empty_message": "API 키 없음",
     "buttons": {
-      "add": "Create API Key",
-      "edit": "Edit",
-      "delete": "Delete"
+      "add": "API 키 생성",
+      "edit": "편집",
+      "delete": "삭제"
     }
   },
   "add": {
-    "title": "Create API Key",
+    "title": "API 키 생성",
     "crumbs": {
-      "apikeys": "API Keys",
-      "add": "Create API Key"
+      "apikeys": "API 키",
+      "add": "API 키 생성"
     },
     "buttons": {
-      "submit": "Create"
+      "submit": "생성"
     }
   },
   "edit": {
-    "title": "Edit API Key",
+    "title": "API 키 편집",
     "crumbs": {
-      "apikeys": "API Keys",
-      "edit": "Edit API Key"
+      "apikeys": "API 키",
+      "edit": "API 키 편집"
     },
     "buttons": {
-      "submit": "Update"
+      "submit": "업데이트"
     }
   },
   "delete": {
-    "title": "Delete API Key",
+    "title": "API 키 삭제",
     "crumbs": {
-      "apikeys": "API Keys",
-      "delete": "Delete API Key"
+      "apikeys": "API 키",
+      "delete": "API 키 삭제"
     },
     "buttons": {
-      "submit": "Confirm Delete"
+      "submit": "삭제 확인"
     }
   }
 }

@@ -1,145 +1,92 @@
 {
   "metadata": {
-    "title": "About Seedance 2.0 | AI Video Generation Platform",
-    "description": "Learn about Seedance 2.0 — the AI video generation platform making cinematic content creation accessible to everyone. Our mission: everyone can be a director."
+    "title": "Seedance 2.0 정보 | AI 비디오 생성 플랫폼",
+    "description": "Seedance 2.0에 대해 알아보세요 — 영화 같은 콘텐츠 제작을 누구나 접근할 수 있게 만드는 AI 비디오 생성 플랫폼입니다. 우리의 사명: 누구나 감독이 될 수 있습니다."
   },
   "page": {
-    "title": "About Seedance 2.0",
-    "show_sections": ["hero", "team", "values", "cta"],
+    "title": "Seedance 2.0 정보",
     "sections": {
       "hero": {
-        "id": "hero",
-        "title": "The Story Behind Seedance 2.0",
-        "highlight_text": "Story",
-        "description": "What started as a simple idea has grown into something I'm truly proud of.<br/>Seedance 2.0 is my way of bringing the power of AI video generation to creators everywhere.",
+        "title": "Seedance 2.0 비하인드 스토리",
+        "highlight_text": "스토리",
+        "description": "단순한 아이디어로 시작된 것이 제가 진심으로 자랑스러워하는 것으로 성장했습니다.<br/>Seedance 2.0은 전 세계 크리에이터들에게 AI 비디오 생성의 힘을 제공하는 저만의 방식입니다.",
         "buttons": [
           {
-            "title": "Try It Free",
-            "icon": "Zap",
-            "url": "/ai-video-generator",
-            "target": "_self",
-            "variant": "default"
+            "title": "무료로 체험하기",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "Get in Touch",
-            "icon": "Mail",
-            "url": "mailto:support@seedance2.shop",
-            "target": "_self",
-            "variant": "outline"
+            "title": "문의하기",
+            "url": "mailto:support@seedance2.shop"
           }
-        ],
-        "show_avatars": false,
-        "image": null,
-        "background_image": null
+        ]
       },
       "team": {
-        "block": "features-list",
-        "id": "team",
-        "title": "Why I Built This",
-        "label": "My Mission",
-        "description": "As a solo creator, I believe everyone deserves access to professional-grade AI tools without the complexity or cost barriers.",
-        "image": {
-          "src": "https://picsum.photos/seed/about-team/800/600",
-          "alt": "About the Creator"
-        },
+        "title": "이것을 만든 이유",
+        "label": "나의 사명",
+        "description": "1인 크리에이터로서 저는 복잡성이나 비용 장벽 없이 누구나 전문가 수준의 AI 도구에 액세스할 자격이 있다고 믿습니다.",
         "items": [
           {
-            "title": "Passion for Creation",
-            "description": "I've always been fascinated by the intersection of technology and creativity. Seedance 2.0 is the result of that passion.",
-            "icon": "Heart",
-            "image": {
-              "src": "https://picsum.photos/seed/about-passion/600/400",
-              "alt": "Passion for Creation"
-            }
+            "title": "창작에 대한 열정",
+            "description": "저는 항상 기술과 창의성의 교차점에 매료되었습니다. Seedance 2.0은 그 열정의 결과물입니다."
           },
           {
-            "title": "Simplicity First",
-            "description": "Complex tools shouldn't require a manual. I've worked hard to make video generation as intuitive as possible.",
-            "icon": "Sparkles",
-            "image": {
-              "src": "https://picsum.photos/seed/about-simple/600/400",
-              "alt": "Simplicity First"
-            }
+            "title": "단순성 우선",
+            "description": "복잡한 도구에는 매뉴얼이 필요하지 않아야 합니다. 저는 비디오 생성을 가능한 한 직관적으로 만들기 위해 열심히 노력했습니다."
           },
           {
-            "title": "Continuous Improvement",
-            "description": "This is just the beginning. I'm constantly learning from user feedback to make Seedance better every day.",
-            "icon": "TrendingUp",
-            "image": {
-              "src": "https://picsum.photos/seed/about-improve/600/400",
-              "alt": "Continuous Improvement"
-            }
+            "title": "지속적인 개선",
+            "description": "이것은 시작에 불과합니다. 저는 사용자 피드백을 통해 끊임없이 배우며 Seedance를 매일 더 좋게 만들고 있습니다."
           },
           {
-            "title": "Community Driven",
-            "description": "Your suggestions shape the roadmap. I read every email and genuinely value your input.",
-            "icon": "Users",
-            "image": {
-              "src": "https://picsum.photos/seed/about-community/600/400",
-              "alt": "Community Driven"
-            }
+            "title": "커뮤니티 중심",
+            "description": "여러분의 제안이 로드맵을 형성합니다. 저는 모든 이메일을 읽고 여러분의 의견을 진심으로 소중하게 생각합니다."
           }
-        ],
-        "className": "bg-muted"
+        ]
       },
       "values": {
-        "block": "features",
-        "id": "values",
-        "title": "What I Stand For",
-        "description": "These principles guide every decision I make for Seedance 2.0.",
+        "title": "제가 지향하는 바",
+        "description": "이러한 원칙은 Seedance 2.0을 위한 저의 모든 결정을 안내합니다.",
         "items": [
           {
-            "title": "🎯 Quality Over Quantity",
-            "description": "I'd rather do a few things exceptionally well than spread thin across many features.",
-            "icon": "Target"
+            "title": "🎯 양보다 질",
+            "description": "많은 기능에 얇게 퍼뜨리기보다는 몇 가지 일을 탁월하게 잘하고 싶습니다."
           },
           {
-            "title": "🤝 Honest Communication",
-            "description": "No hidden fees, no surprises. What you see is what you get.",
-            "icon": "Shield"
+            "title": "🤝 정직한 소통",
+            "description": "숨겨진 수수료도, 놀라움도 없습니다. 보이는 그대로입니다."
           },
           {
-            "title": "🚀 Keep Innovating",
-            "description": "AI moves fast, and so do I. Expect regular updates and new capabilities.",
-            "icon": "Rocket"
+            "title": "🚀 끊임없는 혁신",
+            "description": "AI는 빠르게 움직이고 저도 마찬가지입니다. 정기적인 업데이트와 새로운 기능을 기대하세요."
           },
           {
-            "title": "💬 Listen Carefully",
-            "description": "Every piece of feedback is a gift. I take your suggestions seriously.",
-            "icon": "MessageCircle"
+            "title": "💬 경청하기",
+            "description": "모든 피드백은 선물입니다. 저는 여러분의 제안을 진지하게 받아들입니다."
           },
           {
-            "title": "🌍 Accessible to All",
-            "description": "Great tools should be available to everyone, not just big studios.",
-            "icon": "Globe"
+            "title": "🌍 모두에게 접근 가능",
+            "description": "훌륭한 도구는 대형 스튜디오뿐만 아니라 누구나 사용할 수 있어야 합니다."
           },
           {
-            "title": "❤️ Built with Care",
-            "description": "This isn't just a product—it's something I genuinely believe in.",
-            "icon": "Heart"
+            "title": "❤️ 정성을 다해 제작",
+            "description": "이것은 단순한 제품이 아닙니다. 제가 진심으로 믿는 것입니다."
           }
         ]
       },
       "cta": {
-        "id": "cta",
-        "title": "Let's Create Something Together",
-        "description": "Have questions, ideas, or just want to say hi? I'd love to hear from you.",
+        "title": "함께 만들어 가요",
+        "description": "질문이나 아이디어가 있거나 그냥 인사하고 싶으신가요? 여러분의 연락을 기다립니다.",
         "buttons": [
           {
-            "title": "Start Creating",
-            "url": "/ai-video-generator",
-            "target": "_self",
-            "icon": "Zap"
+            "title": "제작 시작하기",
+            "url": "/ai-video-generator"
           },
           {
-            "title": "Contact Me",
-            "url": "mailto:support@seedance2.shop",
-            "target": "_self",
-            "variant": "outline",
-            "icon": "Mail"
+            "title": "문의하기",
+            "url": "mailto:support@seedance2.shop"
           }
-        ],
-        "className": "bg-muted"
+        ]
       }
     }
   }

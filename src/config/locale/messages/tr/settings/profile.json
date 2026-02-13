@@ -1,18 +1,18 @@
 {
   "fields": {
-    "email": "Email",
-    "name": "Name",
+    "email": "E-posta",
+    "name": "İsim",
     "avatar": "Avatar"
   },
   "edit": {
-    "title": "Profile",
-    "description": "Update your profile",
+    "title": "Profil",
+    "description": "Profilinizi güncelleyin",
     "crumbs": {
-      "settings": "Settings",
-      "profile": "Profile"
+      "settings": "Ayarlar",
+      "profile": "Profil"
     },
     "buttons": {
-      "submit": "Save"
+      "submit": "Kaydet"
     }
   }
 }

@@ -1,59 +1,59 @@
 {
   "fields": {
-    "subscription_no": "Subscription No",
-    "interval": "Interval",
-    "provider": "Provider",
-    "current_period": "Current Period",
-    "plan": "Plan",
-    "status": "Status",
-    "amount": "Amount",
-    "created_at": "Created At",
-    "end_time": "End Time",
-    "action": "Action"
+    "subscription_no": "구독 번호",
+    "interval": "간격",
+    "provider": "공급자",
+    "current_period": "현재 기간",
+    "plan": "플랜",
+    "status": "상태",
+    "amount": "금액",
+    "created_at": "생성일",
+    "end_time": "종료 시간",
+    "action": "작업"
   },
   "view": {
-    "title": "Current Plan",
-    "tip": "Your subscription will auto renew on {date}",
-    "end_tip": "Your subscription will be auto canceled on {date}",
-    "no_subscription": "No plan",
+    "title": "현재 플랜",
+    "tip": "구독은 {date}에 자동 갱신됩니다",
+    "end_tip": "구독은 {date}에 자동 취소됩니다",
+    "no_subscription": "플랜 없음",
     "buttons": {
-      "adjust": "Adjust Plan",
-      "subscribe": "Subscribe",
-      "manage": "Manage Subscription",
-      "cancel": "Cancel Subscription"
+      "adjust": "플랜 조정",
+      "subscribe": "구독",
+      "manage": "구독 관리",
+      "cancel": "구독 취소"
     }
   },
   "list": {
-    "title": "Subscriptions History",
+    "title": "구독 기록",
     "tabs": {
-      "all": "All",
-      "active": "Active",
-      "pending_cancel": "Pending Cancel",
-      "canceled": "Canceled",
-      "trialing": "Trialing",
-      "paused": "Paused",
-      "expired": "Expired"
+      "all": "전체",
+      "active": "활성",
+      "pending_cancel": "취소 대기 중",
+      "canceled": "취소됨",
+      "trialing": "체험 중",
+      "paused": "일시 중지됨",
+      "expired": "만료됨"
     }
   },
   "cancel": {
-    "title": "Cancel Subscription",
-    "description": "Are you sure you want to cancel your subscription?",
+    "title": "구독 취소",
+    "description": "정말로 구독을 취소하시겠습니까?",
     "fields": {
-      "subscription_no": "Subscription No",
-      "subscription_amount": "Subscription Amount",
-      "interval_cycle": "Interval Cycle",
-      "subscription_created_at": "Subscription Created At",
-      "current_period": "Current Period",
-      "start_at": "Start At",
-      "end_at": "End At"
+      "subscription_no": "구독 번호",
+      "subscription_amount": "구독 금액",
+      "interval_cycle": "간격 주기",
+      "subscription_created_at": "구독 생성일",
+      "current_period": "현재 기간",
+      "start_at": "시작일",
+      "end_at": "종료일"
     },
     "crumbs": {
-      "settings": "Settings",
-      "billing": "Billing",
-      "cancel": "Cancel Subscription"
+      "settings": "설정",
+      "billing": "청구",
+      "cancel": "구독 취소"
     },
     "buttons": {
-      "confirm_cancel": "Confirm Cancel"
+      "confirm_cancel": "취소 확인"
     }
   }
 }
