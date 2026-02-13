@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 AI Video Oluşturucu | Yerel Ses ile Sinematik AI Video",
+    "description": "Seedance 2.0, yerel ses senkronizasyonu, çok çekimli hikaye anlatımı ve çok modlu kontrol ile sinematik AI videoları oluşturur. 2K kalitesinde metinden videoya ve resimden videoya. Ücretsiz deneyin.",
+    "keywords": "Seedance 2.0, AI video oluşturucu, metinden videoya, resimden videoya, sesli AI video, sinematik AI video, çok çekimli video AI, Seedance AI, AI video yapıcı, video oluşturma, AI film yapıcı, çevrimiçi ücretsiz AI video, AI kısa film oluşturucu, AI video oluşturma aracı, en iyi AI video oluşturucu 2026"
+  },
+  "sign": {
+    "sign_in_title": "Giriş Yap",
+    "sign_in_description": "Hesabınıza giriş yapın",
+    "sign_up_title": "Kayıt Ol",
+    "sign_up_description": "Bir hesap oluşturun",
+    "email_title": "E-posta",
+    "email_placeholder": "E-postanızı girin",
+    "password_title": "Şifre",
+    "password_placeholder": "Şifrenizi girin",
+    "forgot_password": "Şifrenizi mi unuttunuz?",
+    "or": "Veya",
+    "continue": "Devam Et",
+    "no_account": "Hesabınız yok mu?",
+    "already_have_account": "Zaten bir hesabınız var mı?",
+    "email_sign_in": "E-posta ile giriş yap",
+    "google_sign_in_title": "Google ile giriş yap",
+    "github_sign_in_title": "GitHub ile giriş yap",
+    "close_title": "Kapat",
+    "cancel_title": "İptal",
+    "sign_out_title": "Çıkış Yap",
+    "billing_title": "Faturalandırma",
+    "name_title": "Ad",
+    "name_placeholder": "Adınızı girin",
+    "email_verification_hint": "Erişebileceğiniz bir e-posta adresi kullanın. Kaydolduktan sonra e-postanızı doğrulamanız gerekir.",
+    "admin_title": "Yönetici Sistemi",
+    "credits_title": "Krediler: {credits}",
+    "verify_email_sent": "Doğrulama e-postası gönderildi. Lütfen gelen kutunuzu kontrol edin.",
+    "verify_email_required": "Giriş yapmadan önce lütfen e-posta adresinizi doğrulayın.",
+    "resend_verification": "Doğrulama e-postasını tekrar gönder",
+    "resend_verification_sent": "Doğrulama e-postası tekrar gönderildi. Lütfen gelen kutunuzu kontrol edin.",
+    "verify_email_page_title": "E-postanızı kontrol edin",
+    "verify_email_page_description": "Devam etmek için şu adrese gönderilen bağlantıya tıklayın:",
+    "verify_email_continue": "Devam Et",
+    "verify_email_tip": "Doğruladıktan sonra \"Devam Et\"e tıklayın.",
+    "verify_email_not_verified_yet": "Henüz doğrulanmadı. Lütfen önce e-postanızdaki bağlantıya tıklayın.",
+    "verify_email_account_mismatch": "{current} olarak giriş yapıldı. Bu sayfa {expected} için bekliyor.",
+    "resend_verification_countdown": "Doğrulama e-postasını tekrar gönder ({seconds}s)",
+    "resend_verification_wait": "Tekrar göndermeden önce lütfen {seconds}s bekleyin.",
+    "back_to_sign_in": "Giriş Yap'a Dön"
+  },
+  "payment": {
+    "choose_payment_method": "Ödeme Yöntemi Seçin",
+    "choose_payment_method_description": "",
+    "cancel_title": "İptal"
+  },
+  "locale_detector": {
+    "title": "Tarayıcı dilinizin {locale} olduğunu tespit ettik. Geçiş yapılsın mı?",
+    "switch_to": "{locale} diline geç"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Özellikler",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Fiyatlandırma",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Faturalandırma",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Etkinlik",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": ""
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "Seedance 2.0, çift dallı difüzyon transformer teknolojisi ile desteklenen yeni nesil bir yapay zeka video üretecidir. Yerel ses senkronizasyonu, çok çekimli anlatılar ve çok modlu giriş (metin, resim, video klipler ve ses referansları) ile sinematik videolar oluşturun.",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Hakkında",
+          "children": [
+            {
+              "title": "Özellikler",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Kaynaklar",
+          "children": [
+            {
+              "title": "Blog",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Arkadaşlar",
+          "children": [
+            {
+              "title": "Runway",
+              "url": "https://runwayml.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Pika",
+              "url": "https://pika.art",
+              "target": "_blank"
+            },
+            {
+              "title": "Kling",
+              "url": "https://kling.kuaishou.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "E-posta",
+          "icon": "Mail",
+          "url": "mailto:support@seedance2.shop",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Gizlilik Politikası",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Hizmet Şartları",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "İade Politikası",
+          "url": "/refund-policy"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false,
+    "disclaimer": "Bu platform bağımsız bir üründür ve ByteDance ile bağlantılı değildir, desteklenmemektedir veya sponsorlu değildir. Özel arayüzümüz aracılığıyla AI video üretimine erişim sağlıyoruz."
+  }
+}

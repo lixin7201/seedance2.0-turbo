@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 Fiyatlandırma & Planlar | Ayda $0'dan Başlayan AI Video Oluşturucu",
+    "description": "Seedance 2.0 planlarını karşılaştırın — Ücretsiz, Başlangıç ($29/ay), Pro ($79/ay), İş ($199/ay). Metinden videoya ve resimden videoya AI video oluşturma için kredi alın. Ücretsiz başlayın.",
+    "keywords": "Seedance 2.0 fiyatlandırma, AI video oluşturucu fiyatı, Seedance 2.0 ücretsiz deneme, AI video kredileri, Seedance planları, video oluşturma maliyeti"
+  },
+  "page": {
+    "title": "Seedance 2.0 Fiyatlandırma",
+    "show_sections": [
+      "hero",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-simple",
+        "title": "Basit, Şeffaf Fiyatlandırma",
+        "highlight_text": "Şeffaf Fiyatlandırma",
+        "description": "Video oluşturma ihtiyaçlarınız için mükemmel planı seçin. Ücretsiz başlayın, istediğiniz zaman yükseltin.",
+        "tip": "🎁 10 saniyelik video kredisi ile ücretsiz deneyin",
+        "buttons": [
+          {
+            "title": "Ücretsiz Dene",
+            "icon": "Zap",
+            "url": "#pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Planları Karşılaştır",
+            "icon": "ArrowDown",
+            "url": "#comparison",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "background_image": {
+          "src": "https://picsum.photos/seed/seedance-pricing-bg/1920/600",
+          "alt": "fiyatlandırma arka planı"
+        }
+      },
+      "pricing": {
+        "id": "pricing",
+        "title": "Planınızı Seçin",
+        "description": "Seedance 2.0'ın tüm özelliklerini edinin. Esnek fiyatlandırma planlarımızla harika AI videoları oluşturun.",
+        "groups": [
+          {
+            "name": "monthly",
+            "title": "Aylık",
+            "is_featured": true
+          },
+          {
+            "name": "yearly",
+            "title": "Yıllık",
+            "label": "%20 Tasarruf Et"
+          }
+        ],
+        "items": [
+          {
+            "title": "Ücretsiz",
+            "description": "Ücretsiz kredilerle Seedance 2.0'ı deneyimleyin.",
+            "features_title": "İçerir",
+            "features": [
+              "10 kredi (10 saniye video)",
+              "720p çözünürlük",
+              "Temel video oluşturma",
+              "1 eşzamanlı oluşturma görevi",
+              "Topluluk desteği",
+              "Videolarda filigran"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Tek seferlik deneme kredisi",
+            "button": {
+              "title": "Ücretsiz Dene",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Seedance Ücretsiz Deneme",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "monthly"
+          },
+          {
+            "title": "Başlangıç",
+            "description": "Hobi ve sıradan içerik oluşturucular için mükemmel.",
+            "features_title": "İçerir",
+            "features": [
+              "150 kredi/ay (yaklaşık 15 video)",
+              "1080p Full HD çözünürlük",
+              "Filigran yok",
+              "3 adede kadar eşzamanlı oluşturma görevi",
+              "Orta öncelikli sıra",
+              "E-posta desteği"
+            ],
+            "interval": "month",
+            "amount": 2900,
+            "currency": "USD",
+            "price": "$29",
+            "original_price": "",
+            "unit": "/ ay",
+            "is_featured": false,
+            "tip": "~5 kredi/gün",
+            "button": {
+              "title": "Abone Ol",
+              "url": "/sign-up?plan=starter",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-monthly",
+            "product_name": "Seedance Aylık Başlangıç",
+            "credits": 150,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Pro",
+            "label": "En Popüler",
+            "description": "Profesyonel içerik oluşturucular ve işletmeler için.",
+            "features_title": "Başlangıçtaki her şey, artı",
+            "features": [
+              "450 kredi/ay (yaklaşık 45 video)",
+              "1080p Full HD çözünürlük",
+              "Ayda daha fazla kredi",
+              "3 adede kadar eşzamanlı oluşturma görevi",
+              "Öncelikli e-posta desteği"
+            ],
+            "interval": "month",
+            "amount": 7900,
+            "currency": "USD",
+            "price": "$79",
+            "original_price": "",
+            "unit": "/ ay",
+            "is_featured": true,
+            "tip": "~15 kredi/gün",
+            "button": {
+              "title": "Abone Ol",
+              "url": "/sign-up?plan=pro",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-monthly",
+            "product_name": "Seedance Aylık Pro",
+            "credits": 450,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "İş",
+            "description": "Ekipler ve kurumsal ihtiyaçlar için.",
+            "features_title": "Pro'daki her şey, artı",
+            "features": [
+              "1200 kredi/ay (yaklaşık 120 video)",
+              "1080p Full HD çözünürlük",
+              "Maksimum aylık kredi",
+              "3 adede kadar eşzamanlı oluşturma görevi",
+              "Özel e-posta desteği"
+            ],
+            "interval": "month",
+            "amount": 19900,
+            "currency": "USD",
+            "price": "$199",
+            "original_price": "",
+            "unit": "/ ay",
+            "is_featured": false,
+            "tip": "~40 kredi/gün",
+            "button": {
+              "title": "Satış Ekibiyle İletişime Geçin",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-monthly",
+            "product_name": "Seedance Aylık İş",
+            "credits": 1200,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Business"
+          },
+          {
+            "title": "Ücretsiz",
+            "description": "Ücretsiz kredilerle Seedance 2.0'ı deneyimleyin.",
+            "features_title": "İçerir",
+            "features": [
+              "10 kredi (10 saniye video)",
+              "720p çözünürlük",
+              "Temel video oluşturma",
+              "1 eşzamanlı oluşturma görevi",
+              "Topluluk desteği",
+              "Videolarda filigran"
+            ],
+            "interval": "one-time",
+            "amount": 0,
+            "currency": "USD",
+            "price": "$0",
+            "original_price": "",
+            "unit": "",
+            "is_featured": false,
+            "tip": "Tek seferlik deneme kredisi",
+            "button": {
+              "title": "Ücretsiz Dene",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "Seedance Ücretsiz Deneme",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "yearly"
+          },
+          {
+            "title": "Başlangıç",
+            "description": "Hobi ve sıradan içerik oluşturucular için mükemmel.",
+            "features_title": "İçerir",
+            "features": [
+              "150 kredi/ay (yaklaşık 15 video)",
+              "1080p Full HD çözünürlük",
+              "Filigran yok",
+              "3 adede kadar eşzamanlı oluşturma görevi",
+              "Orta öncelikli sıra",
+              "E-posta desteği"
+            ],
+            "interval": "year",
+            "amount": 27600,
+            "currency": "USD",
+            "price": "$23",
+            "original_price": "$29",
+            "unit": "/ ay",
+            "is_featured": false,
+            "tip": "Yıllık $276 faturalandırılır",
+            "button": {
+              "title": "Abone Ol",
+              "url": "/sign-up?plan=starter-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-yearly",
+            "product_name": "Seedance Yıllık Başlangıç",
+            "credits": 1800,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Pro",
+            "label": "En Popüler",
+            "description": "Profesyonel içerik oluşturucular ve işletmeler için.",
+            "features_title": "Başlangıçtaki her şey, artı",
+            "features": [
+              "450 kredi/ay (yaklaşık 45 video)",
+              "1080p Full HD çözünürlük",
+              "Ayda daha fazla kredi",
+              "3 adede kadar eşzamanlı oluşturma görevi",
+              "Öncelikli e-posta desteği"
+            ],
+            "interval": "year",
+            "amount": 75600,
+            "currency": "USD",
+            "price": "$63",
+            "original_price": "$79",
+            "unit": "/ ay",
+            "is_featured": true,
+            "tip": "Yıllık $756 faturalandırılır",
+            "button": {
+              "title": "Abone Ol",
+              "url": "/sign-up?plan=pro-yearly",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "pro-yearly",
+            "product_name": "Seedance Yıllık Pro",
+            "credits": 5400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Pro"
+          },
+          {
+            "title": "İş",
+            "description": "Ekipler ve kurumsal ihtiyaçlar için.",
+            "features_title": "Pro'daki her şey, artı",
+            "features": [
+              "1200 kredi/ay (yaklaşık 120 video)",
+              "1080p Full HD çözünürlük",
+              "Maksimum aylık kredi",
+              "3 adede kadar eşzamanlı oluşturma görevi",
+              "Özel e-posta desteği"
+            ],
+            "interval": "year",
+            "amount": 190800,
+            "currency": "USD",
+            "price": "$159",
+            "original_price": "$199",
+            "unit": "/ ay",
+            "is_featured": false,
+            "tip": "Yıllık $1,908 faturalandırılır",
+            "button": {
+              "title": "Satış Ekibiyle İletişime Geçin",
+              "url": "/contact",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "business-yearly",
+            "product_name": "Seedance Yıllık İş",
+            "credits": 14400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Business"
+          }
+        ]
+      },
+      "comparison": {
+        "id": "comparison",
+        "block": "comparison-table",
+        "title": "Tüm Özellikleri Karşılaştır",
+        "description": "Her planda nelerin dahil olduğunu görün",
+        "plans": [
+          "Ücretsiz",
+          "Başlangıç",
+          "Pro",
+          "İş"
+        ],
+        "categories": [
+          {
+            "name": "Video Oluşturma",
+            "features": [
+              {
+                "name": "Aylık Krediler",
+                "values": [
+                  "10 (tek seferlik)",
+                  "150",
+                  "450",
+                  "1200"
+                ]
+              },
+              {
+                "name": "Maksimum Çözünürlük",
+                "values": [
+                  "720p",
+                  "1080p",
+                  "1080p",
+                  "1080p"
+                ]
+              },
+              {
+                "name": "Metinden Videoya",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Görüntüden Videoya",
+                "values": [
+                  true,
+                  true,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Çıktı & Kalite",
+            "features": [
+              {
+                "name": "Filigran",
+                "values": [
+                  "Evet",
+                  "Hayır",
+                  "Hayır",
+                  "Hayır"
+                ]
+              },
+              {
+                "name": "HD Çözünürlük",
+                "values": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ekstralar",
+            "features": [
+              {
+                "name": "Destek",
+                "values": [
+                  "Topluluk",
+                  "E-posta",
+                  "Öncelikli E-posta",
+                  "Özel E-posta"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Sıkça Sorulan Sorular",
+        "description": "Daha fazla sorunuz mu var? Destek ekibimizle iletişime geçin.",
+        "items": [
+          {
+            "question": "Krediler nedir ve nasıl çalışır?",
+            "answer": "Krediler, platformumuzda video oluşturmak için kullanılan para birimidir. Krediler video oluşturma başına tüketilir ve tam maliyet siz oluşturmadan önce gösterilir. Aboneler için krediler aylık olarak yenilenir."
+          },
+          {
+            "question": "Planımı yükseltebilir veya düşürebilir miyim?",
+            "answer": "Evet, planınızı istediğiniz zaman değiştirebilirsiniz. Yükseltme yaparken, orantılı fark tahsil edilecektir. Düşürürken, yeni oran bir sonraki faturalandırma döngünüzde geçerli olacaktır."
+          },
+          {
+            "question": "Kullanılmayan krediler bir sonraki aya devreder mi?",
+            "answer": "Krediler her faturalandırma döneminin sonunda sona erer. Lütfen faturalandırma döngüsü bitmeden kredilerinizi kullanın."
+          },
+          {
+            "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+            "answer": "Tüm büyük kredi kartlarını (Visa, MasterCard, American Express) kabul ediyoruz. Ödemeler, ödeme ortağımız aracılığıyla güvenli bir şekilde işlenir."
+          },
+          {
+            "question": "İade politikası var mı?",
+            "answer": "Evet, 14 günlük para iade garantisi sunuyoruz. Aboneliğinizden memnun kalmazsanız, tam bir geri ödeme için 14 gün içinde bizimle iletişime geçin."
+          },
+          {
+            "question": "Oluşturulan videoları projelerim için kullanabilir miyim?",
+            "answer": "Evet, oluşturduğunuz videoları kişisel ve ticari olmayan projeler için kullanabilirsiniz. Ticari kullanım hakları için lütfen temel AI modellerinin hizmet şartlarına bakın."
+          },
+          {
+            "question": "Hangi video çözünürlükleri destekleniyor?",
+            "answer": "Ücretsiz kullanıcılar 720p çözünürlükte videolar oluşturabilir. Ücretli aboneler, daha yüksek kaliteli çıktı için 1080p Full HD çözünürlüğe erişebilir."
+          },
+          {
+            "question": "Abone olmadan önce deneyebilir miyim?",
+            "answer": "Kesinlikle! Ücretsiz kaydolun ve Seedance 2.0 AI video oluşturmanın gücünü deneyimlemek için 10 kredi kazanın."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Harika Videolar Oluşturmaya Hazır Mısınız?",
+        "description": "Ücretsiz kredilerle başlayın ve AI video oluşturmanın gücünü deneyimleyin.",
+        "buttons": [
+          {
+            "title": "Ücretsiz Denemeyi Başlat",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Satış Ekibiyle İletişime Geçin",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Mevcut Plan",
+    "processing": "İşleniyor",
+    "save_percent": "%20 Tasarruf Et",
+    "per_month": "/ ay",
+    "billed_annually": "yıllık faturalandırılır",
+    "money_back": "14 günlük para iade garantisi"
+  }
+}

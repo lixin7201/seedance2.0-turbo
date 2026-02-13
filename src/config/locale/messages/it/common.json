@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 AI Video Generator | Video AI Cinematografici con Audio Nativo",
+    "description": "Seedance 2.0 genera video AI cinematografici con sincronizzazione audio nativa, narrazione multi-shot e controllo multimodale. Testo a video e immagine a video in 2K. Prova gratis.",
+    "keywords": "Seedance 2.0, generatore video AI, testo a video, immagine a video, video AI con audio, video AI cinematografico, video AI multi-shot, Seedance AI, creatore video AI, generazione video, creatore film AI, video AI online gratis, generatore cortometraggi AI, strumento creazione video AI, miglior generatore video AI 2026"
+  },
+  "sign": {
+    "sign_in_title": "Accedi",
+    "sign_in_description": "Accedi al tuo account",
+    "sign_up_title": "Registrati",
+    "sign_up_description": "Crea un account",
+    "email_title": "Email",
+    "email_placeholder": "Inserisci la tua email",
+    "password_title": "Password",
+    "password_placeholder": "Inserisci la tua password",
+    "forgot_password": "Password dimenticata?",
+    "or": "O",
+    "continue": "Continua",
+    "no_account": "Non hai un account?",
+    "already_have_account": "Hai già un account?",
+    "email_sign_in": "Accedi con Email",
+    "google_sign_in_title": "Accedi con Google",
+    "github_sign_in_title": "Accedi con GitHub",
+    "close_title": "Chiudi",
+    "cancel_title": "Annulla",
+    "sign_out_title": "Disconnetti",
+    "billing_title": "Fatturazione",
+    "name_title": "Nome",
+    "name_placeholder": "Inserisci il tuo nome",
+    "email_verification_hint": "Usa un indirizzo email a cui puoi accedere. Devi verificare la tua email dopo la registrazione.",
+    "admin_title": "Sistema di Amministrazione",
+    "credits_title": "Crediti: {credits}",
+    "verify_email_sent": "Email di verifica inviata. Controlla la tua casella di posta.",
+    "verify_email_required": "Verifica il tuo indirizzo email prima di accedere.",
+    "resend_verification": "Reinvia email di verifica",
+    "resend_verification_sent": "Email di verifica reinviata. Controlla la tua casella di posta.",
+    "verify_email_page_title": "Controlla la tua email",
+    "verify_email_page_description": "Per continuare, clicca sul link inviato a",
+    "verify_email_continue": "Continua",
+    "verify_email_tip": "Dopo la verifica, clicca su \"Continua\".",
+    "verify_email_not_verified_yet": "Non ancora verificato. Clicca prima sul link nella tua email.",
+    "verify_email_account_mismatch": "Accesso effettuato come {current}. Questa pagina è in attesa di {expected}.",
+    "resend_verification_countdown": "Reinvia email di verifica ({seconds}s)",
+    "resend_verification_wait": "Attendi {seconds}s prima di reinviare.",
+    "back_to_sign_in": "Torna all'accesso"
+  },
+  "payment": {
+    "choose_payment_method": "Scegli metodo di pagamento",
+    "choose_payment_method_description": "",
+    "cancel_title": "Annulla"
+  },
+  "locale_detector": {
+    "title": "Abbiamo rilevato che la lingua del tuo browser è {locale}. Vuoi cambiare?",
+    "switch_to": "Passa a {locale}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 Blog | AI Video Generation Tips & Updates",
+    "description": "Read the latest AI video generation tips, Seedance 2.0 updates, tutorials, and creative inspiration for content creators."
+  },
+  "page": {
+    "title": "Seedance 2.0 Blog",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Seedance 2.0 Blog",
+        "description": "Read the latest AI video generation tips, Seedance 2.0 updates, and creative tutorials."
+      }
+    }
+  },
+  "messages": {
+    "all": "All",
+    "no_content": "No Content",
+    "crumb": "Blog",
+    "toc": "Table of Contents"
+  }
+}

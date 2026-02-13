@@ -1,0 +1,291 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "showcase_grid",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-video",
+        "title": "네이티브 오디오로 시네마틱 AI 비디오 제작 — Seedance 2.0",
+        "highlight_text": "시네마틱 AI 비디오",
+        "description": "네이티브 오디오-비주얼 동기화 기능을 갖춘 최초의 AI 비디오 생성기. Seedance 2.0은 텍스트, 이미지, 비디오 클립 및 오디오에서 멀티 샷 시네마틱 시퀀스를 생성합니다 — 단일 프롬프트로 모든 것이 가능합니다. 2K HD 출력, 물리 기반 모션 및 감독 수준의 카메라 제어. 편집 기술이 필요하지 않습니다.",
+        "video_url": "/videos/hero-bg.mp4",
+        "announcement": {
+          "badge": "트렌딩",
+          "title": "🎬 Seedance 2.0 — 네이티브 오디오를 포함한 차세대 AI 비디오",
+          "url": "/#showcase_grid"
+        },
+        "tip": "✨ 전 세계 영화 제작자, 콘텐츠 크리에이터 및 마케팅 팀이 신뢰합니다",
+        "buttons": [
+          {
+            "title": "무료로 만들기 시작",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "예시 보기",
+            "icon": "Play",
+            "url": "/#showcase_grid",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": null,
+        "image_invert": null,
+        "background_image": null
+      },
+      "showcase_grid": {
+        "id": "showcase_grid",
+        "block": "showcase-grid",
+        "label": "Seedance 2.0 제공",
+        "title": "Seedance 2.0 AI 비디오 생성기가 만들 수 있는 것 보기",
+        "description": "고속 액션에서 친밀한 캐릭터 스토리까지 — 아래의 모든 프레임은 네이티브 오디오 동기화 기능이 있는 Seedance 2.0의 듀얼 브랜치 확산 트랜스포머에 의해 생성되었습니다.",
+        "items": [
+          {
+            "id": "showcase-racing",
+            "title": "물리적으로 정확한 모션",
+            "description": "Seedance 2.0의 시공간 인과 모델링(STCM)은 중력, 관성 및 객체 상호 작용과 같은 실제 물리학을 따르는 모션을 제공합니다. 다른 어떤 AI 비디오 생성기도 따라올 수 없는 시네마틱 정밀도로 타이어 스프레이, 카메라 추적 및 파편의 흐름을 확인하세요.",
+            "video_url": "/videos/showcase-racing.mp4",
+            "tags": ["물리 시뮬레이션", "STCM", "고속", "Seedance 2.0"]
+          },
+          {
+            "id": "showcase-character",
+            "title": "실감나는 캐릭터 애니메이션",
+            "description": "미세한 표정 변화부터 전신 안무까지, Seedance 2.0은 전례 없는 자연스러움으로 AI 캐릭터에 생명을 불어넣습니다. 듀얼 브랜치 확산 트랜스포머로 구동되는 모든 제스처는 생성된 대화 및 오디오와 완벽하게 동기화됩니다.",
+            "video_url": "/videos/showcase-character.mp4",
+            "tags": ["캐릭터 애니메이션", "표정", "오디오 동기화"]
+          },
+          {
+            "id": "showcase-motion",
+            "title": "멀티 샷 캐릭터 일관성",
+            "description": "Seedance 2.0은 모든 각도와 장면에서 얼굴 특징, 의상 질감 및 신체 비율을 고정합니다. 이 박진감 넘치는 추격 시퀀스는 와이드 샷, 클로즈업 및 빠른 컷을 통해 픽셀 수준의 캐릭터 정체성을 유지합니다 — 광고, 단편 영화 및 브랜드 비디오 시리즈에 이상적입니다.",
+            "video_url": "/videos/showcase-motion.mp4",
+            "tags": ["캐릭터 일관성", "멀티 샷", "내러티브", "정체성 잠금"]
+          },
+          {
+            "id": "showcase-cinematic",
+            "title": "오디오가 포함된 이미지-시네마틱 비디오",
+            "description": "단일 사진을 업로드하면 Seedance 2.0이 네이티브 오디오, 역동적인 카메라 움직임 및 분위기 있는 효과가 포함된 몰입형 시네마틱 클립으로 변환합니다. 듀얼 브랜치 아키텍처는 시각과 소리를 동시에 생성하여 다른 AI 도구의 '더빙된' 느낌을 제거합니다.",
+            "video_url": "/videos/showcase-cinematic.mp4",
+            "tags": ["이미지 비디오 변환", "네이티브 오디오", "시네마틱", "듀얼 브랜치"]
+          },
+          {
+            "id": "showcase-3d",
+            "title": "영화 등급 VFX 및 액션 시퀀스",
+            "description": "Seedance 2.0은 물리적으로 정확한 모션, 극적인 조명 및 블록버스터 품질의 시각 효과로 복잡한 3D 액션 시퀀스를 생성합니다. 천의 역학, 유체 스플래시 및 충격 물리학은 전문 CG 스튜디오와 경쟁합니다 — 단일 텍스트 프롬프트에서 모두 가능합니다.",
+            "video_url": "/videos/showcase-3d.mp4",
+            "tags": ["3D 애니메이션", "VFX", "액션", "물리 엔진"]
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Seedance 2.0이란?",
+        "label": "소개",
+        "description": "저희 플랫폼은 Seedance AI 비디오 생성을 위한 사용자 친화적인 인터페이스를 제공합니다. 타사 AI 모델을 통해 고급 텍스트-비디오 및 이미지-비디오 기능에 대한 액세스를 제공합니다. 이것은 독립적인 서비스이며 모델 제공업체와 제휴하지 않았습니다.",
+        "image": {
+          "src": "https://picsum.photos/seed/seedance-intro/800/600",
+          "alt": "Seedance 2.0 소개"
+        },
+        "items": [
+          {
+            "title": "텍스트-비디오 생성",
+            "description": "자연어로 장면을 설명하면 Seedance 2.0이 캐릭터, 환경 및 역동적인 모션이 포함된 완전히 렌더링된 비디오를 생성합니다.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-t2v/600/400",
+              "alt": "텍스트 비디오 변환"
+            }
+          },
+          {
+            "title": "이미지-비디오 애니메이션",
+            "description": "제품 샷, 인물 사진 또는 풍경 사진 등 어떤 사진이든 업로드하면 Seedance 2.0이 지능형 모션과 시네마틱 효과로 생명을 불어넣습니다.",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-i2v/600/400",
+              "alt": "이미지 비디오 변환"
+            }
+          },
+          {
+            "title": "물리 기반 렌더링",
+            "description": "고급 시뮬레이션 기술은 믿을 수 있는 프로덕션 준비 출력을 위해 현실적인 객체 상호 작용, 조명 및 재료 동작을 모델링합니다.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "물리 시뮬레이션"
+            }
+          },
+          {
+            "title": "Ultra-HD 출력",
+            "description": "최대 2K 고해상도로 선명한 디테일로 창작물을 내보내세요. 지터나 아티팩트 없이 — 깨끗하고 전문적인 비디오 출력만 제공합니다.",
+            "icon": "RiHdLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "HD 출력"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "크리에이터들이 Seedance 2.0을 선택하는 이유",
+        "label": "혜택",
+        "description": "Seedance 2.0이 콘텐츠 크리에이터, 마케터 및 영화 제작자를 위한 최고의 AI 비디오 도구인 이유를 알아보세요.",
+        "items": [
+          {
+            "title": "최첨단 AI 모델",
+            "description": "최신 멀티모달 AI로 구동되는 Seedance 2.0은 모든 생성에서 일관된 품질로 획기적인 비디오 생성을 제공합니다.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-ai/800/500",
+              "alt": "AI 기술"
+            }
+          },
+          {
+            "title": "영화 등급 시각 품질",
+            "description": "모든 비디오가 전문 스튜디오에서 제작된 것처럼 보입니다 — 시네마틱 컬러 그레이딩, 안정적인 모션 및 최대 2K 해상도의 상세한 텍스처.",
+            "icon": "RiFilmLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-quality/800/500",
+              "alt": "시각적 품질"
+            }
+          },
+          {
+            "title": "멀티 샷 스토리텔링",
+            "description": "여러 장면, 캐릭터 및 카메라 앵글로 완전한 내러티브를 구축하세요 — 처음부터 끝까지 시각적 일관성을 유지합니다.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "복잡한 내러티브"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Seedance 2.0이 최고의 AI 비디오 생성기인 이유",
+        "description": "Seedance 2.0을 다른 모든 AI 비디오 도구와 차별화하는 6가지 획기적인 기능.",
+        "items": [
+          {
+            "title": "🎙️ 멀티모달 입력 (12개 참조)",
+            "description": "참조로 최대 9개의 이미지, 3개의 비디오 클립 및 3개의 오디오 파일을 업로드하세요. @mention 구문을 사용하여 각 자산의 역할(캐릭터, 스타일, 카메라 또는 사운드트랙)을 지정하세요.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🔊 네이티브 오디오-비주얼 동기화",
+            "description": "듀얼 브랜치 확산 트랜스포머는 비디오와 오디오를 병렬로 생성합니다. 립싱크 정확도는 1프레임 이내 — 더 이상 '더빙된' AI 비디오는 없습니다.",
+            "icon": "RiMusic2Line"
+          },
+          {
+            "title": "📐 물리 인식 생성",
+            "description": "시공간 인과 모델링(STCM)은 중력, 관성 및 객체 상호 작용을 이해합니다. 천이 흐르고, 액체가 튀고, 빛이 현실적으로 행동합니다.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 자동 카메라 및 연출",
+            "description": "Seedance 2.0은 AI 감독 역할을 하여 장면 설명에 따라 샷 시퀀스, 카메라 앵글 및 전환을 자동으로 계획합니다.",
+            "icon": "RiFilmLine"
+          },
+          {
+            "title": "📖 멀티 샷 스토리텔링",
+            "description": "와이드 샷, 미디엄 샷 및 클로즈업 전반에 걸쳐 일관된 캐릭터, 조명 및 분위기로 연결된 멀티 장면 내러티브를 생성합니다.",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "🖼️ 첫 번째 및 마지막 프레임 제어",
+            "description": "정확한 전환 제어를 위해 시작 및 종료 프레임 이미지를 업로드하세요. AI가 그 사이의 모션을 지능적으로 보간합니다.",
+            "icon": "RiImageEditLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Seedance 2.0 — 자주 묻는 질문",
+        "description": "Seedance 2.0 AI 비디오 생성에 대해 알아야 할 모든 것.",
+        "items": [
+          {
+            "question": "Seedance 2.0이란 무엇인가요?",
+            "answer": "Seedance 2.0은 듀얼 브랜치 확산 트랜스포머 아키텍처를 사용하여 텍스트, 이미지, 비디오 클립 및 오디오 참조에서 네이티브 오디오, 멀티 샷 내러티브 및 물리 기반 모션이 포함된 시네마틱 비디오를 생성하는 차세대 AI 비디오 생성 모델입니다. 저희 플랫폼은 사용자 친화적인 인터페이스를 통해 이 기술에 대한 독립적인 액세스를 제공합니다."
+          },
+          {
+            "question": "Seedance 2.0은 Sora 및 Kling과 어떻게 다른가요?",
+            "answer": "Seedance 2.0은 듀얼 브랜치 아키텍처를 사용하여 오디오와 비디오를 동시에 생성하여 프레임 수준의 립싱크 정확도를 달성하는 최초의 AI 비디오 모델 중 하나입니다. 최대 12개의 멀티모달 참조 입력, 네이티브 멀티 샷 스토리텔링 및 자동 카메라 계획을 지원합니다. Sora는 물리 시뮬레이션에 중점을 두고 Kling은 모션 제어에 특화되어 있는 반면, Seedance 2.0은 내러티브, 오디오 및 시각적 생성을 하나의 통합 모델로 결합합니다."
+          },
+          {
+            "question": "Seedance 2.0은 소리가 포함된 비디오를 생성할 수 있나요?",
+            "answer": "네. Seedance 2.0은 비디오와 함께 네이티브 오디오를 생성하는 최초의 AI 비디오 생성기 중 하나입니다. 듀얼 브랜치 확산 트랜스포머는 시각적 프레임과 병렬로 대화, 사운드 효과 및 음악을 생성합니다 — 즉, 오디오는 나중에 추가되는 것이 아니라 본질적으로 동작에 동기화됩니다. 립싱크 정확도는 1프레임 이내입니다."
+          },
+          {
+            "question": "Seedance 2.0은 몇 개의 참조 입력을 지원하나요?",
+            "answer": "Seedance 2.0은 최대 12개의 동시 참조 입력을 지원합니다: 최대 9개의 이미지(캐릭터, 장면 및 스타일 참조용), 총 15초의 최대 3개 비디오 클립(카메라 및 모션 참조용), 총 15초의 최대 3개 오디오 파일(리듬 및 사운드트랙 참조용), 그리고 텍스트 프롬프트."
+          },
+          {
+            "question": "Seedance 2.0은 어떤 비디오 해상도를 지원하나요?",
+            "answer": "Seedance 2.0은 최대 2K 고해상도 출력을 지원합니다. 16:9, 9:16, 1:1, 4:3, 3:4 등 다양한 화면 비율을 사용하여 YouTube와 TikTok에서 Instagram 및 시네마틱 와이드스크린에 이르기까지 모든 플랫폼에 맞출 수 있습니다."
+          },
+          {
+            "question": "Seedance 2.0 생성 비디오의 길이는 어떻게 되나요?",
+            "answer": "생성된 비디오는 1초 단위로 정밀하게 4초에서 15초까지 다양합니다. 15초 비디오는 일반적으로 약 60초 만에 생성됩니다 — 이전 버전보다 30% 더 빠릅니다."
+          },
+          {
+            "question": "Seedance 2.0은 어떤 시각적 스타일을 생성할 수 있나요?",
+            "answer": "Seedance 2.0은 사실주의, 애니메이션, 사이버펑크, 수채화, 유화, 3D CG 애니메이션 등을 포함한 다양한 시각적 스타일을 지원합니다. 텍스트 프롬프트에서 선호하는 스타일을 지정하거나 이미지 참조를 사용하여 미학을 안내할 수 있습니다."
+          },
+          {
+            "question": "이 플랫폼과 ByteDance의 관계는 무엇인가요?",
+            "answer": "이 플랫폼은 Seedance 2.0으로 구동되는 AI 비디오 생성을 위한 사용자 친화적인 인터페이스를 제공하는 독립적인 서비스입니다. 당사는 ByteDance와 제휴, 보증 또는 후원하지 않습니다. 당사는 AI 모델을 API 통합을 통해 활용하여 비디오 생성 서비스를 제공합니다."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "시네마틱 AI 비디오 제작 시작 — 무료",
+        "description": "수천 명의 크리에이터와 함께 Seedance 2.0을 사용하여 네이티브 오디오, 멀티 샷 내러티브 및 물리 기반 모션이 포함된 전문 비디오를 생성하세요. 신용 카드가 필요하지 않습니다.",
+        "buttons": [
+          {
+            "title": "무료 평가판 시작",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "영업팀 문의",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "업데이트 구독",
+        "description": "Seedance 2.0에 대한 최신 소식을 받아보세요.",
+        "submit": {
+          "input": {
+            "placeholder": "이메일 입력"
+          },
+          "button": {
+            "title": "구독"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}

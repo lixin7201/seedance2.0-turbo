@@ -1,0 +1,147 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Funzionalità",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Prezzi",
+          "url": "/pricing",
+          "icon": "CreditCard"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Fatturazione",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Attività",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": ""
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "Seedance 2.0 è un generatore di video AI di nuova generazione basato sulla tecnologia transform a diffusione a doppio ramo. Crea video cinematografici con sincronizzazione audio nativa, narrazioni multi-shot e input multimodale — da testo, immagini, videoclip e riferimenti audio.",
+      "logo": {
+        "src": "/logo-v2.png",
+        "alt": "Seedance 2.0",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Chi siamo",
+          "children": [
+            {
+              "title": "Funzionalità",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Risorse",
+          "children": [
+            {
+              "title": "Blog",
+              "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Amici",
+          "children": [
+            {
+              "title": "Runway",
+              "url": "https://runwayml.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Pika",
+              "url": "https://pika.art",
+              "target": "_blank"
+            },
+            {
+              "title": "Kling",
+              "url": "https://kling.kuaishou.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@seedance2.shop",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Termini di servizio",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Politica di rimborso",
+          "url": "/refund-policy"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false,
+    "disclaimer": "Questa piattaforma è un prodotto indipendente e non è affiliata, approvata o sponsorizzata da ByteDance. Forniamo l'accesso alla generazione di video AI tramite la nostra interfaccia personalizzata."
+  }
+}

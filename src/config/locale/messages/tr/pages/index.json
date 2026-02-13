@@ -1,0 +1,291 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "showcase_grid",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "block": "hero-video",
+        "title": "Yerel Ses ile Sinematik AI Videoları Oluşturun — Seedance 2.0",
+        "highlight_text": "Sinematik AI Videoları",
+        "description": "Yerel işitsel-görsel senkronizasyona sahip ilk AI video oluşturucu. Seedance 2.0, metin, resim, video klipler ve sesten çok çekimli sinematik sekanslar üretir — hepsi tek bir istemde. 2K HD çıkış, fizik tabanlı hareket ve yönetmen seviyesinde kamera kontrolü. Düzenleme becerisi gerekmez.",
+        "video_url": "/videos/hero-bg.mp4",
+        "announcement": {
+          "badge": "Trend",
+          "title": "🎬 Seedance 2.0 — Yerel Sesli Yeni Nesil AI Video",
+          "url": "/#showcase_grid"
+        },
+        "tip": "✨ Dünya çapında film yapımcıları, içerik oluşturucular ve pazarlama ekipleri tarafından güvenilmektedir",
+        "buttons": [
+          {
+            "title": "Ücretsiz Oluşturmaya Başla",
+            "icon": "Zap",
+            "url": "/ai-video-generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Örnekleri Gör",
+            "icon": "Play",
+            "url": "/#showcase_grid",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": null,
+        "image_invert": null,
+        "background_image": null
+      },
+      "showcase_grid": {
+        "id": "showcase_grid",
+        "block": "showcase-grid",
+        "label": "Seedance 2.0 tarafından desteklenmektedir",
+        "title": "Seedance 2.0 AI Video Oluşturucunun Neler Yapabileceğini Görün",
+        "description": "Hızlı aksiyondan samimi karakter hikayelerine — aşağıdaki her kare, Seedance 2.0'ın yerel ses senkronizasyonlu çift dallı difüzyon transformeri tarafından oluşturulmuştur.",
+        "items": [
+          {
+            "id": "showcase-racing",
+            "title": "Fiziksel Olarak Doğru Hareket",
+            "description": "Seedance 2.0'ın Uzamsal-Zamansal Nedensel Modellemesi (STCM), yerçekimi, eylemsizlik ve nesne etkileşimi gibi gerçek dünya fiziğine uyan hareketler sunar. Lastik spreyini, kamera takibini ve enkaz akışını başka hiçbir AI video oluşturucunun eşleşemeyeceği sinematik hassasiyetle izleyin.",
+            "video_url": "/videos/showcase-racing.mp4",
+            "tags": ["Fizik Simülasyonu", "STCM", "Yüksek Hız", "Seedance 2.0"]
+          },
+          {
+            "id": "showcase-character",
+            "title": "Gerçekçi Karakter Animasyonu",
+            "description": "İnce mikro ifadelerden tam vücut koreografisine kadar, Seedance 2.0 AI karakterlerine benzeri görülmemiş bir doğallıkla hayat veriyor. Çift dallı difüzyon transformeri ile desteklenen her jest, oluşturulan diyalog ve sesle mükemmel bir şekilde senkronize olur.",
+            "video_url": "/videos/showcase-character.mp4",
+            "tags": ["Karakter Animasyonu", "Yüz İfadesi", "Ses Senkronizasyonu"]
+          },
+          {
+            "id": "showcase-motion",
+            "title": "Çok Çekimli Karakter Tutarlılığı",
+            "description": "Seedance 2.0, her açıdan ve sahnede yüz özelliklerini, giysi dokularını ve vücut oranlarını kilitler. Bu aksiyon dolu takip sekansı, geniş çekimler, yakın çekimler ve hızlı kesimler boyunca piksel düzeyinde karakter kimliğini korur — reklamlar, kısa filmler ve markalı video serileri için idealdir.",
+            "video_url": "/videos/showcase-motion.mp4",
+            "tags": ["Karakter Tutarlılığı", "Çok Çekimli", "Anlatı", "Kimlik Kilidi"]
+          },
+          {
+            "id": "showcase-cinematic",
+            "title": "Sesten Sinematik Videoya Görüntü",
+            "description": "Tek bir fotoğraf yükleyin ve Seedance 2.0 onu yerel ses, dinamik kamera hareketi ve atmosferik efektlerle tamamlanmış sürükleyici bir sinematik klibe dönüştürsün. Çift dallı mimari, ses ve görüntüyü aynı anda oluşturarak diğer AI araçlarının 'dublajlı' hissini ortadan kaldırır.",
+            "video_url": "/videos/showcase-cinematic.mp4",
+            "tags": ["Görüntüden Videoya", "Yerel Ses", "Sinematik", "Çift Dal"]
+          },
+          {
+            "id": "showcase-3d",
+            "title": "Film Kalitesinde VFX ve Aksiyon Sekansları",
+            "description": "Seedance 2.0, fiziksel olarak doğru hareket, dramatik aydınlatma ve gişe rekorları kıran kalitede görsel efektlerle karmaşık 3D aksiyon sekansları oluşturur. Kumaş dinamikleri, sıvı sıçramaları ve çarpma fiziği, profesyonel CG stüdyolarıyla rekabet eder — hepsi tek bir metin isteminden.",
+            "video_url": "/videos/showcase-3d.mp4",
+            "tags": ["3D Animasyon", "VFX", "Aksiyon", "Fizik Motoru"]
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Seedance 2.0 Nedir",
+        "label": "Hakkında",
+        "description": "Platformumuz Seedance AI video oluşturma için kullanıcı dostu bir arayüz sağlar. Üçüncü taraf AI modelleri aracılığıyla gelişmiş metinden videoya ve görüntüden videoya yeteneklerine erişim sunuyoruz. Bu bağımsız bir hizmettir, model sağlayıcılarla bağlantılı değildir.",
+        "image": {
+          "src": "https://picsum.photos/seed/seedance-intro/800/600",
+          "alt": "Seedance 2.0 Giriş"
+        },
+        "items": [
+          {
+            "title": "Metinden Videoya Oluşturma",
+            "description": "Herhangi bir sahneyi doğal dille tanımlayın ve Seedance 2.0'ın karakterler, ortamlar ve dinamik hareketlerle tamamen işlenmiş bir video oluşturmasına izin verin.",
+            "icon": "RiFileTextLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-t2v/600/400",
+              "alt": "Metinden Videoya"
+            }
+          },
+          {
+            "title": "Görüntüden Videoya Animasyon",
+            "description": "Herhangi bir fotoğraf yükleyin — bir ürün çekimi, portre veya manzara — ve Seedance 2.0 akıllı hareket ve sinematik efektlerle ona hayat versin.",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-i2v/600/400",
+              "alt": "Görüntüden Videoya"
+            }
+          },
+          {
+            "title": "Fizik Tabanlı İşleme",
+            "description": "Gelişmiş simülasyon teknolojisi, inandırıcı, üretime hazır çıktı için gerçekçi nesne etkileşimlerini, aydınlatmayı ve malzeme davranışını modeller.",
+            "icon": "RiSettings3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-physics/600/400",
+              "alt": "Fizik Simülasyonu"
+            }
+          },
+          {
+            "title": "Ultra-HD Çıktı",
+            "description": "Kreasyonlarınızı 2K'ya kadar yüksek çözünürlükte, kristal netliğinde detaylarla dışa aktarın. Titreme yok, pürüz yok — sadece temiz, profesyonel video çıktısı.",
+            "icon": "RiHdLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-hd/600/400",
+              "alt": "HD Çıktı"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "İçerik Oluşturucular Neden Seedance 2.0'ı Seçiyor",
+        "label": "Faydalar",
+        "description": "Seedance 2.0'ı içerik oluşturucular, pazarlamacılar ve film yapımcıları için vazgeçilmez AI video aracı yapan şeyin ne olduğunu keşfedin.",
+        "items": [
+          {
+            "title": "Son Teknoloji AI Modelleri",
+            "description": "Son teknoloji çok modlu AI ile desteklenen Seedance 2.0, her üretimde tutarlı kalite ile çığır açan video oluşturma sunar.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-ai/800/500",
+              "alt": "AI Teknolojisi"
+            }
+          },
+          {
+            "title": "Film Kalitesinde Görsel Kalite",
+            "description": "Her video profesyonel bir stüdyodan çıkmış gibi görünür — sinematik renk derecelendirme, sabit hareket ve 2K çözünürlüğe kadar ayrıntılı dokularla.",
+            "icon": "RiFilmLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-quality/800/500",
+              "alt": "Görsel Kalite"
+            }
+          },
+          {
+            "title": "Çok Çekimli Hikaye Anlatımı",
+            "description": "Birden fazla sahne, karakter ve kamera açısı ile eksiksiz anlatılar oluşturun — baştan sona görsel tutarlılığı koruyun.",
+            "icon": "RiBookOpenLine",
+            "image": {
+              "src": "https://picsum.photos/seed/seedance-narrative/800/500",
+              "alt": "Karmaşık Anlatılar"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Seedance 2.0'ı En İyi AI Video Oluşturucu Yapan Şey Nedir",
+        "description": "Seedance 2.0'ı diğer tüm AI video araçlarından ayıran altı çığır açan yetenek.",
+        "items": [
+          {
+            "title": "🎙️ Çok Modlu Giriş (12 Referans)",
+            "description": "Referans olarak 9 adede kadar resim, 3 video klip ve 3 ses dosyası yükleyin. Her varlığın rolünü — karakter, stil, kamera veya film müziği — atamak için @mention sözdizimini kullanın.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "🔊 Yerel İşitsel-Görsel Senkronizasyon",
+            "description": "Çift dallı difüzyon transformeri video ve sesi paralel olarak üretir. 1 kare içinde dudak senkronizasyon doğruluğu — artık 'dublajlı' AI videoları yok.",
+            "icon": "RiMusic2Line"
+          },
+          {
+            "title": "📐 Fizik Duyarlı Oluşturma",
+            "description": "Uzamsal-Zamansal Nedensel Modelleme (STCM), yerçekimi, eylemsizlik ve nesne etkileşimini anlar. Kumaş akar, sıvılar sıçrar ve ışık gerçekçi davranır.",
+            "icon": "RiSettings3Line"
+          },
+          {
+            "title": "🎥 Otomatik Kamera ve Yönetmenlik",
+            "description": "Seedance 2.0 AI yönetmeniniz olarak hareket eder — sahne açıklamanıza göre çekim sekanslarını, kamera açılarını ve geçişleri otomatik olarak planlar.",
+            "icon": "RiFilmLine"
+          },
+          {
+            "title": "📖 Çok Çekimli Hikaye Anlatımı",
+            "description": "Geniş çekimler, orta çekimler ve yakın çekimler boyunca tutarlı karakterler, aydınlatma ve atmosfer ile bağlantılı çok sahneli anlatılar oluşturun.",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "🖼️ İlk ve Son Kare Kontrolü",
+            "description": "Hassas geçiş kontrolü için başlangıç ve bitiş karesi resimlerini yükleyin. AI, aralarındaki hareketi akıllıca enterpole eder.",
+            "icon": "RiImageEditLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Seedance 2.0 — Sıkça Sorulan Sorular",
+        "description": "Seedance 2.0 AI video oluşturma hakkında bilmeniz gereken her şey.",
+        "items": [
+          {
+            "question": "Seedance 2.0 Nedir?",
+            "answer": "Seedance 2.0, metin, resim, video klipler ve ses referanslarından yerel ses, çok çekimli anlatılar ve fizik tabanlı hareket içeren sinematik videolar oluşturmak için çift dallı bir difüzyon transformeri mimarisi kullanan yeni nesil bir AI video oluşturma modelidir. Platformumuz, kullanıcı dostu bir arayüz aracılığıyla bu teknolojiye bağımsız erişim sağlar."
+          },
+          {
+            "question": "Seedance 2.0'ı Sora ve Kling'den ayıran nedir?",
+            "answer": "Seedance 2.0, çift dallı bir mimari kullanarak ses ve videoyu aynı anda oluşturan ve kare düzeyinde dudak senkronizasyon doğruluğu sağlayan ilk AI video modellerinden biridir. 12 adede kadar çok modlu referans girişini, yerel çok çekimli hikaye anlatımını ve otomatik kamera planlamasını destekler. Sora fizik simülasyonuna odaklanırken Kling hareket kontrolünde uzmanlaşmıştır — Seedance 2.0, anlatı, ses ve görsel oluşturmayı tek bir birleşik modelde birleştirir."
+          },
+          {
+            "question": "Seedance 2.0 sesli video oluşturabilir mi?",
+            "answer": "Evet. Seedance 2.0, videonun yanı sıra yerel ses üreten ilk AI video oluşturucularından biridir. Çift dallı difüzyon transformeri, görsel karelerle paralel olarak diyalog, ses efektleri ve müzik üretir — yani ses, sonradan eklenen bir düşünce olarak değil, doğası gereği eyleme senkronize edilir. Dudak senkronizasyon doğruluğu 1 kare içindedir."
+          },
+          {
+            "question": "Seedance 2.0 kaç tane referans girişini destekler?",
+            "answer": "Seedance 2.0, 12 adede kadar eşzamanlı referans girişini destekler: 9 adede kadar resim (karakter, sahne ve stil referansı için), toplam 15 saniyelik 3 adede kadar video klip (kamera ve hareket referansı için) ve toplam 15 saniyelik 3 adede kadar ses dosyası (ritim ve film müziği referansı için), artı bir metin istemi."
+          },
+          {
+            "question": "Seedance 2.0 hangi video çözünürlüklerini destekler?",
+            "answer": "Seedance 2.0, 2K'ya kadar yüksek çözünürlüklü çıktıyı destekler. YouTube ve TikTok'tan Instagram ve sinematik geniş ekrana kadar her platforma uyması için 16:9, 9:16, 1:1, 4:3 ve 3:4 dahil olmak üzere birden fazla en boy oranı mevcuttur."
+          },
+          {
+            "question": "Seedance 2.0 tarafından oluşturulan videoların süresi ne kadardır?",
+            "answer": "Oluşturulan videolar, 1 saniyelik artışlarla hassas bir şekilde 4 ila 15 saniye arasında değişir. 15 saniyelik bir video tipik olarak yaklaşık 60 saniyede oluşturulur — önceki sürümlerden %30 daha hızlı."
+          },
+          {
+            "question": "Seedance 2.0 hangi görsel stilleri oluşturabilir?",
+            "answer": "Seedance 2.0, fotogerçekçi, anime, cyberpunk, suluboya, yağlı boya, 3D CG animasyon ve daha fazlası dahil olmak üzere çok çeşitli görsel stilleri destekler. Tercih ettiğiniz stili metin isteminde belirtebilir veya estetiği yönlendirmek için resim referanslarını kullanabilirsiniz."
+          },
+          {
+            "question": "Bu platform ile ByteDance arasındaki ilişki nedir?",
+            "answer": "Bu platform, Seedance 2.0 tarafından desteklenen AI video oluşturma için kullanıcı dostu bir arayüz sağlayan bağımsız bir hizmettir. ByteDance ile bağlantılı değiliz, desteklenmiyoruz veya sponsorlu değiliz. Video oluşturma hizmetlerimizi sağlamak için API entegrasyonları aracılığıyla AI modellerinden yararlanıyoruz."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Sinematik AI Videoları Oluşturmaya Başlayın — Ücretsiz",
+        "description": "Yerel ses, çok çekimli anlatılar ve fizik tabanlı hareket içeren profesyonel videolar oluşturmak için Seedance 2.0 kullanan binlerce içerik oluşturucuya katılın. Kredi kartı gerekmez.",
+        "buttons": [
+          {
+            "title": "Ücretsiz Denemeyi Başlat",
+            "url": "/sign-up",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Satış Ekibiyle İletişime Geçin",
+            "url": "/contact",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageSquare"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "Güncellemelere Abone Olun",
+        "description": "Seedance 2.0 hakkında en son haberleri alın.",
+        "submit": {
+          "input": {
+            "placeholder": "E-postanızı girin"
+          },
+          "button": {
+            "title": "Abone Ol"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}

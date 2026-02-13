@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "Seedance 2.0 Image to Video | Animate Photos with AI Video Generator",
+    "description": "Transform any photo into cinematic video with Seedance 2.0 AI. Upload images, add motion & camera effects automatically. 2K output with native audio sync. Free to try."
+  },
+  "page": {
+    "title": "Image to Video",
+    "show_sections": [
+      "hero",
+      "benefits",
+      "features",
+      "showcases",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Seedance 2.0 Image to Video AI Generator",
+        "highlight_text": "Image to Video",
+        "description": "Transform any photo into cinematic video with Seedance 2.0 AI.<br/>Upload images, add motion & camera effects automatically. 2K output with native audio sync.",
+        "tip": "🖼️ Animate your photos into cinematic videos with Seedance 2.0",
+        "buttons": [
+          {
+            "title": "Start Animating",
+            "url": "/ai-video-generator",
+            "icon": "Zap",
+            "variant": "default"
+          },
+          {
+            "title": "View Examples",
+            "url": "/ai-video-generator",
+            "icon": "Play",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "https://picsum.photos/seed/i2v-hero/1200/800",
+          "alt": "Image to Video AI Animation",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/seed/i2v-bg/1600/900",
+          "alt": "background"
+        }
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Why Choose Seedance 2.0 Image-to-Video",
+        "label": "Benefits",
+        "description": "Transform any static image into a dynamic cinematic video with Seedance 2.0's intelligent AI animation and native audio generation.",
+        "items": [
+          {
+            "title": "Upload Any Image",
+            "description": "Support for all common image formats including JPG, PNG, and WebP. Upload photos, artwork, screenshots, or any static image.",
+            "icon": "RiImageAddLine",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-upload/800/600",
+              "alt": "Upload Images"
+            }
+          },
+          {
+            "title": "Intelligent Element Recognition",
+            "description": "AI automatically identifies image elements like people, animals, objects, and backgrounds to apply appropriate motion effects.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-smart/800/600",
+              "alt": "Smart Recognition"
+            }
+          },
+          {
+            "title": "Natural Fluid Motion",
+            "description": "Create smooth, realistic animations that maintain the original image style while adding natural movement and dynamics.",
+            "icon": "RiFlowChart",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-motion/800/600",
+              "alt": "Fluid Motion"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Seedance 2.0 Image-to-Video Core Features",
+        "description": "Everything you need to animate your images with Seedance 2.0 AI.",
+        "items": [
+          {
+            "title": "🖼️ Upload Any Image",
+            "description": "Support for JPG, PNG, WebP and other common formats. Works with photos, artwork, and graphics.",
+            "icon": "RiImageAddLine"
+          },
+          {
+            "title": "🤖 Intelligent Recognition",
+            "description": "AI automatically identifies people, animals, objects, and scene elements for smart animation.",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "🌊 Natural Fluid Motion",
+            "description": "Smooth, realistic animations that preserve the original image style and aesthetic.",
+            "icon": "RiFlowChart"
+          },
+          {
+            "title": "✏️ Custom Motion Descriptions",
+            "description": "Add supplementary text prompts to control specific motion effects and animations.",
+            "icon": "RiEditLine"
+          },
+          {
+            "title": "🎬 Camera Movements",
+            "description": "Add cinematic camera effects like zooms, pans, and parallax to your animations.",
+            "icon": "RiVideoChatLine"
+          },
+          {
+            "title": "📺 HD Quality Output",
+            "description": "Export animated videos in 1080p Full HD or 2K resolution with smooth frame rates.",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "showcases": {
+        "block": "showcases",
+        "id": "showcases",
+        "title": "Seedance 2.0 Image-to-Video Showcases",
+        "label": "Examples",
+        "description": "See what's possible with Seedance 2.0 AI image-to-video animation.",
+        "items": [
+          {
+            "title": "Portrait Animation",
+            "description": "Bring portrait photos to life with natural expressions and subtle movements.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-portrait/600/400",
+              "alt": "Portrait Animation"
+            }
+          },
+          {
+            "title": "Landscape Animation",
+            "description": "Add flowing water, moving clouds, and swaying trees to landscape images.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-landscape/600/400",
+              "alt": "Landscape Animation"
+            }
+          },
+          {
+            "title": "Artwork Animation",
+            "description": "Animate digital art, illustrations, and paintings while preserving artistic style.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-art/600/400",
+              "alt": "Artwork Animation"
+            }
+          },
+          {
+            "title": "Product Animation",
+            "description": "Create dynamic product showcases and 360-degree rotation effects.",
+            "image": {
+              "src": "https://picsum.photos/seed/i2v-product/600/400",
+              "alt": "Product Animation"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Seedance 2.0 Image-to-Video — FAQ",
+        "description": "Common questions about Seedance 2.0 image-to-video animation.",
+        "items": [
+          {
+            "question": "What is Image-to-Video?",
+            "answer": "Image-to-Video is an AI technology that transforms static images into dynamic video animations. Upload any image and the AI will add realistic motion, camera movements, and special effects while preserving the original visual style."
+          },
+          {
+            "question": "What image formats are supported?",
+            "answer": "We support all common image formats including JPG, PNG, WebP, and GIF. Images should be at least 512x512 pixels for best results, with higher resolution images producing better quality animations."
+          },
+          {
+            "question": "Can I control the animation effects?",
+            "answer": "Yes! You can add supplementary text prompts to describe specific motion effects you want, such as 'gentle breeze moving the leaves' or 'water rippling softly'. The AI will incorporate your descriptions."
+          },
+          {
+            "question": "How does intelligent recognition work?",
+            "answer": "Our AI automatically identifies different elements in your image including people, animals, objects, sky, water, and foliage. Each element receives appropriate motion effects based on its nature."
+          },
+          {
+            "question": "What video quality can I expect?",
+            "answer": "Animated videos are exported in 1080p Full HD or 2K resolution with smooth frame rates. The AI maintains the original image quality while adding natural, fluid motion effects."
+          },
+          {
+            "question": "Can I animate artwork and illustrations?",
+            "answer": "Absolutely! The AI works great with digital art, illustrations, paintings, and graphics. It preserves the artistic style while adding subtle, appropriate animations."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Bring Your Images to Life with Seedance 2.0",
+        "description": "Transform static images into stunning animated videos with Seedance 2.0's AI-powered image-to-video technology. Try free today.",
+        "buttons": [
+          {
+            "title": "Try Now",
+            "url": "/ai-video-generator",
+            "icon": "Zap"
+          },
+          {
+            "title": "View Pricing",
+            "url": "/pricing",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

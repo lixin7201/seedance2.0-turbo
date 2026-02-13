@@ -2,19 +2,22 @@ import { envConfigs } from '..';
 
 export const localeNames: any = {
   en: 'English',
+  ja: '日本語',
+  de: 'Deutsch',
+  fr: 'Français',
+  ko: '한국어',
   zh: '中文',
   es: 'Español',
-  ar: 'العربية',
+  it: 'Italiano',
   pt: 'Portuguese',
-  fr: 'Français',
-  de: 'Deutsch',
-  ja: '日本語',
-  nl: 'Nederlands',
-  pl: 'Polski',
+  tr: 'Türkçe',
+  ar: 'العربية',
   ru: 'Русский',
+  pl: 'Polski',
+  nl: 'Nederlands',
 };
 
-export const locales = ['en', 'zh', 'es', 'ar', 'pt', 'fr', 'de', 'ja', 'nl', 'pl', 'ru'];
+export const locales = ['en', 'ja', 'de', 'fr', 'ko', 'zh', 'es', 'it', 'pt', 'tr', 'ar', 'ru', 'pl', 'nl'];
 
 export const defaultLocale = envConfigs.locale;
 
